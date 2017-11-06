@@ -122,13 +122,13 @@
 							<div class="desc_wrap col-md-7 col-sm-7">
 								<div class="row">
 									<div class="top-description col-md-5 hidden-sm hidden-xs">
-										<a href="../index.html">База&nbsp;для&nbsp;семейного<br>
+										<a href="../index.php">База&nbsp;для&nbsp;семейного<br>
  и корпоративного отдыха</a>									</div>
 									<div class="scheme col-md-3 col-sm-3">
 										<a href="../contacts/index.html">Схема<br> проезда</a>
 									</div>
 									<div class="logo">
-										<a href="../index.html"><img src="/logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
+										<a href="../index.php"><img src="/logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
 									<div class="fixed_menu">
 										<div class="title">Меню</div>
 										<div class="nav-main-collapse">

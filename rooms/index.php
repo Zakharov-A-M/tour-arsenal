@@ -14,6 +14,7 @@
 <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1509983950','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'bcedb80867a78b7f7f108c0963dc83ec'});</script>
 
 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core.js?1508399900121473"></script>
 <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_db.js?149890843317880"></script>
 <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ajax.js?149890843336424"></script>
@@ -283,7 +284,7 @@
 														<td class="dropdown ">
 						<div class="wrap">
 							<a class="dropdown-toggle link_first" href="../company/index.html" title="О нас">
-								О нас																	&nbsp;<i class="fa fa-angle-down"></i>
+								О нас																	&nbsp;<i class="fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
@@ -302,7 +303,7 @@
 														<td class="dropdown active">
 						<div class="wrap">
 							<a class="dropdown-toggle link_first" href="index.html" title="Размещение">
-								Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
+								Размещение																	&nbsp;<i class="fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
@@ -330,7 +331,7 @@
 														<td class="dropdown ">
 						<div class="wrap">
 							<a class="dropdown-toggle link_first" href="../services/index.html" title="Услуги">
-								Услуги																	&nbsp;<i class="fa fa-angle-down"></i>
+								Услуги																	&nbsp;<i class="fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
@@ -407,7 +408,7 @@
 	<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
 								<li class="dropdown ">
 				<a class="dropdown-toggle" href="../company/index.html" title="О нас">
-					О нас											<i class="fa fa-angle-down"></i>
+					О нас											<i class="fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
@@ -426,7 +427,7 @@
 							</li>
 								<li class="dropdown active">
 				<a class="dropdown-toggle" href="index.html" title="Размещение">
-					Размещение											<i class="fa fa-angle-down"></i>
+					Размещение											<i class="fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
@@ -457,7 +458,7 @@
 							</li>
 								<li class="dropdown ">
 				<a class="dropdown-toggle" href="../services/index.html" title="Услуги">
-					Услуги											<i class="fa fa-angle-down"></i>
+					Услуги											<i class="fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
