@@ -1,0 +1,79 @@
+2017/11/05 23:12:59 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:12:59 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:00 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:00 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:01 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:01 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:02 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:02 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:02 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:03 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:03 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:03 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:19 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:20 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:21 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:21 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:13:21 [error] 19995#19995: *1 directory index of "/home/andusen/www/" is forbidden, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:14:05 [error] 20056#20056: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:14:06 [error] 20056#20056: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:14:06 [error] 20056#20056: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:14:14 [error] 20056#20056: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/05 23:15:08 [error] 20056#20056: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/05 23:15:13 [error] 20056#20056: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:15:57 [error] 20176#20176: *1 "/home/andusen/www/tour-arsenal/index.php" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:16:54 [error] 20176#20176: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/05 23:21:22 [error] 20320#20320: *1 open() "/home/andusen/www/tour-arsenal/index.php" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:21:27 [error] 20320#20320: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:21:29 [error] 20320#20320: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:21:30 [error] 20320#20320: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:21:30 [error] 20320#20320: *1 "/home/andusen/www/tour-arsenal/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:22:10 [error] 20409#20409: *1 "/home/andusen/www/tour-arsenal/index.php" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:22:11 [error] 20409#20409: *1 "/home/andusen/www/tour-arsenal/index.php" is not found (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/05 23:22:16 [error] 20409#20409: *1 open() "/home/andusen/www/tour-arsenal/index.php" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", host: "tour-arsenal.by"
+2017/11/06 00:47:23 [error] 21816#21816: *5 open() "/home/andusen/www/tour-arsenal.by404" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/06 00:49:38 [error] 23560#23560: *1 open() "/home/andusen/www/tour-arsenal.by404" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/06 00:54:21 [error] 23755#23755: *1 open() "/home/andusen/www/tour-arsenal.by404" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/06 00:55:03 [error] 23755#23755: *1 open() "/home/andusen/www/tour-arsenal.by404" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", host: "tour-arsenal.by"
+2017/11/06 01:29:49 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:29:51 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:29:52 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:29:56 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:30:00 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:30:03 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:30:08 [error] 23817#23817: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:34:45 [error] 23817#23817: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:34:50 [error] 23817#23817: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli() in /home/andusen/www/tour-arsenal.by/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
+2017/11/06 01:35:33 [error] 23817#23817: *27 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: mysqli in /home/andusen/www/tour-arsenal.by/index.php on line 9
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP Notice:  Trying to get property of non-object in /home/andusen/www/tour-arsenal.by/index.php on line 9
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "tour-arsenal.by"
