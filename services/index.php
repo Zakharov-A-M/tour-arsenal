@@ -1,158 +1,11 @@
-<!DOCTYPE html>
-<html class="  ">
-	<head>
-						<title>Услуги - Туркомплекс "Арсенал"</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
-																<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
-<link href="http://tour-arsenal.ru/bitrix/cache/css/s1/aspro-resort/kernel_main/kernel_main.css?150839992529761" type="text/css"  rel="stylesheet" />
-<link href="http://tour-arsenal.ru/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
-<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1509983955','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'bcedb80867a78b7f7f108c0963dc83ec'});</script>
-
-
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core.js?1508399900121473"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_db.js?149890843317880"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ajax.js?149890843336424"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/json/json2.min.js?14758345923467"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ls.js?147583459210430"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_fx.js?149890842616888"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_frame_cache.js?147583459217555"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/jquery/jquery-1.8.3.min.js?147583459293636"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_popup.js?150839990059295"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/ajax.js?147583459235509"></script>
-<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/bitrix/templates/aspro-resort/css/bootstrap.css','/bitrix/templates/aspro-resort/css/fonts/font-awesome/css/font-awesome.min.css','/bitrix/templates/aspro-resort/vendor/flexslider/flexslider.css','/bitrix/templates/aspro-resort/css/jquery.fancybox.css','/bitrix/templates/aspro-resort/css/theme-elements.css','/bitrix/templates/aspro-resort/css/theme-responsive.css','/bitrix/templates/.default/ajax/ajax.css','/bitrix/templates/aspro-resort/styles.css','/bitrix/templates/aspro-resort/template_styles.css','/bitrix/templates/aspro-resort/css/responsive.css','/bitrix/templates/aspro-resort/themes/CUSTOM_s1/colors.css']); </script>
-<script>BX.message({'JS_REQUIRED':'Заполните это поле!','JS_FORMAT':'Неверный формат!','JS_FILE_EXT':'Недопустимое расширение файла!','JS_PASSWORD_COPY':'Пароли не совпадают!','JS_PASSWORD_LENGTH':'Минимум 6 символов!','JS_ERROR':'Неверно заполнено поле!','JS_RECAPTCHA_ERROR':'Не подтверждено!','JS_PROCESSING_ERROR':'Согласитесь с условиями!','JS_FILE_SIZE':'Максимальный размер 5мб!','JS_FILE_BUTTON_NAME':'Выберите файл','JS_FILE_DEFAULT':'Файл не найден','JS_DATE':'Некорректная дата!','JS_DATETIME':'Некорректная дата/время!','S_CALLBACK':'Заказать звонок','ERROR_INCLUDE_MODULE_RESORT_TITLE':'Ошибка подключения модуля &laquo;Аспро: Курорт - сайт базы отдыха, санатория, гостиницы&raquo;','ERROR_INCLUDE_MODULE_RESORT_TEXT':'Ошибка подключения модуля &laquo;Аспро: Курорт - сайт базы отдыха, санатория, гостиницы&raquo;.<br />Пожалуйста установите модуль и повторите попытку','S_SERVICES':'Наши услуги','S_SERVICES_SHORT':'Услуги','S_TO_ALL_SERVICES':'Все услуги','S_CATALOG':'Каталог товаров','S_CATALOG_SHORT':'Каталог','S_TO_ALL_CATALOG':'Весь каталог','S_CATALOG_FAVORITES':'Наши товары','S_CATALOG_FAVORITES_SHORT':'Товары','S_NEWS':'Новости','S_TO_ALL_NEWS':'Все новости','S_COMPANY':'О компании','S_OTHER':'Прочее','FANCY_CLOSE':'Закрыть','FANCY_NEXT':'Следующий','FANCY_PREV':'Предыдущий','S_MOBILE_MENU':'Меню','CT_BST_SEARCH_BUTTON':'Найти','HEADER_CONTACTS_LINK':'Схема<br> проезда','CONTACTS_LINK':'Схема проезда','INSTAGRAM_TITLE':'Мы в Instagram','INSTAGRAM_DESCRIPTION':'Отдых в экологически чистом месте, на берегу Лесного озера — это то, о чём мечтает любой горожанин!'})</script>
-<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
-<style>.maxwidth-banner{max-width: auto;}</style>
-<meta property="og:title" content="Услуги - Туркомплекс "Арсенал"" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="/logo.png" />
-<link rel="image_src" href="../logo.png"  />
-<meta property="og:url" content="/services/" />
-<meta property="og:description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
+<?php
+include_once '../header.php';
+?>
+<title>Услуги - Туркомплекс "Арсенал"</title>
 
 
 
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.actual.min.js?14758352611101"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.fancybox.js?147583526145891"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/blink.js?1475835261347"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/jquery.easing.js?14758352618097"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/jquery.appear.js?14758352613188"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/jquery.cookie.js?14758352612247"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/bootstrap.js?147583526127908"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/flexslider/jquery.flexslider-min.js?147583526121817"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/vendor/jquery.validate.min.js?147583526122254"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.uniform.min.js?14758352618308"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jqModal.js?147583526111022"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/detectmobilebrowser.js?14758352612203"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/device.min.js?14758352612605"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.alphanumeric.js?14758352611972"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.waypoints.min.js?14758352618044"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.counterup.js?14758352611069"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.dotdotdot.js?14758352615908"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/general.js?150265927041557"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/custom.js?1476373986523"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/components/bitrix/search.title/script.js?14758349749371"></script>
-<script type="text/javascript" src="http://tour-arsenal.ru/bitrix/templates/aspro-resort/js/jquery.inputmask.bundle.min.js?147583526163835"></script>
-<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bcc93b1d8395e5bd858a567ff5f49a50"]); _ba.push(["host", "tour-arsenal.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
-
-
-																																													</head>
-	<body>
-				<div id="panel"></div>
-						<script type='text/javascript'>
-		var arResortOptions = ({
-			'SITE_DIR' : '/',
-			'SITE_ID' : 's1',
-			'SITE_TEMPLATE_PATH' : '/bitrix/templates/aspro-resort',
-			'THEME' : ({
-				'THEME_SWITCHER' : 'N',
-				'BASE_COLOR' : 'CUSTOM',
-				'BASE_COLOR_CUSTOM' : '468d41',
-				'TOP_MENU' : 'COLOR',
-				'TOP_MENU_FIXED' : 'Y',
-				'COLORED_LOGO' : 'N',
-				'SIDE_MENU' : 'LEFT',
-				'SCROLLTOTOP_TYPE' : 'ROUND_COLOR',
-				'SCROLLTOTOP_POSITION' : 'PADDING',
-				'USE_CAPTCHA_FORM' : 'RECAPTCHA',
-				'DISPLAY_PROCESSING_NOTE' : 'Y',
-				'PHONE_MASK' : '+7 (999) 999-99-99',
-				'VALIDATE_PHONE_MASK' : '^[+][0-9] [(][0-9]{3}[)] [0-9]{3}[-][0-9]{2}[-][0-9]{2}$',
-				'DATE_MASK' : 'd.m.y',
-				'DATE_PLACEHOLDER' : 'дд.мм.гггг',
-				'VALIDATE_DATE_MASK' : '^[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}$',
-				'DATETIME_MASK' : 'd.m.y h:s',
-				'DATETIME_PLACEHOLDER' : 'дд.мм.гггг чч:мм',
-				'VALIDATE_DATETIME_MASK' : '^[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4} [0-9]{1,2}\:[0-9]{1,2}$',
-				'VALIDATE_FILE_EXT' : 'png|jpg|jpeg|gif|doc|docx|xls|xlsx|txt|pdf|odt|rtf',
-				'SOCIAL_VK' : 'https://vk.com/tour_arsenal',
-				'SOCIAL_FACEBOOK' : '',
-				'SOCIAL_TWITTER' : '',
-				'SOCIAL_YOUTUBE' : 'https://www.youtube.com/channel/UCmomd_mcGiaMxATj35_V_Jw',
-				'SOCIAL_ODNOKLASSNIKI' : '',
-				'SOCIAL_GOOGLEPLUS' : '',
-				'BANNER_WIDTH' : 'AUTO',
-				'TEASERS_INDEX' : '',
-				'CATALOG_INDEX' : '',
-				'CATALOG_FAVORITES_INDEX' : '',
-				'BIGBANNER_ANIMATIONTYPE' : 'SLIDE_HORIZONTAL',
-				'BIGBANNER_SLIDESSHOWSPEED' : '5000',
-				'BIGBANNER_ANIMATIONSPEED' : '600',
-				'PARTNERSBANNER_SLIDESSHOWSPEED' : '5000',
-				'PARTNERSBANNER_ANIMATIONSPEED' : '600',
-				'USE_YA_COUNTER' : 'N',
-				'YA_COUNTER_ID' : '',
-				'USE_FORMS_GOALS' : 'COMMON',
-				'USE_SALE_GOALS' : '',
-				'USE_DEBUG_GOALS' : 'N',
-			})
-		});
-		</script>
-																						<div class="body ">
-			<div class="body_media"></div>
-			<header class="topmenu-COLOR canfixed">
-				<div class="logo_and_menu-row">
-					<div class="logo-row row">
-						<div class="maxwidth-theme">
-							<div class="desc_wrap col-md-7 col-sm-7">
-								<div class="row">
-									<div class="top-description col-md-5 hidden-sm hidden-xs">
-										<a href="../index.php">База&nbsp;для&nbsp;семейного<br>
- и корпоративного отдыха</a>									</div>
-									<div class="scheme col-md-3 col-sm-3">
-										<a href="../contacts/index.html">Схема<br> проезда</a>
-									</div>
-									<div class="logo">
-										<a href="../index.php"><img src="/logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
-									<div class="fixed_menu">
-										<div class="title">Меню</div>
-										<div class="nav-main-collapse">
-											<div class="menu_wr mega-menu"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="callback_wrap col-md-5 col-sm-5 col-xs-12">
-								<div class="top-callback">
-									<div class="callback pull-right hidden-xs" data-event="jqm" data-param-id="22" data-name="callback">
-										<span class="btn btn-default">Заказать звонок</span>
-									</div>
-									<div class="phone pull-right hidden-xs c_2">
-										<div class="phone-number">
-											<div>
-											<a href="tel:+79216044033" rel="nofollow"><span>+7 (921)</span> 6-044-033</a><a href="tel:+79216047816" rel="nofollow"><span>+7 (921)</span> 604-78-16</a>											</div>
-										</div>
-									</div>
-									<button class="burger btn btn-responsive-nav visible-xs" data-toggle="collapse" data-target=".nav-main-collapse"></button>
-								</div>
-							</div>
-													</div>
-					</div>					<div class="menu-row row">
+				<div class="menu-row row">
 						<div class="maxwidth-theme">
 							<div class="col-md-12">
 								<div class="nav-main-collapse collapse">
@@ -161,108 +14,108 @@
 												<div class="top_menu_fixed_js">
 		<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
 											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../company/index.html" title="О нас">
+					<a class="dropdown-toggle" href="../company" title="О нас">
 						О нас													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" ">
-									<a href="../company/index.html%3F.html" title="О нас">
+									<a href="../company" title="О нас">
 										О нас																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../company/area/index.html" title="Территория">
+									<a href="../company/area" title="Территория">
 										Территория																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../company/reviews/index.html" title="Отзывы гостей">
+									<a href="../company/reviews" title="Отзывы гостей">
 										Отзывы гостей																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../rooms/index.html" title="Размещение">
+					<a class="dropdown-toggle" href="../rooms" title="Размещение">
 						Размещение													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" ">
-									<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">
+									<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
 										Двухместный Номер Эконом Класса																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">
+									<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
 										Трёхместный Однокомнатный Номер																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter/index.html" title="Четырехместный Номер">
+									<a href="../rooms/quarter" title="Четырехместный Номер">
 										Четырехместный Номер																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">
+									<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
 										ЛЮКС Четырёхместный С Камином И Сауной																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">
+									<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
 										Четырёхместный Коттедж																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">
+									<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
 										3-комнатный коттедж с сауной «Vip»																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class="dropdown active">
-					<a class="dropdown-toggle" href="index.html" title="Услуги">
+					<a class="dropdown-toggle" href="../services" title="Услуги">
 						Услуги													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" ">
-									<a href="rybalka/index.html" title="Рыбалка">
+									<a href="rybalka" title="Рыбалка">
 										Рыбалка																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="okhota/index.html" title="Охота">
+									<a href="okhota" title="Охота">
 										Охота																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="kafe/index.html" title="Кафе">
+									<a href="kafe" title="Кафе">
 										Кафе																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="banya/index.html" title="Баня">
+									<a href="banya" title="Баня">
 										Баня																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
+									<a href="ostrov-robinzonada" title="Остров (Робинзонада)">
 										Остров (Робинзонада)																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
+									<a href="dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
 										Досуг в лесу (грибы-ягоды)																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">
+									<a href="dopolnitelnye-uslugi" title="Дополнительные услуги">
 										Дополнительные услуги																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="zimnie-razvlecheniya/index.html" title="Зимние развлечения">
+									<a href="zimnie-razvlecheniya" title="Зимние развлечения">
 										Зимние развлечения																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class=" ">
-					<a class="" href="../price/index.html" title="Цены">
+					<a class="" href="../price" title="Цены">
 						Цены											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../promo/index.html" title="Акции">
+					<a class="" href="../promo" title="Акции">
 						Акции											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../galereya/index.html" title="Галерея">
+					<a class="" href="../galereya" title="Галерея">
 						Галерея											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../contacts/index.html" title="Контакты">
+					<a class="" href="../contacts" title="Контакты">
 						Контакты											</a>
 									</li>
 						<div class="search">
@@ -280,112 +133,112 @@
 			<tr>
 														<td class="dropdown ">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../company/index.html" title="О нас">
+							<a class="dropdown-toggle link_first" href="../company" title="О нас">
 								О нас																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" ">
-											<a href="../company/index.html%3F.html" title="О нас">О нас</a>
+											<a href="../company" title="О нас">О нас</a>
 																					</li>
 																													<li class=" ">
-											<a href="../company/area/index.html" title="Территория">Территория</a>
+											<a href="../company/area" title="Территория">Территория</a>
 																					</li>
 																													<li class=" ">
-											<a href="../company/reviews/index.html" title="Отзывы гостей">Отзывы гостей</a>
+											<a href="../company/reviews" title="Отзывы гостей">Отзывы гостей</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class="dropdown ">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../rooms/index.html" title="Размещение">
+							<a class="dropdown-toggle link_first" href="../rooms" title="Размещение">
 								Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" ">
-											<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
+											<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
+											<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter/index.html" title="Четырехместный Номер">Четырехместный Номер</a>
+											<a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
+											<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
+											<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
+											<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class="dropdown active">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="index.html" title="Услуги">
+							<a class="dropdown-toggle link_first" href="../services" title="Услуги">
 								Услуги																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" ">
-											<a href="rybalka/index.html" title="Рыбалка">Рыбалка</a>
+											<a href="rybalka" title="Рыбалка">Рыбалка</a>
 																					</li>
 																													<li class=" ">
-											<a href="okhota/index.html" title="Охота">Охота</a>
+											<a href="okhota" title="Охота">Охота</a>
 																					</li>
 																													<li class=" ">
-											<a href="kafe/index.html" title="Кафе">Кафе</a>
+											<a href="kafe" title="Кафе">Кафе</a>
 																					</li>
 																													<li class=" ">
-											<a href="banya/index.html" title="Баня">Баня</a>
+											<a href="banya" title="Баня">Баня</a>
 																					</li>
 																													<li class=" ">
-											<a href="ostrov-robinzonada/index.html" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
+											<a href="ostrov-robinzonada" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
 																					</li>
 																													<li class=" ">
-											<a href="dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
+											<a href="dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
 																					</li>
 																													<li class=" ">
-											<a href="dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">Дополнительные услуги</a>
+											<a href="dopolnitelnye-uslugi" title="Дополнительные услуги">Дополнительные услуги</a>
 																					</li>
 																													<li class=" ">
-											<a href="zimnie-razvlecheniya/index.html" title="Зимние развлечения">Зимние развлечения</a>
+											<a href="zimnie-razvlecheniya" title="Зимние развлечения">Зимние развлечения</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../price/index.html" title="Цены">
+							<a class=" link_first" href="../price" title="Цены">
 								Цены															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../promo/index.html" title="Акции">
+							<a class=" link_first" href="../promo" title="Акции">
 								Акции															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../galereya/index.html" title="Галерея">
+							<a class=" link_first" href="../galereya" title="Галерея">
 								Галерея															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../contacts/index.html" title="Контакты">
+							<a class=" link_first" href="../contacts" title="Контакты">
 								Контакты															</a>
 													</div>
 					</td>
 								<td class="dropdown js-dropdown nosave" style="display:none;">
 					<div class="wrap">
-						<a class="dropdown-toggle more-items" href="index.html#">
+						<a class="dropdown-toggle more-items" href="index.php#">
 							<span>...</span>
 						</a>
 						<span class="tail"></span>
@@ -394,7 +247,7 @@
 				</td>
 				<td class="search-item nosave">
 					<div class="wrap">
-						<a href="index.html#">
+						<a href="index.php#">
 							<i class="fa fa-search"></i>
 						</a>
 					</div>
@@ -404,108 +257,108 @@
 	</div>
 	<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
 								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../company/index.html" title="О нас">
+				<a class="dropdown-toggle" href="../company" title="О нас">
 					О нас											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
-								<a href="../company/index.html%3F.html" title="О нас">
+								<a href="../company" title="О нас">
 									О нас																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../company/area/index.html" title="Территория">
+								<a href="../company/area" title="Территория">
 									Территория																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../company/reviews/index.html" title="Отзывы гостей">
+								<a href="../company/reviews" title="Отзывы гостей">
 									Отзывы гостей																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../rooms/index.html" title="Размещение">
+				<a class="dropdown-toggle" href="../rooms" title="Размещение">
 					Размещение											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
-								<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">
+								<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
 									Двухместный Номер Эконом Класса																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">
+								<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
 									Трёхместный Однокомнатный Номер																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter/index.html" title="Четырехместный Номер">
+								<a href="../rooms/quarter" title="Четырехместный Номер">
 									Четырехместный Номер																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">
+								<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
 									ЛЮКС Четырёхместный С Камином И Сауной																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">
+								<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
 									Четырёхместный Коттедж																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">
+								<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
 									3-комнатный коттедж с сауной «Vip»																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class="dropdown active">
-				<a class="dropdown-toggle" href="index.html" title="Услуги">
+				<a class="dropdown-toggle" href="../services" title="Услуги">
 					Услуги											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
-								<a href="rybalka/index.html" title="Рыбалка">
+								<a href="rybalka" title="Рыбалка">
 									Рыбалка																	</a>
 															</li>
 																				<li class=" ">
-								<a href="okhota/index.html" title="Охота">
+								<a href="okhota" title="Охота">
 									Охота																	</a>
 															</li>
 																				<li class=" ">
-								<a href="kafe/index.html" title="Кафе">
+								<a href="kafe" title="Кафе">
 									Кафе																	</a>
 															</li>
 																				<li class=" ">
-								<a href="banya/index.html" title="Баня">
+								<a href="banya" title="Баня">
 									Баня																	</a>
 															</li>
 																				<li class=" ">
-								<a href="ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
+								<a href="ostrov-robinzonada" title="Остров (Робинзонада)">
 									Остров (Робинзонада)																	</a>
 															</li>
 																				<li class=" ">
-								<a href="dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
+								<a href="dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
 									Досуг в лесу (грибы-ягоды)																	</a>
 															</li>
 																				<li class=" ">
-								<a href="dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">
+								<a href="dopolnitelnye-uslugi" title="Дополнительные услуги">
 									Дополнительные услуги																	</a>
 															</li>
 																				<li class=" ">
-								<a href="zimnie-razvlecheniya/index.html" title="Зимние развлечения">
+								<a href="zimnie-razvlecheniya" title="Зимние развлечения">
 									Зимние развлечения																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class=" ">
-				<a class="" href="../price/index.html" title="Цены">
+				<a class="" href="../price" title="Цены">
 					Цены									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../promo/index.html" title="Акции">
+				<a class="" href="../promo" title="Акции">
 					Акции									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../galereya/index.html" title="Галерея">
+				<a class="" href="../galereya" title="Галерея">
 					Галерея									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../contacts/index.html" title="Контакты">
+				<a class="" href="../contacts" title="Контакты">
 					Контакты									</a>
 							</li>
 				<div class="search">
@@ -565,7 +418,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">Услуги</span></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://tour-arsenal.by" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">Услуги</span></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
@@ -583,28 +436,28 @@
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="rybalka/index.html">Рыбалка</a>
+					<a href="rybalka">Рыбалка</a>
 													</li>
 							<li class=" ">
-					<a href="okhota/index.html">Охота</a>
+					<a href="okhota">Охота</a>
 													</li>
 							<li class=" ">
-					<a href="kafe/index.html">Кафе</a>
+					<a href="kafe">Кафе</a>
 													</li>
 							<li class=" ">
-					<a href="banya/index.html">Баня</a>
+					<a href="banya">Баня</a>
 													</li>
 							<li class=" ">
-					<a href="ostrov-robinzonada/index.html">Остров (Робинзонада)</a>
+					<a href="ostrov-robinzonada">Остров (Робинзонада)</a>
 													</li>
 							<li class=" ">
-					<a href="dosug-v-lesu-griby-yagody/index.html">Досуг в лесу (грибы-ягоды)</a>
+					<a href="dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
 													</li>
 							<li class=" ">
-					<a href="dopolnitelnye-uslugi/index.html">Дополнительные услуги</a>
+					<a href="dopolnitelnye-uslugi">Дополнительные услуги</a>
 													</li>
 							<li class=" ">
-					<a href="zimnie-razvlecheniya/index.html">Зимние развлечения</a>
+					<a href="zimnie-razvlecheniya">Зимние развлечения</a>
 													</li>
 					</ul>
 	</aside>
@@ -623,18 +476,18 @@
 										<div class="item noborder" id="bx_651765591_80">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="rybalka/index.html" class="blink">
+							<a href="rybalka" class="blink">
 															<img src="../upload/iblock/b7b/b7bc31b7d51a3ce5b0569fafc33d0e4e.jpg" alt="Рыбалка" title="Рыбалка" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="rybalka/index.html">								Рыбалка							</a>						</div>
+							<a href="rybalka">								Рыбалка							</a>						</div>
 										
 															
 																							<p>Разнообразие видов рыб в озерах Большое Янисъярви и Ладожское, поражает воображение.</p>
 																					
-																					<div class="button"><a href="rybalka/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="rybalka" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -646,18 +499,18 @@
 										<div class="item noborder" id="bx_651765591_61">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="okhota/index.html" class="blink">
+							<a href="okhota" class="blink">
 															<img src="../upload/iblock/73a/73a97224c0d01de69aabc585d860bc42.jpg" alt="Охота" title="Охота" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="okhota/index.html">								Охота							</a>						</div>
+							<a href="okhota">								Охота							</a>						</div>
 										
 															
 																							<p>Охота на боровую и водоплавающую дичь на озере Янисъярви, охота на тетерева, зайца, лося, медведя.</p>
 																					
-																					<div class="button"><a href="okhota/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="okhota" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -669,18 +522,18 @@
 										<div class="item noborder" id="bx_651765591_62">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="kafe/index.html" class="blink">
+							<a href="kafe" class="blink">
 															<img src="../upload/iblock/2c3/2c3f308832c9e6ff0f5c0769b014e06c.jpg" alt="Кафе" title="Кафе" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="kafe/index.html">								Кафе							</a>						</div>
+							<a href="kafe">								Кафе							</a>						</div>
 										
 															
 																							<p>В кафе &quot;Арсенал&quot; можно заказать туристические комплексные обеды, корпоративные мероприятия, свадьбы, дни рождения, с возможностью заранее составить банкетное меню, учитывающее все пожелания клиента.</p>
 																					
-																					<div class="button"><a href="kafe/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="kafe" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -692,18 +545,18 @@
 										<div class="item noborder" id="bx_651765591_81">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="banya/index.html" class="blink">
+							<a href="banya" class="blink">
 															<img src="../upload/iblock/a84/a84abe8f79de788daf77c2c3e29356e4.jpg" alt="Баня" title="Баня" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="banya/index.html">								Баня							</a>						</div>
+							<a href="banya">								Баня							</a>						</div>
 										
 															
 																							<p>Ну разве что-нибудь может быть лучше настоящей дровяной русской бани?!</p>
 																					
-																					<div class="button"><a href="banya/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="banya" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -715,18 +568,18 @@
 										<div class="item noborder" id="bx_651765591_82">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="ostrov-robinzonada/index.html" class="blink">
+							<a href="ostrov-robinzonada" class="blink">
 															<img src="../upload/iblock/38d/38d44751e94564b2db4691825aa8ce9a.jpg" alt="Остров (Робинзонада)" title="Остров (Робинзонада)" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="ostrov-robinzonada/index.html">								Остров (Робинзонада)							</a>						</div>
+							<a href="ostrov-robinzonada">								Остров (Робинзонада)							</a>						</div>
 										
 															
 																							<p>Почувствуйте романтику духовного единения с природой, приобщитесь к тайнам древних карел, издавна занимавшихся охотой, рыбалкой и собирательством.</p>
 																					
-																					<div class="button"><a href="ostrov-robinzonada/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="ostrov-robinzonada" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -738,18 +591,18 @@
 										<div class="item noborder" id="bx_651765591_60">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="dosug-v-lesu-griby-yagody/index.html" class="blink">
+							<a href="dosug-v-lesu-griby-yagody" class="blink">
 															<img src="../upload/iblock/022/022e7e0da4b8c985939d14e521c4073e.jpg" alt="Досуг в лесу (грибы-ягоды)" title="Досуг в лесу (грибы-ягоды)" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="dosug-v-lesu-griby-yagody/index.html">								Досуг в лесу (грибы-ягоды)							</a>						</div>
+							<a href="dosug-v-lesu-griby-yagody">								Досуг в лесу (грибы-ягоды)							</a>						</div>
 										
 															
 																							<p>Карельские леса не зря славятся обилием грибов и ягод. Их здесь видимо-невидимо!</p>
 																					
-																					<div class="button"><a href="dosug-v-lesu-griby-yagody/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="dosug-v-lesu-griby-yagody" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -761,18 +614,18 @@
 										<div class="item noborder" id="bx_651765591_83">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="dopolnitelnye-uslugi/index.html" class="blink">
+							<a href="dopolnitelnye-uslugi" class="blink">
 															<img src="../upload/iblock/780/780ed73fa097c4ecdc8b030f6c7d1d7f.jpg" alt="Дополнительные услуги" title="Дополнительные услуги" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="dopolnitelnye-uslugi/index.html">								Дополнительные услуги							</a>						</div>
+							<a href="dopolnitelnye-uslugi">								Дополнительные услуги							</a>						</div>
 										
 															
 																							<p>Разнообразные экскурсии, прокат квадроциклов, хаски, катание на лошадях, рафтинг и многое другое к Вашим услугам!</p>
 																					
-																					<div class="button"><a href="dopolnitelnye-uslugi/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="dopolnitelnye-uslugi" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -784,13 +637,13 @@
 										<div class="item noborder" id="bx_651765591_159">
 						<div class="row">
 															<div class="col-md-4 col-sm-4 col-xs-12">						<div class="image">
-							<a href="zimnie-razvlecheniya/index.html" class="blink">
+							<a href="zimnie-razvlecheniya" class="blink">
 															<img src="../upload/iblock/3bd/3bd7427519a253c570d0017b37b2d77f.jpg" alt="Зимние развлечения" title="Зимние развлечения" class="img-responsive" />
 							</a>
 													</div>
 					</div>
 								<div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-							<a href="zimnie-razvlecheniya/index.html">								Зимние развлечения							</a>						</div>
+							<a href="zimnie-razvlecheniya">								Зимние развлечения							</a>						</div>
 										
 															
 																							<p>Катание на лыжах по таинственному и заснеженному лесу.<br />
@@ -798,7 +651,7 @@
 Катание на снегоходах по трассам, разной протяженности в лесу, и по замерзшему озеру. <br />
 После морозной прогулки, Вам поможет согреться просторная русская баня, где так хорошо посидеть с друзьями.</p>
 																					
-																					<div class="button"><a href="zimnie-razvlecheniya/index.html" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
+																					<div class="button"><a href="zimnie-razvlecheniya" class="btn btn-default btn-sm white"><span>Подробнее</span></a></div>
 									</div></div>
 													</div>
 					</div>
@@ -816,7 +669,7 @@
 									<div class="compass">
 										<i class="fa"></i>
 										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
-									<div class="contacts"><a class="btn btn-default" href="../contacts/index.html">Схема проезда</a></div>
+									<div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
 								</div>
 							</div>
 							<div class="col-md-9 col-sm-12">
@@ -827,49 +680,49 @@
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../company/index.html">О нас</a>
+															<a href="../company">О нас</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="http://tour-arsenal.ru/catalog/">Размещение</a>
+															<a href="../rooms/">Размещение</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item active">
 						<div class="title">
-															<a href="index.html">Услуги</a>
+															<a href="../services">Услуги</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../price/index.html">Цены</a>
+															<a href="../price">Цены</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../promo/index.html">Акции</a>
+															<a href="../promo">Акции</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../galereya/index.html">Галерея</a>
+															<a href="../galereya">Галерея</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../contacts/index.html">Контакты</a>
+															<a href="../contacts">Контакты</a>
 													</div>
 					</div>
 				</div>

@@ -1016,7 +1016,7 @@
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="http://tour-arsenal.ru/catalog/">Размещение</a>
+															<a href="../rooms/">Размещение</a>
 													</div>
 					</div>
 				</div>

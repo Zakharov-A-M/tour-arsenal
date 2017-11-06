@@ -31,8 +31,6 @@
     <style>.maxwidth-banner{max-width: auto;}</style>
     <meta property="og:title" content="Туркомплекс "Арсенал" - Главная" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="/logo.png" />
-    <link rel="image_src" href="logo.png"  />
     <meta property="og:url" content="/" />
     <meta property="og:description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
 
@@ -131,7 +129,7 @@
                                 <a href="contacts/index.php">Схема<br> проезда</a>
                             </div>
                             <div class="logo">
-                                <a href="index.php"><img src="logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
+                                <a href="http://tour-arsenal.by"><img src="logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
                                 <div class="nav-main-collapse">

@@ -12,108 +12,108 @@ include_once '../header.php';
 												<div class="top_menu_fixed_js">
 		<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
 											<li class="dropdown active">
-					<a class="dropdown-toggle" href="index.html" title="О нас">
+					<a class="dropdown-toggle" href="../company" title="О нас">
 						О нас													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" active">
-									<a href="index.html%3F.html" title="О нас">
+									<a href="../company" title="О нас">
 										О нас																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="area/index.html" title="Территория">
+									<a href="area" title="Территория">
 										Территория																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="reviews/index.html" title="Отзывы гостей">
+									<a href="reviews" title="Отзывы гостей">
 										Отзывы гостей																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../rooms/index.html" title="Размещение">
+					<a class="dropdown-toggle" href="../rooms" title="Размещение">
 						Размещение													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" ">
-									<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">
+									<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
 										Двухместный Номер Эконом Класса																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">
+									<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
 										Трёхместный Однокомнатный Номер																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter/index.html" title="Четырехместный Номер">
+									<a href="../rooms/quarter" title="Четырехместный Номер">
 										Четырехместный Номер																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">
+									<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
 										ЛЮКС Четырёхместный С Камином И Сауной																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">
+									<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
 										Четырёхместный Коттедж																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">
+									<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
 										3-комнатный коттедж с сауной «Vip»																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../services/index.html" title="Услуги">
+					<a class="dropdown-toggle" href="../services" title="Услуги">
 						Услуги													<i class="fa fa-angle-right"></i>
 											</a>
 											<ul class="dropdown-menu fixed_menu_ext">
 																							<li class=" ">
-									<a href="../services/rybalka/index.html" title="Рыбалка">
+									<a href="../services/rybalka" title="Рыбалка">
 										Рыбалка																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/okhota/index.html" title="Охота">
+									<a href="../services/okhota" title="Охота">
 										Охота																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/kafe/index.html" title="Кафе">
+									<a href="../services/kafe" title="Кафе">
 										Кафе																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/banya/index.html" title="Баня">
+									<a href="../services/banya" title="Баня">
 										Баня																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
+									<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
 										Остров (Робинзонада)																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
+									<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
 										Досуг в лесу (грибы-ягоды)																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">
+									<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">
 										Дополнительные услуги																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/zimnie-razvlecheniya/index.html" title="Зимние развлечения">
+									<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">
 										Зимние развлечения																			</a>
 																	</li>
 													</ul>
 									</li>
 											<li class=" ">
-					<a class="" href="../price/index.html" title="Цены">
+					<a class="" href="../price" title="Цены">
 						Цены											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../promo/index.html" title="Акции">
+					<a class="" href="../promo" title="Акции">
 						Акции											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../galereya/index.html" title="Галерея">
+					<a class="" href="../galereya" title="Галерея">
 						Галерея											</a>
 									</li>
 											<li class=" ">
-					<a class="" href="../contacts/index.html" title="Контакты">
+					<a class="" href="../contacts" title="Контакты">
 						Контакты											</a>
 									</li>
 						<div class="search">
@@ -131,112 +131,112 @@ include_once '../header.php';
 			<tr>
 														<td class="dropdown active">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="index.html" title="О нас">
+							<a class="dropdown-toggle link_first" href="../company" title="О нас">
 								О нас																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" active">
-											<a href="index.html%3F.html" title="О нас">О нас</a>
+											<a href="../company" title="О нас">О нас</a>
 																					</li>
 																													<li class=" ">
-											<a href="area/index.html" title="Территория">Территория</a>
+											<a href="area" title="Территория">Территория</a>
 																					</li>
 																													<li class=" ">
-											<a href="reviews/index.html" title="Отзывы гостей">Отзывы гостей</a>
+											<a href="reviews" title="Отзывы гостей">Отзывы гостей</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class="dropdown ">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../rooms/index.html" title="Размещение">
+							<a class="dropdown-toggle link_first" href="../rooms" title="Размещение">
 								Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" ">
-											<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
+											<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
+											<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter/index.html" title="Четырехместный Номер">Четырехместный Номер</a>
+											<a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
+											<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
+											<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
 																					</li>
 																													<li class=" ">
-											<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
+											<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class="dropdown ">
 						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../services/index.html" title="Услуги">
+							<a class="dropdown-toggle link_first" href="../services" title="Услуги">
 								Услуги																	&nbsp;<i class="fa fa-angle-down"></i>
 															</a>
 															<span class="tail"></span>
 								<ul class="dropdown-menu">
 																													<li class=" ">
-											<a href="../services/rybalka/index.html" title="Рыбалка">Рыбалка</a>
+											<a href="../services/rybalka" title="Рыбалка">Рыбалка</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/okhota/index.html" title="Охота">Охота</a>
+											<a href="../services/okhota" title="Охота">Охота</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/kafe/index.html" title="Кафе">Кафе</a>
+											<a href="../services/kafe" title="Кафе">Кафе</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/banya/index.html" title="Баня">Баня</a>
+											<a href="../services/banya" title="Баня">Баня</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
+											<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
+											<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">Дополнительные услуги</a>
+											<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">Дополнительные услуги</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/zimnie-razvlecheniya/index.html" title="Зимние развлечения">Зимние развлечения</a>
+											<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">Зимние развлечения</a>
 																					</li>
 																	</ul>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../price/index.html" title="Цены">
+							<a class=" link_first" href="../price" title="Цены">
 								Цены															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../promo/index.html" title="Акции">
+							<a class=" link_first" href="../promo" title="Акции">
 								Акции															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../galereya/index.html" title="Галерея">
+							<a class=" link_first" href="../galereya" title="Галерея">
 								Галерея															</a>
 													</div>
 					</td>
 														<td class=" ">
 						<div class="wrap">
-							<a class=" link_first" href="../contacts/index.html" title="Контакты">
+							<a class=" link_first" href="../contacts" title="Контакты">
 								Контакты															</a>
 													</div>
 					</td>
 								<td class="dropdown js-dropdown nosave" style="display:none;">
 					<div class="wrap">
-						<a class="dropdown-toggle more-items" href="index.html#">
+						<a class="dropdown-toggle more-items" href="index.php">
 							<span>...</span>
 						</a>
 						<span class="tail"></span>
@@ -245,7 +245,7 @@ include_once '../header.php';
 				</td>
 				<td class="search-item nosave">
 					<div class="wrap">
-						<a href="index.html#">
+						<a href="index.php">
 							<i class="fa fa-search"></i>
 						</a>
 					</div>
@@ -255,108 +255,108 @@ include_once '../header.php';
 	</div>
 	<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
 								<li class="dropdown active">
-				<a class="dropdown-toggle" href="index.html" title="О нас">
+				<a class="dropdown-toggle" href="../company" title="О нас">
 					О нас											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" active">
-								<a href="index.html%3F.html" title="О нас">
+								<a href="../company" title="О нас">
 									О нас																	</a>
 															</li>
 																				<li class=" ">
-								<a href="area/index.html" title="Территория">
+								<a href="area" title="Территория">
 									Территория																	</a>
 															</li>
 																				<li class=" ">
-								<a href="reviews/index.html" title="Отзывы гостей">
+								<a href="reviews" title="Отзывы гостей">
 									Отзывы гостей																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../rooms/index.html" title="Размещение">
+				<a class="dropdown-toggle" href="../rooms" title="Размещение">
 					Размещение											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
-								<a href="../rooms/twin/index.html" title="Двухместный Номер Эконом Класса">
+								<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
 									Двухместный Номер Эконом Класса																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/triple/index.html" title="Трёхместный Однокомнатный Номер">
+								<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
 									Трёхместный Однокомнатный Номер																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter/index.html" title="Четырехместный Номер">
+								<a href="../rooms/quarter" title="Четырехместный Номер">
 									Четырехместный Номер																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter_cottage_sauna_fireplace/index.html" title="ЛЮКС Четырёхместный С Камином И Сауной">
+								<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
 									ЛЮКС Четырёхместный С Камином И Сауной																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/quarter_cottage/index.html" title="Четырёхместный Коттедж">
+								<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
 									Четырёхместный Коттедж																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip/index.html" title="3-комнатный коттедж с сауной «Vip»">
+								<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
 									3-комнатный коттедж с сауной «Vip»																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../services/index.html" title="Услуги">
+				<a class="dropdown-toggle" href="../services" title="Услуги">
 					Услуги											<i class="fa fa-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 																				<li class=" ">
-								<a href="../services/rybalka/index.html" title="Рыбалка">
+								<a href="../services/rybalka" title="Рыбалка">
 									Рыбалка																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/okhota/index.html" title="Охота">
+								<a href="../services/okhota" title="Охота">
 									Охота																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/kafe/index.html" title="Кафе">
+								<a href="../services/kafe" title="Кафе">
 									Кафе																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/banya/index.html" title="Баня">
+								<a href="../services/banya" title="Баня">
 									Баня																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
+								<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
 									Остров (Робинзонада)																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
+								<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
 									Досуг в лесу (грибы-ягоды)																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/dopolnitelnye-uslugi/index.html" title="Дополнительные услуги">
+								<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">
 									Дополнительные услуги																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/zimnie-razvlecheniya/index.html" title="Зимние развлечения">
+								<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">
 									Зимние развлечения																	</a>
 															</li>
 											</ul>
 							</li>
 								<li class=" ">
-				<a class="" href="../price/index.html" title="Цены">
+				<a class="" href="../price" title="Цены">
 					Цены									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../promo/index.html" title="Акции">
+				<a class="" href="../promo" title="Акции">
 					Акции									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../galereya/index.html" title="Галерея">
+				<a class="" href="../galereya" title="Галерея">
 					Галерея									</a>
 							</li>
 								<li class=" ">
-				<a class="" href="../contacts/index.html" title="Контакты">
+				<a class="" href="../contacts" title="Контакты">
 					Контакты									</a>
 							</li>
 				<div class="search">
@@ -416,7 +416,7 @@ include_once '../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">О нас</span></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">О нас</span></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
@@ -434,13 +434,13 @@ include_once '../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class="active ">
-					<a href="index.html%3F.html">О нас</a>
+					<a href="../company">О нас</a>
 													</li>
 							<li class=" ">
-					<a href="area/index.html">Территория</a>
+					<a href="area">Территория</a>
 													</li>
 							<li class=" ">
-					<a href="reviews/index.html">Отзывы гостей</a>
+					<a href="reviews">Отзывы гостей</a>
 													</li>
 					</ul>
 	</aside>
@@ -519,7 +519,7 @@ include_once '../header.php';
 									<div class="compass">
 										<i class="fa"></i>
 										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
-									<div class="contacts"><a class="btn btn-default" href="../contacts/index.html">Схема проезда</a></div>
+									<div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
 								</div>
 							</div>
 							<div class="col-md-9 col-sm-12">
@@ -530,49 +530,49 @@ include_once '../header.php';
 											<div class="col-md-4 col-sm-6">
 					<div class="item active">
 						<div class="title">
-															<a href="index.html">О нас</a>
+															<a href="../company">О нас</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="http://tour-arsenal.ru/catalog/">Размещение</a>
+															<a href="http://tour-arsenal.by/catalog/">Размещение</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../services/index.html">Услуги</a>
+															<a href="../services">Услуги</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../price/index.html">Цены</a>
+															<a href="../price">Цены</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../promo/index.html">Акции</a>
+															<a href="../promo">Акции</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../galereya/index.html">Галерея</a>
+															<a href="../galereya">Галерея</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../contacts/index.html">Контакты</a>
+															<a href="../contacts">Контакты</a>
 													</div>
 					</div>
 				</div>

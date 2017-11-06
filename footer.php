@@ -19,49 +19,49 @@
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="company/index.html">О нас</a>
+                                                    <a href="company/">О нас</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="http://tour-arsenal.ru/catalog/">Размещение</a>
+                                                    <a href="../rooms/">Размещение</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="services/index.html">Услуги</a>
+                                                    <a href="services/">Услуги</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="price/index.html">Цены</a>
+                                                    <a href="price/">Цены</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="promo/index.html">Акции</a>
+                                                    <a href="promo/">Акции</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="galereya/index.html">Галерея</a>
+                                                    <a href="galereya/">Галерея</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
                                             <div class="item">
                                                 <div class="title">
-                                                    <a href="contacts/index.html">Контакты</a>
+                                                    <a href="contacts/">Контакты</a>
                                                 </div>
                                             </div>
                                         </div>
