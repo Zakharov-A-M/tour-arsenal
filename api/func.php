@@ -4,6 +4,10 @@
 class Func
 {
 
+    const RU_COUNTRY = ['ru', 'by'];
+    const EU_COUNTRY = ['fr', 'de'];
+    const FI_COUNTRY = ['fi', 'dk'];
+
     public static function getClientIp() {
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) //check ip from share internet
         {
@@ -22,6 +26,24 @@ class Func
     public static function getClientCountry($ip) {
           $country = json_decode(file_get_contents('https://ipinfo.io/'.$ip.'/json'))->country;
           return strtolower($country);
+    }
+
+    public static function getLanguagePage($country) {
+        if (in_array($country, self::RU_COUNTRY)) {
+            return 'ru';
+        }
+        if (in_array($country, self::EU_COUNTRY)) {
+            return 'eu';
+        }
+        if (in_array($country, self::FI_COUNTRY)) {
+            return 'fi';
+        }
+        return 'eu';
+    }
+
+    public static function getСontentPage($country) {
+        $json = json_decode(file_get_contents('../translations/'.$country.'.json', true), true);
+        return $json;
     }
 
 
