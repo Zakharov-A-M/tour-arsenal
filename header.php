@@ -1,3 +1,11 @@
+<?php
+
+include_once 'api/func.php';
+include_once 'api/country/country.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html class="  ">
 <head>
@@ -126,7 +134,7 @@
                                 <a href="/">База&nbsp;для&nbsp;семейного<br>
                                     и корпоративного отдыха</a>									</div>
                             <div class="scheme col-md-3 col-sm-3">
-                                <a href="contacts/index.php">Схема<br> проезда</a>
+                                <a href="http://tour-arsenal.by/contacts/">Схема<br> проезда</a>
                             </div>
                             <div class="logo">
                                 <a href="http://tour-arsenal.by"><img src="logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>

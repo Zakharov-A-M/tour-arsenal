@@ -62,7 +62,7 @@ include_once 'header.php';
                                             </li>
                                             <li class="dropdown ">
                                                 <a class="dropdown-toggle" href="services" title="Услуги">
-                                                    Услуги													<i class="a fa-angle-down"></i>
+                                                    Услуги													<i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-menu fixed_menu_ext">
                                                     <li class=" ">
@@ -149,7 +149,7 @@ include_once 'header.php';
                                                 </td>
                                                 <td class="dropdown ">
                                                     <div class="wrap">
-                                                        <a class="dropdown-toggle link_first" href="rooms/index.php" title="Размещение">
+                                                        <a class="dropdown-toggle link_first" href="rooms" title="Размещение">
                                                             Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
                                                         </a>
                                                         <span class="tail"></span>
@@ -235,7 +235,7 @@ include_once 'header.php';
                                                 </td>
                                                 <td class="dropdown js-dropdown nosave" style="display:none;">
                                                     <div class="wrap">
-                                                        <a class="dropdown-toggle more-items" href="index.php">
+                                                        <a class="dropdown-toggle more-items" href="/">
                                                             <span>...</span>
                                                         </a>
                                                         <span class="tail"></span>
@@ -244,7 +244,7 @@ include_once 'header.php';
                                                 </td>
                                                 <td class="search-item nosave">
                                                     <div class="wrap">
-                                                        <a href="index.php">
+                                                        <a href="/">
                                                             <i class="fa fa-search"></i>
                                                         </a>
                                                     </div>
@@ -427,7 +427,7 @@ include_once 'header.php';
                                                 необходимое для шашлыка и барбекю.										</div>
                                             <div class="wr_button_slider">
 																							<span class="button_slider">
-													<a href="company/area/index.php" class="btn btn-default white">
+													<a href="company/area" class="btn btn-default white">
 														Подробнее													</a>
 												</span>
                                             </div>
@@ -453,11 +453,11 @@ include_once 'header.php';
                                                 Рыбалка, прогулка на катере, организация экскурсий в Горный Парк Рускеала и на остров Валаам - выбирайте занятие по интересам в туркомплексе &quot;Арсенал&quot;										</div>
                                             <div class="wr_button_slider">
 																							<span class="button_slider">
-													<a href="galereya/index.php" class="btn btn-default white">
+													<a href="galereya" class="btn btn-default white">
 														Смотрите фото													</a>
 												</span>
                                                 <span class="button_slider">
-													<a href="services/index.php" class="btn btn-default">
+													<a href="services" class="btn btn-default">
 														Услуги													</a>
 												</span>
                                             </div>
