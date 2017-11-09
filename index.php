@@ -11,21 +11,21 @@ include_once 'header.php';
                                     <div class="top_menu_fixed_js">
                                         <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
                                             <li class="dropdown ">
-                                                <a class="dropdown-toggle" href="company/" title="О нас">
-                                                    О нас													<i class="fa fa-angle-down"></i>
+                                                <a class="dropdown-toggle" href="company/" title="<?= $json->menu->aboutUs->name?>">
+                                                    <?= $json->menu->aboutUs->name?>													<i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-menu fixed_menu_ext">
                                                     <li class=" ">
-                                                        <a href="company" title="О нас">
-                                                            О нас																			</a>
+                                                        <a href="company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                            <?= $json->menu->aboutUs->aboutAs?>																		</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="company/area" title="Территория">
-                                                            Территория																			</a>
+                                                        <a href="company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                            <?= $json->menu->aboutUs->territory?>														</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="company/reviews" title="Отзывы гостей">
-                                                            Отзывы гостей																			</a>
+                                                        <a href="company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                            <?= $json->menu->aboutUs->guestReviews?>																			</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -61,59 +61,59 @@ include_once 'header.php';
                                                 </ul>
                                             </li>
                                             <li class="dropdown ">
-                                                <a class="dropdown-toggle" href="services" title="Услуги">
-                                                    Услуги													<i class="fa fa-angle-down"></i>
+                                                <a class="dropdown-toggle" href="services" title="<?= $json->menu->services->name?>">
+                                                    <?= $json->menu->services->name?>											<i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-menu fixed_menu_ext">
                                                     <li class=" ">
-                                                        <a href="services/rybalka" title="Рыбалка">
-                                                            Рыбалка																			</a>
+                                                        <a href="services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                            <?= $json->menu->services->fishing?>																		</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/okhota" title="Охота">
-                                                            Охота																			</a>
+                                                        <a href="services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                            <?= $json->menu->services->hunt?>																			</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/kafe" title="Кафе">
-                                                            Кафе																			</a>
+                                                        <a href="services/kafe" title="<?= $json->menu->services->cafe?>">
+                                                            <?= $json->menu->services->cafe?>											</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/banya" title="Баня">
-                                                            Баня																			</a>
+                                                        <a href="services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                            <?= $json->menu->services->bathhouse?>																			</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/ostrov-robinzonada" title="Остров (Робинзонада)">
-                                                            Остров (Робинзонада)																			</a>
+                                                        <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
+                                                            <?= $json->menu->services->island?>																			</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
-                                                            Досуг в лесу (грибы-ягоды)																			</a>
+                                                        <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                            <?= $json->menu->services->forest?>																		</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/dopolnitelnye-uslugi" title="Дополнительные услуги">
-                                                            Дополнительные услуги																			</a>
+                                                        <a href="services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                            <?= $json->menu->services->addServices?>																		</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/zimnie-razvlecheniya" title="Зимние развлечения">
-                                                            Зимние развлечения																			</a>
+                                                        <a href="services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                            <?= $json->menu->services->winterRelax?>																		</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class=" ">
-                                                <a class="" href="price" title="Цены">
-                                                    Цены											</a>
+                                                <a class="" href="price" title="<?= $json->menu->cost->name?>">
+                                                    <?= $json->menu->cost->name?>											</a>
                                             </li>
                                             <li class=" ">
-                                                <a class="" href="promo" title="Акции">
-                                                    Акции											</a>
+                                                <a class="" href="promo" title="<?= $json->menu->promo->name?>">
+                                                    <?= $json->menu->promo->name?>											</a>
                                             </li>
                                             <li class=" ">
-                                                <a class="" href="galereya" title="Галерея">
-                                                    Галерея											</a>
+                                                <a class="" href="galereya" title="<?= $json->menu->gallery->name?>">
+                                                    <?= $json->menu->gallery->name?>											</a>
                                             </li>
                                             <li class=" ">
-                                                <a class="" href="contacts" title="Контакты">
-                                                    Контакты											</a>
+                                                <a class="" href="contacts" title="<?= $json->menu->contacts->name?>">
+                                                    <?= $json->menu->contacts->name?>											</a>
                                             </li>
                                             <div class="search">
                                                 <div class="search-input-div">
@@ -130,19 +130,19 @@ include_once 'header.php';
                                             <tr>
                                                 <td class="dropdown ">
                                                     <div class="wrap">
-                                                        <a class="dropdown-toggle link_first" href="company/" title="О нас">
-                                                            О нас																	&nbsp;<i class="fa fa-angle-down"></i>
+                                                        <a class="dropdown-toggle link_first" href="company/" title="<?= $json->menu->aboutUs->name?>">
+                                                            <?= $json->menu->aboutUs->name?>																	&nbsp;<i class="fa fa-angle-down"></i>
                                                         </a>
                                                         <span class="tail"></span>
                                                         <ul class="dropdown-menu">
                                                             <li class=" ">
-                                                                <a href="company" title="О нас">О нас</a>
+                                                                <a href="company" title="<?= $json->menu->aboutUs->aboutAs?><"><?= $json->menu->aboutUs->aboutAs?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="company/area" title="Территория">Территория</a>
+                                                                <a href="company/area" title="<?= $json->menu->aboutUs->territory?>"><?= $json->menu->aboutUs->territory?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="company/reviews" title="Отзывы гостей">Отзывы гостей</a>
+                                                                <a href="company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>"><?= $json->menu->aboutUs->guestReviews?></a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -177,60 +177,60 @@ include_once 'header.php';
                                                 </td>
                                                 <td class="dropdown ">
                                                     <div class="wrap">
-                                                        <a class="dropdown-toggle link_first" href="services/" title="Услуги">
-                                                            Услуги																	&nbsp;<i class="fa fa-angle-down"></i>
+                                                        <a class="dropdown-toggle link_first" href="services/" title="<?= $json->menu->services->name?>">
+                                                            <?= $json->menu->services->name?>																&nbsp;<i class="fa fa-angle-down"></i>
                                                         </a>
                                                         <span class="tail"></span>
                                                         <ul class="dropdown-menu">
                                                             <li class=" ">
-                                                                <a href="services/rybalka" title="Рыбалка">Рыбалка</a>
+                                                                <a href="services/rybalka" title="<?= $json->menu->services->fishing?>"><?= $json->menu->services->fishing?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/okhota" title="Охота">Охота</a>
+                                                                <a href="services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/kafe" title="Кафе">Кафе</a>
+                                                                <a href="services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/banya" title="Баня">Баня</a>
+                                                                <a href="services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/ostrov-robinzonada" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
+                                                                <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
+                                                                <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/dopolnitelnye-uslugi" title="Дополнительные услуги">Дополнительные услуги</a>
+                                                                <a href="services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>"><?= $json->menu->services->addServices?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/zimnie-razvlecheniya" title="Зимние развлечения">Зимние развлечения</a>
+                                                                <a href="services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>"><?= $json->menu->services->winterRelax?></a>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </td>
                                                 <td class=" ">
                                                     <div class="wrap">
-                                                        <a class=" link_first" href="price" title="Цены">
-                                                            Цены															</a>
+                                                        <a class=" link_first" href="price" title="<?= $json->menu->cost->name?>">
+                                                            <?= $json->menu->cost->name?>															</a>
                                                     </div>
                                                 </td>
                                                 <td class=" ">
                                                     <div class="wrap">
-                                                        <a class=" link_first" href="promo" title="Акции">
-                                                            Акции															</a>
+                                                        <a class=" link_first" href="promo" title="<?= $json->menu->promo->name?>">
+                                                            <?= $json->menu->promo->name?>															</a>
                                                     </div>
                                                 </td>
                                                 <td class=" ">
                                                     <div class="wrap">
-                                                        <a class=" link_first" href="galereya" title="Галерея">
-                                                            Галерея															</a>
+                                                        <a class=" link_first" href="galereya" title="<?= $json->menu->gallery->name?>">
+                                                            <?= $json->menu->gallery->name?>															</a>
                                                     </div>
                                                 </td>
                                                 <td class=" ">
                                                     <div class="wrap">
-                                                        <a class=" link_first" href="contacts" title="Контакты">
-                                                            Контакты															</a>
+                                                        <a class=" link_first" href="contacts" title="<?= $json->menu->contacts->name?>">
+                                                            <?= $json->menu->contacts->name?>															</a>
                                                     </div>
                                                 </td>
                                                 <td class="dropdown js-dropdown nosave" style="display:none;">
@@ -254,21 +254,21 @@ include_once 'header.php';
                                     </div>
                                     <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
                                         <li class="dropdown ">
-                                            <a class="dropdown-toggle" href="company" title="О нас">
-                                                О нас											<i class="fa fa-angle-down"></i>
+                                            <a class="dropdown-toggle" href="company" title="<?= $json->menu->aboutUs->name?>">
+                                                <?= $json->menu->aboutUs->name?>									<i class="fa fa-angle-down"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class=" ">
-                                                    <a href="company" title="О нас">
-                                                        О нас																	</a>
+                                                    <a href="company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                        <?= $json->menu->aboutUs->aboutAs?>																	</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="company/area" title="Территория">
-                                                        Территория																	</a>
+                                                    <a href="company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                        <?= $json->menu->aboutUs->territory?>																	</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="company/reviews" title="Отзывы гостей">
-                                                        Отзывы гостей																	</a>
+                                                    <a href="company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                        <?= $json->menu->aboutUs->guestReviews?>																	</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -304,59 +304,59 @@ include_once 'header.php';
                                             </ul>
                                         </li>
                                         <li class="dropdown ">
-                                            <a class="dropdown-toggle" href="services" title="Услуги">
-                                                Услуги											<i class="fa fa-angle-down"></i>
+                                            <a class="dropdown-toggle" href="services" title="<?= $json->menu->services->name?>">
+                                                <?= $json->menu->services->name?>										<i class="fa fa-angle-down"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class=" ">
-                                                    <a href="services/rybalka" title="Рыбалка">
-                                                        Рыбалка																	</a>
+                                                    <a href="services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                        <?= $json->menu->services->fishing?>													</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/okhota" title="Охота">
-                                                        Охота																	</a>
+                                                    <a href="services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                        <?= $json->menu->services->hunt?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/kafe" title="Кафе">
-                                                        Кафе																	</a>
+                                                    <a href="services/kafe" title="<?= $json->menu->services->cafe?>">
+                                                        <?= $json->menu->services->cafe?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/banya" title="Баня">
-                                                        Баня																	</a>
+                                                    <a href="services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                        <?= $json->menu->services->bathhouse?>													</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/ostrov-robinzonada" title="Остров (Робинзонада)">
-                                                        Остров (Робинзонада)																	</a>
+                                                    <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
+                                                        <?= $json->menu->services->island?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
-                                                        Досуг в лесу (грибы-ягоды)																	</a>
+                                                    <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                        <?= $json->menu->services->forest?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/dopolnitelnye-uslugi" title="Дополнительные услуги">
-                                                        Дополнительные услуги																	</a>
+                                                    <a href="services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                        <?= $json->menu->services->addServices?>									     		</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/zimnie-razvlecheniya" title="Зимние развлечения">
-                                                        Зимние развлечения																	</a>
+                                                    <a href="services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                        <?= $json->menu->services->winterRelax?>												</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class=" ">
-                                            <a class="" href="price" title="Цены">
-                                                Цены									</a>
+                                            <a class="" href="price" title="<?= $json->menu->cost->name?>">
+                                                <?= $json->menu->cost->name?>									</a>
                                         </li>
                                         <li class=" ">
-                                            <a class="" href="promo" title="Акции">
-                                                Акции									</a>
+                                            <a class="" href="promo" title="<?= $json->menu->promo->name?>">
+                                                <?= $json->menu->promo->name?>									</a>
                                         </li>
                                         <li class=" ">
-                                            <a class="" href="galereya" title="Галерея">
-                                                Галерея									</a>
+                                            <a class="" href="galereya" title="<?= $json->menu->gallery->name?>">
+                                                <?= $json->menu->gallery->name?>									</a>
                                         </li>
                                         <li class=" ">
-                                            <a class="" href="contacts" title="Контакты">
-                                                Контакты									</a>
+                                            <a class="" href="contacts" title="<?= $json->menu->contacts->name?>">
+                                                <?= $json->menu->contacts->name?>									</a>
                                         </li>
                                         <div class="search">
                                             <div class="search-input-div">

@@ -20,14 +20,20 @@ class Country {
                 $country = self::COUNTRY;
             }
             //setcookie("country", $country, 18000);
-            var_dump($country);
+           // var_dump($country);
         }
 
-        //$json = Func::getLanguagePage($_COOKIE["country"]);
+        return($country ? $country : $_COOKIE["country"]);
+
+    }
+
+
+
+    public static function getTextPage() {
+        $country = self::getCountry();
         $country = Func::getLanguagePage($country);
         $json = Func::getСontentPage($country);
         return $json;
-
     }
 
 
@@ -35,5 +41,4 @@ class Country {
 
 }
 
-Country::getCountry();
-
+$json = Country::getTextPage();

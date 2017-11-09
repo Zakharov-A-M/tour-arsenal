@@ -2,6 +2,10 @@
 
 include_once 'api/func.php';
 include_once 'api/country/country.php';
+include_once 'api/bd/connectBD.php';
+
+
+//ConnectDB::connect_BD();
 
 ?>
 
@@ -131,13 +135,13 @@ include_once 'api/country/country.php';
                     <div class="desc_wrap col-md-7 col-sm-7">
                         <div class="row">
                             <div class="top-description col-md-5 hidden-sm hidden-xs">
-                                <a href="/">База&nbsp;для&nbsp;семейного<br>
-                                    и корпоративного отдыха</a>									</div>
+                                <a href="/"><?php echo $json->header->title;  ?></a>
+                            </div>
                             <div class="scheme col-md-3 col-sm-3">
-                                <a href="http://tour-arsenal.by/contacts/">Схема<br> проезда</a>
+                                <a href="http://tour-arsenal.by/contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="http://tour-arsenal.by"><img src="logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
+                                <a href="http://tour-arsenal.by"><img src="logo.png" alt='Туркомплекс "Арсенал"' title="Туркомплекс "Арсенал"" /></a>									</div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
                                 <div class="nav-main-collapse">
@@ -149,7 +153,7 @@ include_once 'api/country/country.php';
                     <div class="callback_wrap col-md-5 col-sm-5 col-xs-12">
                         <div class="top-callback">
                             <div class="callback pull-right hidden-xs" data-event="jqm" data-param-id="22" data-name="callback">
-                                <span class="btn btn-default">Заказать звонок</span>
+                                <span class="btn btn-default"><?= $json->header->buttonOrder ?></span>
                             </div>
                             <div class="phone pull-right hidden-xs c_2">
                                 <div class="phone-number">

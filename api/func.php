@@ -42,8 +42,14 @@ class Func
     }
 
     public static function getСontentPage($country) {
-        $json = json_decode(file_get_contents('../translations/'.$country.'.json', true), true);
+        $json = json_decode(file_get_contents('./translations/'.$country.'.json', true));
+        if ($json) {
+            return $json;
+        }
+        $json = json_decode(file_get_contents('../translations/'.$country.'.json', true));
         return $json;
+        //var_dump($json);
+
     }
 
 
