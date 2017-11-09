@@ -9,367 +9,367 @@ include_once '../header.php';
 							<div class="col-md-12">
 								<div class="nav-main-collapse collapse">
 									<div class="menu-only">
-										<nav class="mega-menu">
-												<div class="top_menu_fixed_js">
-		<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
-											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../company" title="О нас">
-						О нас													<i class="fa fa-angle-right"></i>
-											</a>
-											<ul class="dropdown-menu fixed_menu_ext">
-																							<li class=" ">
-									<a href="../company" title="О нас">
-										О нас																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../company/area" title="Территория">
-										Территория																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../company/reviews" title="Отзывы гостей">
-										Отзывы гостей																			</a>
-																	</li>
-													</ul>
-									</li>
-											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../rooms" title="Размещение">
-						Размещение													<i class="fa fa-angle-right"></i>
-											</a>
-											<ul class="dropdown-menu fixed_menu_ext">
-																							<li class=" ">
-									<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
-										Двухместный Номер Эконом Класса																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
-										Трёхместный Однокомнатный Номер																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../rooms/quarter" title="Четырехместный Номер">
-										Четырехместный Номер																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-										ЛЮКС Четырёхместный С Камином И Сауной																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-										Четырёхместный Коттедж																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-										3-комнатный коттедж с сауной «Vip»																			</a>
-																	</li>
-													</ul>
-									</li>
-											<li class="dropdown ">
-					<a class="dropdown-toggle" href="../services" title="Услуги">
-						Услуги													<i class="fa fa-angle-right"></i>
-											</a>
-											<ul class="dropdown-menu fixed_menu_ext">
-																							<li class=" ">
-									<a href="../services/rybalka" title="Рыбалка">
-										Рыбалка																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/okhota" title="Охота">
-										Охота																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/kafe" title="Кафе">
-										Кафе																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/banya" title="Баня">
-										Баня																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
-										Остров (Робинзонада)																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
-										Досуг в лесу (грибы-ягоды)																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">
-										Дополнительные услуги																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">
-										Зимние развлечения																			</a>
-																	</li>
-													</ul>
-									</li>
-											<li class=" ">
-					<a class="" href="../price" title="Цены">
-						Цены											</a>
-									</li>
-											<li class=" active">
-					<a class="" href="../promo" title="Акции">
-						Акции											</a>
-									</li>
-											<li class=" ">
-					<a class="" href="../galereya" title="Галерея">
-						Галерея											</a>
-									</li>
-											<li class=" ">
-					<a class="" href="../contacts" title="Контакты">
-						Контакты											</a>
-									</li>
-						<div class="search">
-				<div class="search-input-div">
-					<input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="" value="" name="q">
-				</div>
-				<div class="search-button-div">
-					<button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
-				</div>
-			</div>
-		</ul>
-	</div>
-	<div class="table-menu hidden-xs">
-		<table>
-			<tr>
-														<td class="dropdown ">
-						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../company" title="О нас">
-								О нас																	&nbsp;<i class="fa fa-angle-down"></i>
-															</a>
-															<span class="tail"></span>
-								<ul class="dropdown-menu">
-																													<li class=" ">
-											<a href="../company" title="О нас">О нас</a>
-																					</li>
-																													<li class=" ">
-											<a href="../company/area" title="Территория">Территория</a>
-																					</li>
-																													<li class=" ">
-											<a href="../company/reviews" title="Отзывы гостей">Отзывы гостей</a>
-																					</li>
-																	</ul>
-													</div>
-					</td>
-														<td class="dropdown ">
-						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../rooms" title="Размещение">
-								Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
-															</a>
-															<span class="tail"></span>
-								<ul class="dropdown-menu">
-																													<li class=" ">
-											<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
-																					</li>
-																													<li class=" ">
-											<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
-																					</li>
-																													<li class=" ">
-											<a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
-																					</li>
-																													<li class=" ">
-											<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
-																					</li>
-																													<li class=" ">
-											<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
-																					</li>
-																													<li class=" ">
-											<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
-																					</li>
-																	</ul>
-													</div>
-					</td>
-														<td class="dropdown ">
-						<div class="wrap">
-							<a class="dropdown-toggle link_first" href="../services" title="Услуги">
-								Услуги																	&nbsp;<i class="fa fa-angle-down"></i>
-															</a>
-															<span class="tail"></span>
-								<ul class="dropdown-menu">
-																													<li class=" ">
-											<a href="../services/rybalka" title="Рыбалка">Рыбалка</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/okhota" title="Охота">Охота</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/kafe" title="Кафе">Кафе</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/banya" title="Баня">Баня</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">Дополнительные услуги</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">Зимние развлечения</a>
-																					</li>
-																	</ul>
-													</div>
-					</td>
-														<td class=" ">
-						<div class="wrap">
-							<a class=" link_first" href="../price" title="Цены">
-								Цены															</a>
-													</div>
-					</td>
-														<td class=" active">
-						<div class="wrap">
-							<a class=" link_first" href="../promo" title="Акции">
-								Акции															</a>
-													</div>
-					</td>
-														<td class=" ">
-						<div class="wrap">
-							<a class=" link_first" href="../galereya" title="Галерея">
-								Галерея															</a>
-													</div>
-					</td>
-														<td class=" ">
-						<div class="wrap">
-							<a class=" link_first" href="../contacts" title="Контакты">
-								Контакты															</a>
-													</div>
-					</td>
-								<td class="dropdown js-dropdown nosave" style="display:none;">
-					<div class="wrap">
-						<a class="dropdown-toggle more-items" href="index.php#">
-							<span>...</span>
-						</a>
-						<span class="tail"></span>
-						<ul class="dropdown-menu"></ul>
-					</div>
-				</td>
-				<td class="search-item nosave">
-					<div class="wrap">
-						<a href="index.php#">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
-								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../company" title="О нас">
-					О нас											<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-																				<li class=" ">
-								<a href="../company" title="О нас">
-									О нас																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../company/area" title="Территория">
-									Территория																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../company/reviews" title="Отзывы гостей">
-									Отзывы гостей																	</a>
-															</li>
-											</ul>
-							</li>
-								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../rooms" title="Размещение">
-					Размещение											<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-																				<li class=" ">
-								<a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
-									Двухместный Номер Эконом Класса																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
-									Трёхместный Однокомнатный Номер																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../rooms/quarter" title="Четырехместный Номер">
-									Четырехместный Номер																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-									ЛЮКС Четырёхместный С Камином И Сауной																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-									Четырёхместный Коттедж																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-									3-комнатный коттедж с сауной «Vip»																	</a>
-															</li>
-											</ul>
-							</li>
-								<li class="dropdown ">
-				<a class="dropdown-toggle" href="../services" title="Услуги">
-					Услуги											<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu">
-																				<li class=" ">
-								<a href="../services/rybalka" title="Рыбалка">
-									Рыбалка																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/okhota" title="Охота">
-									Охота																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/kafe" title="Кафе">
-									Кафе																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/banya" title="Баня">
-									Баня																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
-									Остров (Робинзонада)																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
-									Досуг в лесу (грибы-ягоды)																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/dopolnitelnye-uslugi" title="Дополнительные услуги">
-									Дополнительные услуги																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/zimnie-razvlecheniya" title="Зимние развлечения">
-									Зимние развлечения																	</a>
-															</li>
-											</ul>
-							</li>
-								<li class=" ">
-				<a class="" href="../price" title="Цены">
-					Цены									</a>
-							</li>
-								<li class=" active">
-				<a class="" href="../promo" title="Акции">
-					Акции									</a>
-							</li>
-								<li class=" ">
-				<a class="" href="../galereya" title="Галерея">
-					Галерея									</a>
-							</li>
-								<li class=" ">
-				<a class="" href="../contacts" title="Контакты">
-					Контакты									</a>
-							</li>
-				<div class="search">
-			<div class="search-input-div">
-				<input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="Найти" value="" name="q">
-			</div>
-			<div class="search-button-div">
-				<button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
-			</div>
-		</div>
-	</ul>
-										</nav>
+                                        <nav class="mega-menu">
+                                            <div class="top_menu_fixed_js">
+                                                <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
+                                                    <li class="dropdown ">
+                                                        <a class="dropdown-toggle" href="../company" title="<?= $json->menu->aboutUs->name?>">
+                                                            <?= $json->menu->aboutUs->name?>						<i class="fa fa-angle-right"></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu fixed_menu_ext">
+                                                            <li class=" ">
+                                                                <a href="../company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                                    <?= $json->menu->aboutUs->aboutAs?>																		</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                                    <?= $json->menu->aboutUs->territory?>														</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                                    <?= $json->menu->aboutUs->guestReviews?>																			</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown ">
+                                                        <a class="dropdown-toggle" href="../rooms" title="Размещение">
+                                                            Размещение													<i class="fa fa-angle-right"></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu fixed_menu_ext">
+                                                            <li class=" ">
+                                                                <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
+                                                                    Двухместный Номер Эконом Класса																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
+                                                                    Трёхместный Однокомнатный Номер																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../rooms/quarter" title="Четырехместный Номер">
+                                                                    Четырехместный Номер																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
+                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
+                                                                    Четырёхместный Коттедж																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
+                                                                    3-комнатный коттедж с сауной «Vip»																			</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown ">
+                                                        <a class="dropdown-toggle" href="../services" title="<?= $json->menu->services->name?>">
+                                                            <?= $json->menu->services->name?>											<i class="fa fa-angle-right"></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu fixed_menu_ext">
+                                                            <li class=" ">
+                                                                <a href="../services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                                    <?= $json->menu->services->fishing?>																		</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                                    <?= $json->menu->services->hunt?>																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
+                                                                    <?= $json->menu->services->cafe?>											</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                                    <?= $json->menu->services->bathhouse?>																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
+                                                                    <?= $json->menu->services->island?>																			</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                                    <?= $json->menu->services->forest?>																		</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                                    <?= $json->menu->services->addServices?>																		</a>
+                                                            </li>
+                                                            <li class=" ">
+                                                                <a href="../services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                                    <?= $json->menu->services->winterRelax?>																		</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class=" ">
+                                                        <a class="" href="../price" title="<?= $json->menu->cost->name?>">
+                                                            <?= $json->menu->cost->name?>											</a>
+                                                    </li>
+                                                    <li class=" active">
+                                                        <a class="" href="../promo" title="<?= $json->menu->promo->name?>">
+                                                            <?= $json->menu->promo->name?>											</a>
+                                                    </li>
+                                                    <li class=" ">
+                                                        <a class="" href="../galereya" title="<?= $json->menu->gallery->name?>">
+                                                            <?= $json->menu->gallery->name?>											</a>
+                                                    </li>
+                                                    <li class=" ">
+                                                        <a class="" href="../contacts" title="<?= $json->menu->contacts->name?>">
+                                                            <?= $json->menu->contacts->name?>											</a>
+                                                    </li>
+                                                    <div class="search">
+                                                        <div class="search-input-div">
+                                                            <input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="" value="" name="q">
+                                                        </div>
+                                                        <div class="search-button-div">
+                                                            <button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                            <div class="table-menu hidden-xs">
+                                                <table>
+                                                    <tr>
+                                                        <td class="dropdown ">
+                                                            <div class="wrap">
+                                                                <a class="dropdown-toggle link_first" href="../company" title="<?= $json->menu->aboutUs->name?>">
+                                                                    <?= $json->menu->aboutUs->name?>																	&nbsp;<i class="fa fa-angle-down"></i>
+                                                                </a>
+                                                                <span class="tail"></span>
+                                                                <ul class="dropdown-menu">
+                                                                    <li class=" ">
+                                                                        <a href="../company" title="<?= $json->menu->aboutUs->aboutAs?>"><?= $json->menu->aboutUs->aboutAs?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../company/area" title="<?= $json->menu->aboutUs->territory?>"><?= $json->menu->aboutUs->territory?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>"><?= $json->menu->aboutUs->guestReviews?></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td class="dropdown ">
+                                                            <div class="wrap">
+                                                                <a class="dropdown-toggle link_first" href="../rooms" title="Размещение">
+                                                                    Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
+                                                                </a>
+                                                                <span class="tail"></span>
+                                                                <ul class="dropdown-menu">
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td class="dropdown ">
+                                                            <div class="wrap">
+                                                                <a class="dropdown-toggle link_first" href="../services/" title="<?= $json->menu->services->name?>">
+                                                                    <?= $json->menu->services->name?>																&nbsp;<i class="fa fa-angle-down"></i>
+                                                                </a>
+                                                                <span class="tail"></span>
+                                                                <ul class="dropdown-menu">
+                                                                    <li class=" ">
+                                                                        <a href="../services/rybalka" title="<?= $json->menu->services->fishing?>"><?= $json->menu->services->fishing?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>"><?= $json->menu->services->addServices?></a>
+                                                                    </li>
+                                                                    <li class=" ">
+                                                                        <a href="../services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>"><?= $json->menu->services->winterRelax?></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td class=" ">
+                                                            <div class="wrap">
+                                                                <a class=" link_first" href="../price" title="<?= $json->menu->cost->name?>">
+                                                                    <?= $json->menu->cost->name?>															</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class=" active">
+                                                            <div class="wrap">
+                                                                <a class=" link_first" href="../promo" title="<?= $json->menu->promo->name?>">
+                                                                    <?= $json->menu->promo->name?>															</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class=" ">
+                                                            <div class="wrap">
+                                                                <a class=" link_first" href="../galereya" title="<?= $json->menu->gallery->name?>">
+                                                                    <?= $json->menu->gallery->name?>															</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class=" ">
+                                                            <div class="wrap">
+                                                                <a class=" link_first" href="../contacts" title="<?= $json->menu->contacts->name?>">
+                                                                    <?= $json->menu->contacts->name?>															</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="dropdown js-dropdown nosave" style="display:none;">
+                                                            <div class="wrap">
+                                                                <a class="dropdown-toggle more-items" href="index.php#">
+                                                                    <span>...</span>
+                                                                </a>
+                                                                <span class="tail"></span>
+                                                                <ul class="dropdown-menu"></ul>
+                                                            </div>
+                                                        </td>
+                                                        <td class="search-item nosave">
+                                                            <div class="wrap">
+                                                                <a href="index.php#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
+                                                <li class="dropdown ">
+                                                    <a class="dropdown-toggle" href="../company" title="<?= $json->menu->aboutUs->name?>">
+                                                        <?= $json->menu->aboutUs->name?>									<i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class=" ">
+                                                            <a href="../company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                                <?= $json->menu->aboutUs->aboutAs?>																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                                <?= $json->menu->aboutUs->territory?>																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                                <?= $json->menu->aboutUs->guestReviews?>																	</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown ">
+                                                    <a class="dropdown-toggle" href="../rooms" title="Размещение">
+                                                        Размещение											<i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class=" ">
+                                                            <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
+                                                                Двухместный Номер Эконом Класса																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
+                                                                Трёхместный Однокомнатный Номер																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../rooms/quarter" title="Четырехместный Номер">
+                                                                Четырехместный Номер																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
+                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
+                                                                Четырёхместный Коттедж																	</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
+                                                                3-комнатный коттедж с сауной «Vip»																	</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown ">
+                                                    <a class="dropdown-toggle" href="../services" title="<?= $json->menu->services->name?>">
+                                                        <?= $json->menu->services->name?>										<i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class=" ">
+                                                            <a href="../services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                                <?= $json->menu->services->fishing?>													</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                                <?= $json->menu->services->hunt?>														</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
+                                                                <?= $json->menu->services->cafe?>														</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                                <?= $json->menu->services->bathhouse?>													</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
+                                                                <?= $json->menu->services->island?>														</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                                <?= $json->menu->services->forest?>														</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                                <?= $json->menu->services->addServices?>									     		</a>
+                                                        </li>
+                                                        <li class=" ">
+                                                            <a href="../services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                                <?= $json->menu->services->winterRelax?>												</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class=" ">
+                                                    <a class="" href="../price" title="<?= $json->menu->cost->name?>">
+                                                        <?= $json->menu->cost->name?>									</a>
+                                                </li>
+                                                <li class=" active">
+                                                    <a class="" href="../promo" title="<?= $json->menu->promo->name?>">
+                                                        <?= $json->menu->promo->name?>									</a>
+                                                </li>
+                                                <li class=" ">
+                                                    <a class="" href="../galereya" title="<?= $json->menu->gallery->name?>">
+                                                        <?= $json->menu->gallery->name?>									</a>
+                                                </li>
+                                                <li class=" ">
+                                                    <a class="" href="../contacts" title="<?= $json->menu->contacts->name?>">
+                                                        <?= $json->menu->contacts->name?>									</a>
+                                                </li>
+                                                <div class="search">
+                                                    <div class="search-input-div">
+                                                        <input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="Найти" value="" name="q">
+                                                    </div>
+                                                    <div class="search-button-div">
+                                                        <button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </nav>
 									</div>
 								</div>
 							</div>						</div>

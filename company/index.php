@@ -143,7 +143,7 @@ include_once '../header.php';
                                                                         <a href="area" title="<?= $json->menu->aboutUs->territory?>"><?= $json->menu->aboutUs->territory?></a>
                                                                     </li>
                                                                     <li class=" ">
-                                                                        <a href="creviews" title="<?= $json->menu->aboutUs->guestReviews?>"><?= $json->menu->aboutUs->guestReviews?></a>
+                                                                        <a href="reviews" title="<?= $json->menu->aboutUs->guestReviews?>"><?= $json->menu->aboutUs->guestReviews?></a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
