@@ -416,11 +416,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../index.html" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html" title="О нас" itemprop="url"><span itemprop="title">О нас</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">Территория базы отдыха Арсенал</span></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../index.html" title="<?= $json->aboutUs->territory->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->aboutUs->territory->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html" title="<?= $json->aboutUs->territory->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->aboutUs->territory->mainLink[1] ?></span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title"><?= $json->aboutUs->territory->mainLink[2] ?></span></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Территория базы отдыха Арсенал</h1>
+											<h1><?= $json->aboutUs->territory->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -434,13 +434,13 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../">О нас</a>
+					<a href="../"><?= $json->aboutUs->menu->aboutUs ?></a>
 													</li>
 							<li class="active ">
-					<a href="../area">Территория</a>
+					<a href="../area"><?= $json->aboutUs->menu->territory ?></a>
 													</li>
 							<li class=" ">
-					<a href="../reviews">Отзывы гостей</a>
+					<a href="../reviews"><?= $json->aboutUs->menu->guestReviews ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -448,20 +448,20 @@ include_once '../../header.php';
 																																</div>
 									</div>
 									<div class="col-md-9 col-sm-9 content-md">
-																		<p>
-	 На территории базы отдыха «Арсенал» вы найдете всё необходимое для отдыха и даже больше! Пирс, спуск лодок на воду, оборудованное место для безопасного купания и активных водных развлечений.
+					<?php
+                        foreach ($json->aboutUs->territory->text as $item)
+                            echo '</>'.$item.'</p>'
+                    ?>
+
+
+<p>
+	<a href="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->one ?>" src="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" title="Арсенал территория" class="img-responsive"></a>
 </p>
 <p>
-	 Также вы можете посетить баню, воспользоваться футбольным и волейбольным полем и площадками для игр на свежем воздухе. На велосипеде можно прокатиться вдоль озера Янисъярви.
+	<a href="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->two ?>" src="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" height="576" title="Схема корпусов" class="img-responsive"></a>
 </p>
 <p>
-	<a href="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" class="fancybox"> <img width="768" alt="Арсенал территория" src="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" title="Арсенал территория" class="img-responsive"></a>
-</p>
-<p>
-	<a href="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" class="fancybox"> <img width="768" alt="Схема корпусов" src="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" height="576" title="Схема корпусов" class="img-responsive"></a>
-</p>
-<p>
-	<a href="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" class="fancybox"> <img width="768" alt="Схема корпусов 2" src="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" height="576" title="Схема корпусов 2" class="img-responsive"></a>
+	<a href="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->tree ?>" src="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" height="576" title="Схема корпусов 2" class="img-responsive"></a>
 </p>
  <br>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">

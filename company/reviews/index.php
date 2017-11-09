@@ -417,11 +417,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../index.html" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html" title="О нас" itemprop="url"><span itemprop="title">О нас</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">Отзывы</span></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->aboutUs->guestReviews->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->aboutUs->guestReviews->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="<?= $json->aboutUs->guestReviews->mainLink[1] ?>" itemprop="url"><span itemprop="title"><?= $json->aboutUs->guestReviews->mainLink[1] ?></span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title"><?= $json->aboutUs->guestReviews->mainLink[2] ?></span></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Отзывы гостей</h1>
+											<h1><?= $json->aboutUs->guestReviews->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,13 +435,13 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../">О нас</a>
+					<a href="../"><?= $json->aboutUs->menu->aboutUs ?></a>
 													</li>
 							<li class=" ">
-					<a href="../area">Территория</a>
+					<a href="../area"><?= $json->aboutUs->menu->territory ?></a>
 													</li>
 							<li class="active ">
-					<a href="../reviews">Отзывы гостей</a>
+					<a href="../reviews"><?= $json->aboutUs->menu->guestReviews ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -450,7 +450,7 @@ include_once '../../header.php';
 									</div>
 									<div class="col-md-9 col-sm-9 content-md">
 																		<div class="text_before_items">
-	<p>Мы можем организовать отдых для каждого!&nbsp;В этом разделе собраны отзывы тех, кто побывал на нашей базе. Оставляйте замечания и пожелания, делитесь впечатлениями и приятными событиями, произошедшими у нас. Ваши положительные эмоции говорят о том, что мы работаем не зря, а критику мы воспринимаем как руководство к дальнейшему развитию.</p>
+	<p><?= $json->aboutUs->guestReviews->text[0] ?></p>
 
 
 
@@ -458,9 +458,9 @@ include_once '../../header.php';
 
 
 <div class="fonotzyv">
-							<p>Поделитесь своим мнением об отдыхе в туркомплексе Арсенал!"</p>								
+							<p><?= $json->aboutUs->guestReviews->text[1] ?></p>
 							
-									<span class="btn btn-default white_br white btn-lg otzbt" data-event="jqm" data-param-id="23" data-name="question">Оставить отзыв</span>								</div></div>
+									<span class="btn btn-default white_br white btn-lg otzbt" data-event="jqm" data-param-id="23" data-name="question"><?= $json->aboutUs->guestReviews->mainText ?></span>								</div></div>
 		<div class="item-views  image_left reviews">
 		
 			<div class="group-content">

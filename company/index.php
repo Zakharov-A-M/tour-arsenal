@@ -416,11 +416,11 @@ include_once '../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">О нас</span></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="<?= $json->aboutUs->aboutUs->mainLink[0]?>" itemprop="url"><span itemprop="title"><?= $json->aboutUs->aboutUs->mainLink[0]?></span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title"><?= $json->aboutUs->aboutUs->mainLink[1]?></span></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>О нас</h1>
+											<h1><?= $json->aboutUs->aboutUs->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -434,13 +434,13 @@ include_once '../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class="active ">
-					<a href="../company">О нас</a>
+					<a href="../company"><?= $json->aboutUs->menu->aboutUs ?></a>
 													</li>
 							<li class=" ">
-					<a href="area">Территория</a>
+					<a href="area"><?= $json->aboutUs->menu->territory ?></a>
 													</li>
 							<li class=" ">
-					<a href="reviews">Отзывы гостей</a>
+					<a href="reviews"><?= $json->aboutUs->menu->guestReviews ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -452,50 +452,44 @@ include_once '../header.php';
 	<div class="items row">
 								<div class="col-md-12">
 				<div class="item_block" id="bx_3218110189_76">
-																													<div class="detailimage image-wide"><a href="../upload/iblock/c75/c75c773c82db97213bce9cb4b7c997c4.jpg" class="fancybox" title="О компании"><img src="../upload/iblock/c75/c75c773c82db97213bce9cb4b7c997c4.jpg" class="img-responsive" title="О компании" alt="О компании" /></a></div>
+																													<div class="detailimage image-wide"><a href="../upload/iblock/c75/c75c773c82db97213bce9cb4b7c997c4.jpg" class="fancybox" title="<?= $json->aboutUs->aboutUs->foto->one ?>"><img src="../upload/iblock/c75/c75c773c82db97213bce9cb4b7c997c4.jpg" class="img-responsive" title="<?= $json->aboutUs->aboutUs->foto->one ?>" alt="<?= $json->aboutUs->aboutUs->foto->one ?>" /></a></div>
 																<div class="content">
 																			<div class="text">
-																	<p>
-	 Каким бывает отдых в Карелии?
-</p>
-<p>
-	 Арсенал это не просто база отдыха в Карелии. Это удивительное место, где Ваш отдых превратится в бесконечное, незабываемое удовольствие!
-</p>
-<p>
-	 Здесь можно, насладившись сказочным воздухом, смело отправиться на охоту на лесного зверя! Или отправиться на рыбалку, вернувшись с уловом, которому могут позавидовать самые заядлые рыбаки! Любители "тихой охоты" тоже не будут разочарованы - леса в округе издавна хвалятся обилием грибов и ягод. Вернувшись с охоты можно совершить экскурсии на Валаам или Рускеальский мраморный каньон… И еще множество вариантов, из которых Вы сможете выбрать себе занятие по душе, главное чтобы хватило времени!
-</p>
-<p>
-	 Мы в свою очередь, как гостеприимные и хлебосольные хозяева, организуем отдых так, что все побывавшие у нас хоть раз, становятся нашими друзьями, и возвращаются в Арсенал снова и снова!
-</p>																<hr class="big" />
+																	
+                <?php foreach ($json->aboutUs->aboutUs->text as $item) {
+                    echo '<p>'.$item.'</p>';
+                }?>
+                                                                                
+                                                                                <hr class="big" />
 							</div>
 						
 																															
 																		
 																			<div class="wraps">		
-								<h4 class="title_block">Галерея</h4>
+								<h4 class="title_block"><?= $json->aboutUs->aboutUs->textGallery ?></h4>
 								<div class="item-views portfolio front">	
 									<div class="row" itemscope itemtype="http://schema.org/ItemList">
 																					<div class="col-md-3 col-sm-4 col-xs-6">
 												<div class="item wline">
-													<a href="../upload/iblock/9c4/9c448ce12af6c13027eb6fd3b44023fd.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="О компании"></a>
+													<a href="../upload/iblock/9c4/9c448ce12af6c13027eb6fd3b44023fd.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->aboutUs->aboutUs->foto->one ?>"></a>
 													<div class="img_block scale_block_animate" style="background-image: url('../upload/resize_cache/iblock/9c4/800_500_1/9c448ce12af6c13027eb6fd3b44023fd.jpg');"></div>						
 												</div>
 											</div>
 																					<div class="col-md-3 col-sm-4 col-xs-6">
 												<div class="item wline">
-													<a href="../upload/iblock/0fd/0fd6d613b0d1ef6615f2891573b80fab.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="О компании"></a>
+													<a href="../upload/iblock/0fd/0fd6d613b0d1ef6615f2891573b80fab.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->aboutUs->aboutUs->foto->two ?>"></a>
 													<div class="img_block scale_block_animate" style="background-image: url('../upload/resize_cache/iblock/0fd/800_500_1/0fd6d613b0d1ef6615f2891573b80fab.jpg');"></div>						
 												</div>
 											</div>
 																					<div class="col-md-3 col-sm-4 col-xs-6">
 												<div class="item wline">
-													<a href="../upload/iblock/b0d/b0de84d2aa4864ffd7cc537c90f09533.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Наш пирс на озере Янисъярви"></a>
+													<a href="../upload/iblock/b0d/b0de84d2aa4864ffd7cc537c90f09533.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->aboutUs->aboutUs->foto->tree ?>"></a>
 													<div class="img_block scale_block_animate" style="background-image: url('../upload/resize_cache/iblock/b0d/800_500_1/b0de84d2aa4864ffd7cc537c90f09533.jpg');"></div>						
 												</div>
 											</div>
 																					<div class="col-md-3 col-sm-4 col-xs-6">
 												<div class="item wline">
-													<a href="../upload/iblock/701/7016c91a8b7ae6e980219149a6fd7eaa.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Что может быть вкуснее?!"></a>
+													<a href="../upload/iblock/701/7016c91a8b7ae6e980219149a6fd7eaa.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->aboutUs->aboutUs->foto->four ?>"></a>
 													<div class="img_block scale_block_animate" style="background-image: url('../upload/resize_cache/iblock/701/800_500_1/7016c91a8b7ae6e980219149a6fd7eaa.jpg');"></div>						
 												</div>
 											</div>
