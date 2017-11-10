@@ -30,7 +30,7 @@ include_once 'api/bd/connectBD.php';
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_db.js?149890843317880"></script>
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ajax.js?149890843336424"></script>
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/json/json2.min.js?14758345923467"></script>
-    <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ls.js?147583459210430"></script>
+    <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_ls.js?147583459210430"></script><!--//-->
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_fx.js?149890842616888"></script>
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/core/core_frame_cache.js?147583459217555"></script>
     <script type="text/javascript" src="http://tour-arsenal.ru/bitrix/js/main/jquery/jquery-1.8.3.min.js?147583459293636"></script>
@@ -141,7 +141,7 @@ include_once 'api/bd/connectBD.php';
                                 <a href="http://tour-arsenal.by/contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="http://tour-arsenal.by"><img src="logo.png" alt='Туркомплекс "Арсенал"' title="Туркомплекс "Арсенал"" /></a>									</div>
+                                <a href="http://tour-arsenal.by"><img src="logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>									</div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
                                 <div class="nav-main-collapse">
@@ -166,3 +166,7 @@ include_once 'api/bd/connectBD.php';
                     </div>
                 </div>
             </div>
+
+
+
+
