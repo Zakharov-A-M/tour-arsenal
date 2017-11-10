@@ -619,7 +619,7 @@ function BXMapYandexAfterShow(mapId)
 						</div>
 						<div class="col-md-2 col-sm-3">
 							<div class="front-text3">
-								<span class="btn btn-default white_br white btn-lg" data-event="jqm" data-param-id="21" data-name="question">Задать вопрос</span>							</div>
+								<span class="btn btn-default white_br white btn-lg" id="askQuestion" services="">Задать вопрос</span>							</div>
 						</div>
 					</div>
 				</div>

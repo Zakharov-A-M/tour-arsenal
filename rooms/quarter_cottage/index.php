@@ -733,7 +733,7 @@
 																<div class="more_block"><span>Подробнее</span></div>
 																	<div class="order">
 																					<span class="btn btn-default" data-event="jqm" data-param-id="24" data-name="order_product" data-product="Четырёхместный Коттедж" data-autoload-TYPE="Четырёхместный Коттедж">Забронировать</span>
-																															<span class="btn btn-default white" data-event="jqm" data-param-id="21" data-name="question" data-autoload-NEED_PRODUCT="Четырёхместный Коттедж">Задать вопрос</span>
+																															<span class="btn btn-default white" id="askQuestion" services="Четырёхместный Коттедж">Задать вопрос</span>
 																													</div>
 																									<div class="share">
 										<hr />

@@ -68,6 +68,7 @@ include_once 'api/bd/connectBD.php';
     <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/general.js"></script>
     <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/custom.js"></script>
     <script type="text/javascript" src="http://tour-arsenal.by/bitrix/components/bitrix/search.title/script.js"></script>
+    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/main.js"></script>
     <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.inputmask.bundle.min.js"></script>
     <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/components/bitrix/map.yandex.view/.default/script.js"></script>
     <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bcc93b1d8395e5bd858a567ff5f49a50"]); _ba.push(["host", "tour-arsenal.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
@@ -75,11 +76,27 @@ include_once 'api/bd/connectBD.php';
 
 </head>
 <body>
-<!--<div class="jqmOverlay" style="height: 100%; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 2999; opacity: 0.5;"></div>-->
-
 
 <div id="panel"></div>
 <script type='text/javascript'>
+    function filter_input(e,regexp)
+    {
+        e=e || window.event;
+        var target=e.target || e.srcElement;
+        var isIE=document.all;
+
+        if (target.tagName.toUpperCase()=='INPUT')
+        {
+            var code=isIE ? e.keyCode : e.which;
+            if (code<32 || e.ctrlKey || e.altKey) return true;
+
+            var char=String.fromCharCode(code);
+            if (!regexp.test(char)) return false;
+        }
+        return true;
+    }
+
+
     var arResortOptions = ({
         'SITE_DIR' : '/',
         'SITE_ID' : 's1',
@@ -154,8 +171,8 @@ include_once 'api/bd/connectBD.php';
                     </div>
                     <div class="callback_wrap col-md-5 col-sm-5 col-xs-12">
                         <div class="top-callback">
-                            <div class="callback pull-right hidden-xs">
-                                <span class="btn btn-default"><?= $json->header->buttonOrder ?></span>
+                            <div class="callback pull-right hidden-xs" >
+                                <span class="btn btn-default" id="orderCall"><?= $json->header->buttonOrder ?></span>
                             </div>
                             <div class="phone pull-right hidden-xs c_2">
                                 <div class="phone-number">

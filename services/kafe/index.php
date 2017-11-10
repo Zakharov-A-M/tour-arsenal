@@ -618,7 +618,7 @@
 	
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default" data-event="jqm" data-param-id="21" data-autoload-need_product="Кафе" data-name="question"><span>Задать вопрос</span></span>
+			<span class="btn btn-default"  id="askQuestion" services="Кафе"><span>Задать вопрос</span></span>
 			<div class="margin-bottom-20">
 				Хотите узнать больше? Спросите нас!&nbsp;			</div>
 		</div>

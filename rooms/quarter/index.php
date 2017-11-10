@@ -698,7 +698,7 @@
 																<div class="more_block"><span>Подробнее</span></div>
 																	<div class="order">
 																					<span class="btn btn-default" data-event="jqm" data-param-id="24" data-name="order_product" data-product="Четырехместный Номер" data-autoload-TYPE="Четырехместный Номер">Забронировать</span>
-																															<span class="btn btn-default white" data-event="jqm" data-param-id="21" data-name="question" data-autoload-NEED_PRODUCT="Четырехместный Номер">Задать вопрос</span>
+																															<span class="btn btn-default white" id="askQuestion" services="Четырехместный Номер">Задать вопрос</span>
 																													</div>
 																									<div class="share">
 										<hr />

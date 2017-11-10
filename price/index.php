@@ -720,7 +720,7 @@ include_once '../header.php';
 										<div class="col-md-7 col-sm-6">
 											Подробно расскажем о базе отдыха,&nbsp;услугах, ценах&nbsp;и подготовим индивидуальное предложение!&nbsp;<br>										</div>
 										<div class="col-md-2 col-sm-3">
-											<span class="btn btn-default white_br white btn-lg" data-event="jqm" data-param-id="21" data-name="question">Задать вопрос</span>										</div>
+											<span class="btn btn-default white_br white btn-lg" id="askQuestion" services="">Задать вопрос</span>										</div>
 									</div>
 								</div>
 							</div>
