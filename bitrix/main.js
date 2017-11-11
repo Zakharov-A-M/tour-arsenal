@@ -79,9 +79,10 @@ $(document).ready(function(){
             $.ajax({
                 url: 'http://tour-arsenal.by/api/post/notification.php',
                 type: 'post',
-                data: {fio: $('#FIO').val(), phone: $('#PHONE').val()},
+                data: {name: $('#FIO').val(),  phone: $('#PHONE').val(), id: 1},
                 success: function (message) {
-                    console.log(message);
+                    $('.jqmWindow').remove();
+                    $('body').prepend(message);
                 },
                 error: function (message) {
                 }
@@ -216,11 +217,11 @@ $(document).ready(function(){
         }
 
         if(flag == 0) {
-            console.log(flag);
+            console.log($('#NEED_PRODUCT').val());
             $.ajax({
                 url: 'http://tour-arsenal.by/api/post/notification.php',
                 type: 'post',
-                data: {fio: $('#NAME').val(), phone: $('#PHONE').val()},
+                data: {name: $('#NAME').val(), email: $('#EMAIL').val(), phone: $('#PHONE').val(), message: $('#MESSAGE').val(), service: $('#NEED_PRODUCT').val(), id: 2},
                 success: function (message) {
                     console.log(message);
                 },
@@ -368,7 +369,7 @@ $(document).ready(function(){
             $.ajax({
                 url: 'http://tour-arsenal.by/api/post/notification.php',
                 type: 'post',
-                data: {fio: $('#FIO').val(), phone: $('#PHONE').val()},
+                data: {name: $('#NAME').val(), email: $('#EMAIL-email').val(), phone: $('#PHONE').val(), message: $('#MESSAGE-message').val(), service: $('#SERVICE-service').val(), id: 3},
                 success: function (message) {
                     console.log(message);
                 },

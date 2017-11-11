@@ -21,12 +21,13 @@ class Mail
         $mail->setFrom('zakharov19951@yandex.by');
         $mail->addAddress('morgan.zaharov@yandex.ru');
         $mail->isHTML(true);
-        $mail->Subject = 'Бронирование домика';
-        $mail->Body = "<span>Name: {$data['name']}</span><br>
+        $mail->Subject = $data['action'];
+        $mail->Body = " <h3> {$data['action']}</h3><br><br>
+                        <span>Name: {$data['name']}</span><br>
                         <span>E-mail: {$data['email']}</span><br>
-                        <span>Phone: {$data['tel']}</span><br>
-                        <span>House: {$data['select']}</span><br>
-                        <span>Message: {$data['message']}</span><br>";
+                        <span>Phone: {$data['phone']}</span><br>
+                        <span>Message: {$data['message']}</span><br>
+                        <span>Service: {$data['service']}</span><br>";
 
         if (!$mail->send()) {
             error_log('Mailer Error: ' . $mail->ErrorInfo);

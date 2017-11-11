@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/mail/mail.php" afterPath="$PROJECT_DIR$/api/mail/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/post/notification.php" afterPath="$PROJECT_DIR$/api/post/notification.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/main.js" afterPath="$PROJECT_DIR$/bitrix/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,32 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1742">
+              <caret line="259" column="0" lean-forward="false" selection-start-line="258" selection-start-column="59" selection-end-line="259" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="notification.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/post/notification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="telegram.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/telegram/telegram.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TelegramBot.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/telegram/TelegramBot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="269">
+              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <folding>
+                <element signature="e#574#642#0#HTML" expanded="true" />
+                <element signature="e#1231#1258#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,69 +53,26 @@
       <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/mail/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="193">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.phpmaileroauth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/class.phpmaileroauth.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.pop3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/class.pop3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.smtp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/class.smtp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_oauth_token.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/get_oauth_token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PHPMailerAutoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/PHPMailerAutoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.phpmaileroauthgoogle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/class.phpmaileroauthgoogle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+              <folding>
+                <marker date="1510441516395" expanded="true" signature="188:281" ph="..." />
+                <marker date="1510441516395" expanded="true" signature="379:468" ph="..." />
+                <marker date="1510441516395" expanded="true" signature="4158:4251" ph="..." />
+                <marker date="1510441516395" expanded="true" signature="4349:4438" ph="..." />
+                <marker date="1510441516395" expanded="true" signature="9530:9623" ph="..." />
+                <marker date="1510441516395" expanded="true" signature="9721:9810" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,11 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1.8</find>
-      <find>Задать вопрос</find>
-      <find>tour-arsenal.ru</find>
-      <find>zimnie-razvlecheniya</find>
-      <find>okhota</find>
       <find>JCTitleSearch</find>
       <find>Заказать ус</find>
       <find>padding-bottom:</find>
@@ -166,6 +114,11 @@
       <find>http://tour-arsenal.by/api/post/notification.php</find>
       <find>NAME</find>
       <find>FIO</find>
+      <find>questionme</find>
+      <find>orderServicesAll</find>
+      <find>jqmClose</find>
+      <find>jqmWindow</find>
+      <find>jqmOverlay</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -265,6 +218,17 @@
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="post" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -326,17 +290,18 @@
       <workItem from="1510215006318" duration="16368000" />
       <workItem from="1510242636561" duration="6662000" />
       <workItem from="1510300156847" duration="38380000" />
-      <workItem from="1510414494131" duration="18637000" />
+      <workItem from="1510414494131" duration="23065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129522000" />
+    <option name="totallyTimeSpent" value="133950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="107" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20437567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20437567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -379,14 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/bd/connectBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -692,29 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1699">
-          <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
-          <folding>
-            <marker date="1510434248884" expanded="true" signature="188:281" ph="..." />
-            <marker date="1510434248884" expanded="true" signature="379:468" ph="..." />
-            <marker date="1510434248884" expanded="true" signature="4097:4190" ph="..." />
-            <marker date="1510434248884" expanded="true" signature="4288:4377" ph="..." />
-            <marker date="1510434248884" expanded="true" signature="9350:9443" ph="..." />
-            <marker date="1510434248884" expanded="true" signature="9541:9630" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4006">
-          <caret line="224" column="59" lean-forward="false" selection-start-line="224" selection-start-column="59" selection-end-line="224" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95247">
@@ -763,26 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/get_oauth_token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/PHPMailerAutoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/mail/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -803,11 +721,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/lib/phpmailer/get_oauth_token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="259" column="0" lean-forward="false" selection-start-line="258" selection-start-column="59" selection-end-line="259" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding>
+            <marker date="1510441516395" expanded="true" signature="188:281" ph="..." />
+            <marker date="1510441516395" expanded="true" signature="379:468" ph="..." />
+            <marker date="1510441516395" expanded="true" signature="4158:4251" ph="..." />
+            <marker date="1510441516395" expanded="true" signature="4349:4438" ph="..." />
+            <marker date="1510441516395" expanded="true" signature="9530:9623" ph="..." />
+            <marker date="1510441516395" expanded="true" signature="9721:9810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/mail/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/post/notification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="269">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <element signature="e#574#642#0#HTML" expanded="true" />
+            <element signature="e#1231#1258#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
