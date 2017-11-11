@@ -3463,3 +3463,983 @@ PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/a
 PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
 PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/contacts/"
 2017/11/11 00:56:00 [error] 1201#1201: *1738 open() "/home/andusen/www/tour-arsenal.by/galereya/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/galereya/"
+2017/11/11 01:11:09 [error] 1202#1202: *1754 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /contacts/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/galereya/"
+2017/11/11 01:11:10 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/contacts/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /contacts/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/contacts/"
+2017/11/11 01:11:40 [error] 1202#1202: *1754 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/galereya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/galereya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/galereya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/galereya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/contacts/"
+2017/11/11 01:11:40 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/galereya/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/galereya/"
+2017/11/11 01:11:57 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/price/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/11 01:12:02 [error] 1202#1202: *1754 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 01:12:02 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/price/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/price/"
+2017/11/11 01:12:23 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/services/okhota/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/okhota/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/11 01:12:53 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/services/rybalka/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/rybalka/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/okhota/"
+2017/11/11 01:13:32 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/company/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/11 01:13:36 [error] 1202#1202: *1754 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 01:13:36 [error] 1202#1202: *1754 open() "/home/andusen/www/tour-arsenal.by/company/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/"
+2017/11/11 01:44:36 [error] 1202#1202: *1786 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /contacts/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/"
+2017/11/11 01:45:25 [error] 1202#1202: *1792 open() "/home/andusen/www/tour-arsenal.by/services/okhota/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/okhota/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/11 01:47:16 [error] 1202#1202: *1795 open() "/home/andusen/www/tour-arsenal.by/services/dopolnitelnye-uslugi/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/dopolnitelnye-uslugi/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/okhota/"
+2017/11/11 01:47:32 [error] 1202#1202: *1796 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 74
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /ajax/form.php?id=19&data-trigger=%7B%22class%22%3A%22btn%20btn-default%20btn-lg%22%2C%22data-event%22%3A%22jqm%22%2C%22data-param-id%22%3A%2219%22%2C%22data-name%22%3A%22order_services%22%2C%22data-autoload-service%22%3A%22%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%22%7D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/dopolnitelnye-uslugi/"
+2017/11/11 01:48:18 [error] 1202#1202: *1796 open() "/home/andusen/www/tour-arsenal.by/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/dopolnitelnye-uslugi/"
+2017/11/11 01:48:22 [error] 1202#1202: *1796 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 01:48:22 [error] 1202#1202: *1795 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 01:48:29 [error] 1202#1202: *1795 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.b
+2017/11/11 01:48:29 [error] 1202#1202: *1795 open() "/home/andusen/www/tour-arsenal.by/company/area/logo.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/area/logo.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/area/"
+2017/11/11 01:48:29 [error] 1202#1202: *1795 open() "/home/andusen/www/tour-arsenal.by/company/area/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/area/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/area/"
+2017/11/11 01:48:36 [error] 1202#1202: *1795 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/area/"
+2017/11/11 19:40:47 [error] 1240#1240: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:40:48 [error] 1240#1240: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 19:50:19 [error] 1239#1239: *11 open() "/home/andusen/www/tour-arsenal.by/api/post/notifation" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /api/post/notifation HTTP/1.1", host: "tour-arsenal.by"
+2017/11/11 19:50:27 [error] 1239#1239: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /api/post/notifation.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:50:37 [error] 1239#1239: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /api/post/notifation.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:50:44 [error] 1239#1239: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /api/post/notifition.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:58:11 [error] 1239#1239: *26 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:58:12 [error] 1239#1239: *29 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 19:59:53 [error] 1239#1239: *29 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 19:59:54 [error] 1239#1239: *29 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:01:03 [error] 1239#1239: *29 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 20:01:05 [error] 1239#1239: *29 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:02:35 [error] 1239#1239: *54 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 20:02:36 [error] 1239#1239: *60 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:02:55 [error] 1239#1239: *60 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:02:55 [error] 1239#1239: *60 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:03:14 [error] 1239#1239: *60 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:03:14 [error] 1239#1239: *57 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:04:00 [error] 1239#1239: *57 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:04:00 [error] 1239#1239: *60 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:05:33 [error] 1239#1239: *60 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:05:33 [error] 1238#1238: *75 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:22:42 [error] 1238#1238: *90 open() "/home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/11 20:22:47 [error] 1238#1238: *90 FastCGI sent in stderr: "PHP message: PHP Warning:  include_once(.././header.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP Warning:  include_once(): Failed opening '.././header.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 20:23:02 [error] 1238#1238: *95 FastCGI sent in stderr: "PHP message: PHP Warning:  include_once(../header.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP Warning:  include_once(): Failed opening '../header.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 20:23:13 [error] 1238#1238: *91 FastCGI sent in stderr: "PHP message: PHP Warning:  include_once(.././header.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP Warning:  include_once(): Failed opening '.././header.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/11 20:24:27 [error] 1238#1238: *99 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-a
+2017/11/11 20:24:27 [error] 1238#1238: *105 open() "/home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/logo.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/logo.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:24:29 [error] 1238#1238: *101 open() "/home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/favicon.ico HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:25:54 [error] 1238#1238: *106 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:35:19 [error] 1238#1238: *113 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:35:24 [error] 1238#1238: *119 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:35:31 [error] 1238#1238: *119 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:35:34 [error] 1238#1238: *119 open() "/home/andusen/www/tour-arsenal.by/services/kafe/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/kafe/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:38:08 [error] 1238#1238: *122 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:39:52 [error] 1238#1238: *129 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:39:58 [error] 1238#1238: *131 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:40:13 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:40:18 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /contacts/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:40:21 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:40:24 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:40:32 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:40:34 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/zimnie-razvlecheniya/"
+2017/11/11 20:40:34 [error] 1238#1238: *133 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/11 20:40:37 [error] 1238#1238: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:46:47 [error] 1240#1240: *148 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:50:01 [error] 1240#1240: *155 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:51:20 [error] 1240#1240: *162 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:53:10 [error] 1240#1240: *169 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:53:42 [error] 1240#1240: *171 open() "/home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/zimnie-razvlecheniya/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/dopolnitelnye-uslugi/"
+2017/11/11 20:53:46 [error] 1240#1240: *171 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:54:12 [error] 1240#1240: *171 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:54:49 [error] 1240#1240: *171 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:55:05 [error] 1240#1240: *180 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 20:57:12 [error] 1240#1240: *186 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:03:46 [error] 1240#1240: *193 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:06:34 [error] 1240#1240: *201 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:09:42 [error] 1240#1240: *209 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:10:25 [error] 1240#1240: *213 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:12:26 [error] 1240#1240: *221 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:13:58 [error] 1240#1240: *229 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:28:27 [error] 1240#1240: *237 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:30:56 [error] 1240#1240: *250 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:32:24 [error] 1240#1240: *256 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:33:04 [error] 1240#1240: *261 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:33:56 [error] 1240#1240: *262 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:36:15 [error] 1240#1240: *273 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:39:10 [error] 1240#1240: *282 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:40:03 [error] 1240#1240: *282 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-
+2017/11/11 21:43:46 [error] 1240#1240: *296 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/zimnie-razvlecheniya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-

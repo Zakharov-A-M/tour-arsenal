@@ -751,7 +751,7 @@
 	<div class="order-block">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" data-event="jqm" data-param-id="19" data-name="order_services" data-autoload-service="Остров (Робинзонада)"><span>Заказать услугу</span></span>
+				<span class="btn btn-default btn-lg" id="orderServices" services="Остров (Робинзонада)"><span>Заказать услугу</span></span>
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-7 valign">
 				<div class="text">
