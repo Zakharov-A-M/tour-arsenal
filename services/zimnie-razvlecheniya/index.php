@@ -398,6 +398,7 @@ include_once '../../header.php';
 		</div>
 	</div>
 <script type="text/javascript">
+    $(".body").attr("class", '');
 	var jsControl = new JCTitleSearch({
 		//'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
 		'AJAX_PAGE' : '/services/zimnie-razvlecheniya/',
@@ -411,7 +412,7 @@ include_once '../../header.php';
 					</div>				</div>
 				<div class="line-row visible-xs"></div>
 			</header>
-			<div role="main" class="main" style="padding-bottom: 292px; margin-top: 153px;">
+			<div role="main" class="main">
 													<section class="page-top COLOR">
 						<div class="row">
 							<div class="maxwidth-theme">

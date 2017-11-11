@@ -177,7 +177,7 @@ $(document).ready(function(){
             flag++;
         } else {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-            if(pattern.test($(this).val())){
+            if(pattern.test($('#EMAIL').val())){
             } else {
                 $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
                 $('#EMAIL').css('border-color', '#e02222');
@@ -199,7 +199,7 @@ $(document).ready(function(){
             flag++;
         }
 
-        $.ajax({
+       /* $.ajax({
             type: 'POST',
             url: 'http://tour-arsenal.by/ajax/capcha.php',
             success: function(data){
@@ -208,15 +208,25 @@ $(document).ready(function(){
 
                 }
             }
-        });
+        });*/
 
         if ($('#processing_approval').is(":checked") ) {
         } else {
             $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
         }
 
-        if(flag = 0) {
-
+        if(flag == 0) {
+            console.log(flag);
+            $.ajax({
+                url: 'http://tour-arsenal.by/api/post/notification.php',
+                type: 'post',
+                data: {fio: $('#NAME').val(), phone: $('#PHONE').val()},
+                success: function (message) {
+                    console.log(message);
+                },
+                error: function (message) {
+                }
+            });
             test = 0;
         } else {
             test = 1;
@@ -247,7 +257,7 @@ $(document).ready(function(){
                 $('#EMAIL').css('border-color', '#e02222');
             } else {
                 var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-                if(pattern.test($(this).val())){
+                if(pattern.test($('#EMAIL').val())){
                     $('#EMAIL-error').hide();
                     $('#EMAIL').css('border-color', '#d7dee3');
                 } else {
@@ -317,7 +327,7 @@ $(document).ready(function(){
         if($('#EMAIL-email').val() == ''){
         } else {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-            if(pattern.test($('#EMAIL').val())){
+            if(pattern.test($('#EMAIL-email').val())){
             } else {
                 $('#EMAIL-email').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
                 $('#EMAIL-email').css('border-color', '#e02222');
@@ -338,7 +348,7 @@ $(document).ready(function(){
             flag++;
         }
 
-        $.ajax({
+        /*$.ajax({
             type: 'POST',
             url: 'http://tour-arsenal.by/ajax/capcha.php',
             success: function(data){
@@ -347,15 +357,24 @@ $(document).ready(function(){
 
                 }
             }
-        });
+        });*/
 
         if ($('#processing_approval').is(":checked") ) {
         } else {
             $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
         }
 
-        if(flag = 0) {
-
+        if(flag == 0) {
+            $.ajax({
+                url: 'http://tour-arsenal.by/api/post/notification.php',
+                type: 'post',
+                data: {fio: $('#FIO').val(), phone: $('#PHONE').val()},
+                success: function (message) {
+                    console.log(message);
+                },
+                error: function (message) {
+                }
+            });
             test = 0;
         } else {
             test = 1;
@@ -374,7 +393,7 @@ $(document).ready(function(){
                 $('#EMAIL-email').css('border-color', '#d7dee3');
             } else {
                 var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-                if(pattern.test($(this).val())){
+                if(pattern.test('#EMAIL-email').val()){
                     console.log('22222222');
                     $('#EMAIL-error').hide();
                     $('#EMAIL-email').css('border-color', '#d7dee3');
