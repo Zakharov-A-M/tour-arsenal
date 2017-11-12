@@ -478,9 +478,9 @@ include_once 'header.php';
 
                                     <div class="col-md-6 text">
                                         <div class="inner">
-                                            <a href="services/prokat-katamaranov" class="title-link">
+
                                                 <div class="title">Любите отдыхать активно?</div>
-                                            </a>
+
                                             <div class="text-block">
                                                 Прокат лодок, снегоходов, возможность организации рафтинга, конных прогулок, путешествия на квадроциклах и многое другое!
                                             </div>
@@ -498,9 +498,7 @@ include_once 'header.php';
                                     </div>
                                     <div class="col-md-6 img">
                                         <div class="inner">
-                                            <a href="services/prokat-katamaranov" class="image">
                                                 <img src="upload/iblock/95f/95f566b0e356b6e34cf2e48855f1766b.png" alt="Любите отдыхать активно?" title="Любите отдыхать активно?" />
-                                            </a>
                                         </div>
                                     </div>
                                 </div>

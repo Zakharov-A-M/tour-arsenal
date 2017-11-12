@@ -1,11 +1,9 @@
 <?php
-
+include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
-include_once 'api/bd/connectBD.php';
 
 
-//ConnectDB::connect_BD();
 
 ?>
 
@@ -154,7 +152,7 @@ include_once 'api/bd/connectBD.php';
                     <div class="desc_wrap col-md-7 col-sm-7">
                         <div class="row">
                             <div class="top-description col-md-5 hidden-sm hidden-xs">
-                                <a href="/"><?php echo $json->header->title;  ?></a>
+                                <a href="/"><?= $name_site;  ?></a>
                             </div>
                             <div class="scheme col-md-3 col-sm-3">
                                 <a href="http://tour-arsenal.by/contacts/"><?= $json->header->scheme ?></a>
@@ -178,7 +176,14 @@ include_once 'api/bd/connectBD.php';
                             <div class="phone pull-right hidden-xs c_2">
                                 <div class="phone-number">
                                     <div>
-                                        <a href="tel:+79216044033" rel="nofollow"><span>+7 (921)</span> 6-044-033</a><a href="tel:+79216047816" rel="nofollow"><span>+7 (921)</span> 604-78-16</a>											</div>
+                                        <?php
+                                            foreach ($phone_site as $phone) {
+                                                echo '<a href="tel:'.$phone['tel'].'" rel="nofollow">';
+                                                echo Country::getPhoneInSite($phone['tel']).'</a>';
+                                            }
+                                        ?>
+
+                                    </div>
                                 </div>
                             </div>
                             <button class="burger btn btn-responsive-nav visible-xs" data-toggle="collapse" data-target=".nav-main-collapse"></button>
