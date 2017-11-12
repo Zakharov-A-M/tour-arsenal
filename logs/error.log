@@ -1,0 +1,21 @@
+2017/11/12 23:34:26 [error] 1227#1227: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/13 00:25:37 [error] 1230#1230: *143 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: email in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 27
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29
+PHP message: PHP Notice:  Undefined index: phone in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29
+PHP message: PHP Notice:  Undefined index: service in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 30
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/reviews/"
+2017/11/13 00:26:32 [error] 1230#1230: *141 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: phone in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29
+PHP message: PHP Notice:  Undefined index: service in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 30
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/reviews/"

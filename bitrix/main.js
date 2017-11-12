@@ -3,6 +3,7 @@ $(document).ready(function(){
 
     var test = 0;
 
+
     /**
      * Заказать звонок
      */
@@ -431,6 +432,113 @@ $(document).ready(function(){
             }
         }
     });
+
+
+    /**
+     * Вызов формы для отзыва
+     */
+    $('#guestReviews').click(function () {
+        $('body').prepend('<div class="jqmOverlay" style="height: 100%; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 2999; opacity: 0.5;"></div>');
+        $('body').prepend('<div class="callback_frame jqmWindow jqm-init show" style="width: 500px; z-index: 3000; margin-left: -250px; top: 202px; opacity: 1; display: block;" </div>');
+        var action = 'guestreviews';
+        $.ajax({
+            type: 'POST',
+            url: 'http://tour-arsenal.by/ajax/form.php',
+            data: 'id='+action,
+            success: function(data){
+                $('.jqmWindow').prepend(data);
+            }
+        });
+    });
+
+
+    /**
+     * отправка формы ОТЗЫВЫ ГОСТЕЙ!
+     */
+    $("body").delegate("#postReviews", "click", function() {
+        $('#NAME-error').remove();
+        $('#EMAIL-error').remove();
+        $('#MESSAGE-error').remove();
+        $('#processing_approval-error').remove();
+        var flag = 0;
+
+        if($('#NAME').val() == ''){
+            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#NAME').css('border-color', '#e02222');
+            flag++;
+        }
+
+
+        if($('#EMAIL').val() == ''){
+            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#EMAIL').css('border-color', '#e02222');
+        } else {
+            var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+            if(pattern.test($('#EMAIL').val())){
+            } else {
+                $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
+                $('#EMAIL').css('border-color', '#e02222');
+                flag++;
+            }
+        }
+
+        if($('#MESSAGE').val() == ''){
+            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#MESSAGE').css('border-color', '#e02222');
+            flag++;
+        }
+
+        $.ajax({
+            type: 'POST',
+            url: 'http://tour-arsenal.by/ajax/capcha.php',
+            data: {recaptcha : grecaptcha.getResponse()},
+            success: function(data){
+                if (+data == 0) {
+                    $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                    flag++;
+                } else {
+                    $('.g-recaptcha>div').css('border', '');
+                }
+            }
+        });
+
+        if ($('#processing_approval').is(":checked") ) {
+        } else {
+            flag++;
+            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
+        }
+
+        var data = new FormData();
+        $.each( files, function( key, value ){
+            data.append( key, value );
+        });
+
+
+        if(flag == 0) {
+            $.ajax({
+                url: 'http://tour-arsenal.by/api/post/notification.php',
+                type: 'post',
+                data: {name: $('#NAME').val(), email: $('#EMAIL').val(), message: $('#MESSAGE').val(),  id: 4},
+                success: function (message) {
+                    console.log(message);
+                },
+                error: function (message) {
+                }
+            });
+            test = 0;
+        } else {
+            test = 1;
+        }
+
+    });
+
+    var files;
+
+
+
+
+    // Вешаем функцию на событие
+    // Получим данные файлов и добавим их в переменную
 
 
 

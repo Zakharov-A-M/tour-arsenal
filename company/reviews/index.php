@@ -460,7 +460,7 @@ include_once '../../header.php';
 <div class="fonotzyv">
 							<p><?= $json->aboutUs->guestReviews->text[1] ?></p>
 							
-									<span class="btn btn-default white_br white btn-lg otzbt" data-event="jqm" data-param-id="23" data-name="question"><?= $json->aboutUs->guestReviews->mainText ?></span>								</div></div>
+									<span class="btn btn-default white_br white btn-lg otzbt" id="guestReviews"><?= $json->aboutUs->guestReviews->mainText ?></span>								</div></div>
 		<div class="item-views  image_left reviews">
 		
 			<div class="group-content">

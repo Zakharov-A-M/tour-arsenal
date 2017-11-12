@@ -455,7 +455,13 @@ include_once '../header.php';
 							</td>
 							<td align="left" valign="top"><i class="fa colored fa-phone"></i></td><td align="left" valign="top"> <span class="dark_table"><?= $json->contacts->phone->mainText ?></span>
 								<br />
-								<span itemprop="telephone">+7 (921) 6-044-033<br/>+7 (921) 604-78-16</span>
+								<span itemprop="telephone">
+                                    <?php
+                                        foreach ($phone_site as $item) {
+                                            Country::getPhoneInSite($item['tel'], '<br>');
+                                        }
+                                    ?>
+                                </span>
 							</td>
 						</tr>
 						<tr>
@@ -638,7 +644,7 @@ function BXMapYandexAfterShow(mapId)
 									<div class="compass">
 										<i class="fa"></i>
 										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
-									<div class="contacts"><a class="btn btn-default" href="../contacts">f</a></div>
+									<div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
 								</div>
 							</div>
 							<div class="col-md-9 col-sm-12">
@@ -649,14 +655,14 @@ function BXMapYandexAfterShow(mapId)
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../company/">О нас</a>
+															<a href="../company">О нас</a>
 													</div>
 					</div>
 				</div>
 											<div class="col-md-4 col-sm-6">
 					<div class="item">
 						<div class="title">
-															<a href="../rooms/">Размещение</a>
+															<a href="../rooms">Размещение</a>
 													</div>
 					</div>
 				</div>

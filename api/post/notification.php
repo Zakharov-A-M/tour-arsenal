@@ -18,6 +18,9 @@ if ($_POST) {
         case 3:
             $data['action'] = "Заказали услугу";
             break;
+        case 4:
+            $data['action'] = "Оставили отзыв";
+            break;
     }
 
 
