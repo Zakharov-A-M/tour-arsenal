@@ -46,7 +46,6 @@ $(document).ready(function(){
         $('#PHONE-error').remove();
         $('#processing_approval-error').remove();
         var flag = 0;
-        console.log(flag);
         if($('#FIO').val() == ''){
             $('#FIO').before('<label id="FIO-error" class="error" for="PHONE">Заполните это поле!</label>');
             $('#FIO').css('border-color', '#e02222');
@@ -58,16 +57,19 @@ $(document).ready(function(){
             flag++;
         }
 
-       /* $.ajax({
+        $.ajax({
             type: 'POST',
             url: 'http://tour-arsenal.by/ajax/capcha.php',
+            data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
-                if (data == 'no') {
-                    $('.rc-anchor-light').css('border-color', '#e02222');
-
+                if (+data == 0) {
+                    $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                    flag++;
+                } else {
+                    $('.g-recaptcha>div').css('border', '');
                 }
             }
-        });*/
+        });
 
         if ($('#processing_approval').is(":checked") ) {
         } else {
@@ -200,19 +202,23 @@ $(document).ready(function(){
             flag++;
         }
 
-       /* $.ajax({
+        $.ajax({
             type: 'POST',
             url: 'http://tour-arsenal.by/ajax/capcha.php',
+            data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
-                if (data == 'no') {
-                    $('.rc-anchor-light').css('border-color', '#e02222');
-
+                if (+data == 0) {
+                    $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                    flag++;
+                } else {
+                    $('.g-recaptcha>div').css('border', '');
                 }
             }
-        });*/
+        });
 
         if ($('#processing_approval').is(":checked") ) {
         } else {
+            flag++;
             $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
         }
 
@@ -349,19 +355,23 @@ $(document).ready(function(){
             flag++;
         }
 
-        /*$.ajax({
+        $.ajax({
             type: 'POST',
             url: 'http://tour-arsenal.by/ajax/capcha.php',
+            data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
-                if (data == 'no') {
-                    $('.rc-anchor-light').css('border-color', '#e02222');
-
+                if (+data == 0) {
+                    $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                    flag++;
+                } else {
+                    $('.g-recaptcha>div').css('border', '');
                 }
             }
-        });*/
+        });
 
         if ($('#processing_approval').is(":checked") ) {
         } else {
+            flag++;
             $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
         }
 

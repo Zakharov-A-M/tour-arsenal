@@ -160,7 +160,8 @@ include_once 'api/bd/connectBD.php';
                                 <a href="http://tour-arsenal.by/contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="http://tour-arsenal.by"><img src="http://tour-arsenal.by/logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>									</div>
+                                <a href="http://tour-arsenal.by"><img src="http://tour-arsenal.by/logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>
+                            </div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
                                 <div class="nav-main-collapse">

@@ -6909,3 +6909,1004 @@ PHP message: PHP Notice:  Undefined index: service in /home/andusen/www/tour-ars
 PHP message: PHP Stack trace:
 PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
 PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:26" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/12 13:44:25 [error] 1206#1206: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 13:44:25 [error] 1206#1206: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 13:44:43 [error] 1206#1206: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response= HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 13:44:44 [error] 1206#1206: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: email in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 27
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:26
+PHP message: PHP Notice:  Undefined index: message in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:26
+PHP message: PHP Notice:  Undefined index: service in /home/andusen/www/tour-arsenal.by/api/mail/mail.php on line 30
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:26" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:02:20 [error] 1205#1205: *14 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 14:02:21 [error] 1203#1203: *19 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:02:30 [error] 1203#1203: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response= HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:03:47 [error] 1205#1205: *24 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 14:03:49 [error] 1205#1205: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:04:06 [error] 1205#1205: *27 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response=03AHhf_52NhJc_oO14x-DOIHCsloOSd4tLO93KiFas6uAMvMkZgf2g2SO2Ryt9u78dsgJyxiR7NFLfNDXVOghNnv5RV98VZr0ZBK3606eDYYaozjbHUlOQK3pdwNYGSSk9GAtAW_HiMBQhDlGK8A3C3fK191wUvc9gJmLYRW6tezxplbmWpxen64NrsrlXk7JQt2hrfL6Vy5wHR_wL32lqMiuUfmwsUykQHy7y48wvkWulaANBMK_eT1OfGLNTdHkBhLHdzyfkjB5XUW1d51Mh62ld5HSX1OuLIdnY0AmraSNBcuOAl_BqzLYcJ1Tfp5Ht291ReH-BaDqjdz3GkYXRmCQQGKjU58ORwq_ZUob-cvxLKecu313aJF-Fx6OT3_L9vCR1Pm_SxttpZq6jLY9yryKm8HQWwzhD7mVvi9JPob6oVIQTWCPJDww HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:04:34 [error] 1205#1205: *27 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 14:04:35 [error] 1205#1205: *30 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 14:04:43 [error] 1205#1205: *30 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response=03AHhf_50r0PNIV_-N_wSpPA3K4r4kZ1AS1BIr2VJ7j7MYWy3yHM_RQ78aLZVuQPc2PYqSsW2bjPEgLT6FyJQ6naJ0BGj1HeV_8xO1Nq8bsbV0x4GjYVWU3SAs1eFcHikFKuFxjpxvDMQtrIrv90ZInrUtZGwgEZW32Y0u70u6xEZ49c0YyiDMXeH7iC6LFwgBCTAmY4iTYfbZkJHbqSk39qOcKXX3kvMj4ss09CGTEX1aL3teQU0oiMwmZ93am1c8clB6J-lgdd0iVvHegxjDl8cMBdPugVkaO7mzSPo-O9zfSAZqAcE7F_jK1m6eEQVP4btAgN_soFHLaRS6Vbp4QbBPyHrSQN06DX6dzkMg93l0pSKHK6BDEHcXNhLKU02ylEg4EWWSeRJUvdJuZHdrIFi5XL_OwxYb7KrYEl6FHwKRUyshPBHlVoQ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:25:45 [error] 1205#1205: *38 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:25:45 [error] 1205#1205: *43 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:25:53 [error] 1205#1205: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response=03AHhf_53CcUeYO6FxbDmb46RUVUGts57kxi1WDFLsVeFGqrvJ1ygPTz5_E9oMG9KscbPDujkY3E3JNUnd9cxm_tnqj-tj_U_FlfP96kQxnYOK7PNaqTlQGxo1m1HJFjb4QZS2T3ORZO7L4z_hPkKJ4hLgpZZfYZeGhcNk4wTZaBsjBZRLUdM6r6Ky4OJqm1tCfOF2rW95TsnpRiQGxz8U1uzx38fb8BiA4hHrTpSXCElwDpwqcyJ_9bdIZI-cOm9z-vqnNtgR58e1xCicNaT-sv3PzfCjgqihIMJTItp_av65hXJuzrxFz7R6UrHFC4tRXLj-73Pa_NAiEPrGOE36fQDbNToM1V7NRwVf0dQUPwofqS5pjAqOuIG9jlBEGB2KXcwLusVoQcbngPzNxpHKd0TXPnlo1MdfLn-pUeeqndQVjHUfhpUs2Bs HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:27:39 [error] 1205#1205: *48 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:27:40 [error] 1206#1206: *54 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:27:46 [error] 1206#1206: *54 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php?g-recaptcha-response=03AHhf_53NXHNyKmHIIm15sQE233DrPAVJ3_JtJC0RYNQ1CsFVeILVUsz6cAX4ohCEROjC3Eob-0T6x3hILY_4k9sSgNsjPoHQ2K3rPlMEj7Hwo5ZTkMu_-ugA--XSwLSjZ1z1WQfWPEHAMuVfeKs4N7-wYz7BNL-WV80pUL5Ve3C632aYT673yVF5xA1Rzd97FfxjmwTwDYx3rLwNF6eui2dgGh8QlGi6R2Ad3q53ruCDGH1OWeyoIjK81F5bAvqNVI2LGtNxx-bDTmiTzc2n4z3GTBlnhwE--Gaseb3Wx9NmuHEWzUT88YZq1licKVIMsq2yfiz36HkWJ1Vd2EaksnUfUIa30tQ_RsCF2K1m26vECG_udXK4xSDsrCrlY6Rtx_ODsmWprdvPCyok5tOkFDFijF2-Vua4o-6utFOqp3-Tw97apQ1KW8k HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:35:31 [error] 1205#1205: *58 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:35:31 [error] 1205#1205: *64 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:35:50 [error] 1205#1205: *64 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:35:51 [error] 1205#1205: *61 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:36:00 [error] 1205#1205: *61 FastCGI sent in stderr: "PHP message: PHP Notice:  Use of undefined constant msg - assumed 'msg' in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:37:14 [error] 1205#1205: *70 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:37:15 [error] 1205#1205: *75 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:37:22 [error] 1205#1205: *75 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:39:29 [error] 1205#1205: *80 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:42:12 [error] 1205#1205: *82 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:42:13 [error] 1205#1205: *84 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:42:20 [error] 1205#1205: *84 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: g-recaptcha-response in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:43:47 [error] 1205#1205: *92 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:43:48 [error] 1205#1205: *97 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:43:53 [error] 1205#1205: *97 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'g-recaptcha-response' in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:45:40 [error] 1205#1205: *102 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:45:40 [error] 1205#1205: *102 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:45:56 [error] 1205#1205: *102 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'g-recaptcha-response' in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:46:42 [error] 1205#1205: *102 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:46:43 [error] 1205#1205: *107 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:47:05 [error] 1205#1205: *107 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'g-recaptcha-response' in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:49:27 [error] 1205#1205: *116 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:49:28 [error] 1205#1205: *119 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:49:43 [error] 1205#1205: *119 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: msg in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0
+PHP message: PHP Notice:  Undefined variable: result in /home/andusen/www/tour-arsenal.by/ajax/capcha.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/capcha.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/capcha.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:52:03 [error] 1205#1205: *126 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:52:03 [error] 1205#1205: *126 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:54:23 [error] 1205#1205: *136 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:54:23 [error] 1205#1205: *136 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:55:13 [error] 1205#1205: *136 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:55:14 [error] 1205#1205: *141 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:57:42 [error] 1205#1205: *150 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:57:43 [error] 1205#1205: *153 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:58:06 [error] 1205#1205: *153 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:58:06 [error] 1205#1205: *152 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 15:59:42 [error] 1205#1205: *164 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 15:59:42 [error] 1205#1205: *164 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:00:23 [error] 1205#1205: *164 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:00:23 [error] 1205#1205: *167 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:01:03 [error] 1205#1205: *167 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:01:03 [error] 1205#1205: *168 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:01:36 [error] 1205#1205: *168 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:01:37 [error] 1205#1205: *166 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:03:21 [error] 1206#1206: *188 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:03:21 [error] 1206#1206: *188 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:03:55 [error] 1206#1206: *188 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:03:56 [error] 1206#1206: *191 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:05:42 [error] 1206#1206: *202 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:05:42 [error] 1206#1206: *204 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:07:12 [error] 1206#1206: *213 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:07:13 [error] 1206#1206: *213 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:10:37 [error] 1206#1206: *223 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:10:37 [error] 1206#1206: *225 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:12:10 [error] 1206#1206: *233 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:12:11 [error] 1206#1206: *237 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:12:47 [error] 1206#1206: *237 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:12:47 [error] 1206#1206: *235 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:15:44 [error] 1206#1206: *247 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:15:45 [error] 1206#1206: *250 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:15:54 [error] 1206#1206: *250 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:15:55 [error] 1206#1206: *247 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:16:54 [error] 1206#1206: *247 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:16:55 [error] 1206#1206: *249 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:18:42 [error] 1206#1206: *263 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:18:42 [error] 1206#1206: *266 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:23:24 [error] 1206#1206: *273 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:23:24 [error] 1204#1204: *276 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:23:49 [error] 1204#1204: *276 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:23:50 [error] 1204#1204: *279 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:25:18 [error] 1206#1206: *287 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:25:19 [error] 1206#1206: *292 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:26:11 [error] 1206#1206: *292 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:26:12 [error] 1206#1206: *287 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:27:34 [error] 1206#1206: *287 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:27:34 [error] 1206#1206: *310 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:31:52 [error] 1206#1206: *316 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:31:52 [error] 1206#1206: *322 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:38:12 [error] 1206#1206: *333 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:38:12 [error] 1206#1206: *335 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:39:45 [error] 1206#1206: *335 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:39:46 [error] 1206#1206: *350 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:40:43 [error] 1206#1206: *350 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:40:43 [error] 1206#1206: *348 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:42:37 [error] 1203#1203: *364 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:42:37 [error] 1203#1203: *370 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:43:48 [error] 1203#1203: *374 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:43:48 [error] 1203#1203: *380 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:44:09 [error] 1203#1203: *380 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:44:09 [error] 1203#1203: *374 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:45:50 [error] 1203#1203: *374 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:45:50 [error] 1203#1203: *391 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:45:56 [error] 1203#1203: *391 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:45:57 [error] 1203#1203: *392 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:51:00 [error] 1203#1203: *408 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:51:01 [error] 1203#1203: *410 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:53:43 [error] 1203#1203: *417 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:53:43 [error] 1203#1203: *421 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:55:17 [error] 1203#1203: *426 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:55:18 [error] 1203#1203: *426 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 16:57:05 [error] 1203#1203: *435 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 16:57:05 [error] 1203#1203: *441 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:27:16 [error] 1203#1203: *448 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/and
+2017/11/12 17:27:18 [error] 1203#1203: *448 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/dosug-v-lesu-griby-yagody/index.php:2
+PHP message: PHP   3. include_
+2017/11/12 17:27:30 [error] 1203#1203: *451 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/rybalka/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/and
+2017/11/12 17:34:35 [error] 1203#1203: *458 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/12 17:35:15 [error] 1203#1203: *458 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/burger_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/burger_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:15 [error] 1203#1203: *460 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/marker_mobile_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/marker_mobile_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:34 [error] 1203#1203: *460 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/rybalka/"
+2017/11/12 17:35:34 [error] 1203#1203: *462 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/marker_mobile_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/marker_mobile_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:34 [error] 1203#1203: *462 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/burger_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/burger_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:41 [error] 1203#1203: *462 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:35:41 [error] 1203#1203: *462 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/marker_mobile_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/marker_mobile_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:41 [error] 1203#1203: *463 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/burger_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/burger_mask.png HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481"
+2017/11/12 17:35:41 [error] 1203#1203: *463 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:35:53 [error] 1203#1203: *463 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/marker_mobile_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/marker_mobile_mask.png HTTP/1.1", host: "tour-arsenal.by"
+2017/11/12 17:36:27 [error] 1203#1203: *463 open() "/home/andusen/www/tour-arsenal.by/bitrix/templates/aspro-resort/images/burger_mask.png" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /bitrix/templates/aspro-resort/images/burger_mask.png HTTP/1.1", host: "tour-arsenal.by"
+2017/11/12 17:36:52 [error] 1203#1203: *463 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:36:53 [error] 1203#1203: *463 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:38:43 [error] 1203#1203: *475 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:38:43 [error] 1203#1203: *477 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:39:09 [error] 1203#1203: *477 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:39:10 [error] 1203#1203: *475 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:43:48 [error] 1203#1203: *485 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:43:49 [error] 1203#1203: *489 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:44:40 [error] 1203#1203: *489 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:44:41 [error] 1203#1203: *487 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:45:02 [error] 1203#1203: *487 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:45:02 [error] 1203#1203: *487 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:46:41 [error] 1203#1203: *497 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:46:42 [error] 1203#1203: *502 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:53:59 [error] 1203#1203: *505 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:53:59 [error] 1203#1203: *505 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:54:37 [error] 1203#1203: *505 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:54:38 [error] 1203#1203: *510 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:56:01 [error] 1203#1203: *510 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:56:02 [error] 1203#1203: *518 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:56:54 [error] 1203#1203: *518 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:56:55 [error] 1203#1203: *520 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:58:44 [error] 1203#1203: *524 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:58:44 [error] 1203#1203: *528 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:59:06 [error] 1203#1203: *528 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:59:07 [error] 1203#1203: *527 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 17:59:30 [error] 1203#1203: *527 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 17:59:31 [error] 1203#1203: *528 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:01:04 [error] 1203#1203: *536 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:01:05 [error] 1203#1203: *539 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:03:41 [error] 1203#1203: *544 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:03:42 [error] 1203#1203: *547 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:04:24 [error] 1203#1203: *547 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:04:25 [error] 1203#1203: *544 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:05:11 [error] 1203#1203: *544 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:05:12 [error] 1203#1203: *548 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:07:00 [error] 1203#1203: *556 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:07:00 [error] 1203#1203: *562 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:07:46 [error] 1203#1203: *562 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:07:46 [error] 1203#1203: *558 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:09:25 [error] 1203#1203: *566 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:09:26 [error] 1203#1203: *571 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:10:52 [error] 1203#1203: *572 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:10:53 [error] 1203#1203: *571 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:11:40 [error] 1203#1203: *571 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:11:40 [error] 1203#1203: *571 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:15:02 [error] 1203#1203: *582 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:15:03 [error] 1203#1203: *585 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:15:31 [error] 1203#1203: *585 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:15:32 [error] 1203#1203: *586 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:17:54 [error] 1203#1203: *592 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:17:55 [error] 1203#1203: *596 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:20:07 [error] 1203#1203: *601 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:20:07 [error] 1203#1203: *606 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:21:22 [error] 1203#1203: *608 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:21:22 [error] 1203#1203: *610 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:23:28 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:23:28 [error] 1203#1203: *616 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:23:49 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/"
+2017/11/12 18:23:50 [error] 1203#1203: *616 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:24:48 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:24:52 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45
+PHP message: PHP Warning:  file_get_contents(../translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/company/area/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/company/area/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by
+2017/11/12 18:24:59 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/galereya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/galereya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/galereya/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/galereya/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:25:05 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/services/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/services/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /services/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:25:27 [error] 1203#1203: *616 open() "/home/andusen/www/tour-arsenal.by/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/services/prokat-katamaranov/"
+2017/11/12 18:25:31 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 18:25:31 [error] 1203#1203: *616 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:26:27 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/contacts/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/contacts/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /contacts/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:26:30 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/contacts/"
+2017/11/12 18:26:30 [error] 1203#1203: *616 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:26:39 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/price/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/price/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/12 18:27:12 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/price/"
+2017/11/12 18:27:39 [error] 1203#1203: *647 open() "/home/andusen/www/tour-arsenal.by/promo/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/promo/otdykh-so-skidkoy/"
+2017/11/12 18:27:42 [error] 1203#1203: *647 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33
+PHP message: PHP Warning:  file_get_contents(./translations/ru.json): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/api/func.php on line 45
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/promo/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/promo/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Func::getСontentPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:35
+PHP message: PHP   6. file_get_contents() /home/andusen/www/tour-arsenal.by/api/func.php:45" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 18:28:29 [error] 1203#1203: *616 open() "/home/andusen/www/tour-arsenal.by/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/promo/novyy-god-2017-2018/"
+2017/11/12 18:28:33 [error] 1203#1203: *616 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/api/country/country.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/index.php:2
+PHP message: PHP   3. include_once() /home/andusen/www/tour-arsenal.by/header.php:4
+PHP message: PHP   4. Country::getTextPage() /home/andusen/www/tour-arsenal.by/api/country/country.php:44
+PHP message: PHP   5. Country::getCountry() /home/andusen/www/tour-arsenal.by/api/country/country.php:33" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/12 18:28:33 [error] 1203#1203: *616 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"

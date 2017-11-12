@@ -9,7 +9,7 @@ if($_POST['id'] == 'call') {
     <div id="comp_c6dbabef203591a9f020e3e2dec22dbc">
         <div class="form popup">
 
-            <form name="aspro_resort_callback">
+            <form name="aspro_resort_callback" id="form">
                 <div class="form-header">
                     <i class="fa fa-phone"></i>
                     <div class="text">
@@ -38,7 +38,7 @@ if($_POST['id'] == 'call') {
                             <div class="col-md-12">
                                 <label>Подтвердите, что вы не робот:<span class="required-star">*</span></label>																	<div class="input ">
                                     <input type="hidden" class="recaptcha" name="recaptcha" id="recaptcha">
-                                    <div class="g-recaptcha" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi" data-callback="reCaptchaVerify" data-theme="light" data-size="normal"></div>
+                                    <div class="g-recaptcha" data-callback="imNotARobot" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi"></div>
                                 </div>
                             </div>
                         </div>
@@ -63,6 +63,23 @@ if($_POST['id'] == 'call') {
             </form>	</div>
        </div>
 
+    <script type="text/javascript">
+        var imNotARobot = function() {
+            $.ajax({
+                type: 'POST',
+                url: 'http://tour-arsenal.by/ajax/capcha.php',
+                data: {recaptcha : grecaptcha.getResponse()},
+                success: function(data){
+                    if (+data == 0) {
+                        $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                        flag++;
+                    } else {
+                        $('.g-recaptcha>div').css('border', '');
+                    }
+                }
+            });
+        };
+    </script>
 
 
 <?php
@@ -139,7 +156,7 @@ if($_POST['id'] == 'question') {
                             <div class="col-md-12">
                                 <label>Подтвердите, что вы не робот:<span class="required-star">*</span></label>																	<div class="input ">
                                     <input type="hidden" class="recaptcha" name="recaptcha" id="recaptcha">
-                                    <div class="g-recaptcha" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi" data-callback="reCaptchaVerify" data-theme="light" data-size="normal"></div>
+                                    <div class="g-recaptcha" data-callback="imNotARobot" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi" data-callback="reCaptchaVerify" data-theme="light" data-size="normal"></div>
                                 </div>
                             </div>
                         </div>
@@ -163,6 +180,24 @@ if($_POST['id'] == 'question') {
                 </div>
             </form>	</div>
        </div>
+
+    <script type="text/javascript">
+        var imNotARobot = function() {
+            $.ajax({
+                type: 'POST',
+                url: 'http://tour-arsenal.by/ajax/capcha.php',
+                data: {recaptcha : grecaptcha.getResponse()},
+                success: function(data){
+                    if (+data == 0) {
+                        $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                        flag++;
+                    } else {
+                        $('.g-recaptcha>div').css('border', '');
+                    }
+                }
+            });
+        };
+    </script>
 
 <?php
 
@@ -239,7 +274,7 @@ if($_POST['id'] == 'orderservices') {
                             <div class="col-md-12">
                                 <label>Подтвердите, что вы не робот:<span class="required-star">*</span></label>																	<div class="input ">
                                     <input type="hidden" class="recaptcha" name="recaptcha" id="recaptcha">
-                                    <div class="g-recaptcha" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi" data-callback="reCaptchaVerify" data-theme="light" data-size="normal"></div>
+                                    <div class="g-recaptcha" data-callback="imNotARobot" data-sitekey="6LdnBTgUAAAAADEc2bmSdxiEmYWxBAKlvWx_mcDi" data-callback="reCaptchaVerify" data-theme="light" data-size="normal"></div>
                                 </div>
                             </div>
                         </div>
@@ -263,6 +298,24 @@ if($_POST['id'] == 'orderservices') {
                 </div>
             </form>	</div>
         </div>
+
+    <script type="text/javascript">
+        var imNotARobot = function() {
+            $.ajax({
+                type: 'POST',
+                url: 'http://tour-arsenal.by/ajax/capcha.php',
+                data: {recaptcha : grecaptcha.getResponse()},
+                success: function(data){
+                    if (+data == 0) {
+                        $('.g-recaptcha>div').css('border', '1px solid #e02222');
+                        flag++;
+                    } else {
+                        $('.g-recaptcha>div').css('border', '');
+                    }
+                }
+            });
+        };
+    </script>
 
 <?php
 

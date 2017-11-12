@@ -115,14 +115,14 @@ include_once 'header.php';
                                                 <a class="" href="contacts" title="<?= $json->menu->contacts->name?>">
                                                     <?= $json->menu->contacts->name?>											</a>
                                             </li>
-                                            <div class="search">
+                                            <!--<div class="search">
                                                 <div class="search-input-div">
                                                     <input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="" value="" name="q">
                                                 </div>
                                                 <div class="search-button-div">
                                                     <button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </ul>
                                     </div>
                                     <div class="table-menu hidden-xs">
@@ -242,13 +242,13 @@ include_once 'header.php';
                                                         <ul class="dropdown-menu"></ul>
                                                     </div>
                                                 </td>
-                                                <td class="search-item nosave">
+                                               <!-- <td class="search-item nosave">
                                                     <div class="wrap">
                                                         <a href="/">
                                                             <i class="fa fa-search"></i>
                                                         </a>
                                                     </div>
-                                                </td>
+                                                </td> -->
                                             </tr>
                                         </table>
                                     </div>
@@ -358,14 +358,14 @@ include_once 'header.php';
                                             <a class="" href="contacts" title="<?= $json->menu->contacts->name?>">
                                                 <?= $json->menu->contacts->name?>									</a>
                                         </li>
-                                        <div class="search">
+                                        <!--<div class="search">
                                             <div class="search-input-div">
                                                 <input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="Найти" value="" name="q">
                                             </div>
                                             <div class="search-button-div">
                                                 <button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
                                             </div>
-                                        </div>
+                                        </div>-->
                                     </ul>
                                 </nav>
                             </div>
