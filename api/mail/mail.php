@@ -24,19 +24,17 @@ class Mail
         $mail->Subject = $data['action'];
         $mail->Body = " <h3> {$data['action']}</h3><br><br>";
         foreach ($data as $key => $item) {
-            if ($key != 'action' && $key != 'id') {
+            if ($key != 'action' && $key != 'id' && $key != 'file' && $key != 'file_name') {
                 $mail->Body .= '<span>' .ucfirst($key). ': '. $item .'</span><br>';
             }
         }
 
-                      /*  <span>Name: {$data['name']}</span><br>
-                        <span>E-mail: {$data['email']}</span><br>
-                        <span>Phone: {$data['phone']}</span><br>
-                        <span>Message: {$data['message']}</span><br>
-                        <span>Service: {$data['service']}</span><br>";*/
+        if (isset($data['file'])) {
+            $mail->addAttachment($data['file'], $data['file_name']);
+        }
 
         if (!$mail->send()) {
-            error_log('Mailer Error: ' . $mail->ErrorInfo);
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
             return true;
         }

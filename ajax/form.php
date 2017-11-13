@@ -412,15 +412,6 @@ if($_POST['id'] == 'guestreviews') {
         </div>
 
     <script type="text/javascript">
-        var files;
-
-        $('input[type=file]').change(function(){
-            files = this.files;
-            //console.log(files);
-            $('.filename').text(files[0].name);
-            console.log(files[0].name);
-        });
-
 
         var imNotARobot = function() {
             $.ajax({

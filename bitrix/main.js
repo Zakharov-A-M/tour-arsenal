@@ -2,6 +2,8 @@
 $(document).ready(function(){
 
     var test = 0;
+    var files;
+    var data = new FormData();
 
 
     /**
@@ -229,7 +231,8 @@ $(document).ready(function(){
                 type: 'post',
                 data: {name: $('#NAME').val(), email: $('#EMAIL').val(), phone: $('#PHONE').val(), message: $('#MESSAGE').val(), service: $('#NEED_PRODUCT').val(), id: 2},
                 success: function (message) {
-                    console.log(message);
+                    $('.jqmWindow').remove();
+                    $('body').prepend(message);
                 },
                 error: function (message) {
                 }
@@ -381,7 +384,8 @@ $(document).ready(function(){
                 type: 'post',
                 data: {name: $('#NAME').val(), email: $('#EMAIL-email').val(), phone: $('#PHONE').val(), message: $('#MESSAGE-message').val(), service: $('#SERVICE-service').val(), id: 3},
                 success: function (message) {
-                    console.log(message);
+                    $('.jqmWindow').remove();
+                    $('body').prepend(message);
                 },
                 error: function (message) {
                 }
@@ -507,19 +511,24 @@ $(document).ready(function(){
             $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
         }
 
-        var data = new FormData();
-        $.each( files, function( key, value ){
-            data.append( key, value );
-        });
-
 
         if(flag == 0) {
+
+            data.append('name', $('#NAME').val());
+            data.append('email', $('#EMAIL').val());
+            data.append('message', $('#MESSAGE').val());
+            data.append('id', 4);
             $.ajax({
                 url: 'http://tour-arsenal.by/api/post/notification.php',
                 type: 'post',
-                data: {name: $('#NAME').val(), email: $('#EMAIL').val(), message: $('#MESSAGE').val(),  id: 4},
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: data,
                 success: function (message) {
                     console.log(message);
+                    $('.jqmWindow').remove();
+                    $('body').prepend(message);
                 },
                 error: function (message) {
                 }
@@ -531,7 +540,20 @@ $(document).ready(function(){
 
     });
 
-    var files;
+
+
+    $("body").delegate('input[type=file]', 'change', function() {
+        files = this.files;
+       // console.log(files[0]);
+        $.each(files, function( key, value ){
+            data.append('file_v', value );
+        });
+        $('.filename').text(files[0].name);
+       // console.log(data);
+    });
+   /* "image/png"
+    text/plain
+    "image/jpeg"*/
 
 
 
