@@ -15,7 +15,6 @@ class TelegramBot
             $this->url .= '?'.http_build_query($params);
         }
 
-        var_dump($this->url);
         return file_get_contents($this->url);
     }
 

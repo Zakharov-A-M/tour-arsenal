@@ -22,12 +22,18 @@ class Mail
         $mail->addAddress('morgan.zaharov@yandex.ru');
         $mail->isHTML(true);
         $mail->Subject = $data['action'];
-        $mail->Body = " <h3> {$data['action']}</h3><br><br>
-                        <span>Name: {$data['name']}</span><br>
+        $mail->Body = " <h3> {$data['action']}</h3><br><br>";
+        foreach ($data as $key => $item) {
+            if ($key != 'action' && $key != 'id') {
+                $mail->Body .= '<span>' .ucfirst($key). ': '. $item .'</span><br>';
+            }
+        }
+
+                      /*  <span>Name: {$data['name']}</span><br>
                         <span>E-mail: {$data['email']}</span><br>
                         <span>Phone: {$data['phone']}</span><br>
                         <span>Message: {$data['message']}</span><br>
-                        <span>Service: {$data['service']}</span><br>";
+                        <span>Service: {$data['service']}</span><br>";*/
 
         if (!$mail->send()) {
             error_log('Mailer Error: ' . $mail->ErrorInfo);

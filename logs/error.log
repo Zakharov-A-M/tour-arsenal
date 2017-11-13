@@ -19,3 +19,14 @@ PHP message: PHP Notice:  Undefined index: service in /home/andusen/www/tour-ars
 PHP message: PHP Stack trace:
 PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
 PHP message: PHP   2. Mail->sendMail() /home/andusen/www/tour-arsenal.by/api/post/notification.php:29" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/reviews/"
+2017/11/13 11:28:38 [error] 1205#1205: *31 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: telegramBot in /home/andusen/www/tour-arsenal.by/api/post/notification.php on line 87
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/api/post/notification.php:0
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getUpdates() on null in /home/andusen/www/tour-arsenal.by/api/post/notification.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/api/post/notification.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /api/post/notification.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/13 11:43:11 [error] 1205#1205: *47 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/13 12:02:54 [error] 1205#1205: *65 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/13 12:10:24 [error] 1205#1205: *75 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/13 12:15:48 [error] 1204#1204: *91 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"

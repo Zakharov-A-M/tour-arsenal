@@ -224,7 +224,6 @@ $(document).ready(function(){
         }
 
         if(flag == 0) {
-            console.log($('#NEED_PRODUCT').val());
             $.ajax({
                 url: 'http://tour-arsenal.by/api/post/notification.php',
                 type: 'post',
