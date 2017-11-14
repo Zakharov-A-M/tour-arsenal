@@ -4,6 +4,7 @@ $(document).ready(function(){
     var test = 0;
     var files;
     var data = new FormData();
+    var expansion = ['png', 'ico', 'jpg'];
 
 
     /**
@@ -462,6 +463,7 @@ $(document).ready(function(){
         $('#NAME-error').remove();
         $('#EMAIL-error').remove();
         $('#MESSAGE-error').remove();
+        $('#uniform-STUDY-error').remove();
         $('#processing_approval-error').remove();
         var flag = 0;
 
@@ -512,6 +514,23 @@ $(document).ready(function(){
         }
 
 
+        var str = $('.filename').html();
+        var pos = str.lastIndexOf('.')+1;
+        var parts = str.substr(pos, str.length - pos);
+        if (expansion.indexOf(parts) >= 0) {
+            $('#uniform-STUDY-error').remove();
+            $('.uploader').css('border-color', '#d7dee3');
+        } else {
+            files = '';
+            $('input[type=file]').val('');
+            $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">Недопустимое расширение файла!</label>');
+            $('.uploader').css('border-color', '#e02222');
+            $('.filename').text('Файл не найден');
+            flag++;
+        }
+
+
+
         if(flag == 0) {
 
             data.append('name', $('#NAME').val());
@@ -526,7 +545,6 @@ $(document).ready(function(){
                 processData: false,
                 data: data,
                 success: function (message) {
-                    console.log(message);
                     $('.jqmWindow').remove();
                     $('body').prepend(message);
                 },
@@ -541,26 +559,29 @@ $(document).ready(function(){
     });
 
 
-
+    /**
+     * Загрузка файла
+     */
     $("body").delegate('input[type=file]', 'change', function() {
+        $('#uniform-STUDY-error').remove();
+        $('.uploader').css('border-color', '#d7dee3');
         files = this.files;
-       // console.log(files[0]);
-        $.each(files, function( key, value ){
-            data.append('file_v', value );
-        });
-        $('.filename').text(files[0].name);
-       // console.log(data);
+        var pos = files[0].name.lastIndexOf('.')+1;
+        var parts = files[0].name.substr(pos, files[0].name.length - pos);
+        if (expansion.indexOf(parts) >= 0) {
+            $.each(files, function( key, value ){
+                data.append('file_v', value );
+            });
+            $('.filename').text(files[0].name);
+        } else {
+            files = '';
+            $('input[type=file]').val('');
+            $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">Недопустимое расширение файла!</label>');
+            $('.uploader').css('border-color', '#e02222');
+            $('.filename').text('Файл не найден');
+        }
+
     });
-   /* "image/png"
-    text/plain
-    "image/jpeg"*/
-
-
-
-
-    // Вешаем функцию на событие
-    // Получим данные файлов и добавим их в переменную
-
 
 
 });

@@ -4,17 +4,13 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 include_once '../telegram/TelegramBot.php';
 include_once '../mail/mail.php';
+include_once '../bd/connect.php';
 const ID_CHAT = -268580829;
 $data = [];
 
 if ($_FILES) {
-
-    //$uploaddir = '';
-    //$uploadfile = $uploaddir . basename($_FILES['file_v']['name']);
-
     $data['file'] = $_FILES['file_v']['tmp_name'];
     $data['file_name'] = $_FILES['file_v']['name'];
-    //move_uploaded_file($_FILES['file_v']['tmp_name'], $uploadfile);
 }
 
 if ($_POST) {
@@ -42,6 +38,7 @@ if ($_POST) {
     $mail = new Mail();
     if ($mail->sendMail($data)) {
         if ((int)$data['id'] == 1) {
+            $query = Connect::QueryInsert("INSERT INTO order_call (name, phone) values('".$data['name']."', '".$data['phone']."')");
     ?>
 
         <div class="callback_frame jqmWindow jqm-init show" style="width: 500px; z-index: 3000; margin-left: -250px; top: 86px;">

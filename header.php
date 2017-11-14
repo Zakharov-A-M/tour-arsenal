@@ -3,7 +3,7 @@ include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
 
-
+//$query = Connect::Query("INSERT INTO order_call (name, phone) values('Саша', '+375666225')");
 
 ?>
 
