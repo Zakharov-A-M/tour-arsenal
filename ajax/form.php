@@ -27,7 +27,7 @@ if($_POST['id'] == 'call') {
 ?>
 
     <span class="jqmClose top-close fa fa-close"></span>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=<?= $_COOKIE["country"] ?>'></script>
     <div id="comp_c6dbabef203591a9f020e3e2dec22dbc">
         <div class="form popup">
 
@@ -120,7 +120,7 @@ if($_POST['id'] == 'question') {
 
 
     <span class="jqmClose top-close fa fa-close"></span>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=<?= $_COOKIE["country"] ?>'></script>
     <div id="comp_c6dbabef203591a9f020e3e2dec22dbc">
         <div class="form popup">
 
@@ -236,7 +236,7 @@ if($_POST['id'] == 'orderservices') {
 
 
     <span class="jqmClose top-close fa fa-close"></span>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=<?= $_COOKIE["country"] ?>'></script>
     <div id="comp_c6dbabef203591a9f020e3e2dec22dbc">
         <div class="form popup">
 
@@ -354,7 +354,7 @@ if($_POST['id'] == 'guestreviews') {
 ?>
 
     <span class="jqmClose top-close fa fa-close"></span>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=<?= $_COOKIE["country"] ?>'></script>
     <div id="comp_c6dbabef203591a9f020e3e2dec22dbc">
         <div class="form popup">
 
