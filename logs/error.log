@@ -69,3 +69,43 @@ Stack trace:
   thrown in /home/andusen/www/tour-arsenal.by/api/bd/connect.php on line 24" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
 2017/11/14 10:39:02 [error] 1210#1210: *87 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
 2017/11/14 10:39:56 [error] 1210#1210: *84 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/14 10:49:45 [error] 1210#1210: *107 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/14 10:53:18 [error] 1210#1210: *123 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/14 11:43:09 [error] 1210#1210: *190 open() "/home/andusen/www/tour-arsenal.by/rooms/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /rooms/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/rooms/twin/"
+2017/11/14 11:45:06 [error] 1210#1210: *200 open() "/home/andusen/www/tour-arsenal.by/promo/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/rooms/triple/"
+2017/11/14 12:16:47 [error] 1210#1210: *258 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"
+2017/11/14 12:49:17 [error] 1210#1210: *326 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:49:39 [error] 1210#1210: *330 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:51:28 [error] 1210#1210: *332 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:53:58 [error] 1210#1210: *342 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:54:48 [error] 1210#1210: *338 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:55:37 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/andusen/www/tour-arsenal.by/company/reviews/index.php:496
+Stack trace:
+#0 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:57:42 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:57:44 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:57:44 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:57:45 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 12:57:52 [error] 1210#1210: *336 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /home/andusen/www/tour-arsenal.by/company/reviews/index.php on line 496" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/11/14 14:00:38 [error] 1210#1210: *458 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/andusen/www/tour-arsenal.by/api/review/review.php:21
+Stack trace:
+#0 /home/andusen/www/tour-arsenal.by/company/reviews/index.php(3): include_once()
+#1 {main}
+  thrown in /home/andusen/www/tour-arsenal.by/api/review/review.php on line 21" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /company/reviews/?page=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/company/reviews/"
+2017/11/14 15:55:09 [error] 1210#1210: *511 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /include/note_instagram.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/"

@@ -4,7 +4,13 @@ $(document).ready(function(){
     var test = 0;
     var files;
     var data = new FormData();
+    var agree_terms = {'ru': 'Согласитесь с условиями!', 'eu': 'Agree to the terms!', 'fi': 'Hyväksy ehdot!', 'cn': '同意條款！'};
+    var error_email = {'ru': 'Не верно введен E-mail!', 'eu': 'Not correctly entered E-mail!', 'fi': 'Ei oikein kirjoitettu E-mail!', 'cn': '沒有正確輸入電子郵件'};
+    var error_file = {'ru': 'Недопустимое расширение файла!', 'eu': 'Invalid file extension!', 'fi': 'Virheellinen tiedostopääte!', 'cn': '無效的文件擴展名'};
+    var error_file_not = {'ru': 'Файл не найден', 'eu': 'File not found', 'fi': 'Tiedostoa ei löytynyt', 'cn': '未找到文件'};
+    var error_field = {'ru': 'Заполните это поле!', 'eu': 'Fill this field!', 'fi': 'Täytä tämä kenttä!', 'cn': '填補這個領域!'};
     var expansion = ['png', 'ico', 'jpg'];
+    var lang = $.cookie('country');
 
 
     /**
@@ -51,12 +57,12 @@ $(document).ready(function(){
         $('#processing_approval-error').remove();
         var flag = 0;
         if($('#FIO').val() == ''){
-            $('#FIO').before('<label id="FIO-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#FIO').before('<label id="FIO-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#FIO').css('border-color', '#e02222');
             flag++;
         }
         if($('#PHONE').val() == ''){
-            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#PHONE').css('border-color', '#e02222');
             flag++;
         }
@@ -78,7 +84,7 @@ $(document).ready(function(){
         if ($('#processing_approval').is(":checked") ) {
         } else {
             flag++;
-            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
+            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">'+agree_terms[lang]+'</label>');
         }
 
         if(flag == 0) {
@@ -173,20 +179,20 @@ $(document).ready(function(){
         //$('#processing_approval').remove();
         var flag = 0;
         if($('#NAME').val() == ''){
-            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
             $('#NAME').css('border-color', '#e02222');
             flag++;
         }
 
         if($('#EMAIL').val() == ''){
-            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
             $('#EMAIL').css('border-color', '#e02222');
             flag++;
         } else {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
             if(pattern.test($('#EMAIL').val())){
             } else {
-                $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
+                $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_email[lang]+'</label>');
                 $('#EMAIL').css('border-color', '#e02222');
                 flag++;
             }
@@ -195,13 +201,13 @@ $(document).ready(function(){
 
 
         if($('#PHONE').val() == ''){
-            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
             $('#PHONE').css('border-color', '#e02222');
             flag++;
         }
 
         if($('#MESSAGE').val() == ''){
-            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
             $('#MESSAGE').css('border-color', '#e02222');
             flag++;
         }
@@ -223,7 +229,7 @@ $(document).ready(function(){
         if ($('#processing_approval').is(":checked") ) {
         } else {
             flag++;
-            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
+            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">'+agree_terms[lang]+'</label>');
         }
 
         if(flag == 0) {
@@ -263,7 +269,7 @@ $(document).ready(function(){
     $("body").delegate('#EMAIL', 'focusout', function() {
         if (test != 0) {
             if ($('#EMAIL').val() == '') {
-                $('#EMAIL-error').text('Заполните это поле!');
+                $('#EMAIL-error').text(error_field[lang]);
                 $('#EMAIL-error').show();
                 $('#EMAIL').css('border-color', '#e02222');
             } else {
@@ -272,7 +278,7 @@ $(document).ready(function(){
                     $('#EMAIL-error').hide();
                     $('#EMAIL').css('border-color', '#d7dee3');
                 } else {
-                    $('#EMAIL-error').text('Не верно введен E-mail!');
+                    $('#EMAIL-error').text(error_email[lang]);
                     $('#EMAIL').css('border-color', '#e02222');
                     $('#EMAIL-error').show();
                 }
@@ -330,7 +336,7 @@ $(document).ready(function(){
         //$('#processing_approval').remove();
         var flag = 0;
         if($('#NAME').val() == ''){
-            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#NAME').css('border-color', '#e02222');
             flag++;
         }
@@ -340,7 +346,7 @@ $(document).ready(function(){
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
             if(pattern.test($('#EMAIL-email').val())){
             } else {
-                $('#EMAIL-email').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
+                $('#EMAIL-email').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
                 $('#EMAIL-email').css('border-color', '#e02222');
                 flag++;
             }
@@ -348,13 +354,13 @@ $(document).ready(function(){
 
 
         if($('#PHONE').val() == ''){
-            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#PHONE').css('border-color', '#e02222');
             flag++;
         }
 
         if($('#SERVICE-service').val() == ''){
-            $('#SERVICE-service').before('<label id="SERVICE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#SERVICE-service').before('<label id="SERVICE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#SERVICE-service').css('border-color', '#e02222');
             flag++;
         }
@@ -376,7 +382,7 @@ $(document).ready(function(){
         if ($('#processing_approval').is(":checked") ) {
         } else {
             flag++;
-            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
+            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">'+agree_terms[lang]+'</label>');
         }
 
         if(flag == 0) {
@@ -415,7 +421,7 @@ $(document).ready(function(){
                     $('#EMAIL-email').css('border-color', '#d7dee3');
                 } else {
                     console.log('33333333');
-                    $('#EMAIL-email').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
+                    $('#EMAIL-email').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_email[lang]+'</label>');
                     $('#EMAIL-email').css('border-color', '#e02222');
                     $('#EMAIL-error').show();
                 }
@@ -427,7 +433,7 @@ $(document).ready(function(){
         $('#SERVICE-error').remove();
         if (test != 0) {
             if ($('#SERVICE-service').val() == '') {
-                $('#SERVICE-service').before('<label id="SERVICE-error" class="error" for="SERVICE">Заполните это поле!</label>');
+                $('#SERVICE-service').before('<label id="SERVICE-error" class="error" for="SERVICE">'+error_field[lang]+'</label>');
                 $('#SERVICE-error').show();
                 $('#SERVICE-service').css('border-color', '#e02222');
             } else {
@@ -468,27 +474,27 @@ $(document).ready(function(){
         var flag = 0;
 
         if($('#NAME').val() == ''){
-            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#NAME').css('border-color', '#e02222');
             flag++;
         }
 
 
         if($('#EMAIL').val() == ''){
-            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#EMAIL').css('border-color', '#e02222');
         } else {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
             if(pattern.test($('#EMAIL').val())){
             } else {
-                $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">Не верно введен E-mail!</label>');
+                $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_email[lang]+'</label>');
                 $('#EMAIL').css('border-color', '#e02222');
                 flag++;
             }
         }
 
         if($('#MESSAGE').val() == ''){
-            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">Заполните это поле!</label>');
+            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#MESSAGE').css('border-color', '#e02222');
             flag++;
         }
@@ -510,23 +516,25 @@ $(document).ready(function(){
         if ($('#processing_approval').is(":checked") ) {
         } else {
             flag++;
-            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">Согласитесь с условиями!</label>');
+            $('#processing_approval').before('<label id="processing_approval-error" class="error" for="processing_approval">'+agree_terms[lang]+'</label>');
         }
 
 
-        var str = $('.filename').html();
-        var pos = str.lastIndexOf('.')+1;
-        var parts = str.substr(pos, str.length - pos);
-        if (expansion.indexOf(parts) >= 0) {
-            $('#uniform-STUDY-error').remove();
-            $('.uploader').css('border-color', '#d7dee3');
-        } else {
-            files = '';
-            $('input[type=file]').val('');
-            $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">Недопустимое расширение файла!</label>');
-            $('.uploader').css('border-color', '#e02222');
-            $('.filename').text('Файл не найден');
-            flag++;
+        if($('input[type=file]').val() != '') {
+            var str = $('.filename').html();
+            var pos = str.lastIndexOf('.') + 1;
+            var parts = str.substr(pos, str.length - pos);
+            if (expansion.indexOf(parts) >= 0) {
+                $('#uniform-STUDY-error').remove();
+                $('.uploader').css('border-color', '#d7dee3');
+            } else {
+                files = '';
+                $('input[type=file]').val('');
+                $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">'+error_file[lang]+'</label>');
+                $('.uploader').css('border-color', '#e02222');
+                $('.filename').text(error_file_not[lang]);
+                flag++;
+            }
         }
 
 
@@ -576,9 +584,9 @@ $(document).ready(function(){
         } else {
             files = '';
             $('input[type=file]').val('');
-            $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">Недопустимое расширение файла!</label>');
+            $('#uniform-STUDY').before('<label id="uniform-STUDY-error" class="error" for="PHONE">'+error_file[lang]+'</label>');
             $('.uploader').css('border-color', '#e02222');
-            $('.filename').text('Файл не найден');
+            $('.filename').text(error_file_not[lang]);
         }
 
     });

@@ -3,7 +3,6 @@ include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
 
-//$query = Connect::Query("INSERT INTO order_call (name, phone) values('Саша', '+375666225')");
 
 ?>
 
@@ -77,6 +76,7 @@ include_once 'api/country/country.php';
 
 <div id="panel"></div>
 <script type='text/javascript'>
+
     function filter_input(e,regexp)
     {
         e=e || window.event;

@@ -1,5 +1,7 @@
 <?php
 include_once '../../header.php';
+include_once '../../api/review/review.php';
+
 ?>
 <title>Отзывы гостей - Туркомплекс "Арсенал"</title>
 
@@ -404,6 +406,8 @@ include_once '../../header.php';
 		'INPUT_ID': 'title-search-input',
 		'MIN_QUERY_LEN': 2
 	});
+
+
 </script>								</div>
 							</div>
 						</div>
@@ -462,294 +466,59 @@ include_once '../../header.php';
 							
 									<span class="btn btn-default white_br white btn-lg otzbt" id="guestReviews"><?= $json->aboutUs->guestReviews->mainText ?></span>								</div></div>
 		<div class="item-views  image_left reviews">
-		
 			<div class="group-content">
-														
-								<div class="row sid- items">
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_248">
-								<div class="it">
-																		<div class="text">Если кому то кажетс­я, что администрация фильтрует отзывы, размещая только полож­ительные , смею вас успокоить. Негативных отзывов об этой ба­зе просто не может быть!<br />
-<br />
-Выбрали базу случай­но по интернету. Это любовь навсегда! Ме­ста волшебные, разме­щение более, чем ком­фортное. Администрац­ия в номерах предусм­отрела малейший ваш &quot;чих&quot; . Все необходимые хозсре­дства, полностью уко­мплектованеая кухня от посуды и бытовой техники до одноразрв­ых фильтрой <br />
-для кофе варки. Кофе молотый тоже есть. И чай, и соль. Фуми­гаторы помимо комнат­ных &#40; для каждого по­мещения свой&#41; еще и уличный для отлы отд­ыха на террасе. Дров­а, решетки для барбе­кю, даже запасные ла­мпочки предусмотрели! <br />
-Можно просто сесть в машину и приехать на базу отдыхать. Бл­ижайшая &quot;цивили­зация&quot; &#40; магазин &quot;Пятерочка&qu­ot;, аптека, рынок со свежим мясом, почт­а, медицинская помощ­ь&#41; в 10 минутах на машине. Ваша задача- просто отдыхать и на­слаждаться природой. <br />
-Территория базы сод­ержится в идеальном порядке.<br />
-<br />
-Еда в местном кафе: завтраки включены в стоимость. Одно осн­овное блюдо на выбор. К примеру яичница с ветчиной и сыром. Дети ели блинчики, муж кашу. Огромные по­рции великолепно при­готовленных блюд. К основному блюду прил­агалось творожок Дан­исимо, сыр в нарезке, масло, булка, стак­ан сока.<br />
-<br />
-Столы сервированы, атмосфера не столово­й, а именно кафе. <br />
-О персонале. Более радушного приема на территории РФ мы еще не встречали. Там действительно искренне относятся к людям. <br />
-Спасибо за такой ве­ликолепный отдых. Ищ­ем возможность снова к вам приехать. </div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Светлана</div>
-																		<div class="post"></div>
-								</div>
-							</div>
+                <div class="row sid- items">
+                     <?php
+                        foreach ($review as $item) {
+                            ?>
+                            <div class="col-md-12">
+                                <div class="item review" id="<?= (int)$item['ID']?>">
+                                    <div class="it">
+                                        <div class="text">
+                                            <?= $item['review']?>
+                                        </div>
+                                        <div class="border"></div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="title"><?= $item['name']?></div>
+                                        <div class="post"><?= $item['email']?></div>
+                                    </div>
+                                </div>
+                            </div>
+                     <?php
+                        }
+                     ?>
+
 						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_225">
-								<div class="it">
-																		<div class="text">Отдыхали в Арсенале летом, получили массу положительных эмоций. Мы с мужем любители активного отдыха, поэтому взяли номер эконом, так как времени там почти не проводим. Постоянно чем-то занимались – то играли в волейбол с другими жителями, то на рыбалку, то просто гулять ходили. Впервые попробовали катание на водных лыжах – ноги и руки на следующий день гудели, но оно того стоило! Сотрудники базы очень хорошо работают, проявляют участие, дружелюбные, в общем, только приятные люди. Отдых получился замечательный!</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Ксения Мухина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_224">
-								<div class="it">
-																		<div class="text">Зимний отдых получился, что надо. Лыжи, коньки, а главное – зимняя рыбалка. В целом не 5 звезд, конечно, но очень даже неплохо. В номере было тепло, вода горячая работала хорошо.<br />
-Заезд: 16.12.16</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Анатолий Полухин</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_223">
-								<div class="it">
-																		<div class="text">Божественно красивые окрестности, для увлеченных фотографией настоящее раздолье. Очень уютные и оборудованные комнаты, вкусная еда, и при этом цены очень доступные.<br />
-Заезд 30 янв. 2017</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">MadMAx</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_169">
-								<div class="it">
-																		<div class="text">Отдыхали двумя парами в 4-х местном коттедже. Все очень понравилось. Коттедж для турбазы очень уютный, на кухне много посуды, свой мангал и коптильня под навесом....Персонал очень приветливый...Озеро - свой причал, красивый вид, обалденные закаты. Очень подходит для тихого и спокойного отдыха хоть семьей, хоть с друзьями , хоть просто вдвоем...В поселке (6 км) есть Пятерочка, так что все можно там купить<br>
-Единственный минус - долго добираться...<br>
-Внимание: турбаза находится в пограничной зоне, так что НЕ ЗАБУДЬТЕ ПАСПОРТА НА ВСЕХ!!! При нас 4 машины завернули назад...</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Ольга</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_134">
-								<div class="it">
-																		<div class="text">Тихое и красивое место.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Igor Bozhko</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_133">
-								<div class="it">
-																		<div class="text">Отличное место для отдыха.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Дмитрий Петров</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_132">
-								<div class="it">
-																		<div class="text">Охота? Рыбалка? Тишина? Вам сюда.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Max Mishnew</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_131">
-								<div class="it">
-																		<div class="text">Божественно красивые места. Тёплые комнатки. Отдельная
-территория. Невысокие цены. Вкусные обеды. Недалеко от Мраморного каньона.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Михаил Капушин</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_130">
-								<div class="it">
-																		<div class="text">Добрый
-вечер,в воскресенье вернулись с Арсенала, боже, как не хотелось уезжать,снимали
-коттедж на 4+2,всё супер,рекомендую, доброжелательный персонал,отличное
-озеро,комфортные условия,даже для большой компании,спасибо за отдых!</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Виктория Ильина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_129">
-								<div class="it">
-																		<div class="text">И мы с
-мужем хотим отзыв оставить. Случайно попали на вашу базу. Чему очень рады. Что
-вроде не планировали. Но остались на вторую ночь. Очень приятный дружеский
-персонал. Теперь тоже мечтаем о след поездке. Конечно нам очень далеко. Но
-думаю повторим и не раз ☺. Спасибо!!!</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Оксана Сурудина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_128">
-								<div class="it">
-																		<div class="text">Добрый
-вечер! Вчера вернулись из поездки с отдыхом в вашем туркомплексе. Большое
-спасибо! Нам всё понравилось. Мы даже размечтались, как будет здорово приехать
-к вам зимой. А муж до сих пор вспоминает какой вкусной кашей накормили нас на
-завтрак. Большое вам спасибо.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Татьяна Жукова</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_127">
-								<div class="it">
-																		<div class="text">Спасибо
-Вам за замечательный отдых! Хоть мы и не охотники и не рыбаки, но и место, и
-обслуживание, и номер понравились очень! Обязательно расскажем о Вас
-друзьям-знакомым и ждите в гости снова :)</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Варвара Ходарина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_126">
-								<div class="it">
-																		<div class="text"><p>
-	 Отдыхали у друзей в гостях 3 дня в августе 2007 года. Погода, природа, грибы, рыбалка, быт-все на высшем уровне
-</p>
-<p>
-	 Обязательно приедем в следующем году всей семьей, для детей лучшего места на земле и не придумать.
-</p></div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Лилия</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_125">
-								<div class="it">
-																		<div class="text">Райское место, приезжала поработать над книгой, лучше места для этого, наверное, не найти! Тишина, природа, вдохновение! Обслуживание отличное, а главное не навязчивое.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Эллина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_124">
-								<div class="it">
-																		<div class="text">Охота в Карелии событие необыкновенное! Спасибо! Буду снова!</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Володя</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_123">
-								<div class="it">
-																		<div class="text">Ездил в командировку, остановился в Арсенале. Спал ночью как младенец, воздух просто чудодейственный. Обслуживание на высшем уровне. Скоро пойду в отпуск! Ждите!!! Серега из Твери</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Ежик</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_122">
-								<div class="it">
-																		<div class="text">Скептически отношусь к всякого рода базам: обычно отношение не особо уважительное, условия сомнительные. Но сюда приеду снова. Приняли - как родного. Прошел уже почти месяц как вернулся, а Карелия так и снится почти каждый день.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Антон</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_121">
-								<div class="it">
-																		<div class="text">Отдохнули великолепно! Спасибо! Отдых получился разнообразным, и все остались довольны и я, и муж, и ребенок. Сынуля когда вернулись домой, сказал: «Мама, я буду Ыбаком».</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Марина</div>
-																		<div class="post"></div>
-								</div>
-							</div>
-						</div>
-																	<div class="col-md-12">
-							<div class="item review" id="bx_3218110189_120">
-								<div class="it">
-																		<div class="text">Отлично отдохнули! Грибы, рыбалка - супер! Сервис отличный! Очень доброжелательные люди.</div>
-																											<div class="border"></div>
-								</div>
-								<div class="info">
-																												<div class="title">Виктор и Алла</div>
-																		<div class="post">knopar@yandex.ru</div>
-								</div>
-							</div>
-						</div>
-									</div>
 					</div>
-	
+
 				<div class="wrap_pagination">
 	<ul class="pagination">
-																																			<li class="active"><span>1</span></li>
-																																		<li><a href="index.html%3FPAGEN_1=2.html">2</a></li>
-																													<li  class="next"><a href="index.html%3FPAGEN_1=2.html"><i class="fa fa-angle-right"></i></a></li>
-								</ul>
+        <?php
+
+            if ((int)$_GET['page'] > 1) { ?>
+                <li  class="next"><a href="../reviews?page=<?= (int)$_GET['page']-1 ?>"><i class="fa fa-angle-left"></i></a></li>
+            <?php }
+
+
+            for ($i = 1; $i < $count+1; $i++){
+                if($i == (int)$_GET['page'] || ((int)$_GET['page'] == 0 && $i == 1)) { ?>
+                    <li class="active"><span><?= $i ?></span></li>
+               <?php } else { ?>
+                         <li><a href="../reviews?page=<?= $i ?>"><?= $i ?></a></li>
+
+               <?php   }
+            }
+
+
+            if ((int)$_GET['page'] < $count) { ?>
+                <li  class="next"><a href="../reviews?page=<?= (int)$_GET['page']+1 ?>"><i class="fa fa-angle-right"></i></a></li>
+            <?php }
+
+
+        ?>
+
+	</ul>
 </div>	</div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">
 				<div class="row">

@@ -7,6 +7,7 @@ class Func
     const RU_COUNTRY = ['ru', 'by'];
     const EU_COUNTRY = ['fr', 'de'];
     const FI_COUNTRY = ['fi', 'dk'];
+    const CN_COUNTRY = ['cn'];
 
     public static function getClientIp() {
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) //check ip from share internet
@@ -38,7 +39,7 @@ class Func
         if (in_array($country, self::FI_COUNTRY)) {
             return 'fi';
         }
-        return 'eu';
+        return 'cn';
     }
 
     public static function getСontentPage($country) {

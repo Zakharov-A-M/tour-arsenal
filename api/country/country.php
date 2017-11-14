@@ -10,7 +10,6 @@ class Country {
     const COUNTRY = 'ru';
 
     public static function getCountry() {
-        if (!$_COOKIE["country"]) {
             $ip = Func::getClientIp();
             if ($ip) {
                 $country = Func::getClientCountry($ip);
@@ -20,10 +19,6 @@ class Country {
             } else {
                 $country = self::COUNTRY;
             }
-            //setcookie("country", $country, 18000);
-           // var_dump($country);
-        }
-
         return($country ? $country : $_COOKIE["country"]);
 
     }
@@ -31,9 +26,12 @@ class Country {
 
 
     public static function getTextPage() {
+    if (!$_COOKIE['country']) {
         $country = self::getCountry();
         $country = Func::getLanguagePage($country);
-        $json = Func::getСontentPage($country);
+        //setcookie('country', $country, time()+18000, '/', 'tour-arsenal.by');
+    }
+        $json = Func::getСontentPage($country ? $country : $_COOKIE["country"]);
         return $json;
     }
 
