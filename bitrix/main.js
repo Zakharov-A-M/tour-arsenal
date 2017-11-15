@@ -179,13 +179,13 @@ $(document).ready(function(){
         //$('#processing_approval').remove();
         var flag = 0;
         if($('#NAME').val() == ''){
-            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
+            $('#NAME').before('<label id="NAME-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#NAME').css('border-color', '#e02222');
             flag++;
         }
 
         if($('#EMAIL').val() == ''){
-            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
+            $('#EMAIL').before('<label id="EMAIL-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#EMAIL').css('border-color', '#e02222');
             flag++;
         } else {
@@ -201,13 +201,13 @@ $(document).ready(function(){
 
 
         if($('#PHONE').val() == ''){
-            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
+            $('#PHONE').before('<label id="PHONE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#PHONE').css('border-color', '#e02222');
             flag++;
         }
 
         if($('#MESSAGE').val() == ''){
-            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">'+error_field_$.cookie('country')+'</label>');
+            $('#MESSAGE').before('<label id="MESSAGE-error" class="error" for="PHONE">'+error_field[lang]+'</label>');
             $('#MESSAGE').css('border-color', '#e02222');
             flag++;
         }

@@ -417,11 +417,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title">Услуги</span></a></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->services->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[1] ?></span></a></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Кафе</h1>
+											<h1><?= $json->cafePage->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,28 +435,28 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../rybalka">Рыбалка</a>
+					<a href="../rybalka"><?= $json->services->menu->fishing ?></a>
 													</li>
 							<li class=" ">
-					<a href="../okhota">Охота</a>
+					<a href="../okhota"><?= $json->services->menu->hunting ?></a>
 													</li>
 							<li class="active ">
-					<a href="../kafe">Кафе</a>
+					<a href="../kafe"><?= $json->services->menu->cafe ?></a>
 													</li>
 							<li class=" ">
-					<a href="../banya">Баня</a>
+					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
 							<li class=" ">
-					<a href="../ostrov-robinzonada">Остров (Робинзонада)</a>
+					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
+					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dopolnitelnye-uslugi">Дополнительные услуги</a>
+					<a href="../dopolnitelnye-uslugi"><?= $json->services->menu->additionalServices ?></a>
 													</li>
 							<li class=" ">
-					<a href="../zimnie-razvlecheniya">Зимние развлечения</a>
+					<a href="../zimnie-razvlecheniya"><?= $json->services->menu->winterInter ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -470,45 +470,49 @@ include_once '../../header.php';
 	
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default"  id="askQuestion" services="Кафе"><span>Задать вопрос</span></span>
+			<span class="btn btn-default"  id="askQuestion" services="<?= $json->cafePage->mainText ?>">
+                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
+            </span>
 			<div class="margin-bottom-20">
-				Хотите узнать больше? Спросите нас!&nbsp;			</div>
+                <?= $json->serviceFishing->questionBlock->text ?>
+            </div>
 		</div>
 	</div>
 
 
 	<div class="content">
-				
-											<p>
-	 Наше меню порадует вас разнообразием выбора блюд и доступными ценами. Вся еда готовится из свежих и качественных продуктов, потому что для Вас: &nbsp;“с душой”. Салаты и горячее готовятся «из-под ножа». Не используются никакие заготовки и полуфабрикаты, что, несомненно, также дает еще один плюс в пользу качества и уровня еды, приготавливаемой в кафе «Арсенал». Кафе вместимостью до 60 гостей приятно удивит Вас своим сервисом и кухней.
-</p>
-<p>
-	 В кафе” Арсенал” &nbsp;можно заказать туристические комплексные обеды, корпоративные мероприятия, свадьбы, дни рождения, с возможностью заранее составить банкетное меню, учитывающее все пожелания клиентов.
-</p>						</div>
+        <?php
+            foreach ($json->cafePage->textPageCafe as $item) {
+                echo '<p>'.$item.'</p>';
+            }
+
+        ?>
+
+	</div>
 
 <hr/>
 
 	
 
 	<div class="wraps">		
-		<h4 class="title_block">Галерея</h4>
+		<h4 class="title_block"><?= $json->cafePage->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/49e/49ef08cc1f34e0e46a13458369c27600.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Кафе Арсенал"></a>
+							<a href="../../upload/iblock/49e/49ef08cc1f34e0e46a13458369c27600.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->cafePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/49e/800_500_2/49ef08cc1f34e0e46a13458369c27600.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/758/7583262903249aabd89e2edda6bbd627.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Кафе"></a>
+							<a href="../../upload/iblock/758/7583262903249aabd89e2edda6bbd627.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->cafePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/758/800_500_2/7583262903249aabd89e2edda6bbd627.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/787/787de4d4842f6636e792b897cc57f2f9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Кафе"></a>
+							<a href="../../upload/iblock/787/787de4d4842f6636e792b897cc57f2f9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->cafePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/787/800_500_2/787de4d4842f6636e792b897cc57f2f9.jpg');"></div>						
 						</div>
 					</div>
@@ -520,35 +524,36 @@ include_once '../../header.php';
 	<div class="order-block">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" id="orderServices" services="Кафе"><span>Заказать услугу</span></span>
+				<span class="btn btn-default btn-lg" id="orderServices" services="<?= $json->cafePage->mainText ?>"><span><?= $json->orderService->buttonText ?></span></span>
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-7 valign">
 				<div class="text">
-					Оформите заявку на сайте, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы.				</div>
+                    <?= $json->orderService->orderText ?>
+                </div>
 			</div>
 		</div>
 	</div>
 	<hr />
 
 	<div class="wraps">		
-		<h4 class="title_block">Документы</h4>
+		<h4 class="title_block"><?= $json->cafePage->DocMenuCafe->textMain ?></h4>
 		<div class="row docs">
 											<div class="col-md-6 item">
 										<div class="icons  pdf">
-						<a href="../../upload/iblock/cf9/cf9130117e2c2f98a16a37cf3fda062b.pdf" target="_blank" title="Меню"></a>
+						<a href="../../upload/iblock/cf9/cf9130117e2c2f98a16a37cf3fda062b.pdf" target="_blank" title="<?= $json->cafePage->DocMenuCafe->firstDoc ?>"></a>
 					</div>
 					<div class="text">
-						<a href="../../upload/iblock/cf9/cf9130117e2c2f98a16a37cf3fda062b.pdf" target="_blank" title="Меню">Меню</a>
+						<a href="../../upload/iblock/cf9/cf9130117e2c2f98a16a37cf3fda062b.pdf" target="_blank" title="<?= $json->cafePage->DocMenuCafe->firstDoc ?>"><?= $json->cafePage->DocMenuCafe->firstDoc ?></a>
 						Размер:
 						<span>979.2  Кб</span>
 					</div>
 				</div>
 											<div class="col-md-6 item">
 										<div class="icons  pdf">
-						<a href="../../upload/iblock/54b/54baa2771d7efff581c7c6f0c127c1b4.pdf" target="_blank" title="Комплексные обеды"></a>
+						<a href="../../upload/iblock/54b/54baa2771d7efff581c7c6f0c127c1b4.pdf" target="_blank" title="<?= $json->cafePage->DocMenuCafe->secondDoc ?>"></a>
 					</div>
 					<div class="text">
-						<a href="../../upload/iblock/54b/54baa2771d7efff581c7c6f0c127c1b4.pdf" target="_blank" title="Комплексные обеды">Комплексные обеды</a>
+						<a href="../../upload/iblock/54b/54baa2771d7efff581c7c6f0c127c1b4.pdf" target="_blank" title="<?= $json->cafePage->DocMenuCafe->secondDoc ?>"><?= $json->cafePage->DocMenuCafe->secondDoc ?></a>
 						Размер:
 						<span>199.3  Кб</span>
 					</div>
@@ -571,7 +576,7 @@ include_once '../../header.php';
 			<div class="ya-share2" data-services="vkontakte,facebook,twitter,viber,whatsapp,odnoklassniki,moimir"></div>
 			</div>
 	<div class="col-md-6">
-		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i><?= $json->backList->mainText ?></a>
 	</div>
 </div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">

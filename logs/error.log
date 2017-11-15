@@ -216,3 +216,222 @@ PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
 PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 319
 PHP message: PHP Stack trace:
 PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by
+2017/11/15 18:32:12 [error] 1210#1210: *226 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 123
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 132
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 132
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 133
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 133
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 139
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 139
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 147
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 147
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.
+2017/11/15 18:32:12 [error] 1210#1210: *226 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 199
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 199
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 201
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 201
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by
+2017/11/15 18:43:04 [error] 1210#1210: *257 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 239
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 249
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 249
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 257
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 257
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 265
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 265
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 273
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 273
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.
+2017/11/15 18:43:04 [error] 1210#1210: *257 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 317
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 317
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 319
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 319
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by
+2017/11/15 18:47:47 [error] 1210#1210: *270 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 239
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 249
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 249
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 257
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 257
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 265
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 265
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 273
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 273
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.
+2017/11/15 18:47:47 [error] 1210#1210: *270 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 309
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 317
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 317
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 319
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 319
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by
+2017/11/15 19:01:09 [error] 1210#1210: *319 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 123
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 132
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 132
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 133
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 133
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 139
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 139
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 147
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 147
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.
+2017/11/15 19:01:09 [error] 1210#1210: *319 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 191
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 199
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 199
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: country in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 201
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index:  in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 201
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "POST /ajax/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by
+2017/11/15 21:25:35 [error] 1209#1209: *476 open() "/home/andusen/www/tour-arsenal.by/promo/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /promo/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/promo/novyy-god-2017-2018/"
+2017/11/15 21:32:45 [error] 1209#1209: *482 open() "/home/andusen/www/tour-arsenal.by/price/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /price/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/promo/otdykh-so-skidkoy/"
+2017/11/15 21:36:07 [error] 1209#1209: *492 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 25
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 117
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 233
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/ajax/form.php on line 352
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/ajax/form.php:0" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /ajax/form.php?id=24&data-trigger=%7B%22class%22%3A%22btn%20btn-default%20btn-lg%22%2C%22data-event%22%3A%22jqm%22%2C%22data-param-id%22%3A%2224%22%2C%22data-name%22%3A%22order_product%22%2C%22data-product%22%3A%22%D0%94%D0%B2%D1%83%D1%85%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B9%20%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B0%22%2C%22data-autoload-type%22%3A%22%D0%94%D0%B2%D1%83%D1%85%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B9%20%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B0%22%7D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/rooms/twin/"
+2017/11/15 21:42:04 [error] 1209#1209: *497 open() "/home/andusen/www/tour-arsenal.by/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/rooms/twin/"

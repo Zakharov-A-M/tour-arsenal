@@ -417,11 +417,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title">Услуги</span></a></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->services->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[1] ?></span></a></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Остров (Робинзонада)</h1>
+											<h1><?= $json->islandRod->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,28 +435,28 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../rybalka">Рыбалка</a>
+					<a href="../rybalka"><?= $json->services->menu->fishing ?></a>
 													</li>
 							<li class=" ">
-					<a href="../okhota">Охота</a>
+					<a href="../okhota"><?= $json->services->menu->hunting ?></a>
 													</li>
 							<li class=" ">
-					<a href="../kafe">Кафе</a>
+					<a href="../kafe"><?= $json->services->menu->cafe ?></a>
 													</li>
 							<li class=" ">
-					<a href="../banya">Баня</a>
+					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
 							<li class="active ">
-					<a href="../ostrov-robinzonada">Остров (Робинзонада)</a>
+					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
+					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dopolnitelnye-uslugi">Дополнительные услуги</a>
+					<a href="../dopolnitelnye-uslugi"><?= $json->services->menu->additionalServices ?></a>
 													</li>
 							<li class=" ">
-					<a href="../zimnie-razvlecheniya">Зимние развлечения</a>
+					<a href="../zimnie-razvlecheniya"><?= $json->services->menu->winterInter ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -471,127 +471,125 @@ include_once '../../header.php';
 	
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default" id="askQuestion" services="Остров (Робинзонада)"><span>Задать вопрос</span></span>
+			<span class="btn btn-default" id="askQuestion" services="<?= $json->islandRod->mainText ?>">
+                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
+            </span>
 			<div class="margin-bottom-20">
-				Хотите узнать больше? Спросите нас!&nbsp;			</div>
+                <?= $json->serviceFishing->questionBlock->text ?>
+            </div>
 		</div>
 	</div>
 
 
 	<div class="content">
 				
-											<h3>НОВОЕ ПРЕДЛОЖЕНИЕ: ОТДЫХ НА НЕОБИТАЕМОМ ОСТРОВЕ</h3>
- Отвлечься от городских будней! Бросить все дела! Сбежать ото всех на необитаемый остров! Мечта?&nbsp;Реальность!<br>
- Почувствуйте романтику духовного единения с природой, приобщитесь к тайнам древних карел, издавна занимавшихся охотой, рыбалкой и собирательством.<br>
- Вы останетесь совершенно одни на небольшом островке, по берегам окутанным покатыми валунами спускающимися под прозрачную воду к песчаному дну. Остров, площадью примерно 1&nbsp;га, располагается на красивейшем озере Янисъярви.<br>
+											<h3><?= $json->islandRod->textMainPageIsland ?></h3>
+        <?= $json->islandRod->textPageIsland ?><br><br>
+        <?php
+        foreach ($json->islandRod->textPageIsland1 as $item) {
+                echo $item.'<br>';
+            }
+        ?>
+
  <br>
- ЗАИМКА (охотничья изба):<br>
- Это зимний вариант тёплой охотничьей избы, внутри которой находится рубленая баня по белому. Общая площадь, составляет 42 кв. м. (жилая площадь дома равна 30 кв. м.). В комнате находится 4 спальных места (двухъярусные щитовые кровати), трапезный стол и лавки. При более плотном размещении в заимке может расположиться до 6 человек.<br>
- Помещение оборудовано электроосвещением от переносного генератора.<br>
- Возле избы находится оборудованное пикниковое место (костровище, мангал, заготовленные дрова, крытая беседка). Неподалеку расположен пирс для лодок.<br>
- Р.S.: Вид связи: мобильный GSM;<br>
+ <?= $json->islandRod->tourIn->mainText ?><br>
+        <?= $json->islandRod->tourIn->first ?><br>
+        <?= $json->islandRod->tourIn->second ?><br>
  <br>
- В стоимость тура входит:<br>
- 1). Вёсельная лодка, костровые котелки и чайник, одноразовая посуда, спальные принадлежности (одеяла, подушки, постельное белье, полотенца);<br>
- 2).Доставка: катер (весна, лето, осень), снегоход (зимой).<br>
- <br>
-<h3>
-Стоимость услуг: </h3>
+<h3> <?= $json->islandRod->costService->mainText ?> </h3>
 <ul>
-	<li>Бронь на острове от трех дней.</li>
-	<li>
-	Цена: 4000 руб/сутки с генератором</li>
-	<li>
-	3500 руб/сутки без генератора</li>
-	<li>
-	Поездка одним днем 5000 руб.</li>
+	<?php foreach ($json->islandRod->costService->list as $item) {
+        echo '<li>'.$item.'</li>';
+	}?>
 </ul>
- СБОР ГРИБОВ, ЯГОД, ЛЕКАРСТВЕННЫХ РАСТЕНИЙ:<br>
- В состав архипелага входит довольно большой остров Карьясаари. Его поверхность покрыта смешанным лесом, таящим множество природных загадок пользы лесных даров (черника, брусника, земляника, малина, несчетное количество благородных и трубчатых грибов).<br>
- <br>
- РЫБАЛКА:<br>
- Вблизи острова сосредоточено множество окунёвых луд (окунь до 0,5 кг). Возможна рыбалка на джиг, удочку, спиннинг, кружки, блёсны. Удача сулит рыбакам&nbsp;судака, щуку, язя, краснопёрку!<br>
- <br>
- ОХОТА:<br>
- Здесь целое раздолье для охоты на боровую и водоплавающую дичь (необходимо при себе иметь охотничий билет, № ИНН, личное ружье, боеприпасы, разрешение на право ношения оружия). <br>						</div>
+
+      <?php foreach ($json->islandRod->listService as $key=>$item) {
+        if ($key % 2 == 0 && $key != 0) {
+            echo '<br>'.$item.'<br>';
+        } else {
+            echo $item.'<br>';
+        }
+
+      }  ?>
+
 
 <hr/>
 
-	
+
 
 	<div class="wraps">		
-		<h4 class="title_block">Галерея</h4>
+		<h4 class="title_block"><?= $json->islandRod->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/05d/05da4d3e11da47bc9286d768921d11b9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/05d/05da4d3e11da47bc9286d768921d11b9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/05d/800_500_2/05da4d3e11da47bc9286d768921d11b9.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/193/1939c2a2e60a3408d1b8de46a707f001.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/193/1939c2a2e60a3408d1b8de46a707f001.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/193/800_500_2/1939c2a2e60a3408d1b8de46a707f001.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/887/887ac7216e479b7618434d11641d2640.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/887/887ac7216e479b7618434d11641d2640.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/887/800_500_2/887ac7216e479b7618434d11641d2640.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/c95/c9500bb76ffdf788ce386a87c323149d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/c95/c9500bb76ffdf788ce386a87c323149d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/c95/800_500_2/c9500bb76ffdf788ce386a87c323149d.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/4c5/4c58c0e663a6643f9f3f8e0461cea0f1.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/4c5/4c58c0e663a6643f9f3f8e0461cea0f1.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/4c5/800_500_2/4c58c0e663a6643f9f3f8e0461cea0f1.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e89/e89059d89393b41f3469dd8e8b0ab052.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/e89/e89059d89393b41f3469dd8e8b0ab052.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/e89/800_500_2/e89059d89393b41f3469dd8e8b0ab052.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/060/060ef6e2c0f64f99c85e0bc4d951f509.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/060/060ef6e2c0f64f99c85e0bc4d951f509.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/060/800_500_2/060ef6e2c0f64f99c85e0bc4d951f509.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/fc3/fc33e6697d6043dfa820f596e39eed2c.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/fc3/fc33e6697d6043dfa820f596e39eed2c.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/fc3/800_500_2/fc33e6697d6043dfa820f596e39eed2c.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/5da/5daa17dc17c13513f17ca9f92359cd97.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Остров (Робинзонада)"></a>
+							<a href="../../upload/iblock/5da/5daa17dc17c13513f17ca9f92359cd97.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title=" <?= $json->islandRod->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/5da/800_500_2/5daa17dc17c13513f17ca9f92359cd97.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e43/e4328fec531ca9386988b9bcfe8f0479.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зреет клюква!"></a>
+							<a href="../../upload/iblock/e43/e4328fec531ca9386988b9bcfe8f0479.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->islandRod->gallety->textFoto1 ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/e43/800_500_2/e4328fec531ca9386988b9bcfe8f0479.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/de6/de695c410116a9d5e38b0c11dc7cf1b1.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Надвигающуюся бурю лучше переждать на острове"></a>
+							<a href="../../upload/iblock/de6/de695c410116a9d5e38b0c11dc7cf1b1.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->islandRod->gallety->textFoto2 ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/de6/800_500_2/de695c410116a9d5e38b0c11dc7cf1b1.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/9ce/9cef3b9ffe990e1b3f382aafe9a69e59.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="На острове много черники"></a>
+							<a href="../../upload/iblock/9ce/9cef3b9ffe990e1b3f382aafe9a69e59.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->islandRod->gallety->textFoto3 ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/9ce/800_500_2/9cef3b9ffe990e1b3f382aafe9a69e59.jpg');"></div>						
 						</div>
 					</div>
@@ -603,11 +601,12 @@ include_once '../../header.php';
 	<div class="order-block">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" id="orderServices" services="Остров (Робинзонада)"><span>Заказать услугу</span></span>
+				<span class="btn btn-default btn-lg" id="orderServices" services="<?= $json->islandRod->mainText ?>"><span><?= $json->orderService->buttonText ?></span></span>
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-7 valign">
 				<div class="text">
-					Оформите заявку на сайте, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы.				</div>
+                    <?= $json->orderService->orderText ?>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -628,7 +627,7 @@ include_once '../../header.php';
 			<div class="ya-share2" data-services="vkontakte,facebook,twitter,viber,whatsapp,odnoklassniki,moimir"></div>
 			</div>
 	<div class="col-md-6">
-		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i><?= $json->backList->mainText ?></a>
 	</div>
 </div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">

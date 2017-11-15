@@ -417,11 +417,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title">Услуги</span></a></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->services->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[1] ?></span></a></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Баня</h1>
+											<h1><?= $json->bathHousePage->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,28 +435,28 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../rybalka">Рыбалка</a>
+					<a href="../rybalka"><?= $json->services->menu->fishing ?></a>
 													</li>
 							<li class=" ">
-					<a href="../okhota">Охота</a>
+					<a href="../okhota"><?= $json->services->menu->hunting ?></a>
 													</li>
 							<li class=" ">
-					<a href="../kafe">Кафе</a>
+					<a href="../kafe"><?= $json->services->menu->cafe ?></a>
 													</li>
 							<li class="active ">
-					<a href="../banya">Баня</a>
+					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
 							<li class=" ">
-					<a href="../ostrov-robinzonada">Остров (Робинзонада)</a>
+					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
+					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dopolnitelnye-uslugi">Дополнительные услуги</a>
+					<a href="../dopolnitelnye-uslugi"><?= $json->services->menu->additionalServices ?></a>
 													</li>
 							<li class=" ">
-					<a href="../zimnie-razvlecheniya">Зимние развлечения</a>
+					<a href="../zimnie-razvlecheniya"><?= $json->services->menu->winterInter ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -467,25 +467,29 @@ include_once '../../header.php';
 																				<div class="detail services">
 		
 						
-		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="fancybox" title="Баня"><img src="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="img-responsive" title="Баня" alt="Баня" /></a></div>
+		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="fancybox" title="<?= $json->bathHousePage->mainText ?>"><img src="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="img-responsive" title="<?= $json->bathHousePage->mainText ?>" alt="<?= $json->bathHousePage->mainText ?>" /></a></div>
 	
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default"  id="askQuestion" services="Баня"><span>Задать вопрос</span></span>
+			<span class="btn btn-default"  id="askQuestion" services="<?= $json->bathHousePage->mainText ?>">
+                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
+            </span>
 			<div class="margin-bottom-20">
-				Хотите узнать больше? Спросите нас!&nbsp;			</div>
+                <?= $json->serviceFishing->questionBlock->text ?>
+            </div>
 		</div>
 	</div>
 
 
 	<div class="content">
-				
-											Русская дровяная баня у пруда.<br>
- <br>
- Ах, баня! Дубовый или березовый веничек, теплая компания, советы бывалого банщика… Напустить парку, да напарившись докрасна, выбежать на улицу и нырнуть в пруд!<br>
- Ну разве что-нибудь может быть лучше настоящей дровяной русской бани?!<br><br>
+				<?php
+                    foreach ($json->bathHousePage->textPageCafe as $item) {
+                        echo $item.'<br><br>';
+                    }
+
+                ?>
 <ul>
- <a href="http://arsenal147.tmweb.ru/price/">Посмотреть стоимость услуг.</a>
+ <a href="http://arsenal147.tmweb.ru/price/" style="display: none;">Посмотреть стоимость услуг.</a>
 </ul>						</div>
 
 <hr/>
@@ -493,42 +497,42 @@ include_once '../../header.php';
 	
 
 	<div class="wraps">		
-		<h4 class="title_block">Галерея</h4>
+		<h4 class="title_block"><?= $json->bathHousePage->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/44e/44e23258ad2057abd7e20c105d139745.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/44e/44e23258ad2057abd7e20c105d139745.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/44e/800_500_2/44e23258ad2057abd7e20c105d139745.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/b9f/b9f719c34bd09d74ffcf152e7cefb63d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/b9f/b9f719c34bd09d74ffcf152e7cefb63d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/b9f/800_500_2/b9f719c34bd09d74ffcf152e7cefb63d.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e8c/e8ca88db75263432cb50058c798abfba.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/e8c/e8ca88db75263432cb50058c798abfba.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/e8c/800_500_2/e8ca88db75263432cb50058c798abfba.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/b03/b03966140b2b430c4a25ea89454b18c2.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/b03/b03966140b2b430c4a25ea89454b18c2.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/b03/800_500_2/b03966140b2b430c4a25ea89454b18c2.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/df0/df087163b84d309982598ec25a5f4686.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/df0/df087163b84d309982598ec25a5f4686.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/df0/800_500_2/df087163b84d309982598ec25a5f4686.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/ba7/ba77c35d4826d9f932d1594cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Баня"></a>
+							<a href="../../upload/iblock/ba7/ba77c35d4826d9f932d1594cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/ba7/800_500_2/ba77c35d4826d9f932d1594cb7b84df8.jpg');"></div>						
 						</div>
 					</div>
@@ -540,11 +544,12 @@ include_once '../../header.php';
 	<div class="order-block">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" id="orderServices" services="Баня"><span>Заказать услугу</span></span>
+				<span class="btn btn-default btn-lg" id="orderServices" services="<?= $json->bathHousePage->mainText ?>"><span><?= $json->orderService->buttonText ?></span></span>
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-7 valign">
 				<div class="text">
-					Оформите заявку на сайте, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы.				</div>
+                    <?= $json->orderService->orderText ?>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -565,7 +570,7 @@ include_once '../../header.php';
 			<div class="ya-share2" data-services="vkontakte,facebook,twitter,viber,whatsapp,odnoklassniki,moimir"></div>
 			</div>
 	<div class="col-md-6">
-		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i><?= $json->backList->mainText ?></a>
 	</div>
 </div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">

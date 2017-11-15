@@ -417,11 +417,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title">Услуги</span></a></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->services->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[1] ?></span></a></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Досуг в лесу (грибы-ягоды)</h1>
+											<h1><?= $json->relaxForest->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,28 +435,28 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../rybalka">Рыбалка</a>
+					<a href="../rybalka"><?= $json->services->menu->fishing ?></a>
 													</li>
 							<li class=" ">
-					<a href="../okhota">Охота</a>
+					<a href="../okhota"><?= $json->services->menu->hunting ?></a>
 													</li>
 							<li class=" ">
-					<a href="../kafe">Кафе</a>
+					<a href="../kafe"><?= $json->services->menu->cafe ?></a>
 													</li>
 							<li class=" ">
-					<a href="../banya">Баня</a>
+					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
 							<li class=" ">
-					<a href="../ostrov-robinzonada">Остров (Робинзонада)</a>
+					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 													</li>
 							<li class="active ">
-					<a href="../dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
+					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dopolnitelnye-uslugi">Дополнительные услуги</a>
+					<a href="../dopolnitelnye-uslugi"><?= $json->services->menu->additionalServices ?></a>
 													</li>
 							<li class=" ">
-					<a href="../zimnie-razvlecheniya">Зимние развлечения</a>
+					<a href="../zimnie-razvlecheniya"><?= $json->services->menu->winterInter ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -469,126 +469,132 @@ include_once '../../header.php';
 
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default" id="askQuestion" services="Досуг в лесу (грибы-ягоды)"><span>Задать вопрос</span></span>
+			<span class="btn btn-default" id="askQuestion" services="<?= $json->relaxForest->mainText ?>">
+                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
+            </span>
 			<div class="margin-bottom-20">
-				Хотите узнать больше? Спросите нас!&nbsp;			</div>
+                <?= $json->serviceFishing->questionBlock->text ?>
+            </div>
 		</div>
 	</div>
 
 
 	<div class="content">
-				
-											СБОР ГРИБОВ, ЯГОД, ЛЕКАРСТВЕННЫХ РАСТЕНИЙ:<br>
- <br>
- Карельские леса не зря славятся обилием грибов и ягод. Их здесь видимо-невидимо! В смешанном лесу острова Карьясаари столько видов лесных даров, что можно растеряться, что же выбрать: собирать ли чернику, бруснику, малину или отправиться на поиски боровиков, красных и груздей. Что бы Вы не выбрали, Вы все равно останетесь довольны щедростью карельской природы и будете очарованы ее красотой!<br>						</div>
+				<?php
+                foreach ($json->relaxForest->textPageForest as $item) {
+                           echo $item.'<br><br>';
+                    }
+                ?>
+
+    </div>
 
 <hr/>
 
 	
 
 	<div class="wraps">		
-		<h4 class="title_block">Галерея</h4>
+		<h4 class="title_block"><?= $json->relaxForest->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/88b/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/88b/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/88b/88bf74e8c6d8b85b5db413f4f7ece61f.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e3d/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/e3d/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/e3d/e3dc735f2cfb821295a00e85ec98096e.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/177/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/177/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/177/17710c7cc0134adee8d0a5d00f4de0ce.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/2c7/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/2c7/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/2c7/2c71a4d08d48d0965038a541337a615e.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/bc4/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/bc4/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/bc4/bc4bc690b951cd24409a7cf7cb25c2f6.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/65d/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/65d/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/65d/65d2ac06e80884beafaf818d69db4a77.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/337/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/337/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/337/3378b58016a2b73005a58171d3efcd32.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/45f/45f11d1ff2c43242ab646d2bed7f02c9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/45f/45f11d1ff2c43242ab646d2bed7f02c9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/45f/45f11d1ff2c43242ab646d2bed7f02c9.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/544/5445fbc3f55ddae06ef1e00cbc2867ad.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/544/5445fbc3f55ddae06ef1e00cbc2867ad.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/544/5445fbc3f55ddae06ef1e00cbc2867ad.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/0cf/0cfd6980d88c69e6d4d90a75af5a8a94.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/0cf/0cfd6980d88c69e6d4d90a75af5a8a94.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/0cf/0cfd6980d88c69e6d4d90a75af5a8a94.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/9dc/9dc7469110ea5355929efc01b531a442.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/9dc/9dc7469110ea5355929efc01b531a442.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/9dc/9dc7469110ea5355929efc01b531a442.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/3f2/3f23ec60b0a401141f7d97b37a652601.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/3f2/3f23ec60b0a401141f7d97b37a652601.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/3f2/800_500_2/3f23ec60b0a401141f7d97b37a652601.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/f4b/f4b8411d20bc3cd5e61842348a0e5917.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/f4b/f4b8411d20bc3cd5e61842348a0e5917.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/f4b/800_500_2/f4b8411d20bc3cd5e61842348a0e5917.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/ff6/ff62bb17866321a3924ad2dcd0f92898.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/ff6/ff62bb17866321a3924ad2dcd0f92898.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/ff6/800_500_2/ff62bb17866321a3924ad2dcd0f92898.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/440/440dbd24f4f2bd785934586d1e4c5d52.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/440/440dbd24f4f2bd785934586d1e4c5d52.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/440/440dbd24f4f2bd785934586d1e4c5d52.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/c3d/c3d452f12f994db44deeeb87e81b6058.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/c3d/c3d452f12f994db44deeeb87e81b6058.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/c3d/800_500_2/c3d452f12f994db44deeeb87e81b6058.jpg');"></div>						
 						</div>
 					</div>
 									<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e8f/e8f52eaafa0a9a3f9dbe4e92afcb2ad3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Досуг в лесу (грибы-ягоды)"></a>
+							<a href="../../upload/iblock/e8f/e8f52eaafa0a9a3f9dbe4e92afcb2ad3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
 							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/e8f/e8f52eaafa0a9a3f9dbe4e92afcb2ad3.jpg');"></div>						
 						</div>
 					</div>
@@ -613,7 +619,7 @@ include_once '../../header.php';
 			<div class="ya-share2" data-services="vkontakte,facebook,twitter,viber,whatsapp,odnoklassniki,moimir"></div>
 			</div>
 	<div class="col-md-6">
-		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i><?= $json->backList->mainText ?></a>
 	</div>
 </div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">
