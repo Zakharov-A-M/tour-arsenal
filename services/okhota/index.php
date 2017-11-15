@@ -1,6 +1,10 @@
 <?php
 include_once '../../header.php';
+include_once '../../api/services/hunt.php';
 ?>
+
+
+
 
 <title>Охота</title>
 			<div class="menu-row row">
@@ -417,11 +421,11 @@ include_once '../../header.php';
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-12">
-											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title">Услуги</span></a></li></ul>										</div>
+											<ul class="breadcrumb"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../../" title="<?= $json->services->mainLink[0] ?>" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[0] ?></span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" title="Услуги" itemprop="url"><span itemprop="title"><?= $json->services->mainLink[1] ?></span></a></li></ul>										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<h1>Охота</h1>
+											<h1><?= $json->huntPage->mainText ?></h1>
 										</div>
 									</div>
 								</div>
@@ -435,28 +439,28 @@ include_once '../../header.php';
 											<aside class="sidebar">
 		<ul class="nav nav-list side-menu">
 							<li class=" ">
-					<a href="../rybalka">Рыбалка</a>
+					<a href="../rybalka"><?= $json->services->menu->fishing ?></a>
 													</li>
 							<li class="active ">
-					<a href="../okhota">Охота</a>
+					<a href="../okhota"><?= $json->services->menu->hunting ?></a>
 													</li>
 							<li class=" ">
-					<a href="../kafe">Кафе</a>
+					<a href="../kafe"><?= $json->services->menu->cafe ?></a>
 													</li>
 							<li class=" ">
-					<a href="../banya">Баня</a>
+					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
 							<li class=" ">
-					<a href="../ostrov-robinzonada">Остров (Робинзонада)</a>
+					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dosug-v-lesu-griby-yagody">Досуг в лесу (грибы-ягоды)</a>
+					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
 							<li class=" ">
-					<a href="../dopolnitelnye-uslugi">Дополнительные услуги</a>
+					<a href="../dopolnitelnye-uslugi"><?= $json->services->menu->additionalServices ?></a>
 													</li>
 							<li class=" ">
-					<a href="../zimnie-razvlecheniya">Зимние развлечения</a>
+					<a href="../zimnie-razvlecheniya"><?= $json->services->menu->winterInter ?></a>
 													</li>
 					</ul>
 	</aside>
@@ -467,40 +471,36 @@ include_once '../../header.php';
 																				<div class="detail services">
 		
 						
-		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="fancybox" title="Охота"><img src="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="img-responsive" title="Охота" alt="Охота" /></a></div>
+		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="fancybox" title="<?= $json->huntPage->mainText ?>"><img src="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="img-responsive" title="<?= $json->huntPage->mainText ?>" alt="<?= $json->huntPage->mainText ?>" /></a></div>
 	
 	<div class="ask_a_question">
 		<div class="inner">
-			<span class="btn btn-default" id="askQuestion" services="Охота"><span>Задать вопрос</span></span>
+			<span class="btn btn-default" id="askQuestion" services="<?= $json->huntPage->mainText ?>">
+                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
+            </span>
 			<div class="margin-bottom-20">
-				Хотите узнать больше? Спросите нас!&nbsp;			</div>
+                <?= $json->serviceFishing->questionBlock->text ?>
+            </div>
 		</div>
 	</div>
 
 
 	<div class="content">
-				
-											<p>
-	 Охота на боровую и водоплавающую дичь на озере Янисъярви (выезд с группой до 3-х человек, продолжительность до 4-х часов) - 5.500 руб.&nbsp;
-</p>
-<p>
-	 Охота на глухаря и тетерева (выезд с группой до 4-х человек, продолжительность до 5 часов) - 6.500 руб.&nbsp;
-</p>
-<p>
-	 Охота на глухаря и тетерева на току (выезд с группой до 6 человек, продолжительность до 5 часов) - 7.000 руб.&nbsp;
-</p>
-<p>
-	 Охота на вальдшнепа (выезд с группой до 4-х человек, продолжительность до 5 часов) - 2.500 руб.&nbsp;
-</p>
-<p>
-	 Охота на зайца (выезд с группой до 4-х человек, продолжительность до 6 часов) - 3.500 руб.
-</p>
-<p>
-	 Трофейная охота на лося - от 15.000 руб.( до 20.000 руб.).
-</p>
-<p>
-	 Трофейная охота на медведя - от 20.000 руб.( до 35.000 руб.).
-</p>						</div>
+		<?php
+            foreach ($json->huntPage->textPageHunt as $key => $item) {
+                if ($cost[$key]['cost_to'] != null) {
+                    $str = 'от '.$cost[$key]['cost_from'].' руб. (до '.$cost[$key]['cost_to'].' руб.).';
+                } else {
+                    $str = $cost[$key]['cost_from'].' руб.';
+                }
+
+                    echo '<p>'.$item.' '.$str.'</p>';
+            }
+
+        ?>
+
+
+	</div>
 
 <hr/>
 
@@ -510,11 +510,12 @@ include_once '../../header.php';
 	<div class="order-block">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" id="orderServices" services="Охота"><span>Заказать услугу</span></span>
+				<span class="btn btn-default btn-lg" id="orderServices" services="<?= $json->huntPage->mainText ?>"><span><?= $json->orderService->buttonText ?></span></span>
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-7 valign">
 				<div class="text">
-					Оформите заявку на сайте, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы.				</div>
+                    <?= $json->orderService->orderText ?>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -535,7 +536,7 @@ include_once '../../header.php';
 			<div class="ya-share2" data-services="vkontakte,facebook,twitter,viber,whatsapp,odnoklassniki,moimir"></div>
 			</div>
 	<div class="col-md-6">
-		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+		<a class="back-url" href="../"><i class="fa fa-chevron-left"></i><?= $json->backList->mainText ?></a>
 	</div>
 </div>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">
