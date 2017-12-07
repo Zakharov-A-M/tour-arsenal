@@ -10,6 +10,7 @@ $host_mane = 'http://tour-arsenal.by/admin/';
 <!DOCTYPE html>
 <html class="  ">
 <head>
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
@@ -27,7 +28,7 @@ $host_mane = 'http://tour-arsenal.by/admin/';
     <link href="<?= $host_mane ?>css/site.css" type="text/css"  rel="stylesheet" />
     <link href="<?= $host_mane ?>css/style.css" type="text/css"  rel="stylesheet" />
 
-
+    <script type="text/javascript" src="<?= $host_mane ?>js/main.js"></script>
     <script type="text/javascript" src="<?= $host_mane ?>js/bootstrap.js"></script>
     <script type="text/javascript" src="<?= $host_mane ?>js/chart-sparkline.js"></script>
     <script type="text/javascript" src="<?= $host_mane ?>js/icheck.min.js"></script>
@@ -40,3 +41,12 @@ $host_mane = 'http://tour-arsenal.by/admin/';
 
 </head>
 <body>
+
+<style>
+    body {
+        overflow-x: hidden;
+    }
+</style>
+<script>
+    var name_site = 'http://tour-arsenal.by/';
+</script>

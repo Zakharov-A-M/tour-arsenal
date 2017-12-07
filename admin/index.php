@@ -18,13 +18,21 @@ include_once 'header.php';
                       </p>
 
                       <p class="submit">
-                          <input type="submit"  class="btn btn-orange btn-block" value="Войти" />
+                          <input type="button"  class="btn btn-orange btn-block" value="Войти" id="singIn"/>
                       </p>
                 </form>
         </div>
     </div>
 
 </div>
+
+<style>
+    body {
+        overflow-y: hidden;
+    }
+</style>
+
+
 
 
 
