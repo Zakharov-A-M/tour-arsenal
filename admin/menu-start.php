@@ -1,5 +1,6 @@
 <?php
 include_once 'header.php';
+
 ?>
 
 <div class='page-topbar '>
@@ -360,46 +361,31 @@ include_once 'header.php';
         <!-- MAIN MENU - START -->
         <div class="page-sidebar-wrapper" id="main-menu-wrapper">
 
-            <!-- USER INFO - START -->
-            <div class="profile-info row">
-
-                <div class="profile-image col-md-4 col-sm-4 col-xs-4">
-                    <a href="ui-profile.html">
-                        <img src="" class="img-responsive img-circle">
-                    </a>
-                </div>
-
-                <div class="profile-details col-md-8 col-sm-8 col-xs-8">
-
-                    <h3>
-                        <a href="ui-profile.html">Jason Bourne</a>
-
-                        <!-- Available statuses: online, idle, busy, away and offline -->
-                        <span class="profile-status online"></span>
-                    </h3>
-
-                    <p class="profile-title">Web Developer</p>
-
-                </div>
-
-            </div>
-            <!-- USER INFO - END -->
-
-
-
-            <ul class='wraplist'>
+            <ul class='wraplist' style="padding-top: 24px;">
 
 
                 <li class="">
-                    <a href="index.html">
-                        <i class="fa fa-dashboard"></i>
-                        <span class="title">Dashboard</span>
+                    <a href="<?= $host_mane.'/menu/review/' ?>">
+                        <i class="fa fa-envelope"></i>
+                        <span class="title">Отзывы</span>
                     </a>
                 </li>
                 <li class="">
-                    <a href="widgets.html">
-                        <i class="fa fa-th"></i>
-                        <span class="title">Widgets</span><span class="label label-orange nosubmenu">HOT</span>
+                    <a href="<?= $host_mane.'/menu/call/' ?>">
+                        <i class="fa fa-phone"></i>
+                        <span class="title">Заказ звонка</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="<?= $host_mane.'/menu/question/' ?>">
+                        <i class="fa fa-question"></i>
+                        <span class="title">Задали вопрос</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="<?= $host_mane.'/menu/services/' ?>">
+                        <i class="fa fa-legal"></i>
+                        <span class="title">Заказ услуги</span>
                     </a>
                 </li>
                 <li class="">
@@ -689,7 +675,7 @@ include_once 'header.php';
     <!-- START CONTENT -->
     <section id="main-content" class=" ">
         <section class="wrapper" style='margin-top:60px;display:inline-block;width:100%;padding:15px 0 0 15px;'>
-
+            <div class="container" style="border: 1px solid #ccc; background: #f5f5f5; padding-bottom: 30px;">
 
 
 

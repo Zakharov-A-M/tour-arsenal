@@ -5205,7 +5205,7 @@ border-left: 3px solid transparent;
 -----------------------------------------------*/
 
 tr, td{
-    text-align: center; 
+    /*text-align: center; */
 }
 
 

@@ -8,7 +8,7 @@ $(document).ready(function() {
         var password = $('#user_pass').val();
         $.ajax({
             type: 'POST',
-            url: name_site+'admin/api/login/login.php',
+            url: name_site+'api/login/login.php',
             data: {email: email,  password: password},
             success: function(data){
                 var objData = $.parseJSON(data);
@@ -24,7 +24,7 @@ $(document).ready(function() {
                         '<div class="cssload-cube cssload-c4"></div>' +
                         '<div class="cssload-cube cssload-c3"></div>' +
                         '</div>' +
-                        '<script>  function GoNah(){ window.location.assign(name_site + "admin/menu/"); } setTimeout("GoNah()", 3000); </script>');
+                        '<script>  function GoNah(){ window.location.assign(name_site + "menu/"); } setTimeout("GoNah()", 3000); </script>');
 
                 }
             }

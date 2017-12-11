@@ -1,16 +1,15 @@
 <?php
-
+$host_mane = 'http://tour-arsenal.by/admin/';
 include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
-$host_mane = 'http://tour-arsenal.by/admin/';
 
 ?>
 
 <!DOCTYPE html>
 <html class="  ">
 <head>
-
+    <title>Admin Arsenal</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
@@ -48,5 +47,5 @@ $host_mane = 'http://tour-arsenal.by/admin/';
     }
 </style>
 <script>
-    var name_site = 'http://tour-arsenal.by/';
+    var name_site = "<?= $host_mane ?>";
 </script>

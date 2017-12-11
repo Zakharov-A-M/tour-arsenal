@@ -1,4 +1,4 @@
-
+</div>
 <div class="clearfix"></div>
 </section>
 </section>
