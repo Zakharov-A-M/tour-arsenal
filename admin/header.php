@@ -1,5 +1,5 @@
 <?php
-$host_mane = 'http://tour-arsenal.by/admin/';
+$host_name = 'http://tour-arsenal.by/admin/';
 include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
@@ -15,28 +15,28 @@ include_once 'api/country/country.php';
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
-    <link href="<?= $host_mane ?>css/morris.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/animate.min.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/bootstrap.min.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/bootstrap-theme.min.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/font-awesome.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/orange.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/pace-theme-flash.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/perfect-scrollbar.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/responsive.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/site.css" type="text/css"  rel="stylesheet" />
-    <link href="<?= $host_mane ?>css/style.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/morris.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/animate.min.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/bootstrap.min.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/bootstrap-theme.min.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/font-awesome.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/orange.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/pace-theme-flash.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/perfect-scrollbar.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/responsive.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/site.css" type="text/css"  rel="stylesheet" />
+    <link href="<?= $host_name ?>css/style.css" type="text/css"  rel="stylesheet" />
 
-    <script type="text/javascript" src="<?= $host_mane ?>js/main.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/bootstrap.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/chart-sparkline.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/icheck.min.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/pace.min.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/perfect-scrollbar.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/scripts.js"></script>
-    <script type="text/javascript" src="<?= $host_mane ?>js/viewportchecker.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/main.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/bootstrap.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/chart-sparkline.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/icheck.min.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/pace.min.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/scripts.js"></script>
+    <script type="text/javascript" src="<?= $host_name ?>js/viewportchecker.js"></script>
 
 </head>
 <body>
@@ -47,5 +47,5 @@ include_once 'api/country/country.php';
     }
 </style>
 <script>
-    var name_site = "<?= $host_mane ?>";
+    var name_site = "<?= $host_name ?>";
 </script>

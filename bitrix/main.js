@@ -1,6 +1,9 @@
 
 $(document).ready(function(){
 
+    var host = location.protocol+'//'+location.hostname;
+
+
     var test = 0;
     var files;
     var data = new FormData();
@@ -22,7 +25,7 @@ $(document).ready(function(){
         var action = 'call';
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/form.php',
+            url: host + '/ajax/form.php',
             data: 'id='+action,
             success: function(data){
                 $('.jqmWindow').prepend(data);
@@ -69,7 +72,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/capcha.php',
+            url: host + '/ajax/capcha.php',
             data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
                 if (+data == 0) {
@@ -89,7 +92,7 @@ $(document).ready(function(){
 
         if(flag == 0) {
             $.ajax({
-                url: 'http://tour-arsenal.by/api/post/notification.php',
+                url: host + '/api/post/notification.php',
                 type: 'post',
                 data: {name: $('#FIO').val(),  phone: $('#PHONE').val(), id: 1},
                 success: function (message) {
@@ -156,7 +159,7 @@ $(document).ready(function(){
         var services = $(this).attr('services');
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/form.php',
+            url: host + '/ajax/form.php',
             data: 'id='+action+'&services='+services,
             success: function(data){
                 $('.jqmWindow').prepend(data);
@@ -214,7 +217,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/capcha.php',
+            url: host + '/ajax/capcha.php',
             data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
                 if (+data == 0) {
@@ -234,7 +237,7 @@ $(document).ready(function(){
 
         if(flag == 0) {
             $.ajax({
-                url: 'http://tour-arsenal.by/api/post/notification.php',
+                url: host + '/api/post/notification.php',
                 type: 'post',
                 data: {name: $('#NAME').val(), email: $('#EMAIL').val(), phone: $('#PHONE').val(), message: $('#MESSAGE').val(), service: $('#NEED_PRODUCT').val(), id: 2},
                 success: function (message) {
@@ -312,7 +315,7 @@ $(document).ready(function(){
         var services = $(this).attr('services');
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/form.php',
+            url: host + '/ajax/form.php',
             data: 'id='+action+'&services='+services,
             success: function(data){
                 $('.jqmWindow').prepend(data);
@@ -367,7 +370,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/capcha.php',
+            url: host + '/ajax/capcha.php',
             data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
                 if (+data == 0) {
@@ -387,7 +390,7 @@ $(document).ready(function(){
 
         if(flag == 0) {
             $.ajax({
-                url: 'http://tour-arsenal.by/api/post/notification.php',
+                url: host + '/api/post/notification.php',
                 type: 'post',
                 data: {name: $('#NAME').val(), email: $('#EMAIL-email').val(), phone: $('#PHONE').val(), message: $('#MESSAGE-message').val(), service: $('#SERVICE-service').val(), id: 3},
                 success: function (message) {
@@ -453,7 +456,7 @@ $(document).ready(function(){
         var action = 'guestreviews';
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/form.php',
+            url: host + '/ajax/form.php',
             data: 'id='+action,
             success: function(data){
                 $('.jqmWindow').prepend(data);
@@ -501,7 +504,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'POST',
-            url: 'http://tour-arsenal.by/ajax/capcha.php',
+            url: host + '/ajax/capcha.php',
             data: {recaptcha : grecaptcha.getResponse()},
             success: function(data){
                 if (+data == 0) {
@@ -546,7 +549,7 @@ $(document).ready(function(){
             data.append('message', $('#MESSAGE').val());
             data.append('id', 4);
             $.ajax({
-                url: 'http://tour-arsenal.by/api/post/notification.php',
+                url: host + '/api/post/notification.php',
                 type: 'post',
                 cache: false,
                 contentType: false,

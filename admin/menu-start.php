@@ -1,6 +1,8 @@
 <?php
 include_once 'header.php';
-
+if ($_COOKIE['ID'] == null) {
+    header("Location: ".$host_name);
+};
 ?>
 
 <div class='page-topbar '>
@@ -365,86 +367,46 @@ include_once 'header.php';
 
 
                 <li class="">
-                    <a href="<?= $host_mane.'/menu/review/' ?>">
+                    <a href="<?= $host_name.'/menu/review/' ?>">
                         <i class="fa fa-envelope"></i>
                         <span class="title">Отзывы</span>
                     </a>
                 </li>
                 <li class="">
-                    <a href="<?= $host_mane.'/menu/call/' ?>">
+                    <a href="<?= $host_name.'/menu/call/' ?>">
                         <i class="fa fa-phone"></i>
                         <span class="title">Заказ звонка</span>
                     </a>
                 </li>
                 <li class="">
-                    <a href="<?= $host_mane.'/menu/question/' ?>">
+                    <a href="<?= $host_name.'/menu/question/' ?>">
                         <i class="fa fa-question"></i>
                         <span class="title">Задали вопрос</span>
                     </a>
                 </li>
                 <li class="">
-                    <a href="<?= $host_mane.'/menu/services/' ?>">
+                    <a href="<?= $host_name.'/menu/services/' ?>">
                         <i class="fa fa-legal"></i>
                         <span class="title">Заказ услуги</span>
                     </a>
                 </li>
                 <li class="">
                     <a href="javascript:;">
-                        <i class="fa fa-suitcase"></i>
-                        <span class="title">UI Elements</span>
+                        <i class="fa fa-wrench"></i>
+                        <span class="title">Настройки сайта</span>
                         <span class="arrow "></span>
                     </a>
                     <ul class="sub-menu" >
                         <li>
-                            <a class="" href="ui-typography.html">Typography</a>
+                            <a class="" href="<?= $host_name.'/menu/setting/site-name/' ?>">Название сайта</a>
                         </li>
+
                         <li>
-                            <a class="" href="ui-accordion.html">Tabs & Accordions</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-progress.html">Progress Bars</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-icons.html">Icons</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-buttons.html">Buttons</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-modals.html">Modals</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-notifications.html">Alert & Notifications</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-tooltips.html">Tooltips & Popovers</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-sortable.html">Sortable Group</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-navbars.html">Navbars & Dropdowns</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-extra.html">Other Elements</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-carousel.html">Carousel Slider</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-tree.html">Tree</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-panels.html">Draggable Panels</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-grids.html">Grids</a>
-                        </li>
-                        <li>
-                            <a class="" href="ui-tiles.html">Tile Widgets</a>
+                            <a class="" href="<?= $host_name.'/menu/setting/site-phone/' ?>">Телефоны сайта</a>
                         </li>
                     </ul>
-                </li>
+
+              <!--  </li>
                 <li class="">
                     <a href="javascript:;">
                         <i class="fa fa-sliders"></i>
@@ -658,7 +620,7 @@ include_once 'header.php';
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li>-->
 
             </ul>
 

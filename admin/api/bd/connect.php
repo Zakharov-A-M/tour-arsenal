@@ -41,6 +41,7 @@ class Connect
             return   $result;
         } else {
             var_dump('Ошибка Запроса!');
+            var_dump($mysqli->error);
         }
     }
 

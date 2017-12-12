@@ -20,6 +20,7 @@ class Mail
 
         $mail->setFrom('zakharov19951@yandex.by');
         $mail->addAddress('morgan.zaharov@yandex.ru');
+        $mail->addAddress('alanteva.anna@mail.ru');
         $mail->isHTML(true);
         $mail->Subject = $data['action'];
         $mail->Body = " <h3> {$data['action']}</h3><br><br>";

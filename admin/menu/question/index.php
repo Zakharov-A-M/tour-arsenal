@@ -39,7 +39,7 @@ include_once '../../api/question/question.php';
 
 <?php
 
-include_once $host_mane.'menu-end.php';
+include_once $host_name.'menu-end.php';
 ?>
 
 <script>

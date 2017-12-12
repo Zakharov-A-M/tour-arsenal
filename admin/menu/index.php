@@ -2,9 +2,6 @@
 <?php
 
 include_once '../menu-start.php';
-/*$query = Connect::Query('SELECT * FROM admin_users');
-var_dump($query);
-var_dump($host_mane);*/
 ?>
 
 
@@ -45,5 +42,5 @@ var_dump($host_mane);*/
 </div>
 
 <?php
-include_once $host_mane.'menu-end.php';
+include_once $host_name.'menu-end.php';
 ?>

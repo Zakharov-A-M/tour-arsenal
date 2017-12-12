@@ -1,5 +1,5 @@
 <?php
-include_once $host_mane.'header.php';
+include_once $host_name.'header.php';
 ?>
 
 

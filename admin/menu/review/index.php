@@ -71,7 +71,7 @@ if ($count > 1) {
 
 <?php
 }
-include_once $host_mane.'menu-end.php';
+include_once $host_name.'menu-end.php';
 ?>
 
 <!-- Modal -->
