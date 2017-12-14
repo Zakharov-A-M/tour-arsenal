@@ -942,8 +942,10 @@ include_once 'header.php';
 
         <script>
             $(document).ready(function() {
+                var host = location.protocol+'//'+location.hostname;
+
                 $.ajax({
-                    url: 'http://tour-arsenal.by/ajax/note_instagram.php',
+                    url: host+'/ajax/note_instagram.php',
                     success: function(html) {
                         $('#instagram').html(html);
                         $('.instagram .item').sliceHeight();

@@ -1,0 +1,1 @@
+2017/12/14 23:48:40 [error] 1167#1167: *1208 open() "/home/andusen/www/tour-arsenal.by/galereya/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: tour-arsenal.by, request: "GET /galereya/index.html HTTP/1.1", host: "tour-arsenal.by", referrer: "http://tour-arsenal.by/galereya/letnyaya-rybalka/"
