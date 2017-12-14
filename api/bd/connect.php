@@ -4,9 +4,9 @@
 class Connect
 {
     const HOST = 'localhost';
-    const USER = 'root';
-    const PASSWORD = 'root';
-    const BD = 'tour-arsenal';
+    const USER = 'exobag41_root';
+    const PASSWORD = 'morgan19951';
+    const BD = 'exobag41_ladoga';
 
 
     public static function Query($query) {

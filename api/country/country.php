@@ -29,7 +29,7 @@ class Country {
     if (!$_COOKIE['country']) {
         $country = self::getCountry();
         $country = Func::getLanguagePage($country);
-       // setcookie('country', $country, time()+18000, '/', 'tour-arsenal.by');
+        setcookie('country', $country, time()+3600, '/', 'xn--80aaaapbej4csp5h.xn--p1ai');
     }
         $json = Func::getСontentPage($country ? $country : $_COOKIE["country"]);
         return $json;
