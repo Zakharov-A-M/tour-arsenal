@@ -2,7 +2,7 @@
 include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
-
+$siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/';
 
 ?>
 
@@ -12,27 +12,27 @@ include_once 'api/country/country.php';
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic"; rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
-    <link href="http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/kernel_main/kernel_main.css?150839992529761" type="text/css"  rel="stylesheet" />
-    <link href="http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/default_95d5eff7abedc35c6060dd1d3ce9311b/default_95d5eff7abedc35c6060dd1d3ce9311b.css?1502657030896" type="text/css"  rel="stylesheet" />
-    <link href="http://tour-arsenal.by/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/kernel_main/kernel_main.css?150839992529761" type="text/css"  rel="stylesheet" />
+    <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/default_95d5eff7abedc35c6060dd1d3ce9311b/default_95d5eff7abedc35c6060dd1d3ce9311b.css?1502657030896" type="text/css"  rel="stylesheet" />
+    <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
     <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
     <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1509983944','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'bcedb80867a78b7f7f108c0963dc83ec'});</script>
 
 
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_db.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_ajax.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/json/json2.min.js?14758345923467"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_ls.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_fx.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_frame_cache.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/jquery/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/core/core_popup.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/js/main/ajax.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_db.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_ajax.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/json/json2.min.js?14758345923467"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_ls.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_fx.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_frame_cache.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/core/core_popup.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/js/main/ajax.js"></script>
     <script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/bitrix/templates/aspro-resort/css/bootstrap.css','/bitrix/templates/aspro-resort/css/fonts/font-awesome/css/font-awesome.min.css','/bitrix/templates/aspro-resort/vendor/flexslider/flexslider.css','/bitrix/templates/aspro-resort/css/jquery.fancybox.css','/bitrix/templates/aspro-resort/css/theme-elements.css','/bitrix/templates/aspro-resort/css/theme-responsive.css','/bitrix/templates/.default/ajax/ajax.css','/bitrix/templates/aspro-resort/styles.css','/bitrix/templates/aspro-resort/template_styles.css','/bitrix/templates/aspro-resort/css/responsive.css','/bitrix/templates/aspro-resort/themes/CUSTOM_s1/colors.css','/bitrix/templates/aspro-resort/components/bitrix/map.yandex.system/.default/style.css']); </script>
     <script>BX.message({'JS_REQUIRED':'Заполните это поле!','JS_FORMAT':'Неверный формат!','JS_FILE_EXT':'Недопустимое расширение файла!','JS_PASSWORD_COPY':'Пароли не совпадают!','JS_PASSWORD_LENGTH':'Минимум 6 символов!','JS_ERROR':'Неверно заполнено поле!','JS_RECAPTCHA_ERROR':'Не подтверждено!','JS_PROCESSING_ERROR':'Согласитесь с условиями!','JS_FILE_SIZE':'Максимальный размер 5мб!','JS_FILE_BUTTON_NAME':'Выберите файл','JS_FILE_DEFAULT':'Файл не найден','JS_DATE':'Некорректная дата!','JS_DATETIME':'Некорректная дата/время!','S_CALLBACK':'Заказать звонок','ERROR_INCLUDE_MODULE_RESORT_TITLE':'Ошибка подключения модуля &laquo;Аспро: Курорт - сайт базы отдыха, санатория, гостиницы&raquo;','ERROR_INCLUDE_MODULE_RESORT_TEXT':'Ошибка подключения модуля &laquo;Аспро: Курорт - сайт базы отдыха, санатория, гостиницы&raquo;.<br />Пожалуйста установите модуль и повторите попытку','S_SERVICES':'Наши услуги','S_SERVICES_SHORT':'Услуги','S_TO_ALL_SERVICES':'Все услуги','S_CATALOG':'Каталог товаров','S_CATALOG_SHORT':'Каталог','S_TO_ALL_CATALOG':'Весь каталог','S_CATALOG_FAVORITES':'Наши товары','S_CATALOG_FAVORITES_SHORT':'Товары','S_NEWS':'Новости','S_TO_ALL_NEWS':'Все новости','S_COMPANY':'О компании','S_OTHER':'Прочее','FANCY_CLOSE':'Закрыть','FANCY_NEXT':'Следующий','FANCY_PREV':'Предыдущий','S_MOBILE_MENU':'Меню','CT_BST_SEARCH_BUTTON':'Найти','HEADER_CONTACTS_LINK':'Схема<br> проезда','CONTACTS_LINK':'Схема проезда','INSTAGRAM_TITLE':'Мы в Instagram','INSTAGRAM_DESCRIPTION':'Отдых в экологически чистом месте, на берегу Лесного озера — это то, о чём мечтает любой горожанин!'})</script>
     <link rel="shortcut icon" href="http://tour-arsenal.by/favicon.ico" type="image/x-icon" />
@@ -45,29 +45,29 @@ include_once 'api/country/country.php';
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.actual.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.fancybox.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/blink.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/jquery.easing.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/jquery.appear.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/jquery.cookie.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/bootstrap.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/vendor/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.uniform.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jqModal.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/detectmobilebrowser.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/device.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.alphanumeric.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.counterup.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.dotdotdot.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/general.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/custom.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/components/bitrix/search.title/script.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/main.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/js/jquery.inputmask.bundle.min.js"></script>
-    <script type="text/javascript" src="http://tour-arsenal.by/bitrix/templates/aspro-resort/components/bitrix/map.yandex.view/.default/script.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.actual.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/blink.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/jquery.easing.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/jquery.appear.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/jquery.cookie.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/vendor/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jqModal.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/detectmobilebrowser.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/device.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.alphanumeric.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.dotdotdot.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/general.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/custom.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/components/bitrix/search.title/script.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/main.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.inputmask.bundle.min.js"></script>
+    <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/components/bitrix/map.yandex.view/.default/script.js"></script>
     <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bcc93b1d8395e5bd858a567ff5f49a50"]); _ba.push(["host", "tour-arsenal.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
 
 
@@ -155,10 +155,10 @@ include_once 'api/country/country.php';
                                 <a href="/"><?= $name_site;  ?></a>
                             </div>
                             <div class="scheme col-md-3 col-sm-3">
-                                <a href="http://tour-arsenal.by/contacts/"><?= $json->header->scheme ?></a>
+                                <a href="<?= $siteURL ?>contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="http://tour-arsenal.by"><img src="http://tour-arsenal.by/logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>
+                                <a href="<?= $siteURL ?>"><img src="<?= $siteURL ?>/logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>
                             </div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
