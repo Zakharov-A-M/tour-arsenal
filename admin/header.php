@@ -1,9 +1,11 @@
 <?php
-$host_name = 'http://tour-arsenal.by/admin/';
+$host_name = 'http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/admin/';
 include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
-
+if ($_COOKIE['ID'] == null) {
+    header("Location: ".$host_name);
+};
 ?>
 
 <!DOCTYPE html>
