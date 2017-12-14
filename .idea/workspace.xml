@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="" />
+    <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/country/country.php" afterPath="$PROJECT_DIR$/api/country/country.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +62,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="133">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <marker date="1513106900970" expanded="true" signature="1050:1143" ph="..." />
                 <marker date="1513106900970" expanded="true" signature="1241:1330" ph="..." />
@@ -76,22 +78,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/bd/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="-26">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/bd/connect.php">
+      <file leaf-file-name="country.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/country/country.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="378">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <marker date="1513271064567" expanded="true" signature="1088:1119" ph="SELECT * FRO... name_site" />
+                <marker date="1513271064567" expanded="true" signature="1251:1270" ph="SELECT * FRO... phone" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,11 +239,11 @@
         <option value="$PROJECT_DIR$/admin/menu/setting/site-phone/index.php" />
         <option value="$PROJECT_DIR$/api/api/notification.php" />
         <option value="$PROJECT_DIR$/api/mail/mail.php" />
-        <option value="$PROJECT_DIR$/api/country/country.php" />
         <option value="$PROJECT_DIR$/admin/menu-start.php" />
         <option value="$PROJECT_DIR$/bitrix/main.js" />
         <option value="$PROJECT_DIR$/logs/error.log" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/api/country/country.php" />
       </list>
     </option>
   </component>
@@ -249,7 +254,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="107" />
     <option name="width" value="1920" />
     <option name="height" value="1044" />
@@ -288,7 +293,7 @@
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="country" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -382,10 +387,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311159000" />
+    <option name="totallyTimeSpent" value="311459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="0" width="1920" height="1044" extended-state="7" />
+    <frame x="107" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26709402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -396,7 +401,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3190319" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190319" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -745,13 +750,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/country/country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,6 +758,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1510657630184" expanded="true" signature="129:197" ph="SELECT * FRO... review_client" />
+            <marker date="1510657630184" expanded="true" signature="252:310" ph="SELECT COUNT... review_client" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,10 +806,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6023">
+          <caret line="317" column="9" lean-forward="true" selection-start-line="317" selection-start-column="9" selection-end-line="317" selection-end-column="9" />
+          <folding>
+            <marker date="1513271065207" expanded="true" signature="51284:51301" ph="..." />
+            <marker date="1513271065207" expanded="true" signature="51284:51319" ph="..." />
+            <marker date="1513271065207" expanded="true" signature="51284:51332" ph="..." />
+            <marker date="1513271065207" expanded="true" signature="51284:51347" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <marker date="1513106900970" expanded="true" signature="1050:1143" ph="..." />
             <marker date="1513106900970" expanded="true" signature="1241:1330" ph="..." />
@@ -820,32 +844,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6023">
-          <caret line="317" column="9" lean-forward="true" selection-start-line="317" selection-start-column="9" selection-end-line="317" selection-end-column="9" />
-          <folding>
-            <marker date="1513270764636" expanded="true" signature="50313:50330" ph="..." />
-            <marker date="1513270764636" expanded="true" signature="50313:50348" ph="..." />
-            <marker date="1513270764636" expanded="true" signature="50313:50361" ph="..." />
-            <marker date="1513270764636" expanded="true" signature="50313:50376" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/bd/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="-26">
           <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/api/country/country.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1513271064567" expanded="true" signature="1088:1119" ph="SELECT * FRO... name_site" />
+            <marker date="1513271064567" expanded="true" signature="1251:1270" ph="SELECT * FRO... phone" />
+          </folding>
         </state>
       </provider>
     </entry>
