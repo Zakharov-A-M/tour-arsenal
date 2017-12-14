@@ -19,3 +19,1408 @@ PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.p
 PHP message: PHP Stack trace:
 PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
 PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:53 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:32:58 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Notice:  Undefined index: id in /home/andusen/www/tour-arsenal.by/admin/header.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/
+2017/12/15 00:33:28 [error] 4490#4490: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: host_name in /home/andusen/www/tour-arsenal.by/admin/index.php on line 2
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP Warning:  include_once(api/func.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/func.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 4
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(api/country/country.php): failed to open stream: No such file or directory in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2
+PHP message: PHP Warning:  include_once(): Failed opening 'api/country/country.php' for inclusion (include_path='.:/usr/share/php') in /home/andusen/www/tour-arsenal.by/admin/header.php on line 5
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/andusen/www/tour-arsenal.by/admin/index.php:0
+PHP message: PHP   2. include_once() /home/andusen/www/tour-arsenal.by/admin/index.php:2" while reading response header from upstream, client: 127.0.0.1, server: tour-arsenal.by, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tour-arsenal.by"

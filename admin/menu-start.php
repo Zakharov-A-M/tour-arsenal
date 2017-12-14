@@ -1,5 +1,8 @@
 <?php
 include_once 'header.php';
+if ($_COOKIE['id'] == null) {
+    header("Location: ".$host_name);
+};
 ?>
 
 <div class='page-topbar '>
