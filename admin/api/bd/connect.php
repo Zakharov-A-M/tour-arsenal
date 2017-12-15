@@ -3,7 +3,7 @@
 
 class Connect
 {
-    const HOST = 'localhost';fdgdfgd
+    const HOST = 'localhost';
     const USER = 'exobag41_root';
     const PASSWORD = 'morgan19951';
     const BD = 'exobag41_ladoga';
