@@ -8,7 +8,7 @@
                             <div class="compass">
                                 <i class="fa"></i>
                                 Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
-                            <div class="contacts"><a class="btn btn-default" href="contacts/index.html">Схема проезда</a></div>
+                            <div class="contacts"><a class="btn btn-default" href="<?= $siteURL ?>/contacts">Схема проезда</a></div>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-12">

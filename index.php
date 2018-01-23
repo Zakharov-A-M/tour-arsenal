@@ -435,7 +435,7 @@ include_once 'header.php';
                                     </div>
                                     <div class="col-md-6 img">
                                         <div class="inner">
-                                            <img src="upload/iblock/e35/e35b4127de8bf2130fa98a073ae225cb.png" alt="Уютные мангальные зоны" title="Уютные мангальные зоны" />
+                                            <img src="upload/start-page-index/e35b4127de8bf2130fa98a073ae225cb.png" alt="Уютные мангальные зоны" title="Уютные мангальные зоны" />
                                         </div>
                                     </div>
                                 </div>
@@ -465,7 +465,7 @@ include_once 'header.php';
                                     </div>
                                     <div class="col-md-6 img">
                                         <div class="inner">
-                                            <img src="upload/iblock/596/596338f8e1d86e8f00122bd064e7ba1d.png" alt="Отдых на природе на любой вкус" title="Отдых на природе на любой вкус" />
+                                            <img src="upload/start-page-index/596338f8e1d86e8f00122bd064e7ba1d.png" alt="Отдых на природе на любой вкус" title="Отдых на природе на любой вкус" />
                                         </div>
                                     </div>
                                 </div>
@@ -498,7 +498,7 @@ include_once 'header.php';
                                     </div>
                                     <div class="col-md-6 img">
                                         <div class="inner">
-                                                <img src="upload/iblock/95f/95f566b0e356b6e34cf2e48855f1766b.png" alt="Любите отдыхать активно?" title="Любите отдыхать активно?" />
+                                                <img src="upload/start-page-index/95f566b0e356b6e34cf2e48855f1766b.png" alt="Любите отдыхать активно?" title="Любите отдыхать активно?" />
                                         </div>
                                     </div>
                                 </div>
@@ -518,7 +518,7 @@ include_once 'header.php';
                                 <div class="item wline" id="bx_651765591_36">
                                     <a href="services/rybalka" class="dark_block_animate"></a>
 
-                                    <div class="img_block scale_block_animate" style="background-image: url('upload/resize_cache/iblock/338/500_500_1/338b766c81ddcb1ed87a73da7c41d76c.jpg');"></div>
+                                    <div class="img_block scale_block_animate" style="background-image: url('upload/start-page-index/338b766c81ddcb1ed87a73da7c41d76c.jpg');"></div>
                                     <div class="info">
                                         <div class="title">
 									<span class="wrap_outer titles">
@@ -537,18 +537,19 @@ include_once 'header.php';
                                 <div class="item wline" id="bx_651765591_37">
                                     <a href="rooms/4-kh-mestnyy-kottedzh/quarter_cottage" class="dark_block_animate"></a>
 
-                                    <div class="img_block scale_block_animate" style="background-image: url('upload/resize_cache/iblock/b0d/500_500_1/b0dae01a2c9ddc28a4cd07092732057a.jpg');"></div>
+                                    <div class="img_block scale_block_animate" style="background-image: url('upload/start-page-index/b0dae01a2c9ddc28a4cd07092732057a.jpg');"></div>
                                     <div class="info">
                                         <div class="title">
 									<span class="wrap_outer titles">
 										<a href="rooms/4-kh-mestnyy-kottedzh/quarter_cottage" class="outer_text">
-											<span class="inner_text">Коттеджи</span>
+											<span class="inner_text">Дома</span>
 										</a>
 									</span>
                                         </div>
 
                                         <div class="text">
-                                            Комфортные коттеджи								</div>
+                                            Комфортные дома
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -556,7 +557,7 @@ include_once 'header.php';
                                 <div class="item wline" id="bx_651765591_38">
                                     <a href="services/banya" class="dark_block_animate"></a>
 
-                                    <div class="img_block scale_block_animate" style="background-image: url('upload/resize_cache/iblock/943/500_500_1/9436f96a10fa16953df705d256c6a330.jpg');"></div>
+                                    <div class="img_block scale_block_animate" style="background-image: url('upload/start-page-index/9436f96a10fa16953df705d256c6a330.jpg');"></div>
                                     <div class="info">
                                         <div class="title">
 									<span class="wrap_outer titles">
@@ -599,48 +600,12 @@ include_once 'header.php';
                                 <div class="banners-small front">
                                     <div class="items row_custom">
                                         <div class="item_block">
-                                            <div class="item" id="bx_1373509569_39">
-                                                <div class="image">
-                                                    <a href="rooms">											<img src="upload/iblock/97b/97b84ec11fc3b3424fc7fbaeb58c6421.png" />
-                                                    </a>										</div>
-                                                <div class="title">
-                                                    <a href="rooms">											Доступные и комфортные номера										</a>									</div>
-                                            </div>
-                                        </div>
-                                        <div class="item_block">
-                                            <div class="item" id="bx_1373509569_40">
-                                                <div class="image">
-                                                    <a href="company/reviews">											<img src="upload/iblock/e22/e22a9d5701fde54e95f575ddeb5982ac.png" />
-                                                    </a>										</div>
-                                                <div class="title">
-                                                    <a href="company/reviews">											Приехав к нам однажды, Вам захочется вернуться!										</a>									</div>
-                                            </div>
-                                        </div>
-                                        <div class="item_block">
                                             <div class="item" id="bx_1373509569_41">
                                                 <div class="image">
                                                     <a href="company/area">											<img src="upload/iblock/208/2083fd0c98fe9ca729b9312a3d54b321.png" />
                                                     </a>										</div>
                                                 <div class="title">
                                                     <a href="company/area">											Территория базы с высоты птичьего полета										</a>									</div>
-                                            </div>
-                                        </div>
-                                        <div class="item_block">
-                                            <div class="item" id="bx_1373509569_42">
-                                                <div class="image">
-                                                    <a href="services/rybalka">											<img src="upload/iblock/f68/f688636960ae230bf0d0e11d00d51918.png" />
-                                                    </a>										</div>
-                                                <div class="title">
-                                                    <a href="services/rybalka">											Настоящая карельская рыбалка!										</a>									</div>
-                                            </div>
-                                        </div>
-                                        <div class="item_block">
-                                            <div class="item" id="bx_1373509569_43">
-                                                <div class="image">
-                                                    <a href="company">											<img src="upload/iblock/8cb/8cbf267c6294a8224cb4edd0b15d3b8d.png" />
-                                                    </a>										</div>
-                                                <div class="title">
-                                                    <a href="company">											Вежливый персонал и обслуживание										</a>									</div>
                                             </div>
                                         </div>
                                     </div>
@@ -660,63 +625,64 @@ include_once 'header.php';
                             <div class="front_title"><h3 class="title_block">К вашим услугам</h3></div>
                             <div class="item-views sections teasers front">
                                 <div class="items row">
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
                                         <div class="item noborder" id="bx_3485106786_80">
                                             <div class="image">
-                                                <a href="services/rybalka" class="blink">									<img src="upload/resize_cache/iblock/b7b/146_146_2/b7bc31b7d51a3ce5b0569fafc33d0e4e.jpg" alt="Рыбалка" title="Рыбалка" class="img-responsive" />
-                                                </a>							</div>
+                                                <a href="services/rybalka" class="blink">
+                                                    <img src="upload/start-page-index/b7bc31b7d51a3ce5b0569fafc33d0e4e.jpg" alt="Рыбалка" title="Рыбалка" class="img-responsive" />
+                                                </a>
+                                            </div>
 
                                             <div class="info">
                                                 <div class="title">
-                                                    <a href="services/rybalka">										Рыбалка									</a>								</div>
-
+                                                    <a href="services/rybalka">
+                                                        Рыбалка
+                                                    </a>
+                                                </div>
                                                 <div class="text">
-                                                    Разнообразие видов рыб в озерах Большое Янисъярви и Ладожское, поражает воображение.								</div>
+                                                    Разнообразие видов рыб в Ладожском озере, поражает воображение.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
                                         <div class="item noborder" id="bx_3485106786_81">
                                             <div class="image">
-                                                <a href="services/banya" class="blink">									<img src="upload/resize_cache/iblock/a84/146_146_2/a84abe8f79de788daf77c2c3e29356e4.jpg" alt="Баня" title="Баня" class="img-responsive" />
-                                                </a>							</div>
+                                                <a href="services/banya" class="blink">
+                                                    <img src="upload/start-page-index/a84abe8f79de788daf77c2c3e29356e4.jpg" alt="Баня" title="Баня" class="img-responsive" />
+                                                </a>
+                                            </div>
 
                                             <div class="info">
                                                 <div class="title">
-                                                    <a href="services/banya">										Баня									</a>								</div>
-
+                                                    <a href="services/banya">
+                                                        Баня
+                                                    </a>
+                                                </div>
                                                 <div class="text">
-                                                    Ну разве что-нибудь может быть лучше настоящей дровяной русской бани?!								</div>
+                                                    Не что не сравнится с настоящей дровяной русской баней!
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <div class="item noborder" id="bx_3485106786_82">
-                                            <div class="image">
-                                                <a href="services/ostrov-robinzonada" class="blink">									<img src="upload/resize_cache/iblock/38d/146_146_2/38d44751e94564b2db4691825aa8ce9a.jpg" alt="Остров (Робинзонада)" title="Остров (Робинзонада)" class="img-responsive" />
-                                                </a>							</div>
-
-                                            <div class="info">
-                                                <div class="title">
-                                                    <a href="services/ostrov-robinzonada">										Остров (Робинзонада)									</a>								</div>
-
-                                                <div class="text">
-                                                    Почувствуйте романтику духовного единения с природой, приобщитесь к тайнам древних карел, издавна занимавшихся охотой, рыбалкой и собирательством.								</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
                                         <div class="item noborder" id="bx_3485106786_60">
                                             <div class="image">
-                                                <a href="services/dosug-v-lesu-griby-yagody" class="blink">									<img src="upload/resize_cache/iblock/022/146_146_2/022e7e0da4b8c985939d14e521c4073e.jpg" alt="Досуг в лесу (грибы-ягоды)" title="Досуг в лесу (грибы-ягоды)" class="img-responsive" />
-                                                </a>							</div>
+                                                <a href="services/dosug-v-lesu-griby-yagody" class="blink">
+                                                    <img src="upload/start-page-index/022e7e0da4b8c985939d14e521c4073e.jpg" alt="Досуг в лесу (грибы-ягоды)" title="Досуг в лесу (грибы-ягоды)" class="img-responsive" />
+                                                </a>
+                                            </div>
 
                                             <div class="info">
                                                 <div class="title">
-                                                    <a href="services/dosug-v-lesu-griby-yagody">										Досуг в лесу (грибы-ягоды)									</a>								</div>
+                                                    <a href="services/dosug-v-lesu-griby-yagody">
+                                                        Досуг в лесу (грибы-ягоды)
+                                                    </a>
+                                                </div>
 
                                                 <div class="text">
-                                                    Карельские леса не зря славятся обилием грибов и ягод. Их здесь видимо-невидимо!								</div>
+                                                    Карельские леса славятся обилием грибов и ягод.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -767,7 +733,7 @@ include_once 'header.php';
                                 <div class="wrap clearfix">
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox" href="upload/iblock/324/324d9c094c676f12dfd63cccfa978dc8.jpg"><img src="upload/resize_cache/iblock/324/276_207_2/324d9c094c676f12dfd63cccfa978dc8.jpg" alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..." /></a></div>
+                                            <div class="img_block scale_block_animate"><a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox" href="upload/start-page-index/324d9c094c676f12dfd63cccfa978dc8.jpg"><img src="upload/resize_cache/iblock/324/276_207_2/324d9c094c676f12dfd63cccfa978dc8.jpg" alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..." /></a></div>
                                             <div class="text">Лес, ягоды, грибы ...</div>
                                             <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
                                         </div>
@@ -837,125 +803,6 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="row">
-            <div class="maxwidth-theme">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="company front">
-                                <div class="top_wrapper_block">
-                                    <h3 class="title_block">О Курорте</h3>		<div class="items row">
-                                        <div class="col-md-12">
-                                            <div class="item" id="bx_3099439860_76">
-                                                <div class="row">
-                                                    <div class="col-md-3">
-                                                        <div class="image">
-                                                            <a href="company">											<img src="upload/iblock/9fd/9fdd3fe9d077b850a843334b34fc6e55.jpg" alt="О компании" title="О компании" class="img-responsive" />
-                                                            </a>									</div>
-                                                    </div>
-
-                                                    <div class="col-md-9">
-                                                        <div class="info">
-                                                            <div class="text">
-                                                                Каким бывает отдых в Карелии?<br />
-                                                                <br />
-                                                                &quot;Арсенал&quot; - это не просто база отдыха в Карелии. Это удивительное место, где Ваш отдых превратится в бесконечное, незабываемое удовольствие!										</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <script>
-                                $(document).ready(function () {
-                                    $('.company.front .item .props .prop').sliceHeight();
-                                });
-                            </script>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="maxwidth-theme">
-                <div class="col-md-12">
-                    <div class="item-views list image_left ">
-
-                        <div class="items row">
-
-                            <div class="col-md-12">
-                                <div id="bx_565502798_63" class="item noborder">
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-4 col-xs-12">						<div class="image" >
-                                                <a href="promo/novyy-god-2017-2018" class="blink">
-                                                    <img src="upload/iblock/895/895ee5178938e179b2906dad629859c0.jpg" alt="Новый Год 2017-2018" title="Новый Год 2017-2018" class="img-responsive" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-                                                    <a href="promo/novyy-god-2017-2018">								Новый Год 2017-2018							</a>						</div>
-
-
-
-                                                <div class="clearfix" style="display:block;"></div>
-
-
-                                                <div class="button"><a href="promo/novyy-god-2017-2018" class="btn btn-default transparent white btn-sm"><span>Подробнее</span></a></div>
-                                            </div></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <hr />
-                                <div id="bx_565502798_64" class="item noborder">
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-4 col-xs-12">						<div class="image" >
-                                                <a href="promo/otdykh-so-skidkoy" class="blink">
-                                                    <img src="upload/iblock/1b7/1b746fb78b9cc726eed364cf371e00e6.jpg" alt="Скидка 10% при бронировании более 5 номеров" title="Скидка 10% при бронировании более 5 номеров" class="img-responsive" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-8 col-xs-12"><div class="text">																<div class="title">
-                                                    <a href="promo/otdykh-so-skidkoy">								Скидка 10% при бронировании более 5 номеров							</a>						</div>
-
-
-
-                                                <div class="clearfix" style="display:block;"></div>
-
-
-                                                <div class="button"><a href="promo/otdykh-so-skidkoy" class="btn btn-default transparent white btn-sm"><span>Подробнее</span></a></div>
-                                            </div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>			</div>
-            </div>
-        </div>
-
-
-        <script>
-            $(document).ready(function() {
-                var host = location.protocol+'//'+location.hostname;
-
-                $.ajax({
-                    url: host+'/ajax/note_instagram.php',
-                    success: function(html) {
-                        $('#instagram').html(html);
-                        $('.instagram .item').sliceHeight();
-                    }
-                });
-            });
-        </script>
-        <div class="maxwidth-theme" id="instagram"></div>
-
-
         <div class="main_map_block">
             <div class="maxwidth-theme">
                 <div class="main_contacts_wrap">
@@ -972,108 +819,15 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <br>				</div>
+                    <br>
+                </div>
             </div>
-            <!--'start_frame_cache_map-block'-->			<script type="text/javascript">
-                function BX_SetPlacemarks_MAP_mF8Ev4(map)
-                {
-                    if(typeof window["BX_YMapAddPlacemark"] != 'function')
-                    {
-                        /* If component's result was cached as html,
-                         * script.js will not been loaded next time.
-                         * let's do it manualy.
-                        */
 
-                        (function(d, s, id)
-                        {
-                            var js, bx_ym = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) return;
-                            js = d.createElement(s); js.id = id;
-                            js.src = "/bitrix/templates/aspro-resort/components/bitrix/map.yandex.view/.default/script.js";
-                            bx_ym.parentNode.insertBefore(js, bx_ym);
-                        }(document, 'script', 'bx-ya-map-js'));
-
-                        var ymWaitIntervalId = setInterval( function(){
-                                if(typeof window["BX_YMapAddPlacemark"] == 'function')
-                                {
-                                    BX_SetPlacemarks_MAP_mF8Ev4(map);
-                                    clearInterval(ymWaitIntervalId);
-                                }
-                            }, 300
-                        );
-
-                        return;
-                    }
-
-                    var arObjects = {PLACEMARKS:[],POLYLINES:[]};
-                    arObjects.PLACEMARKS[arObjects.PLACEMARKS.length] = BX_YMapAddPlacemark(map, {'TEXT':'Туркомплекс \"Арсенал\"','LON':'30.750017165265','LAT':'62.131578611892'});
-                }
-            </script>
             <div class="bx-yandex-view-layout">
-                <div class="bx-yandex-view-map">
-                    <script>
-                        var script = document.createElement('script');
-                        script.src = 'http://api-maps.yandex.ru/2.0/?load=package.full&mode=release&lang=ru-RU&wizard=bitrix';
-                        (document.head || document.documentElement).appendChild(script);
-                        script.onload = function () {
-                            this.parentNode.removeChild(script);
-                        };
-                    </script>
-                    <script type="text/javascript">
-                        if (!window.GLOBAL_arMapObjects)
-                            window.GLOBAL_arMapObjects = {};
-
-                        function init_MAP_mF8Ev4()
-                        {
-                            if (!window.ymaps)
-                                return;
-
-                            if(typeof window.GLOBAL_arMapObjects['MAP_mF8Ev4'] !== "undefined")
-                                return;
-
-                            var node = BX("BX_YMAP_MAP_mF8Ev4");
-                            node.innerHTML = '';
-
-                            var map = window.GLOBAL_arMapObjects['MAP_mF8Ev4'] = new ymaps.Map(node, {
-                                center: [62.131458806315, 30.746722627794],
-                                zoom: 15,
-                                type: 'yandex#map'
-                            });
-
-                            if (map.behaviors.isEnabled("scrollZoom"))
-                                map.behaviors.disable("scrollZoom");
-                            map.behaviors.enable("dblClickZoom");
-                            map.behaviors.enable("drag");
-                            if (map.behaviors.isEnabled("rightMouseButtonMagnifier"))
-                                map.behaviors.disable("rightMouseButtonMagnifier");
-                            if (window.BX_SetPlacemarks_MAP_mF8Ev4)
-                            {
-                                window.BX_SetPlacemarks_MAP_mF8Ev4(map);
-                            }
-                        }
-
-                        (function bx_ymaps_waiter(){
-                            if(typeof ymaps !== 'undefined')
-                                ymaps.ready(init_MAP_mF8Ev4);
-                            else
-                                setTimeout(bx_ymaps_waiter, 100);
-                        })();
-
-
-                        /* if map inits in hidden block (display:none)
-                        *  after the block showed
-                        *  for properly showing map this function must be called
-                        */
-                        function BXMapYandexAfterShow(mapId)
-                        {
-                            if(window.GLOBAL_arMapObjects[mapId] !== undefined)
-                                window.GLOBAL_arMapObjects[mapId].container.fitToViewport();
-                        }
-
-                    </script>
-                    <div id="BX_YMAP_MAP_mF8Ev4" class="bx-yandex-map" style="height: 500px; width: 100%;">загрузка карты...</div>	</div>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8e54b1683532cc9fd27a9a82389704541cd8e0ba74503f8b1ce388386a8fd61f&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
-            <!--'end_frame_cache_map-block'-->		</div>
+            <!--'end_frame_cache_map-block'-->
+        </div>
 
         <div class="color_block">
             <div class="row">

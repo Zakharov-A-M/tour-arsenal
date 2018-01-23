@@ -486,6 +486,7 @@ include_once '../header.php';
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="index.php#contacts_map" data-toggle="tab"><?= $json->contacts->tabMap->one ?></a></li>
 		<li><a href="index.php#contacts_schema" data-toggle="tab"><?= $json->contacts->tabMap->two ?></a></li>
+        <li><a href="index.php#contacts_train" data-toggle="tab">Расписание поездов</a></li>
 	</ul>
 </div>
 
@@ -495,119 +496,81 @@ include_once '../header.php';
 <div class="tab-content contacts_tab_content">
 	<div class="tab-pane active" id="contacts_map">
 		<div class="map_block">
-			<!--'start_frame_cache_map-block'-->			<script type="text/javascript">
-function BX_SetPlacemarks_MAP_mF8Ev4(map)
-{
-	if(typeof window["BX_YMapAddPlacemark"] != 'function')
-	{
-		/* If component's result was cached as html,
-		 * script.js will not been loaded next time.
-		 * let's do it manualy.
-		*/
-
-		(function(d, s, id)
-		{
-			var js, bx_ym = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "/bitrix/templates/aspro-resort/components/bitrix/map.yandex.view/.default/script.js";
-			bx_ym.parentNode.insertBefore(js, bx_ym);
-		}(document, 'script', 'bx-ya-map-js'));
-
-		var ymWaitIntervalId = setInterval( function(){
-				if(typeof window["BX_YMapAddPlacemark"] == 'function')
-				{
-					BX_SetPlacemarks_MAP_mF8Ev4(map);
-					clearInterval(ymWaitIntervalId);
-				}
-			}, 300
-		);
-
-		return;
-	}
-
-	var arObjects = {PLACEMARKS:[],POLYLINES:[]};
-	arObjects.PLACEMARKS[arObjects.PLACEMARKS.length] = BX_YMapAddPlacemark(map, {'TEXT':'Туркомплекс \"Арсенал\"','LON':'30.749931334576','LAT':'62.131478309413'});
-}
-</script>
-<div class="bx-yandex-view-layout">
-	<div class="bx-yandex-view-map">
-		<script>
-			var script = document.createElement('script');
-			script.src = 'http://api-maps.yandex.ru/2.0/?load=package.full&mode=release&lang=ru-RU&wizard=bitrix';
-			(document.head || document.documentElement).appendChild(script);
-			script.onload = function () {
-				this.parentNode.removeChild(script);
-			};
-		</script>
-		<script type="text/javascript">
-if (!window.GLOBAL_arMapObjects)
-	window.GLOBAL_arMapObjects = {};
-
-function init_MAP_mF8Ev4()
-{
-	if (!window.ymaps)
-		return;
-
-	if(typeof window.GLOBAL_arMapObjects['MAP_mF8Ev4'] !== "undefined")
-		return;
-
-	var node = BX("BX_YMAP_MAP_mF8Ev4");
-	node.innerHTML = '';
-
-	var map = window.GLOBAL_arMapObjects['MAP_mF8Ev4'] = new ymaps.Map(node, {
-		center: [62.13051594618, 30.750070019405],
-		zoom: 15,
-		type: 'yandex#map'
-	});
-
-	if (map.behaviors.isEnabled("scrollZoom"))
-		map.behaviors.disable("scrollZoom");
-	map.behaviors.enable("dblClickZoom");
-	map.behaviors.enable("drag");
-	if (map.behaviors.isEnabled("rightMouseButtonMagnifier"))
-		map.behaviors.disable("rightMouseButtonMagnifier");
-	if (window.BX_SetPlacemarks_MAP_mF8Ev4)
-	{
-		window.BX_SetPlacemarks_MAP_mF8Ev4(map);
-	}
-}
-
-(function bx_ymaps_waiter(){
-	if(typeof ymaps !== 'undefined')
-		ymaps.ready(init_MAP_mF8Ev4);
-	else
-		setTimeout(bx_ymaps_waiter, 100);
-})();
-
-
-/* if map inits in hidden block (display:none)
-*  after the block showed
-*  for properly showing map this function must be called
-*/
-function BXMapYandexAfterShow(mapId)
-{
-	if(window.GLOBAL_arMapObjects[mapId] !== undefined)
-		window.GLOBAL_arMapObjects[mapId].container.fitToViewport();
-}
-
-</script>
-<div id="BX_YMAP_MAP_mF8Ev4" class="bx-yandex-map" style="height: 500px; width: 100%;">загрузка карты...</div>	</div>
-</div>
-			<!--'end_frame_cache_map-block'-->		</div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8e54b1683532cc9fd27a9a82389704541cd8e0ba74503f8b1ce388386a8fd61f&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
 	</div>
 	<div class="tab-pane" id="contacts_schema">
 		<div class="row">
 			<div class="maxwidth-theme">
 				<div class="col-md-12">
-					<object width="300" height="650">
-<param name="movie" value="/contacts/map_big.swf">
-<embed src="map_big.swf" width="300" height="650">
-</embed>
-</object>				</div>
-			</div>
-		</div>
+                    <div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left polosa-text">
+                        <h3>Как до нас добраться</h3>
+                        <p><strong>1. Из С-Петербурга.</strong><br>
+                            — на поезде С-Петербург — Костомукша (до ст. Маткаселька), далее наш трансфер до Гардарики (25 км).<br>
+                            — на поезде С-Петербург — Костомукша до ст. Сортавала, далее наш трансфер (70 км)<br>
+                            — маршрутное такси от ст.метро «Озерки», (или до Сортавала, далее наш трансфер, или до Вяртсиля, далее наш трансфер (7км).)<br>
+                            — наш трансфер — легковой автомобиль или микроавтобус 8 мест (300 км)</p>
+                        <p><strong>2. Из Москвы. </strong><br>
+                            —  на поезде до Петрозаводска. Далее — наш трансфер (300 км)</p>
+                        <p><strong>3.</strong> До нас можно добраться через Финляндию. Очень удобно.
+                        </p>
+                    </div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Москва - Дачные домики</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Санкт-Петербург - Дачные домики</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Петрозаводск - Дачные домики</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <iframe src="https://yandex.ru/map-widget/v1/-/CBeaUHUVdC" width="100%" height="500" frameborder="0"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <iframe src="https://yandex.ru/map-widget/v1/-/CBeaU2Rq1C" width="100%" height="500" frameborder="0"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <iframe src="https://yandex.ru/map-widget/v1/-/CBeaU-DQGA" width="100%" height="500" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
+    <div class="tab-pane" id="contacts_train">
+        <div class="row">
+            <div class="maxwidth-theme">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="home-tab" data-toggle="tab" href="#home1" role="tab" aria-controls="home" aria-selected="true">Москва - Петрозаводск</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">Москва - Санкт-Петребург</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact1" role="tab" aria-controls="contact" aria-selected="false">Санкт-Петербург — Сортавала</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane active" id="home1" role="tabpanel" aria-labelledby="home-tab">
+                            <iframe frameborder="0" style="-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); overflow: hidden; border: 0; width: 100%; height: 350px;" src="https://rasp.yandex.ru/informers/search/?fromId=c213&amp;toId=c18&amp;size=5&amp;color=1"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile-tab">
+                            <iframe frameborder="0" style="-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); overflow: hidden; border: 0; width: 100%; height: 350px;" src="https://rasp.yandex.ru/informers/search/?fromId=c213&amp;toId=c2&amp;size=5&amp;color=1"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab">
+                            <iframe frameborder="0" style="-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); overflow: hidden; border: 0; width: 100%; height: 350px;" src="https://rasp.yandex.ru/informers/search/?fromId=c2&amp;toId=c10937&amp;size=5&amp;color=1"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="color_block">
 	<div class="row">

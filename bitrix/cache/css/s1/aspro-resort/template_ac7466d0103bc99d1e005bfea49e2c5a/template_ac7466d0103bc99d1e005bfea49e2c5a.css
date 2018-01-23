@@ -6677,7 +6677,7 @@ header .line-row{height:2px;margin:0;}
 .logo-row .top-callback{position:relative;padding-top:26px;line-height:28px;}
 .logo-row .top-callback .phone{padding-left:48px;position:relative;font-size:17px;margin-right:28px;}
 .logo-row .top-callback .phone:before{content:"";position:absolute;left:0;top:4px;width:36px;height:36px;background-image:url(/bitrix/templates/aspro-resort/images/icons_mask.png);background-position: 0 0;background-repeat:no-repeat;}
-.logo-row .top-callback .phone .phone-number{font-weight:bold;line-height:21px;text-align:right;}
+.logo-row .top-callback .phone .phone-number{font-weight:bold;line-height:40px;text-align:right;}
 .logo-row .top-callback .phone .phone-desc{color:#95979a;font-size:11px;line-height:12px;margin-top:-2px;text-align:right;max-width:310px;margin-bottom:18px;}
 .logo-row .top-callback .email{display:none;margin-right:22px;}
 .logo-row .top-callback .email, .logo-row .top-callback .email a{color:#777581;text-decoration:none;}
@@ -6715,7 +6715,7 @@ header.fixed .desc_wrap .logo{width:auto;width:175px;position:absolute;left:50%;
 header.fixed .callback_wrap{width:auto;float:right;max-width:250px;}
 header.fixed .logo-row .top-callback .phone{font-size:17px;}
 header.fixed .logo-row .top-callback .phone.c_1{margin-top:0px;}
-header.fixed .logo-row .top-callback .phone .phone-number{margin-top:4px;}
+header.fixed .logo-row .top-callback .phone .phone-number{margin-top: -5px;}
 header.fixed .logo-row .top-callback .phone .phone-number > div{margin-top:5px;}
 header.fixed .logo-row .top-callback .email{/*display:block;margin-top:-2px;*/}
 header.fixed .logo-row .top-callback .phone .fa, header.fixed .logo-row .top-callback .email .fa{font-size:18px;height:25px;line-height:15px;vertical-align:top;width:25px;margin-top:3px;}

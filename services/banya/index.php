@@ -467,7 +467,7 @@ include_once '../../header.php';
 																				<div class="detail services">
 		
 						
-		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="fancybox" title="<?= $json->bathHousePage->mainText ?>"><img src="../../upload/iblock/aa3/aa3665aa05b55bd5328322b39f6b3628.jpg" class="img-responsive" title="<?= $json->bathHousePage->mainText ?>" alt="<?= $json->bathHousePage->mainText ?>" /></a></div>
+		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/services/banya/9436f96a10fa16953df705d256c6a330.jpg" class="fancybox" title="<?= $json->bathHousePage->mainText ?>"><img src="../../upload/services/banya/9436f96a10fa16953df705d256c6a330.jpg" class="img-responsive" title="<?= $json->bathHousePage->mainText ?>" alt="<?= $json->bathHousePage->mainText ?>" /></a></div>
 	
 	<div class="ask_a_question">
 		<div class="inner">
