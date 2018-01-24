@@ -1,0 +1,470 @@
+{
+  "header": {
+    "title": "Base for family and corporate recreation",
+    "scheme": "Scheme of travel",
+    "tel1": {
+      "number": "+79216044033",
+      "showtel": "+7 (921) 6-044-033"
+    },
+    "tel2": {
+      "number": "+79216047816",
+      "showtel": "+7 (921) 604-78-16"
+    },
+    "buttonOrder": "Order call"
+  },
+  "orderService": {
+    "buttonText": "Order service",
+    "orderText": "Apply on the site, we will contact you in the near future and answer all your questions."
+  },
+  "backList": {
+    "mainText": "Back to list"
+  },
+  "menu": {
+    "aboutUs": {
+      "name": "About us",
+      "aboutAs": "About us",
+      "territory": "Territory",
+      "guestReviews": "Guest reviews"
+    },
+    "services": {
+      "name": "Services",
+      "fishing": "Fishing",
+      "hunt": "Hunting",
+      "cafe": "Cafe",
+      "bathhouse": "Bathhouse",
+      "island": "Island (Robinsonade)",
+      "forest": "Leisure in the forest (berries mushrooms)",
+      "addServices": "Additional services",
+      "winterRelax": "Winter entertainment"
+    },
+    "cost": {
+      "name": "Price"
+    },
+    "promo": {
+      "name": "Shares"
+    },
+    "gallery": {
+      "name": "Gallery"
+    },
+    "contacts": {
+      "name": "Contacts"
+    }
+  },
+  "aboutUs": {
+    "menu": {
+      "aboutUs": "About Us",
+      "territory": "Territory",
+      "guestReviews": "Guest reviews"
+    },
+    "aboutUs": {
+      "mainText": "About us",
+      "text": [
+        "What kind of rest in Karelia?",
+        "Arsenal is not just a recreation center in Karelia, it's an amazing place where your vacation will turn into an endless, unforgettable pleasure!",
+        "Here you can enjoy the fairytale air, boldly go hunting for a forest beast! \"Or go fishing, returning with a catch that the most inveterate fishermen can envy! Lovers of \"quiet hunting\" will not be disappointed either - the forests in the district have long been praised for the abundance of mushrooms and berries.When you return from the hunt, you can make excursions to Valaam or Ruskeal marble canyon ... And many more options from which you can choose your occupation to your liking, the main thing is that you have enough time! ",
+        "We, in turn, as hospitable and hospitable hosts, organize the rest so that all those who have visited us at least once become our friends, and return to the Arsenal again and again!"
+      ],
+      "textGallery": "Gallery",
+      "foto": {
+        "one": "About the company",
+        "two": "About the company",
+        "tree": "Our pier on Lake Janisjärvi",
+        "four": "What can be tastier ?!"
+      },
+      "mainLink": [
+        "Home",
+        "About us"
+      ]
+    },
+    "territory": {
+      "mainText": "Territory of recreation center Arsenal",
+      "text": [
+        "On the territory of the recreation center \"Arsenal\"you will find everything you need for rest and even more! Piers, launching boats to the water, equipped place for safe swimming and active water entertainment.",
+        "You can also visit the bathhouse, use the football and volleyball fields and playgrounds in the fresh air. \"You can ride a bicycle along Lake Janisjärvi."
+      ],
+      "foto": {
+        "one": "Arsenal Territory",
+        "two": "Scheme of housings",
+        "tree": "Scheme of housings 2"
+      },
+      "mainLink": [
+        "Home",
+        "About us",
+        "Territory of recreation center Arsenal"
+      ]
+    },
+    "guestReviews": {
+      "mainText": "Guest reviews",
+      "text": [
+        "We can organize a holiday for everyone! This section contains reviews of those who visited our database. Leave comments and suggestions, share impressions and pleasant experiences that have occurred with us. Your positive emotions indicate that we are working for good reason and criticism, we perceive as a guide to further development. ",
+        "Share your opinion about the rest in the tourist complex Arsenal!"
+      ],
+      "buttonFeedback": "Leave feedback",
+      "mainLink": [
+        "Home",
+        "About us",
+        "Reviews"
+      ]
+    }
+  },
+  "contacts": {
+    "mainLink": [
+      "Home",
+      "Contacts"
+    ],
+    "mainText": "Contacts",
+    "text": [
+      "Värtsilä (Finnish Värtsilä) is an urban settlement in the Sortavala region of the Republic of Karelia, located on the Juuvanjoki river, 5 km from the border with Finland, 65 km from Sortavala. ",
+      "Warning: This is a border zone, so all guests must have a passport."
+    ],
+    "address": {
+      "mainText": "Address",
+      "textaddress": "186757 Russia, Republic of Karelia, Sortavala, Värtsilä, 6th km of the Wärtsilä-Suistamo motorway."
+    },
+    "email": {
+      "mainText": "E-mail",
+      "textaddress": "arsenal@tour-arsenal.ru"
+    },
+    "phone": {
+      "mainText": "Phone",
+      "telefons": [
+        "+7 (921) 6-044-033",
+        "+7 (921) 604-78-16"
+      ]
+    },
+    "modeWork": {
+      "mainText": "Operating mode",
+      "time": "Round the clock"
+    },
+    "tabMap": {
+      "one": "Location",
+      "two": "How to get there"
+    }
+  },
+  "gallery": {
+    "mainLink": [
+      "Home",
+      "Gallery"
+    ],
+    "mainText": "Gallery",
+    "fotoGallery": {
+      "mainTextFoto": "Photo Gallery",
+      "topicFoto": {
+        "fotoArsenal": "ARSENAL Photo Gallery",
+        "summerFish": "Summer fishing",
+        "winterFish": "Winter fishing",
+        "winterRelax": "Winter rest",
+        "summerRelax": "Summer rest",
+        "tour": "Tour of Sortavala",
+        "tourMramKan": "Guided Tour of the Ruxail Marble Canyon",
+        "tourValaam": "Excursion of Valaam"
+      }
+    },
+    "videoGallery": {
+      "mainTextVideo": "Video Gallery",
+      "topicVideo": {
+        "jumpInArsenal": "Incendiary jumps in the Arsenal",
+        "Arsenal2016": "Arsenal in July 2016,",
+        "DissectingJanis": "Dissecting Janis",
+        "RobinZona": "Robinsonade",
+        "triplPlace": "Triple one-room",
+        "numberWithKamin": "Room with fireplace and sauna",
+        "fishing": "Fishing",
+        "bathhouse": "Bathhouse",
+        "chumLake": "Chum on the shore of the lake",
+        "cafeArsenal": "Cafe Arsenal"
+      }
+    },
+    "back": "Previous",
+    "go": "Next",
+    "close": "Close",
+    "backOnList": "Back to list"
+  },
+  "promo": {
+    "mainLink": [
+      "Home",
+      "Shares"
+    ]
+  },
+  "cost": {
+    "mainLink": [
+      "Home",
+      "Price list"
+    ],
+    "menu": {
+      "costLive": "Prices for accommodation",
+      "costMoreServices": "Prices for additional services"
+    },
+    "mainText": "Price-list",
+    "freeServices": {
+      "mainText": "Free database services:",
+      "listServices": [
+        "passage to the territory;",
+        "use of the beach, children's and sports grounds."
+      ]
+    },
+    "costOnLive": {
+      "mainText": "Prices for accommodation",
+      "kolPlaceText": "The number of rooms consists of 49 stationary places + 17 additional stationary places:",
+      "listPlace": [
+        "4 double economy-class single rooms with combined facilities;",
+        "3 three-bed one-room well-appointed rooms;",
+        "2 four-bed three-room rooms for 4-6 people;",
+        "2 four-bed three-room suites - LUX for 4-6 people;",
+        "Three four-bed cottages for 4-6 people.",
+        "1 four-bed cottage Vip with sauna for 4-6 people."
+      ],
+      "costRowsTable": [
+        "1", [
+          "The price includes: Breakfast and car parking. Check-out time is 12.00"
+        ],
+        "2", [
+          "The off-season <br> (16.10 - 30.12) <br> (14.01 - 30.04)"
+        ],
+        "3", [
+          "Season <br> (01.05 - 15.10)"
+        ]
+      ],
+      "addServicePlus": [
+        "Accommodation of animals on the base: 250 rubles per day;",
+        "Forest cafe (TV, music, karaoke, organization of banquets, weddings, birthdays);",
+        "Russian bath by the pond;",
+        "Summer arbor on the shore of the lake;",
+        "Robinsonade on an uninhabited island in a hunting hut (sauna, picnic place, pier);",
+        "Guarded parking for boats and cars;",
+        "Descent of boats on water;",
+        "Sports ground (volleyball, mini-football)."
+      ],
+      "nextAddServices": {
+        "mainText": "Prices for additional services",
+        "textInTable": [
+          "No.",
+          "Name",
+          "Unit.",
+          "Price (un.)"
+        ]
+      }
+    }
+  },
+  "services": {
+    "mainLink": [
+      "Home",
+      "Services"
+    ],
+    "menu": {
+      "fishing": "Fishing",
+      "hunting": "Hunting",
+      "cafe": "Cafe",
+      "bathhouse": "Bathhouse",
+      "iclandRob": "Island (Robinsonade)",
+      "relaxInForrest": "Leisure in the forest (berries mushrooms)",
+      "additionalServices": "Additional services",
+      "winterInter": "Winter entertainments"
+    },
+    "listService": {
+      "mainText": "Services",
+      "firstText": "The Arsenal base gives you the opportunity to experience the rest of the holiday for all tastes in an atmosphere of warm hospitality, an ideal place for fishing, hunting, gathering mushrooms and berries, corporate parties and banquets. We offer a long vacation with your family or come to weekend."
+    },
+    "buttonAboutService": "More Info",
+    "serviceFish": {
+      "name": "Fishing",
+      "text": "The variety of fish species in the lakes of Bolshoye Janisjärvi and Ladoga is amazing."
+    },
+    "serviceHunt": {
+      "name": "Hunting",
+      "text": "Hunting for bog and waterfowl at Lake Janisjärvi, hunting for black grouse, hare, elk, bear."
+    },
+    "serviceCafe": {
+      "name": "Cafe",
+      "text": "In the cafe \" Arsenal \"you can order tourist complex lunches, corporate events, weddings, birthdays, with the opportunity to pre-make a banquet menu that takes into account all the wishes of the client."
+    },
+    "serviceBathHouse": {
+      "name": "Bath",
+      "text": "Is there anything better than a real wood-burning Russian bath ?!"
+    },
+    "serviceIslandRob": {
+      "name": "Island (Robinsonade)",
+      "text": "Feel the romance of spiritual unity with nature, join the mysteries of the ancient Karelians who have long been engaged in hunting, fishing and gathering."
+    },
+    "serviceRelaxForest": {
+      "name": "Leisure in the forest (mushroom-berries)",
+      "text": "The Karelian forests are not for nothing famous for the abundance of mushrooms and berries, they are apparently invisible here!"
+    },
+    "serviceAddservices": {
+      "name": "Additional Services",
+      "text": "A variety of tours, ATV rental, Husky, horse riding, rafting and much more at your service!"
+    },
+    "serviceWinter": {
+      "name": "Winter entertainment",
+      "text": "Skiing through the mysterious and snow-covered forest. Funny riding with a steep hill on the cheesecake. A rare adult will stand and not ride from our hill at least once. Snowmobiling on the trails, different lengths in the forest, and over a frozen lake. After a frosty walk, you will be warmed by a spacious Russian bath, where it is so good to sit with friends. "
+    }
+  },
+  "serviceFishing": {
+    "mainText": "Fishing",
+    "questionBlock": {
+      "buttonText": "Ask a question",
+      "text": "Want to know more? Ask us!"
+    },
+    "textPageFish": {
+      "startUpPage": [
+        "Fishing in Karelia & nbsp; is an unforgettable experience! And it does not matter what time of the year you managed to get to it, and winter fishing will not yield to summer fishing. The comfort of fishing conditions that we tried to create will pleasantly surprise you, and the variety of fish species in lakes The big Janisjärvi and Ladoga are amazing, and after fishing you can cook on the shore from your catch an ear on a fire or a smoked fish.Even the native Karelians for fishing from all lakes choose Yanisjarvi, famous for its always rich catch m. ",
+        "Currently, there are 19 species of fish in the Big Janisjärvi lake - salmon, ryadushka, whitefish, smelt, pike, roach, ide, bream, glue, minnow, eel, burbot, perch, ruff, lake trout, pike-perch.There is also a stream trout in the tributaries of the lake. <br> Lake Janisjärvi has good access roads, electricity supply, beautiful nature create all necessary conditions for organizing sports fishing on the lake. <br> Dates: from May 15 to October 15 <br > Venue: Lake Janisjärvi, nearby forest lakes-lanterns. <br> eki "
+      ],
+      "EquipmentInventory": {
+        "mainText": "Equipment and inventory: echo sounder, tackle, life jackets.",
+        "list": [
+          "Trolling accompanied by an instructor (up to 6 hours),",
+          "Off-site fishing for nearby forest lakes",
+          "Organization of individual fishing tours (prices are negotiable)."
+        ],
+        "lease": "Boat rental, gear, etc. are paid separately!",
+        "dopServices": [
+          "Additional services",
+          "Rest on the islands - smoked fish (lick your fingers!), Ear at the stake, shish kebabs.",
+          "Preparation of fish and ears: from captured trophy or to order",
+          "The minimum number of people in a group is 4, the maximum is 6.",
+          "Car transfer to the fishing place is paid separately."
+        ]
+      },
+      "contentFoto": {
+        "mainText": "Gallery",
+        "nameFoto": "Fishing"
+      }
+    }
+  },
+  "huntPage": {
+    "mainText": "Hunting",
+    "textPageHunt": [
+      "Hunting for bog and waterfowl at Lake Janisjärvi (exit with a group of up to 3 people, duration up to 4 hours) -",
+      "Hunting for wood grouse and black grouse (exit with a group of up to 4 people, duration of up to 5 hours) -",
+      "Hunting for capercaillie and black grouse on the current (exit with a group of up to 6 people, duration of up to 5 hours) -",
+      "Hunting for a woodcock (exit with a group of up to 4 people, duration of up to 5 hours) -",
+      "Hunting for a hare (departure with a group of up to 4 people, duration of up to 6 hours) -",
+      "Trophy hunting for moose -",
+      "Trophy hunting for a bear -"
+    ]
+  },
+  "cafePage": {
+    "mainText": "Cafe",
+    "textPageCafe": [
+      "Our menu will please you with a variety of choice of dishes and affordable prices.Each food is prepared from fresh and quality products, because for you: with the soul. Salads and hot are prepared from under the knife. No preforms and semi-finished products are used , undoubtedly also gives another plus in favor of the quality and level of food prepared in the cafe \"Arsenal.\" Cafe for up to 60 guests will pleasantly surprise you with its service and cuisine. ",
+      "In the cafe \"Arsenal \"it is possible to order tourist complex dinners, corporate events, weddings, birthdays, with the possibility to prepare a banquet menu in advance, taking into account all the wishes of the clients."
+    ],
+    "gallety": {
+      "textFoto": "Cafe",
+      "textmain": "Gallery"
+    },
+    "DocMenuCafe": {
+      "textMain": "Documents",
+      "firstDoc": "Menu",
+      "secondDoc": "Complex dinners"
+    }
+  },
+  "bathHousePage": {
+    "mainText": "Bath",
+    "textPageCafe": [
+      "Russian wood-burning sauna by the pond.",
+      "Oh, bath! Oak or birch whisk, a warm company, the advice of an experienced bathhouse attendant ... Let the park run hot, run out into the street and dive into the pond! Is there anything better than a real wood-burning Russian bath ?!"
+    ],
+    "gallety": {
+      "textFoto": "Bathhouse",
+      "textmain": "Gallery"
+    }
+  },
+  "islandRod": {
+    "mainText": "Island (Robinsonade)",
+    "textMainPageIsland": "NEW OFFER: LEISURE ON THE UNBEATABLE ISLAND",
+    "textPageIsland": "Get away from the city everyday life! Throw all the affairs! \"To escape from all on an uninhabited island! Dream? Reality! Feel the romance of spiritual unity with nature, join the secrets of ancient Karelians, who have long been engaged in hunting, fishing and gathering. on a small island, along shores shrouded in rolling boulders descending under transparent water to the sandy bottom.The island, with an area of ​​about 1 hectare, is located on the beautiful Lake Janisjärvi. ",
+    "textPageIsland1": [
+      "ZAIMKA (hunting hut):",
+      "This is a winter version of a warm hunter's hut, inside of which there is a chopped bath on white.The total area is 42 square meters (the living area of ​​the house is 30 square meters) .In the room there are 4 beds (bunk beds), a refectory table and benches, with a denser accommodation in the zapiske can accommodate up to 6 people, ",
+      "The room is equipped with electric lighting from a portable generator.",
+      "Near the house there is an equipped picnic place (bonfire, brazier, harvested wood, covered arbor), Nearby there is a pier for boats.",
+      "RS: Type of connection: mobile GSM;"
+
+    ],
+    "tourIn": {
+      "mainText": "The cost of the tour includes:",
+      "first": "1) Rowing boat, campfire kettles and kettle, disposable tableware, bedding (blankets, pillows, bed linen, towels),",
+      "second": "2) Delivery: boat (spring, summer, autumn), snowmobile (in winter)."
+    },
+    "gallety1": {
+      "textFoto": "Bathhouse",
+      "textmain": "Gallery"
+    },
+    "costService": {
+      "mainText": "Cost of services:",
+      "list": [
+        "Book on an island of three days.",
+        "Price: 4000 rubles / day with a generator,",
+        "3500 rub / day without generator",
+        "A trip by one day is 5000 rubles."
+      ]
+    },
+    "listService": [
+      "Gathering of Mushrooms, Berries, Medicinal Plants:",
+      "The composition of the archipelago includes a fairly large island of Karjasaari, its surface is covered with a mixed forest, melting many natural riddles of the benefits of forest gifts (blueberries, lingonberries, strawberries, raspberries, countless noble and tubular mushrooms).",
+      "FISHING:",
+      "Around the island is concentrated a lot of perch ludas (perch to 0.5 kg), fishing is possible for jig, fishing rod, spinning, mugs, blossoms. Good luck promises to fishermen of pike perch, pike, yazya, red! ",
+      "HUNTING:",
+      "There is a whole expanse for hunting hog and waterfowl (it is necessary to have a hunting ticket with you, a TIN number, a personal rifle, ammunition, a license to carry weapons)."
+    ],
+    "gallety": {
+      "textFoto": "Island (Robinsonade)",
+      "textFoto1": "The raspberry is ripening!",
+      "textFoto2": "The impending storm is better to wait on the island,",
+      "textFoto3": "There are a lot of blueberries on the island",
+      "textmain": "Gallery"
+    }
+  },
+  "relaxForest": {
+    "mainText": "Leisure in the forest (mushroom-berries)",
+    "textPageForest": [
+      "Gathering of Mushrooms, Berries, Medicinal Plants:",
+      "The Karelian forests are not for nothing famous for the abundance of mushrooms and berries, they are apparently invisible! In the mixed forest of the island of Karjasaari, there are so many kinds of forest gifts that you can get lost, what to choose: to collect blueberries, cranberries, raspberries or go in search of mushrooms, red and What ever you choose, you will still be satisfied with the generosity of Karelian nature and will be fascinated by its beauty! "
+    ],
+    "gallety": {
+      "textFoto": "Leisure in the forest (mushroom-berries)",
+      "textmain": "Gallery"
+    }
+  },
+  "AddServices": {
+    "mainText": "Additional Services",
+    "firsText1": "We offer to your attention the organization of the most fascinating events that will remain in your memory for a long time!",
+    "textPageAddService": {
+      "mainText": "In winter, we recommend that you pay attention to the following types of entertainment:",
+      "list": [
+        "Skating on Schemers;",
+        "Riding a dog sled;",
+        "Winter fishing;",
+        "The Woodburn;"
+      ]
+    },
+    "textPageHotTime": {
+      "mainText": "In winter, we recommend that you pay attention to the following types of entertainment:",
+      "list": [
+        "Excursions;",
+        "Quads;",
+        "Horse rides;",
+        "Husky;",
+        "Rafting;",
+        "Corporate rest."
+      ]
+    },
+    "gallety": {
+      "textmain": "Gallery",
+      "textFoto": [
+        "Additional services",
+        "If you come without a boat, you can rent it",
+        "Lynx Mountain",
+        "Ruskeala, the Marble Canyon.",
+        "Excursion to the marble canyon can be ordered from us.",
+        "Double rainbow on Lake Janisjärvi",
+        "And of course our amazing sunsets!",
+        "View from the Mountain Lynx on Janis",
+        "Somewhere in the galleries of the marble canyon ..."
+      ]
+    }
+  }
+
+}

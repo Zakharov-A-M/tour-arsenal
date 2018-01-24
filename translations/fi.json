@@ -1,0 +1,467 @@
+{
+  "otsikko": {
+    "otsikko": "perusta perheen ja yritysten virkistäytymiselle",
+    "järjestelmä": "matkustusohjelma",
+    "tel1": {
+      "numero": "+79216044033",
+      "showtel": "+7 (921) 6-044-033"
+    },
+    "tel2": {
+      "numero": "+79216047816",
+      "showtel": "+7 (921) 604-78-16"
+    },
+    "buttonOrder": "Tilaa puhelu"
+  },
+  "orderService": {
+    "buttonText": "Tilaa palvelu",
+    "orderText": "Käytä sivustolla, otamme sinuun yhteyttä lähitulevaisuudessa ja vastaamme kaikkiin kysymyksiisi."
+  },
+  "backList": {
+    "mainText": "Takaisin luetteloon"
+  },
+  "menu": {
+    "aboutUs": {
+      "nimi": "Meistä",
+      "aboutAs": "Meistä",
+      "alue": "alue"
+      "guestReviews": "Asiakkaiden arvostelut"
+    }
+    "palvelut": {
+      "nimi": "Palvelut",
+      "kalastus": "kalastus",
+      "metsästää": "metsästys",
+      "kahvila": "Cafe",
+      "kylpylä": "Bathhouse",
+      "saari": "saari (Robinsonade)",
+      "metsä": "metsässäolo (marjat sienet)",
+      "addServices": "Lisäpalvelut",
+      "winterRelax": "talviurheilu"
+    },
+    "hinta": {
+      "nimi": "hinta"
+    },
+    "promo": {
+      "nimi": "Osakkeet"
+    },
+    "galleria": {
+      "nimi": "Galleria"
+    },
+    "yhteystiedot": {
+      "nimi": "Yhteystiedot"
+    }
+  }
+  "aboutUs": {
+    "menu": {
+      "aboutUs": "Tietoja meistä",
+      "alue": "alue",
+      "guestReviews": "Asiakkaiden arvostelut"
+    }
+    "aboutUs": {
+      "mainText": "Meistä",
+      "teksti": [
+        "Minkälainen lepo Karjalassa?",
+        "Arsenal ei ole vain virkistyskeskus Karjalassa. Se on hämmästyttävä paikka, jossa loman tulee loputon, unohtumaton kokemus!",
+        "Voit nauttia upeasta ilmasta, rohkeasti mennä metsästää villieläimiä tai lähteä kalastusmatka, palaamassa saaliinsa, joka voi kadehtia innokkaimmat kalastajien rakastavaisten hiljaa metsästys" tule pettymään - metsä on pitkään kehui naapurustossa runsaasti sieniä ja marjoja. Palattuaan metsästää, voit tehdä retkiä Valamon tai Ruskealan marmoria kanjoni ... ja paljon enemmän vaihtoehtoja, joista voit valita jokaiselle jotakin, tärkeintä on riittävästi aikaa! "
+        "Me puolestaan ​​niin viihtyisä ja vieraanvarainen isännät järjestävät lomien, niin että kaikki, jotka ovat käyneet meille jälleen, tullut ystäviämme, ja palata Arsenal uudestaan ​​ja uudestaan!"
+      ]
+      "textGallery": "Gallery",
+      "foto": {
+        "yksi": "Yrityksestä",
+        "kaksi": "Yrityksestä",
+        "puu": "Meidän laituri Janisjärvellä",
+        "neljä": "Mikä voi olla tastier ?!"
+      },
+      "mainLink": [
+        "Koti",
+        "Meistä"
+      ]
+    }
+    "alue": {
+      "mainText": "Arsenal-virkistyskeskuksen alue",
+      "teksti": [
+        "Alueella virkistyskeskuksen Arsenal löydät kaiken mitä tarvitset rentoutumiseen ja vielä enemmän! Laituri, veneiden, joissa alue turvallisen uinti ja aktiivista vesiurheiluun."
+        "Voit myös käydä saunassa, ota jalkapallo ja lentopallokenttä ja varustus ulkopelejä. Pyörä voi ratsastaa pitkin järven Jänisjärven."
+      ]
+      "foto": {
+        "yksi": "Arsenal Territory",
+        "kaksi": "kotelon järjestelmä",
+        "puu": "Koteloiden kaavio 2"
+      },
+      "mainLink": [
+        "Koti",
+        "Meistä",
+        "Arsenal-virkistyskeskuksen alue"
+      ]
+    }"guestReviews": {
+      "mainText": "Asiakkaiden arvostelut",
+      "teksti": [
+        "Voimme järjestää loma kaikille! Tässä osassa arvioita, jotka vierailivat meidän tietokantaan. Jätä kommentteja ja ehdotuksia, jakaa kokemuksia ja miellyttävä tapahtumia, jotka ovat tapahtuneet maamme. Positiivisia tunteita sanoa, että emme toimi mitään, ja kritiikkiä, pidämme ohjauksena jatkokehitykselle. ",
+        "Jaa mielipiteesi muualla matkailukeskuksessa Arsenal! "
+      ]
+      "buttonFeedback": "Jätä palautetta",
+      "mainLink": [
+        "Koti",
+        "Meistä",
+        "Arvostelut"
+      ]
+    }
+  }
+  "yhteystiedot": {
+    "mainLink": [
+      "Koti",
+      "Yhteystiedot"
+    ]
+    "mainText": "Yhteystiedot",
+    "teksti": [
+      "Wärtsilä (Fin Värtsilän.) -. Urban kylä osana Sortavalan Karjalan sijaitsee Yuuvanyoki joen, 5 km päässä rajasta Suomen, 65 km päässä Sortavalan."
+      "Varoitus: Tämä on raja-alue, joten kaikille vieraille on oltava passi."
+    ]
+    "osoite": {
+      "mainText": "Osoite",
+      "Textaddress": "186757 Venäjä, Karjalan tasavalta, Sortavala, n Wärtsilä, 2nd km Wärtsilä-Suistamon .."
+    },
+    "sähköposti": {
+      "mainText": "Sähköposti",
+      "textaddress": "arsenal@tour-arsenal.ru"
+    },
+    "puhelin": {
+      "mainText": "Puhelin",
+      "puhelimet": [
+        "+7 (921) 6-044-033",
+        "+7 (921) 604-78-16"
+      ]
+    },
+    "modeWork": {
+      "mainText": "Käyttötapa",
+      "aika": "kierrosaika"
+    },
+    "tabMap": {
+      "yksi": "Sijainti",
+      "kaksi": "Miten päästä sinne"
+    }
+  }
+  "galleria": {
+    "mainLink": [
+      "Koti",
+      "Galleria"
+    ]
+    "mainText": "Galleria",
+    "fotoGallery": {
+      "mainTextFoto": "Kuvagalleria",
+      "topicFoto": {
+        "fotoArsenal": "ARSENAL Photo Gallery",
+        "summerfish": "Kesäkalastus",
+        "winterFish": "Talvikalastus",
+        "winterRelax": "Talvi lepo",
+        "summerRelax": "Kesätuki",
+        "kiertue": "Sortavalan kierros",
+        "tourMramKan": "Ruxail Marble Canyonin opastettu kierros",
+        "tourValaam": "Valaamin retki"
+      }
+    },
+    "videoGallery": {
+      "mainTextVideo": "Videogalleria",
+      "topicVideo": {
+        "jumpInArsenal": "Armeijan hyökkäykset Arsenalissa",
+        "Arsenal2016": "Arsenal heinäkuussa 2016",
+        "DissectingJanis": "Dissecting Janis",
+        "RobinZona": "Robinsonade",
+        "triplPlace": "Triple one-room",
+        "numberWithKamin": "Huone, jossa takka ja sauna",
+        "kalastus": "kalastus",
+        "kylpylä": "Bathhouse",
+        "chumLake": "Chum järven rannalla",
+        "cafeArsenal": "Cafe Arsenal "
+      }
+    }
+    "takaisin": "Edellinen",
+    "mene": "Seuraava",
+    "Sulje": "Sulje",
+    "backOnList": "Takaisin luetteloon"
+  }
+  "promo": {
+    "mainLink": [
+      "Koti",
+      "Osakkeet"
+    ]
+  }"hinta": {
+  "mainLink": [
+    "Koti",
+    "Hinnasto"
+  ]
+  "menu": {
+    "costLive": "Hinnat majoitus",
+    "costMoreServices": "Lisäpalvelujen hinnat"
+  }
+  "mainText": "Hinnasto",
+  "freeServices": {
+    "mainText": "Vapaa tietokantapalvelut:",
+    "listServices": [
+      "kulkeminen alueelle",
+      "rannan, lasten ja urheilukenttien käyttö."
+    ]
+  }
+  "costOnLive": {
+    "mainText": "Hinnat majoitus",
+    "kolPlaceText": "Huoneiden lukumäärä koostuu 49 asemapaikasta + 17 muuta kiinteää paikkaa:",
+    "listPlace": [
+      "4 hengen economy-luokan yhden hengen huonetta, joissa on yhdistetyt tilat;",
+      "3 kolmen hengen yhden huoneen hyvin varustettuja huoneita",
+      "2 neljän hengen kolmen huoneen huonetta 4-6 hengelle",
+      "2 neljän hengen kolmen huoneen sviittiä - LUX 4-6 hengelle",
+      "Kolme neljän hengen mökkiä 4-6 hengelle.",
+      "1 neljän hengen mökki Vip, jossa on sauna 4-6 hengelle."
+    ],
+    "costRowsTable": [
+      "1", [
+        "Hintaan sisältyy: Aamiainen ja parkkipaikka, Lähtöaika 12.00"
+      ],
+      "2", [
+        "Ulkona-kausi (16.10 - 30.12) <br> (14.01 - 30.04)"
+      ],
+      "3", [
+        "Kausi (01.05 - 15.10)"
+      ]
+    ],
+    "addServicePlus": [
+      "Eläinten asuminen alustalle: 250 ruplaa päivässä",
+      "Metsäkahvila (tv, musiikki, karaoke, bankettien järjestäminen, häät, syntymäpäivät);",
+      "Venäläinen kylpyamme lampilla;",
+      "Kesäjalava järven rannalla",
+      "Robinsonade on asumaton saari metsästysmajassa (sauna, piknikpaikka, laituri);",
+      "Vartioitu veneiden ja autojen pysäköinti",
+      "Alusten laskeutuminen veteen",
+      "Urheilualue (lentopallo, minijalkapallo)."
+    ]
+    "nextAddServices": {
+      "mainText": "Lisäpalvelujen hinnat",
+      "textInTable": [
+        "№",
+        "Nimi",
+        "Toimenpideyksikkö",
+        "Hinta (ei.)"
+      ]
+    }
+  }
+}
+  "palvelut": {
+    "mainLink": [
+      "Koti"
+      "Palvelut"
+    ]"menu": {
+      "kalastus": "kalastus",
+      "metsästys": "metsästys",
+      "kahvila": "Cafe",
+      "kylpylä": "Bathhouse",
+      "iclandRob": "Island (Robinsonade)",
+      "relaxInForrest": "Vapaa metsässä (marjat sienet)",
+      "lisäpalvelut": "lisäpalvelut",
+      "winterInter": "talviurheilu"
+    }
+    "listService": {
+      "mainText": "Palvelut",
+      "FirstText": "Base  Arsenal antaa mahdollisuuden kokea charmia virkistys jokaiseen makuun ilmapiirissä lämmin vieraanvaraisuus ihanteellinen paikka kalastukseen, metsästykseen, marjojen ja sienten poiminta, yritysten bileitä ja juhlia tarjoavat viettää pitkä loma yhdessä perheen tai tule .. viikonloppuna. "
+    }
+    "buttonAboutService": "Lisätietoja",
+    "serviceFish": {
+      "nimi": "kalastus",
+      "Text": "Monimuotoisuus kalalajeja Laatokalla ja Jänisjärven suuri, hämmästyttävä."
+    }
+    "serviceHunt": {
+      "nimi": "metsästys",
+      "Teksti": "metsästys vuoristoalueiden ja vesilintujen järvellä Jänisjärven, metsästystä metsäkanalintujen, jänis, hirvi, karhu."
+    }
+    "serviceCafe": {
+      "nimi": "Cafe",
+      "Teksti": "Kahvilassa \" Arsenal \"voi tilata turistikeskus illallisia, yritysten tapahtumia, häät, syntymäpäivät, joilla on kyky ennalta luoda juhla valikosta jossa otetaan huomioon kaikki asiakkaan toiveiden."
+    }
+    "serviceBathHouse": {
+      "nimi": "Bath",
+      "teksti": "Onko mitään parempaa kuin todellinen puulämmitteinen venäläinen kylpyamme?"
+    }
+    "serviceIslandRob": {
+      "nimi": "saari (Robinsonade)",
+      "Text": "Feel romantiikka hengelliseen yhteyteen luonnon kanssa, yhteydestä mysteeri muinaisen Karjalan, on jo pitkään ollut sitoutunut metsästys-, kalastus- ja kerääminen."
+    }
+    "serviceRelaxForest": {
+      "nimi": "Vapaa metsässä (sieni-marjat)",
+      "Teksti": "Karjalan metsä tietoisesti kuuluisa runsaasti sieniä ja marjoja Ne ovat tuhat.!"
+    }
+    "serviceAddservices": {
+      "nimi": "Lisäpalvelut",
+      "Teksti": "erilaisia ​​retkiä, ATV vuokraus, husky, ratsastusta, koskenlaskua ja paljon muuta palveluksessanne!"
+    }
+    "serviceWinter": {
+      "nimi": "Talviviihde",
+      "Teksti": "Hiihto salaperäinen ja lumisessa metsässä Merry ratsastus jyrkät kukkulat juustokakkujen Harvinainen aikuinen voi seistä ja ratsastaa meidän dioja vain kerran Moottorikelkkailu reiteillä eripituisia metsässä ja jäällä .... Jäätyvän kävelyn jälkeen lämmitetään tilava venäläinen kylpy, jossa on niin hyvä istua ystävien kanssa. "
+    }
+  }
+  "serviceFishing": {
+    "mainText": "Kalastus",
+    "questionBlock": {
+      "buttonText": "Kysy kysymys",
+      "teksti": "Haluatko tietää lisää? Kysy meiltä!"
+    }
+    "textPageFish": {
+      "startUpPage": [
+        "Kalastus Karjalassa & nbsp; on unohtumaton kokemus ja sillä ei ole väliä, mihin aikaan vuodesta olet onnistunut lyödä sitä ja pilkkiminen ole myöntävät Kesä Comfort kalastusolosuhteita jotka olemme yrittäneet luoda, iloisesti yllättää, ja erilaisia ​​kalalajeista järvissä !. suuri Jänisjärven ja Laatokka, on hämmästyttävä. ja kalastuksen jälkeen voit valmistaa rannalla korvansa kiinni nuotion tai savustettu kala. Jopa juuri Karjalan kalajärviä kaikki valita juuri Jänisjärven, kuuluisa rikkaasta saalis zavsegda m ",
+        "Tällä hetkellä järvessä Big Jänisjärven elää 19 kalalajia - lohi, siika, siika, kuore, hauki, särki, säyne, lahna, salakka, mutu, ankerias, made, ahven, kiiski, järvitaimen, nieriä, lahna, seipi, . myös ahven järvessä sivujokien löytyi puronieriä <br> järven Jänisjärven on hyvät tieyhteydet, sähkö, kaunis luonto luo kaikki tarvittavat edellytykset järjestämisestä urheilukalastuksen lake <br> Päivämäärät: .. alkaen 15 05-15 10 <br > Paikka: Järvi Janisjärvi, läheiset metsän järvet-lyhdyt. <br> eki "
+      ]
+      "EquipmentInventory": {
+        "mainText": "Laitteet ja varastot: kaiuttimet, pelatautot, pelastusliivit",
+        "luettelo": [
+          "Trolling mukana ohjaajan (enintään 6 tuntia),",
+          "Off-site-kalastus lähellä sijaitsevissa metsissä",
+          "Yksittäisten kalastusretkien järjestäminen (hinnat ovat neuvoteltavissa)."
+        ]
+        "vuokrasopimus": "Veneen vuokraus, vaihde jne. maksetaan erikseen",
+        "dopServices": [
+          "Lisäpalvelut",
+          "Menkää saarille - savustettu kala (nuolette sormesi!), Korveke vaarnassa, shish kebabs.",
+          "Kalojen ja korvien valmistelu: pyydetystä palkista tai tilauksesta",
+          "Ryhmän vähimmäismäärä on 4, enimmäismäärä on 6.",
+          "Auton siirtäminen kalastuspisteeseen maksetaan erikseen."
+        ]
+      }
+      "contentFoto": {
+        "mainText": "Galleria",
+        "nameFoto": "Kalastus"
+      }
+    }
+  }
+  "huntPage": {
+    "mainText": "metsästys",
+    "textPageHunt": [
+      "Metsästys vuoristo- ja vesilintujen järven Jänisjärven (poistuva ryhmän kanssa 3 henkilöä, kesto enintään 4 tuntia) -"
+      "Metsästys puurunkoihin ja mustajuustoihin (poistu ryhmästä, jossa on enintään 4 henkeä, kesto jopa 5 tuntia) -"
+      "Metsästys metson ja teeren nykyisessä (jättäen ryhmän kanssa enintään 6 henkilöä, kesto jopa 5 tuntia) -"
+      "Metsästys Woodcock (poistua ryhmä jopa 4 henkilöä, kesto jopa 5 tuntia) -"
+      "Jänis metsästys (lähtö enintään 4 hengen ryhmällä, kesto jopa 6 tuntia) -"
+      "Trophy metsästys hirvi -",
+      "Trophy metsästys karhun -",
+    ]
+  }
+  "cafePage": {
+    "mainText": "Cafe",
+    "textPageCafe": [
+      "Meidän valikko ihastuttavat laajan tuotevalikoiman ruokia ja kohtuuhintaan kaikki ruoka valmistetaan tuoreista ja laadukkaita tuotteita, koska teille:" .. Kun sielu "salaatteja ja kuuma valmis" mukaan veitsi "ei käytä mitään aihioita ja puolivalmiita tuotteita, jotka. epäilemättä antaa myös toinen plus hyväksi elintarvikkeiden laadun ja tason valmistetaan kahvilassa "Arsenal". kahvilassa mahtuu jopa 60 vierasta yllättää sen palvelu ja ruoka. "
+      "Café Arsenal voi tilata turistikeskus illallisia, yritysten tapahtumia, häät, syntymäpäivät, joilla on kyky ennalta luoda juhla valikosta jossa otetaan huomioon kaikki asiakkaiden toiveet."
+    ]
+    "gallety": {
+      "textFoto": "Cafe",
+      "textmain": "Galleria"
+    },
+    "DocMenuCafe": {
+      "textMain": "Dokumentit",
+      "firstDoc": "Valikko",
+      "secondDoc": "Monimutkaiset lounaat"
+    }
+  }
+  "bathHousePage": {
+    "mainText": "Bath",
+    "textPageCafe": [
+      "Venäjän puulämmitteinen sauna lampilla.",
+      "Ah, sauna! Tammi tai koivuvihdan, hyvässä seurassa, valtuustot ammattitaitoinen hoitaja ... täyttää puiston, mutta napar kuuma, törmäsi kadun ja sukeltaa lampeen! No, ellei jotain voi olla parempi kuin todellinen puuta polttava Venäläinen kylpylä?!"
+    ]
+    "gallety": {
+      "textFoto": "Bathhouse",
+      "textmain": "Galleria"
+    }
+  }
+  "islandRod": {
+    "mainText": "Island (Robinsonade)",
+    "textMainPageIsland": "UUSI TARJOUS: VAPAA-AJAN KIINNITYS"
+    "TextPageIsland": "kääntää kaupunkilaisen arjesta pudonnut kaiken paeta jokainen autiolle saarelle unelmat Feel romantiikka hengelliseen yhteyteen luonnon kanssa, yhteydestä mysteeri muinaisen Karjalan, on jo pitkään ollut sitoutunut metsästys-, kalastus- ja sobiratelstvom.Vy jäävät yksin !!!! pieni saari pankit vaipallisia kalteva lohkareita laskeva selkein vettä hiekkapohjainen. Island-ala on noin 1 m, sijaitsee kauniilla Yanisyarvi järvi. "
+    "textPageIsland1": [
+      "ZAIMKA (metsästys):",
+      "Tämä on talvella versio lämmin metsästykseen kota, joka sijaitsee sisäpuolella hienonnettu kylpy ja valkoinen. Kokonaispinta-ala on 42 neliömetriä. M. (Ala on 30 neliömetriä. M.). Huoneessa on 4 vuodetta (kerrossänky kilpi vuodetta), ruokala pöytä ja penkit, joissa tiheämpi majoitus zapiske voi majoittua jopa 6 henkilöä, "
+      "Huoneessa on sähköinen valaistus kannettavasta generaattorista.",
+      "Vieressä mökissä on piknik paikka (kokko, grilli, kaadetun puun katettu huvimaja). Lähellä on laituri veneitä."
+      "RS: Yhteyden tyyppi: matkapuhelin GSM;"
+
+    ]
+    "tourIn": {
+      "mainText": "Kiertueen kustannukset sisältävät:",
+      "Ensimmäinen": "1) Soutuvene, nuotio ja vedenkeitin ruukut, kertakäyttöastiat, vuodevaatteet (peitot, tyynyt, vuodevaatteet, pyyhkeet);"
+      "toinen": "2) Toimitus: vene (kevät, kesä, syksy), moottorikelkka (talvella)."
+    }
+    "gallety": {
+      "textFoto": "Bathhouse",
+      "textmain": "Galleria"
+    },
+    "costService": {
+      "mainText": "Palvelujen kustannukset:",
+      "luettelo": [
+        "Kirja kolmen päivän saarella",
+        "Hinta: 4000 ruplaa / päivä generaattorilla",
+        "3500 rub / day ilman generaattoria",
+        "Matka päivällä on 5000 ruplaa."
+      ]
+    }
+    "listService": [
+      "Sienien, marjojen, lääkekasvien kerääminen",
+      "Rakenne on osa saariston on melko suuri saari Karyasaari. Sen pinta on peitetty sekametsää, tayaschim monia luonnollisia mysteerejä metsän lahjoja hyötyä (mustikoita, karpaloita, mansikoista, vadelmista, lukemattomia jalo ja putkimainen sieniä)."
+      "Kalastus",
+      "Saaren lähellä ovat keskittyneet monet okunovyh Lud (basso korkeintaan 0,5 kg). On mahdollista pilkkimistä kalastus, onki, spinning, mukeja, blosny. Luck lupaa kalastajat ahven, hauki, säyne, rudd!"
+      "Metsästys",
+      "Täällä koko lakeus metsästykseen vuoristoalueiden ja vesilintujen (tarpeen saada metsästyskortti, TIN numero, oma ase, ammukset, luvan oikeutta kantaa asetta)."
+    ]
+    "gallety": {
+      "textFoto": "Island (Robinsonade)",
+      "textFoto1": "Vadelma kypsyy!",
+      "textFoto2": "Tuleva myrsky on parempi odottaa saarella,"
+      "textFoto3": "Saarella on paljon mustikoita",
+      "textmain": "Galleria"
+    }
+  }
+  "relaxForest": {
+    "mainText": "Vapaa metsässä (sieni-marjat)",
+    "textPageForest": [
+      "Sienien, marjojen, lääkekasvien kerääminen",
+      "Karjalan metsä tietoisesti kuuluisa runsaasti sieniä ja marjoja Ne ovat joukkoja on sekametsää Karyasaari saari monia lajeja metsän lahjoja, jotka voidaan sekoittaa, mitä valita:.! Älä kerää mustikoita, karpaloita, vadelmia, tai mennä tatti Quest punainen ja maito sieniä. Mitä haluat, voit silti olla tyytyväinen anteliaisuutta Karjalan luonnon ja ihastunut sen kauneutta! "
+    ],
+    "gallety": {
+      "textFoto": "Vapaa metsässä (sieni-marjat)",
+      "textmain": "Galleria"
+    }
+  },
+  "Lisäpalvelut": {
+    "mainText": "Lisäpalvelut",
+    "FirsText1": "Tarjoamme järjestämiseen jännittäviä tapahtumia, jotka kauan säilyvät muistissa!",
+    "textPageAddService": {
+      "Maintext": "Talvella suosittelemme kiinnittämään huomiota seuraaviin viihteen muodoista:",
+      "luettelo": [
+        "Skating Schemers;",
+        "Ratsastus koiranvaljakolla",
+        "Talvikalastus",
+        "Woodburn;"
+      ]
+    }
+    "textPageHotTime": {
+      "Maintext": "Talvella suosittelemme kiinnittämään huomiota seuraaviin viihteen muodoista:",
+      "luettelo": [
+        "Retket",
+        "Neloset;",
+        "Ratsastus",
+        "Husky",
+        "Jäähdytys;",
+        "Yrityksen lepo."
+      ]
+    }
+    "gallety": {
+      "textmain": "Galleria",
+      "textFoto": [
+        "Lisäpalvelut",
+        "Jos tulet ilman venettä, voit vuokrata sen",
+        "Lynx Mountain",
+        "Ruskeala, Marble Canyon",
+        "Matkan kallion retki voi tilata meiltä.",
+        "Double sateenkaari Janisjärvellä",
+        "Ja tietenkin upeita auringonlaskuja!",
+        "View from Mountain Lynx on Janis",
+        "Jossain marmorikanojan gallerioissa ..."
+      ]
+    }
+  }
+
+}
