@@ -595,4 +595,19 @@ $(document).ready(function(){
     });
 
 
+    $('.dropdown-content a').click(function () {
+        console.log(document.cookie);
+        $.ajax({
+            url: host + '/api/country/getCookies.php',
+            type: 'post',
+            data: {country: $(this).attr('data')},
+            success: function (message) {
+                location.reload();
+            },
+            error: function (message) {
+            }
+        });
+    });
+
+
 });

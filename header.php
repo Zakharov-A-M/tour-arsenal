@@ -171,7 +171,23 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
                     <div class="callback_wrap col-md-5 col-sm-5 col-xs-12">
                         <div class="top-callback">
                             <div class="callback pull-right hidden-xs" >
-                                <span class="btn btn-default" id="orderCall"><?= $json->header->buttonOrder ?></span>
+                                <div class="dropdown">
+                                    <?php if ($_COOKIE["country"] && $_COOKIE["country"] == 'ru') { ?>
+                                         <div class="dropbtn" style="background: url('http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Russia-Flag-icon.png') no-repeat center;"></div>
+                                    <?php } if ($_COOKIE["country"] && $_COOKIE["country"] == 'eu') { ?>
+                                        <div class="dropbtn" style="background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/United-States-Flag-icon.png') no-repeat center;"></div>
+                                    <?php } if ($_COOKIE["country"] && $_COOKIE["country"] == 'fi') { ?>
+                                        <div class="dropbtn" style="background: url('http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Finland-Flag-icon.png') no-repeat center;"></div>
+                                    <?php } if ($_COOKIE["country"] && $_COOKIE["country"] == 'cn') { ?>
+                                        <div class="dropbtn" style="background: url('http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/China-Flag-icon.png') no-repeat center;"></div>
+                                    <?php } ?>
+                                    <div class="dropdown-content">
+                                        <a data="ru"><span style="padding-left: 40px; background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/Russia-Flag-icon.png') no-repeat left center;" >Русский</span></a>
+                                        <a data="eu"><span style="padding-left: 40px; background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/United-States-Flag-icon.png') no-repeat left center;" >English</span></a>
+                                        <a data="fi"><span style="padding-left: 40px; background: url('http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Finland-Flag-icon.png') no-repeat left center;" >Finnish</span></a>
+                                        <a data="cn"><span style="padding-left: 40px; background: url('http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/China-Flag-icon.png') no-repeat left center;" >Chinese</span></a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="phone pull-right hidden-xs c_2">
                                 <div class="phone-number">

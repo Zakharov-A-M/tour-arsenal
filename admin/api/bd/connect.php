@@ -8,6 +8,11 @@ class Connect
     const PASSWORD = 'morgan19951';
     const BD = 'exobag41_ladoga';
 
+  /*  const HOST = 'localhost';
+    const USER = 'root';
+    const PASSWORD = 'root';
+    const BD = 'tour-arsenal';*/
+
 
     public static function Query($query) {
         $mysqli = new mysqli(self::HOST, self::USER, self::PASSWORD, self::BD);

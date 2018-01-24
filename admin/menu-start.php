@@ -405,6 +405,13 @@ if ($_COOKIE['id'] == null) {
                             <a class="" href="<?= $host_name.'/menu/setting/site-phone/' ?>">Телефоны сайта</a>
                         </li>
                     </ul>
+                </li>
+                <li class="">
+                    <a href="<?= $host_name.'/menu/galereya/' ?>">
+                        <i class="fa fa-legal"></i>
+                        <span class="title">Галерея</span>
+                    </a>
+                </li>
 
               <!--  </li>
                 <li class="">
