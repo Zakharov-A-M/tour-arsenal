@@ -1,7 +1,7 @@
 <?php
 include_once '../header.php';
 ?>
-<title>Проживание - Туркомплекс "Арсенал"</title>
+<title>Проживание - "Дача на Ладоге"</title>
 
 
 		<div class="menu-row row">
@@ -76,16 +76,8 @@ include_once '../header.php';
 										Охота																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../services/kafe" title="Кафе">
-										Кафе																			</a>
-																	</li>
-																							<li class=" ">
 									<a href="../services/banya" title="Баня">
 										Баня																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
-										Остров (Робинзонада)																			</a>
 																	</li>
 																							<li class=" ">
 									<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
@@ -191,13 +183,7 @@ include_once '../header.php';
 											<a href="../services/okhota" title="Охота">Охота</a>
 																					</li>
 																													<li class=" ">
-											<a href="../services/kafe" title="Кафе">Кафе</a>
-																					</li>
-																													<li class=" ">
 											<a href="../services/banya" title="Баня">Баня</a>
-																					</li>
-																													<li class=" ">
-											<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
 																					</li>
 																													<li class=" ">
 											<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
@@ -236,21 +222,8 @@ include_once '../header.php';
 													</div>
 					</td>
 								<td class="dropdown js-dropdown nosave" style="display:none;">
-					<div class="wrap">
-						<a class="dropdown-toggle more-items" href="index.php#">
-							<span>...</span>
-						</a>
-						<span class="tail"></span>
-						<ul class="dropdown-menu"></ul>
-					</div>
 				</td>
-				<td class="search-item nosave">
-					<div class="wrap">
-						<a href="index.php#">
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-				</td>
+
 			</tr>
 		</table>
 	</div>
@@ -319,16 +292,8 @@ include_once '../header.php';
 									Охота																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../services/kafe" title="Кафе">
-									Кафе																	</a>
-															</li>
-																				<li class=" ">
 								<a href="../services/banya" title="Баня">
 									Баня																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../services/ostrov-robinzonada" title="Остров (Робинзонада)">
-									Остров (Робинзонада)																	</a>
 															</li>
 																				<li class=" ">
 								<a href="../services/dosug-v-lesu-griby-yagody" title="Досуг в лесу (грибы-ягоды)">
@@ -846,7 +811,7 @@ include_once '../header.php';
 								<div class="info">
 									<div class="compass">
 										<i class="fa"></i>
-										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                        Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.									</div>
 									<div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
 								</div>
 							</div>

@@ -76,16 +76,8 @@ include_once '../../header.php';
                                                                     <?= $json->menu->services->hunt?>																			</a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="../kafe" title="<?= $json->menu->services->cafe?>">
-                                                                    <?= $json->menu->services->cafe?>											</a>
-                                                            </li>
-                                                            <li class=" ">
                                                                 <a href="../banya" title="<?= $json->menu->services->bathhouse?>">
                                                                     <?= $json->menu->services->bathhouse?>																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                                    <?= $json->menu->services->island?>																			</a>
                                                             </li>
                                                             <li class=" ">
                                                                 <a href="../dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -191,13 +183,7 @@ include_once '../../header.php';
                                                                         <a href="../okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
                                                                     </li>
                                                                     <li class=" ">
-                                                                        <a href="../kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
-                                                                    </li>
-                                                                    <li class=" ">
                                                                         <a href="../banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
                                                                     </li>
                                                                     <li class=" ">
                                                                         <a href="../dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
@@ -319,16 +305,8 @@ include_once '../../header.php';
                                                                 <?= $json->menu->services->hunt?>														</a>
                                                         </li>
                                                         <li class=" ">
-                                                            <a href="../kafe" title="<?= $json->menu->services->cafe?>">
-                                                                <?= $json->menu->services->cafe?>														</a>
-                                                        </li>
-                                                        <li class=" ">
                                                             <a href="../banya" title="<?= $json->menu->services->bathhouse?>">
                                                                 <?= $json->menu->services->bathhouse?>													</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                                <?= $json->menu->services->island?>														</a>
                                                         </li>
                                                         <li class=" ">
                                                             <a href="../dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -442,13 +420,7 @@ include_once '../../header.php';
 					    <a href="../okhota"><?= $json->services->menu->hunting ?></a>
 					</li>
 					<li class=" ">
-					    <a href="../kafe"><?= $json->services->menu->cafe ?></a>
-					</li>
-					<li class=" ">
 					    <a href="../banya"><?= $json->services->menu->bathhouse ?></a>
-					</li>
-					<li class=" ">
-					    <a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
 					</li>
 					<li class=" ">
 					    <a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
@@ -479,27 +451,14 @@ include_once '../../header.php';
 
 
 	<div class="content">
-        <?= $json->serviceFishing->textPageFish->startUpPage[0] ?>
-        <br>
- <br>
-        <?= $json->serviceFishing->textPageFish->startUpPage[1] ?>
- <br>
-        <?= $json->serviceFishing->textPageFish->EquipmentInventory->mainText ?><br>
-        <?php
-        foreach ($json->serviceFishing->textPageFish->EquipmentInventory->list as $key => $item) {
-                echo 1+$key.'. '.$item."<br>";
-            }
-        ?>
+        <h3>Где можно порыбачить и полюбоваться северными красотами, в северо-западном районе России?</h3>
 
-<br>
-
-  <?= $json->serviceFishing->textPageFish->EquipmentInventory->lease ?><br>
-        <br>
-        <?php
-        foreach ($json->serviceFishing->textPageFish->EquipmentInventory->dopServices as $key => $item) {
-            echo $item."<br>";
-        }
-        ?>
+        <p>Прекрасные по красоте и рыбацкому счастью места, находятся недалеко от Петербурга. Это Ладожское озеро. Крупнейший внутренний водоем на территории западноевропейского региона. Озеро, занимает площадь около 18 000 квадратных километров. Протяженность, Ладоги по линии берега составляет порядка 1 500 км. Протяженность, красивейшего участка шхер около 800 километров. В Ладогу впадает порядка 40 рек.</p>
+        <p>Резкие перепады глубин в северных районах (от 60 до 220 метров), на южных участках разница меньше (от 15 до 70 метров). Самая глубокая точка находится на Валааме (233 м). Ледостав начинается в октябре, а сходит лед в период конец апреля начало мая. </p>
+        <p>Озеро очень редко покрывается льдом полностью, центр стоит безо льда. Очень переменчив характер погоды. Смена проходит резко. Только светило солнце и штиль, через несколько часов может смениться штормом. </p>
+        <p>Более 500 больших и малых островов расположены по всей территории Ладоги. Валаамский островной архипелаг, состоит из больших участков скал и земли. Прекрасное место — это Ладожские шхеры, проливы между островами. </p>
+        <p>На острове Коневец, 600 лет тому назад, был заложен и воздвигнут, одно из самых значимых для православных, место. Одноименный мужской монастырь, притягивает к себе много верующих и туристов. Но сюда стекаются огромное количество, людей, поклоняющихся другой вере — РЫБАЛКЕ. </p>
+        <p>Множество видов рыб, обитающих здесь, красота этих мест, да и значимые уловы — вот причины поклонения этим местам. Только, перед поездкой. Нужно сразу определиться с рыбой, которую хотелось бы ловить. От этого зависит выбор места ловли, подборе «грамотных» снастей. Ведь на севере есть в основном рыба, обитающая только здесь, также и в других местах. Хотя есть рыбки, обитающие по всему водоему — это ряпушка и корюшка.</p>
     </div>
 
 <hr/>
@@ -509,145 +468,85 @@ include_once '../../header.php';
 		<h4 class="title_block"><?= $json->serviceFishing->textPageFish->contentFoto->mainText ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/369/36907512cd9a63ae39c9545799ad5e40.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/369/800_500_2/36907512cd9a63ae39c9545799ad5e40.jpg');"></div>						
+							<a href="../../upload/services/fishing/36907512cd9a63ae39c9545799ad5e40.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/36907512cd9a63ae39c9545799ad5e40.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/1cb/1cb5b16e6f107c6287424bcaffc6bc35.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/1cb/1cb5b16e6f107c6287424bcaffc6bc35.jpg');"></div>						
+							<a href="../../upload/services/fishing/1cb5b16e6f107c6287424bcaffc6bc35.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/1cb5b16e6f107c6287424bcaffc6bc35.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/060/060570c5966d7031d937fd7fd75d4d75.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/060/060570c5966d7031d937fd7fd75d4d75.jpg');"></div>						
+							<a href="../../upload/services/fishing/060570c5966d7031d937fd7fd75d4d75.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/060570c5966d7031d937fd7fd75d4d75.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/33e/33e77e634ad98d2a346f10a248b6c031.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/33e/33e77e634ad98d2a346f10a248b6c031.jpg');"></div>						
+							<a href="../../upload/services/fishing/33e77e634ad98d2a346f10a248b6c031.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/33e77e634ad98d2a346f10a248b6c031.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/068/0681699726915589b81f3be4c93160a3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/068/0681699726915589b81f3be4c93160a3.jpg');"></div>						
+							<a href="../../upload/services/fishing/0681699726915589b81f3be4c93160a3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/0681699726915589b81f3be4c93160a3.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/26d/26d48bbb158523722f652d3af449b74b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/26d/26d48bbb158523722f652d3af449b74b.jpg');"></div>						
+							<a href="../../upload/services/fishing/26d48bbb158523722f652d3af449b74b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/26d48bbb158523722f652d3af449b74b.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/a32/a32d46cf7280477e8889a21119113083.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/a32/a32d46cf7280477e8889a21119113083.jpg');"></div>						
+							<a href="../../upload/services/fishing/a32d46cf7280477e8889a21119113083.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/a32d46cf7280477e8889a21119113083.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/129/1290a5036b493a858ae51626e94ea4ec.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/129/1290a5036b493a858ae51626e94ea4ec.jpg');"></div>						
+							<a href="../../upload/services/fishing/1290a5036b493a858ae51626e94ea4ec.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/1290a5036b493a858ae51626e94ea4ec.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/8c3/8c356367137c29d48fdc5c4f0556dc30.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/8c3/8c356367137c29d48fdc5c4f0556dc30.jpg');"></div>						
+							<a href="../../upload/services/fishing/8c356367137c29d48fdc5c4f0556dc30.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/8c356367137c29d48fdc5c4f0556dc30.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/31a/31a72a7100610b2e0040f6158adad410.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/31a/31a72a7100610b2e0040f6158adad410.jpg');"></div>						
+							<a href="../../upload/services/fishing/31a72a7100610b2e0040f6158adad410.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/31a72a7100610b2e0040f6158adad410.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/d1e/d1e4479b5b3cf294bd14431765c43281.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/d1e/d1e4479b5b3cf294bd14431765c43281.jpg');"></div>						
+							<a href="../../upload/services/fishing/d1e4479b5b3cf294bd14431765c43281.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/d1e4479b5b3cf294bd14431765c43281.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/8cc/8ccac1d5cda7b71dc01a973fe5c79c4b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/8cc/8ccac1d5cda7b71dc01a973fe5c79c4b.jpg');"></div>						
+							<a href="../../upload/services/fishing/8ccac1d5cda7b71dc01a973fe5c79c4b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/8ccac1d5cda7b71dc01a973fe5c79c4b.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/c4c/c4c0de5adc73a152ff5e49cbd31e15ed.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/c4c/c4c0de5adc73a152ff5e49cbd31e15ed.jpg');"></div>						
+							<a href="../../upload/services/fishing/c4c0de5adc73a152ff5e49cbd31e15ed.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/fishing/c4c0de5adc73a152ff5e49cbd31e15ed.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/723/723da9b48661f785f7e148253747266a.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/723/723da9b48661f785f7e148253747266a.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/12d/12d5b46e4571109a83c1ae59411933e5.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/12d/12d5b46e4571109a83c1ae59411933e5.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/e03/e03642f0bb92877b2a2b000ab3f7cdc1.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/e03/800_500_2/e03642f0bb92877b2a2b000ab3f7cdc1.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/059/0592c77fca0e91bf4bd62009eb676cde.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/059/0592c77fca0e91bf4bd62009eb676cde.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/278/2783cc80a907749ba1da6da264c9aa14.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/278/800_500_2/2783cc80a907749ba1da6da264c9aa14.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f39/f397e8f1ae245fbcb41cf50e3738f4ac.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/f39/f397e8f1ae245fbcb41cf50e3738f4ac.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/b7d/b7dfae4a733732ffeede4e0d2ad0b30d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/b7d/800_500_2/b7dfae4a733732ffeede4e0d2ad0b30d.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/000/000955260b7fea95376f5d1c2a2e7874.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/000/800_500_2/000955260b7fea95376f5d1c2a2e7874.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f14/f143d2de8c3dd425e44e8453c9fb969f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/f14/800_500_2/f143d2de8c3dd425e44e8453c9fb969f.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/77f/77f58d7f8035a6bde7aa1484e2decf2f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->serviceFishing->textPageFish->contentFoto->nameFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/77f/800_500_2/77f58d7f8035a6bde7aa1484e2decf2f.jpg');"></div>						
-						</div>
-					</div>
-							</div>
+				</div>
 		</div>	
 		<hr />	
 	</div>
@@ -692,7 +591,8 @@ include_once '../../header.php';
 								<div class="info">
 									<div class="compass">
 										<i class="fa"></i>
-										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                        Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.
+                                    </div>
 									<div class="contacts"><a class="btn btn-default" href="../../contacts/">Схема проезда</a></div>
 								</div>
 							</div>

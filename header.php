@@ -14,7 +14,7 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic"; rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
+    <meta name="description" content="Дача на Ладоге – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Даче!" />
     <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/kernel_main/kernel_main.css?150839992529761" type="text/css"  rel="stylesheet" />
     <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/default_95d5eff7abedc35c6060dd1d3ce9311b/default_95d5eff7abedc35c6060dd1d3ce9311b.css?1502657030896" type="text/css"  rel="stylesheet" />
     <link href="<?= $siteURL ?>bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css?1502659483321481" type="text/css"  data-template-style="true"  rel="stylesheet" />
@@ -38,10 +38,10 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
     <link rel="shortcut icon" href="http://tour-arsenal.by/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <style>.maxwidth-banner{max-width: auto;}</style>
-    <meta property="og:title" content="Туркомплекс "Арсенал" - Главная" />
+    <meta property="og:title" content="Дача на Ладоге - Главная" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="/" />
-    <meta property="og:description" content="База отдыха – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Базе отдыха!" />
+    <meta property="og:description" content="Дача на Ладоге – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Даче!" />
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -158,7 +158,7 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
                                 <a href="<?= $siteURL ?>contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="<?= $siteURL ?>"><img src="<?= $siteURL ?>/logo.png" alt='Туркомплекс "Арсенал"' title='Туркомплекс "Арсенал"' /></a>
+                                <a href="<?= $siteURL ?>"><img src="<?= $siteURL ?>/logo.png" alt='Дача на Ладоге' title='Дача на Ладоге' /></a>
                             </div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>

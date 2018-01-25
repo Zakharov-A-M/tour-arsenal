@@ -1,7 +1,7 @@
 <?php
 include_once '../header.php';
 ?>
-<title>Услуги - Туркомплекс "Арсенал"</title>
+<title>Услуги - "Дача на Ладоге"</title>
 
 
 
@@ -77,16 +77,8 @@ include_once '../header.php';
                                                 <?= $json->menu->services->hunt?>																			</a>
                                         </li>
                                         <li class=" ">
-                                            <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                <?= $json->menu->services->cafe?>											</a>
-                                        </li>
-                                        <li class=" ">
                                             <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
                                                 <?= $json->menu->services->bathhouse?>																			</a>
-                                        </li>
-                                        <li class=" ">
-                                            <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                <?= $json->menu->services->island?>																			</a>
                                         </li>
                                         <li class=" ">
                                             <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -192,13 +184,7 @@ include_once '../header.php';
                                                     <a href="../services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="../services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
-                                                </li>
-                                                <li class=" ">
                                                     <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
-                                                </li>
-                                                <li class=" ">
-                                                    <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
                                                 </li>
                                                 <li class=" ">
                                                     <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
@@ -234,22 +220,6 @@ include_once '../header.php';
                                         <div class="wrap">
                                             <a class=" link_first" href="../contacts" title="<?= $json->menu->contacts->name?>">
                                                 <?= $json->menu->contacts->name?>															</a>
-                                        </div>
-                                    </td>
-                                    <td class="dropdown js-dropdown nosave" style="display:none;">
-                                        <div class="wrap">
-                                            <a class="dropdown-toggle more-items" href="index.php#">
-                                                <span>...</span>
-                                            </a>
-                                            <span class="tail"></span>
-                                            <ul class="dropdown-menu"></ul>
-                                        </div>
-                                    </td>
-                                    <td class="search-item nosave">
-                                        <div class="wrap">
-                                            <a href="index.php#">
-                                                <i class="fa fa-search"></i>
-                                            </a>
                                         </div>
                                     </td>
                                 </tr>
@@ -320,16 +290,8 @@ include_once '../header.php';
                                             <?= $json->menu->services->hunt?>														</a>
                                     </li>
                                     <li class=" ">
-                                        <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
-                                            <?= $json->menu->services->cafe?>														</a>
-                                    </li>
-                                    <li class=" ">
                                         <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
                                             <?= $json->menu->services->bathhouse?>													</a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="../services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                            <?= $json->menu->services->island?>														</a>
                                     </li>
                                     <li class=" ">
                                         <a href="../services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -661,7 +623,8 @@ include_once '../header.php';
                         <div class="info">
                             <div class="compass">
                                 <i class="fa"></i>
-                                Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.
+                            </div>
                             <div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
                         </div>
                     </div>

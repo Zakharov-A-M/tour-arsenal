@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="  ">
 	<head>
-						<title>Проживание - Туркомплекс "Арсенал"</title>
+						<title>Проживание - "Дача на Ладоге"</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
 																<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -30,7 +30,7 @@
 <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png" />
 <style>.maxwidth-banner{max-width: auto;}</style>
-<meta property="og:title" content="Проживание - Туркомплекс "Арсенал"" />
+<meta property="og:title" content="Проживание - "Дача на Ладоге" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="/logo.png" />
 <link rel="image_src" href="../../../logo.png"  />
@@ -130,7 +130,7 @@
 										<a href="../../../contacts/index.html">Схема<br> проезда</a>
 									</div>
 									<div class="logo">
-										<a href="../../../index.html"><img src="/logo.png" alt="Туркомплекс "Арсенал"" title="Туркомплекс "Арсенал"" /></a>									</div>
+										<a href="../../../index.html"><img src="/logo.png" alt="Дача на Ладоге" title="Дача на Ладоге" /></a>									</div>
 									<div class="fixed_menu">
 										<div class="title">Меню</div>
 										<div class="nav-main-collapse">
@@ -226,16 +226,8 @@
 										Охота																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../../../services/kafe/index.html" title="Кафе">
-										Кафе																			</a>
-																	</li>
-																							<li class=" ">
 									<a href="../../../services/banya/index.html" title="Баня">
 										Баня																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
-										Остров (Робинзонада)																			</a>
 																	</li>
 																							<li class=" ">
 									<a href="../../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
@@ -341,13 +333,7 @@
 											<a href="../../../services/okhota/index.html" title="Охота">Охота</a>
 																					</li>
 																													<li class=" ">
-											<a href="../../../services/kafe/index.html" title="Кафе">Кафе</a>
-																					</li>
-																													<li class=" ">
 											<a href="../../../services/banya/index.html" title="Баня">Баня</a>
-																					</li>
-																													<li class=" ">
-											<a href="../../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
 																					</li>
 																													<li class=" ">
 											<a href="../../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
@@ -469,16 +455,8 @@
 									Охота																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../../../services/kafe/index.html" title="Кафе">
-									Кафе																	</a>
-															</li>
-																				<li class=" ">
 								<a href="../../../services/banya/index.html" title="Баня">
 									Баня																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
-									Остров (Робинзонада)																	</a>
 															</li>
 																				<li class=" ">
 								<a href="../../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
@@ -996,7 +974,7 @@
 								<div class="info">
 									<div class="compass">
 										<i class="fa"></i>
-										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                        Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.									</div>
 									<div class="contacts"><a class="btn btn-default" href="../../../contacts/index.html">Схема проезда</a></div>
 								</div>
 							</div>

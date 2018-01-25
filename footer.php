@@ -7,7 +7,7 @@
                         <div class="info">
                             <div class="compass">
                                 <i class="fa"></i>
-                                Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.									</div>
                             <div class="contacts"><a class="btn btn-default" href="<?= $siteURL ?>/contacts">Схема проезда</a></div>
                         </div>
                     </div>

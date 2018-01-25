@@ -1,7 +1,7 @@
 <?php
 include_once 'header.php';
 ?>
-    <title>Туркомплекс "Арсенал" - Главная</title>
+    <title>Дача на Ладоге - Главная</title>
         <div class="menu-row row">
                 <div class="maxwidth-theme">
                     <div class="col-md-12">
@@ -74,16 +74,8 @@ include_once 'header.php';
                                                             <?= $json->menu->services->hunt?>																			</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                            <?= $json->menu->services->cafe?>											</a>
-                                                    </li>
-                                                    <li class=" ">
                                                         <a href="services/banya" title="<?= $json->menu->services->bathhouse?>">
                                                             <?= $json->menu->services->bathhouse?>																			</a>
-                                                    </li>
-                                                    <li class=" ">
-                                                        <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                            <?= $json->menu->services->island?>																			</a>
                                                     </li>
                                                     <li class=" ">
                                                         <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -189,13 +181,7 @@ include_once 'header.php';
                                                                 <a href="services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
-                                                            </li>
-                                                            <li class=" ">
                                                                 <a href="services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
                                                             </li>
                                                             <li class=" ">
                                                                 <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
@@ -317,16 +303,8 @@ include_once 'header.php';
                                                         <?= $json->menu->services->hunt?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                        <?= $json->menu->services->cafe?>														</a>
-                                                </li>
-                                                <li class=" ">
                                                     <a href="services/banya" title="<?= $json->menu->services->bathhouse?>">
                                                         <?= $json->menu->services->bathhouse?>													</a>
-                                                </li>
-                                                <li class=" ">
-                                                    <a href="services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                        <?= $json->menu->services->island?>														</a>
                                                 </li>
                                                 <li class=" ">
                                                     <a href="services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -450,7 +428,7 @@ include_once 'header.php';
                                         <div class="inner">
                                             <div class="title">Отдых на природе на любой вкус</div>
                                             <div class="text-block">
-                                                Рыбалка, прогулка на катере, организация экскурсий в Горный Парк Рускеала и на остров Валаам - выбирайте занятие по интересам в туркомплексе &quot;Арсенал&quot;										</div>
+                                                Рыбалка, прогулка на катере, организация экскурсий в Горный Парк Рускеала и на остров Валаам - выбирайте занятие по интересам на &quot;Дача на Ладоге&quot;										</div>
                                             <div class="wr_button_slider">
 																							<span class="button_slider">
 													<a href="galereya" class="btn btn-default white">
@@ -747,9 +725,9 @@ include_once 'header.php';
                                     </div>
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Фотогалерея АРСЕНАЛ" rel="gallery" class="fancybox" href="upload/iblock/76b/76b78f43a459c6172583519aa4dfdda7.jpg"><img src="upload/resize_cache/iblock/76b/276_207_2/76b78f43a459c6172583519aa4dfdda7.jpg" alt="Фотогалерея АРСЕНАЛ" title="Фотогалерея АРСЕНАЛ" /></a></div>
-                                            <div class="text">Фотогалерея АРСЕНАЛ</div>
-                                            <span title="Фотогалерея АРСЕНАЛ" class="dark_block_animate"></span>
+                                            <div class="img_block scale_block_animate"><a title="Фотогалерея Дача на Ладоге" rel="gallery" class="fancybox" href="upload/iblock/76b/76b78f43a459c6172583519aa4dfdda7.jpg"><img src="upload/resize_cache/iblock/76b/276_207_2/76b78f43a459c6172583519aa4dfdda7.jpg" alt="Фотогалерея Дача на Ладоге" title="Фотогалерея Дача на Ладоге" /></a></div>
+                                            <div class="text">Фотогалерея Дача на Ладоге</div>
+                                            <span title="Фотогалерея Дача на Ладоге" class="dark_block_animate"></span>
                                         </div>
                                     </div>
                                     <div class="item">
@@ -812,7 +790,7 @@ include_once 'header.php';
                         </div>
                         <div class="wrap">
                             <div class="contact">
-                                186757 Россия, Республика Карелия, г.Сортавала, п. Вяртсиля, ул.Ленина, д.15
+                                186757 Россия, Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры
                             </div>
                             <div class="contact email">
                                 <a href="mailto:arsenal@tour-arsenal.ru">arsenal@tour-arsenal.ru</a>
@@ -824,7 +802,7 @@ include_once 'header.php';
             </div>
 
             <div class="bx-yandex-view-layout">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8e54b1683532cc9fd27a9a82389704541cd8e0ba74503f8b1ce388386a8fd61f&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8e54b1683532cc9fd27a9a82389704541cd8e0ba74503f8b1ce388386a8fd61f&amp;width=100%25&amp;height=500&amp;lang=en_RU&amp;scroll=true"></script>
             </div>
             <!--'end_frame_cache_map-block'-->
         </div>

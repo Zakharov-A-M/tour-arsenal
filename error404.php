@@ -1,7 +1,7 @@
 <?php
 include_once 'header.php';
 ?>
-    <title>Ошибка: 404 - Страница не найдена - Туркомплекс "Арсенал"</title>
+    <title>Ошибка: 404 - Страница не найдена - "Дача на Ладоге"</title>
    			<div class="menu-row row">
                 <div class="maxwidth-theme">
                     <div class="col-md-12">
@@ -74,16 +74,8 @@ include_once 'header.php';
                                                             <?= $json->menu->services->hunt?>																			</a>
                                                     </li>
                                                     <li class=" ">
-                                                        <a href="http://tour-arsenal.by/services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                            <?= $json->menu->services->cafe?>											</a>
-                                                    </li>
-                                                    <li class=" ">
                                                         <a href="http://tour-arsenal.by/services/banya" title="<?= $json->menu->services->bathhouse?>">
                                                             <?= $json->menu->services->bathhouse?>																			</a>
-                                                    </li>
-                                                    <li class=" ">
-                                                        <a href="http://tour-arsenal.by/services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                            <?= $json->menu->services->island?>																			</a>
                                                     </li>
                                                     <li class=" ">
                                                         <a href="http://tour-arsenal.by/services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -189,13 +181,7 @@ include_once 'header.php';
                                                                 <a href="http://tour-arsenal.by/services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
                                                             </li>
                                                             <li class=" ">
-                                                                <a href="http://tour-arsenal.by/services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
-                                                            </li>
-                                                            <li class=" ">
                                                                 <a href="http://tour-arsenal.by/services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="http://tour-arsenal.by/services/ostrov-robinzonada" title="<?= $json->menu->services->island?>"><?= $json->menu->services->island?></a>
                                                             </li>
                                                             <li class=" ">
                                                                 <a href="http://tour-arsenal.by/services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
@@ -317,16 +303,8 @@ include_once 'header.php';
                                                         <?= $json->menu->services->hunt?>														</a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="http://tour-arsenal.by/services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                        <?= $json->menu->services->cafe?>														</a>
-                                                </li>
-                                                <li class=" ">
                                                     <a href="http://tour-arsenal.by/services/banya" title="<?= $json->menu->services->bathhouse?>">
                                                         <?= $json->menu->services->bathhouse?>													</a>
-                                                </li>
-                                                <li class=" ">
-                                                    <a href="http://tour-arsenal.by/services/ostrov-robinzonada" title="<?= $json->menu->services->island?>">
-                                                        <?= $json->menu->services->island?>														</a>
                                                 </li>
                                                 <li class=" ">
                                                     <a href="http://tour-arsenal.by/services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
@@ -484,7 +462,7 @@ include_once 'header.php';
                         <div class="info">
                             <div class="compass">
                                 <i class="fa"></i>
-                                Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.									</div>
                             <div class="contacts"><a class="btn btn-default" href="/contacts/">Схема проезда</a></div>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 <?php
 include_once '../header.php';
 ?>
-<title>Прайс-лист - Туркомплекс "Арсенал"</title>
+<title>Прайс-лист - "Дача на Ладоге"</title>
 
 
 
@@ -75,10 +75,6 @@ include_once '../header.php';
                                                             <li class=" ">
                                                                 <a href="../services/okhota" title="<?= $json->menu->services->hunt?>">
                                                                     <?= $json->menu->services->hunt?>																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                                    <?= $json->menu->services->cafe?>											</a>
                                                             </li>
                                                             <li class=" ">
                                                                 <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
@@ -190,9 +186,6 @@ include_once '../header.php';
                                                                     </li>
                                                                     <li class=" ">
                                                                         <a href="../services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../services/kafe" title="<?= $json->menu->services->cafe?>"><?= $json->menu->services->cafe?></a>
                                                                     </li>
                                                                     <li class=" ">
                                                                         <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
@@ -318,10 +311,6 @@ include_once '../header.php';
                                                         <li class=" ">
                                                             <a href="../services/okhota" title="<?= $json->menu->services->hunt?>">
                                                                 <?= $json->menu->services->hunt?>														</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../services/kafe" title="<?= $json->menu->services->cafe?>">
-                                                                <?= $json->menu->services->cafe?>														</a>
                                                         </li>
                                                         <li class=" ">
                                                             <a href="../services/banya" title="<?= $json->menu->services->bathhouse?>">
@@ -739,7 +728,7 @@ include_once '../header.php';
 								<div class="info">
 									<div class="compass">
 										<i class="fa"></i>
-										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                        Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.									</div>
 									<div class="contacts"><a class="btn btn-default" href="../contacts">Схема проезда</a></div>
 								</div>
 							</div>

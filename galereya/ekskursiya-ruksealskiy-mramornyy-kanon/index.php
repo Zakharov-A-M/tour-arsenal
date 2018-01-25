@@ -1,7 +1,7 @@
 <?php
 include_once '../header.php';
 ?>
-<title>Контакты - Туркомплекс "Арсенал"</title>
+<title>Контакты - "Дача на Ладоге"</title>
 
 
 
@@ -77,16 +77,8 @@ include_once '../header.php';
 										Охота																			</a>
 																	</li>
 																							<li class=" ">
-									<a href="../../services/kafe/index.html" title="Кафе">
-										Кафе																			</a>
-																	</li>
-																							<li class=" ">
 									<a href="../../services/banya/index.html" title="Баня">
 										Баня																			</a>
-																	</li>
-																							<li class=" ">
-									<a href="../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
-										Остров (Робинзонада)																			</a>
 																	</li>
 																							<li class=" ">
 									<a href="../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
@@ -192,13 +184,7 @@ include_once '../header.php';
 											<a href="../../services/okhota/index.html" title="Охота">Охота</a>
 																					</li>
 																													<li class=" ">
-											<a href="../../services/kafe/index.html" title="Кафе">Кафе</a>
-																					</li>
-																													<li class=" ">
 											<a href="../../services/banya/index.html" title="Баня">Баня</a>
-																					</li>
-																													<li class=" ">
-											<a href="../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">Остров (Робинзонада)</a>
 																					</li>
 																													<li class=" ">
 											<a href="../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">Досуг в лесу (грибы-ягоды)</a>
@@ -320,16 +306,8 @@ include_once '../header.php';
 									Охота																	</a>
 															</li>
 																				<li class=" ">
-								<a href="../../services/kafe/index.html" title="Кафе">
-									Кафе																	</a>
-															</li>
-																				<li class=" ">
 								<a href="../../services/banya/index.html" title="Баня">
 									Баня																	</a>
-															</li>
-																				<li class=" ">
-								<a href="../../services/ostrov-robinzonada/index.html" title="Остров (Робинзонада)">
-									Остров (Робинзонада)																	</a>
 															</li>
 																				<li class=" ">
 								<a href="../../services/dosug-v-lesu-griby-yagody/index.html" title="Досуг в лесу (грибы-ягоды)">
@@ -608,7 +586,8 @@ include_once '../header.php';
 								<div class="info">
 									<div class="compass">
 										<i class="fa"></i>
-										Республика Карелия, г.Сортавала, п. Вяртсиля, 6-ой км. автодороги Вяртсиля-Суйстамо.									</div>
+                                        Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры.
+                                    </div>
 									<div class="contacts"><a class="btn btn-default" href="../../contacts/index.html">Схема проезда</a></div>
 								</div>
 							</div>
