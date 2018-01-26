@@ -793,7 +793,7 @@ include_once 'header.php';
                                 186757 Россия, Республика Карелия, п. Лумиваара +3,5 км.Ладожские шхеры
                             </div>
                             <div class="contact email">
-                                <a href="mailto:arsenal@tour-arsenal.ru">arsenal@tour-arsenal.ru</a>
+                                <a href="mailto:arsenal@tour-arsenal.ru"><?= $json->contacts->email->textaddress ?></a>
                             </div>
                         </div>
                     </div>

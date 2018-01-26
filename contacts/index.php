@@ -419,9 +419,9 @@ include_once '../header.php';
 								<br />
 								<span itemprop="telephone">
                                     <?php
-                                        foreach ($phone_site as $item) {
+                                        /*foreach ($phone_site as $item) {
                                             Country::getPhoneInSite($item['tel'], '<br>');
-                                        }
+                                        }*/
                                     ?>
                                 </span>
 							</td>

@@ -193,10 +193,10 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
                                 <div class="phone-number">
                                     <div>
                                         <?php
-                                            foreach ($phone_site as $phone) {
+                                          /*  foreach ($phone_site as $phone) {
                                                 echo '<a href="tel:'.$phone['tel'].'" rel="nofollow">';
                                                 echo Country::getPhoneInSite($phone['tel']).'</a>';
-                                            }
+                                            }*/
                                         ?>
 
                                     </div>

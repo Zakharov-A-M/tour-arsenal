@@ -6672,7 +6672,7 @@ header .line-row{height:2px;margin:0;}
 /* TOP LOGO */
 .logo-row .logo{height:98px;line-height:92px;position:relative;z-index:10;text-align:right;}
 .logo-row .logo img{max-height:60px;}
-.logo-row .top-description{color:#85878b;font-size:14px;line-height:18px;padding-top:31px;position:relative;z-index:11;}
+.logo-row .top-description{color:#85878b;font-size:14px;line-height:35px;padding-top:31px;position:relative;z-index:11;}
 .logo-row .top-description a{color:#85878b;}
 .logo-row .top-callback{position:relative;padding-top:26px;line-height:28px;}
 .logo-row .top-callback .phone{padding-left:48px;position:relative;font-size:17px;margin-right:28px;}
