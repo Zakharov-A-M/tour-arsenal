@@ -32,34 +32,35 @@ include_once '../../header.php';
                                                     </li>
                                                     <li class="dropdown ">
                                                         <a class="dropdown-toggle" href="../../rooms" title="Размещение">
-                                                            Размещение													<i class="fa fa-angle-down"></i>
+                                                            Размещение
+<!--                                                            <i class="fa fa-angle-down"></i>-->
                                                         </a>
-                                                        <ul class="dropdown-menu fixed_menu_ext">
-                                                            <li class=" ">
-                                                                <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                    Двухместный Номер Эконом Класса																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                    Трёхместный Однокомнатный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter" title="Четырехместный Номер">
-                                                                    Четырехместный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                    Четырёхместный Коттедж																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                    3-комнатный коттедж с сауной «Vip»																			</a>
-                                                            </li>
-                                                        </ul>
+<!--                                                        <ul class="dropdown-menu fixed_menu_ext">-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                    Двухместный Номер Эконом Класса																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                    Трёхместный Однокомнатный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                    Четырехместный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                    Четырёхместный Коттедж																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                    3-комнатный коттедж с сауной «Vip»																			</a>-->
+<!--                                                            </li>-->
+<!--                                                        </ul>-->
                                                     </li>
                                                     <li class="dropdown active">
                                                         <a class="dropdown-toggle" href="../../services" title="<?= $json->menu->services->name?>">
@@ -145,27 +146,27 @@ include_once '../../header.php';
                                                                 <a class="dropdown-toggle link_first" href="rooms" title="Размещение">
                                                                     Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
                                                                 </a>
-                                                                <span class="tail"></span>
-                                                                <ul class="dropdown-menu">
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
-                                                                    </li>
-                                                                </ul>
+<!--                                                                <span class="tail"></span>-->
+<!--                                                                <ul class="dropdown-menu">-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>-->
+<!--                                                                    </li>-->
+<!--                                                                </ul>-->
                                                             </div>
                                                         </td>
                                                         <td class="dropdown active">
@@ -261,34 +262,35 @@ include_once '../../header.php';
                                                 </li>
                                                 <li class="dropdown ">
                                                     <a class="dropdown-toggle" href="../../rooms" title="Размещение">
-                                                        Размещение											<i class="fa fa-angle-down"></i>
+                                                        Размещение
+<!--                                                        <i class="fa fa-angle-down"></i>-->
                                                     </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li class=" ">
-                                                            <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                Двухместный Номер Эконом Класса																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                Трёхместный Однокомнатный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter" title="Четырехместный Номер">
-                                                                Четырехместный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                Четырёхместный Коттедж																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                3-комнатный коттедж с сауной «Vip»																	</a>
-                                                        </li>
-                                                    </ul>
+<!--                                                    <ul class="dropdown-menu">-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                Двухместный Номер Эконом Класса																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                Трёхместный Однокомнатный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                Четырехместный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                Четырёхместный Коттедж																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                3-комнатный коттедж с сауной «Vip»																	</a>-->
+<!--                                                        </li>-->
+<!--                                                    </ul>-->
                                                 </li>
                                                 <li class="dropdown active">
                                                     <a class="dropdown-toggle" href="../" title="<?= $json->menu->services->name?>">
@@ -455,11 +457,13 @@ include_once '../../header.php';
 
 	<div class="content">
 				<?php
-                    foreach ($json->bathHousePage->textPageCafe as $item) {
+                  /*  foreach ($json->bathHousePage->textPageCafe as $item) {
                         echo $item.'<br><br>';
-                    }
+                    }*/
 
                 ?>
+        <h2 align="center">История русской БАНИ</h2>
+        <p>История бани началась ещё в глубокой древности, причём у всех народов баня была не только местом для мытья, а также особенным, почти священным местом. Считалось, что баня объединяет 4 главные природные стихии: огонь, воду, воздух и землю. Поэтому человек, посетивший баню, как бы вбирал в себя силу всех этих стихий и становился крепче, сильнее и здоровее. Недаром на Руси бытовала поговорка «Помылся – будто заново родился!».</p>
 <ul>
  <a href="http://arsenal147.tmweb.ru/price/" style="display: none;">Посмотреть стоимость услуг.</a>
 </ul>						</div>
@@ -472,43 +476,67 @@ include_once '../../header.php';
 		<h4 class="title_block"><?= $json->bathHousePage->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/44e/44e23258ad2057abd7e20c105d139745.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/44e/800_500_2/44e23258ad2057abd7e20c105d139745.jpg');"></div>						
+							<a href="../../upload/services/banya/44e23258ad2057abd7e20c105d139745.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/44e23258ad2057abd7e20c105d139745.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/b9f/b9f719c34bd09d74ffcf152e7cefb63d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/b9f/800_500_2/b9f719c34bd09d74ffcf152e7cefb63d.jpg');"></div>						
+							<a href="../../upload/services/banya/b9f719c34bd09d74ffcf152e7cefb63d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/b9f719c34bd09d74ffcf152e7cefb63d.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e8c/e8ca88db75263432cb50058c798abfba.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/e8c/800_500_2/e8ca88db75263432cb50058c798abfba.jpg');"></div>						
+							<a href="../../upload/services/banya/e8ca88db75263432cb50058c798abfba.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/e8ca88db75263432cb50058c798abfba.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/b03/b03966140b2b430c4a25ea89454b18c2.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/b03/800_500_2/b03966140b2b430c4a25ea89454b18c2.jpg');"></div>						
+							<a href="../../upload/services/banya/b03966140b2b430c4a25ea89454b18c2.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/b03966140b2b430c4a25ea89454b18c2.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/df0/df087163b84d309982598ec25a5f4686.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/df0/800_500_2/df087163b84d309982598ec25a5f4686.jpg');"></div>						
+							<a href="../../upload/services/banya/df087163b84d309982598ec25a5f4686.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/df087163b84d309982598ec25a5f4686.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/ba7/ba77c35d4826d9f932d1594cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/ba7/800_500_2/ba77c35d4826d9f932d1594cb7b84df8.jpg');"></div>						
+							<a href="../../upload/services/banya/ba77c35d4826d9f932d1594cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/ba77c35d4826d9f932d1594cb7b84df8.jpg');"></div>
 						</div>
 					</div>
-							</div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="item wline">
+                            <a href="../../upload/services/banya/af78c35d8236d8e54e1594cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+                            <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/af78c35d8236d8e54e1594cb7b84df8.jpg');"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="item wline">
+                            <a href="../../upload/services/banya/be76c61d2226d8e3e1995cb7b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+                            <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/be76c61d2226d8e3e1995cb7b84df8.jpg');"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="item wline">
+                            <a href="../../upload/services/banya/fe64c23d8236d8e23e1990cb6b84df8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+                            <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/fe64c23d8236d8e23e1990cb6b84df8.jpg');"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="item wline">
+                            <a href="../../upload/services/banya/jdf45d4fg6d5fg5df44d5f56gd4f6g.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->bathHousePage->gallety->textFoto ?>"></a>
+                            <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/banya/jdf45d4fg6d5fg5df44d5f56gd4f6g.jpg');"></div>
+                        </div>
+                    </div>
+            </div>
 		</div>	
 		<hr />	
 	</div>

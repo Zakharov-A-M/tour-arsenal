@@ -32,34 +32,35 @@ include_once '../../header.php';
                                                     </li>
                                                     <li class="dropdown ">
                                                         <a class="dropdown-toggle" href="../../rooms" title="Размещение">
-                                                            Размещение													<i class="fa fa-angle-down"></i>
+                                                            Размещение
+<!--                                                            <i class="fa fa-angle-down"></i>-->
                                                         </a>
-                                                        <ul class="dropdown-menu fixed_menu_ext">
-                                                            <li class=" ">
-                                                                <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                    Двухместный Номер Эконом Класса																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                    Трёхместный Однокомнатный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter" title="Четырехместный Номер">
-                                                                    Четырехместный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                    Четырёхместный Коттедж																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                    3-комнатный коттедж с сауной «Vip»																			</a>
-                                                            </li>
-                                                        </ul>
+<!--                                                        <ul class="dropdown-menu fixed_menu_ext">-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                    Двухместный Номер Эконом Класса																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                    Трёхместный Однокомнатный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                    Четырехместный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                    Четырёхместный Коттедж																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                    3-комнатный коттедж с сауной «Vip»																			</a>-->
+<!--                                                            </li>-->
+<!--                                                        </ul>-->
                                                     </li>
                                                     <li class="dropdown active">
                                                         <a class="dropdown-toggle" href="../../services" title="<?= $json->menu->services->name?>">
@@ -143,29 +144,30 @@ include_once '../../header.php';
                                                         <td class="dropdown ">
                                                             <div class="wrap">
                                                                 <a class="dropdown-toggle link_first" href="rooms" title="Размещение">
-                                                                    Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
+                                                                    Размещение
+<!--                                                                    &nbsp;<i class="fa fa-angle-down"></i>-->
                                                                 </a>
-                                                                <span class="tail"></span>
-                                                                <ul class="dropdown-menu">
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
-                                                                    </li>
-                                                                </ul>
+<!--                                                                <span class="tail"></span>-->
+<!--                                                                <ul class="dropdown-menu">-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>-->
+<!--                                                                    </li>-->
+<!--                                                                </ul>-->
                                                             </div>
                                                         </td>
                                                         <td class="dropdown active">
@@ -261,34 +263,35 @@ include_once '../../header.php';
                                                 </li>
                                                 <li class="dropdown ">
                                                     <a class="dropdown-toggle" href="../../rooms" title="Размещение">
-                                                        Размещение											<i class="fa fa-angle-down"></i>
+                                                        Размещение
+<!--                                                        <i class="fa fa-angle-down"></i>-->
                                                     </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li class=" ">
-                                                            <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                Двухместный Номер Эконом Класса																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                Трёхместный Однокомнатный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter" title="Четырехместный Номер">
-                                                                Четырехместный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                Четырёхместный Коттедж																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                3-комнатный коттедж с сауной «Vip»																	</a>
-                                                        </li>
-                                                    </ul>
+<!--                                                    <ul class="dropdown-menu">-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                Двухместный Номер Эконом Класса																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                Трёхместный Однокомнатный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                Четырехместный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                Четырёхместный Коттедж																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                3-комнатный коттедж с сауной «Vip»																	</a>-->
+<!--                                                        </li>-->
+<!--                                                    </ul>-->
                                                 </li>
                                                 <li class="dropdown active">
                                                     <a class="dropdown-toggle" href="../" title="<?= $json->menu->services->name?>">
@@ -421,9 +424,6 @@ include_once '../../header.php';
 							<li class=" ">
 					<a href="../banya"><?= $json->services->menu->bathhouse ?></a>
 													</li>
-							<li class=" ">
-					<a href="../ostrov-robinzonada"><?= $json->services->menu->iclandRob ?></a>
-													</li>
 							<li class="active ">
 					<a href="../dosug-v-lesu-griby-yagody"><?= $json->services->menu->relaxInForrest ?></a>
 													</li>
@@ -456,11 +456,39 @@ include_once '../../header.php';
 
 	<div class="content">
 				<?php
-                foreach ($json->relaxForest->textPageForest as $item) {
+                /*foreach ($json->relaxForest->textPageForest as $item) {
                            echo $item.'<br><br>';
-                    }
+                    }*/
                 ?>
-
+        <h2 align="center">Виды грибов встречающиеся в Карелии чаще всего</h2>
+        <p>Видов грибов в Карелии растет очень много. Если точнее, то их целых 272 вида. Вот несколько самых известных из них:</p>
+        <ol>
+            <li><b>Белый гриб.</b> Чаще всего встречается в сосновых, еловых, березовых и других лесах.</li><br>
+            <li><b> Подосиновик.</b> Собирают такие грибы в лесу. Обычно они растут возле берез, осин, иногда их можно увидеть возле дуба, тополя, сосны и ели.</li><br>
+            <li><b>Подберезовик.</b> Место обитание этого вида грибов можно легко узнать из названия. Подберезовики собирают в березовых рощах или возле берез.</li><br>
+            <li><b>Масленок.</b> Встречается в сосновых, а иногда в еловых лесах.</li><br>
+            <li><b>Моховик.</b> Данный вид грибов растет исключительно в хвойных рощах. Например, в сосновом лесу.</li><br>
+            <li><b>Лисичка.</b> Места обитания – хвойные и смешанные леса.</li><br>
+            <li><b>Сыроежки.</b> Такие грибы собирают в основном в лесах.</li><br>
+            <li><b>Грузди.</b> Можно найти в березовых или смешанных лесах. В основном растут группками.</li><br>
+            <li><b>Опята.</b> Произрастают большими группами на пнях, стволах определённых деревьев и валежнике.</li><br>
+            <li><b>Волнушка.</b> Не редко встречаются целыми гнездами в смешанных и сыроватых лесах.</li>
+        </ol>
+        <h2 align="center">Время, когда можно собирать грибы в Карелии</h2>
+        <p>Для разных видов грибов характерно разное время появления:</p>
+        <ul>
+            <li>Ранней весной, в конце апреля появляются сморчки, строчки, которые растут в течение 2 месяцев.</li><br>
+            <li>Некоторые съедобные грибы появляются уже в конце июня. Это: березовики, осиновики, белые грибы и маслята.</li><br>
+            <li>В июле помимо перечисленных видов начинают появляться сыроежки, горькушки, волнушки, серушки и т.д. Рост продолжается в течении полумесяца. Кроме открытых пространств грибочки можно встретить в смешанных молодняках.</li><br>
+            <li>Наиболее урожайный период начинается с середины августа, а заканчивается примерно в октябре. Все виды грибов можно встретить в лесах, на полянах, на тропинках и т.д.</li>
+        </ul>
+        <h2 align="center">Ягоды</h2>
+        <ul>
+            <li>Сезон сбора ягод в Карелии длится всего 3 месяца. Одной из первых поспевает земляника, её вкус придает отдыху в Карелии особую свежесть. Её нужно успеть собрать в начале июля. Сразу за ней спеет костяника. Потом наступает пора царской ягоды Морошки. Внешне она похожа на малину, только жёлтого цвета, растёт в болотистой местности. Ягода эта очень сочная и сладкая, с косточками.. На Севере говорят: «Морошку запасать – болезней не знать!» полезные качества морошки оценили уже во всем мире: в 100 грамм морошки содержится в 3-4 раза больше витаминов, чем в среднем апельсине, а по содержанию каротина морошка превосходит морковь.</li><br>
+            <li>Чуть позже поспевают другие ягоды Карелии, голубика и черника созревают к концу июля - началу августа. Голубика потому так и называется, что имеет слегка голубоватый, матовый оттенок. Она крупнее черники и растёт во влажных местах. Зрелая черника тёмная, сладкая, собрать её можно очень быстро, так как в урожайный год черничник буквально этими карельскими ягодами усыпан. Черника не только красивая и вкусная ягода, благодаря целебным свойствам, чернику часто используют в народной медицине для профилактики и лечения многих заболеваний. Черника отличное средство для профилактики снижения зрения, после долгих часов у компьютера.</li><br>
+            <li>Конец августа - начало сентября - время для сбора другой ягоды Карелии и окрестностей Петрозаводска - брусники. Начинают брать бруснику ещё слегка зеленоватой, тогда она лучше хранится. Однако вкуснее всего она в начале сентября. Крупные гроздья тёмно-алых ягод, особенно собранные на солнечной поляне, очень сладкие, хоть и оставляют едва уловимое горькое послевкусие, которым запомнится отдых в Карелии. Традиционно используют бруснику в лечебных целях. Целебными являются листья и ягоды растения.</li><br>
+            <li>Позже всех в Карелии собирают клюкву. Клюква - особенная ягода. В ней очень много витамина С. После первых заморозков эта ягода становится значительно слаще. Ещё одна особенность ягоды клюквы - её способность хранится целый год, не теряя своих целебных качеств, незаменима для укрепления иммунитета.</li><br>
+        </ul>
     </div>
 
 <hr/>
@@ -471,109 +499,81 @@ include_once '../../header.php';
 		<h4 class="title_block"><?= $json->relaxForest->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-									<div class="col-md-3 col-sm-4 col-xs-6">
+				    <div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/88b/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/88b/88bf74e8c6d8b85b5db413f4f7ece61f.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/e3d/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/e3d/e3dc735f2cfb821295a00e85ec98096e.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/177/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/177/17710c7cc0134adee8d0a5d00f4de0ce.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/2c7/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/2c7/2c71a4d08d48d0965038a541337a615e.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/bc4/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/bc4/bc4bc690b951cd24409a7cf7cb25c2f6.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/65d/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/65d/65d2ac06e80884beafaf818d69db4a77.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/337/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/337/3378b58016a2b73005a58171d3efcd32.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="item wline">
-							<a href="../../upload/iblock/45f/45f11d1ff2c43242ab646d2bed7f02c9.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/45f/45f11d1ff2c43242ab646d2bed7f02c9.jpg');"></div>						
+							<a href="../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg');"></div>
 						</div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/544/5445fbc3f55ddae06ef1e00cbc2867ad.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/544/5445fbc3f55ddae06ef1e00cbc2867ad.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/0cf/0cfd6980d88c69e6d4d90a75af5a8a94.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/0cf/0cfd6980d88c69e6d4d90a75af5a8a94.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/9dc/9dc7469110ea5355929efc01b531a442.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/9dc/9dc7469110ea5355929efc01b531a442.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/3f2/3f23ec60b0a401141f7d97b37a652601.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/3f2/800_500_2/3f23ec60b0a401141f7d97b37a652601.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f4b/f4b8411d20bc3cd5e61842348a0e5917.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/f4b/800_500_2/f4b8411d20bc3cd5e61842348a0e5917.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/ff6/ff62bb17866321a3924ad2dcd0f92898.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/ff6/800_500_2/ff62bb17866321a3924ad2dcd0f92898.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/440/440dbd24f4f2bd785934586d1e4c5d52.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/440/440dbd24f4f2bd785934586d1e4c5d52.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/c3d/c3d452f12f994db44deeeb87e81b6058.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/c3d/800_500_2/c3d452f12f994db44deeeb87e81b6058.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/e8f/e8f52eaafa0a9a3f9dbe4e92afcb2ad3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/e8f/e8f52eaafa0a9a3f9dbe4e92afcb2ad3.jpg');"></div>						
-						</div>
-					</div>
-							</div>
+
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/5445fbc3f55ddae06ef1e00cbc2867ad.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/5445fbc3f55ddae06ef1e00cbc2867ad.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/0cfd6980d88c69e6d4d90a75af5a8a94.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/0cfd6980d88c69e6d4d90a75af5a8a94.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/9dc7469110ea5355929efc01b531a442.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/9dc7469110ea5355929efc01b531a442.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/3f23ec60b0a401141f7d97b37a652601.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/3f23ec60b0a401141f7d97b37a652601.jpg');"></div>
+                    </div>
+                </div>
+
 		</div>	
 		<hr />	
 	</div>

@@ -33,34 +33,35 @@ include_once '../header.php';
                                                     </li>
                                                     <li class="dropdown ">
                                                         <a class="dropdown-toggle" href="../rooms" title="Размещение">
-                                                            Размещение													<i class="fa fa-angle-right"></i>
+                                                            Размещение
+<!--                                                            <i class="fa fa-angle-right"></i>-->
                                                         </a>
-                                                        <ul class="dropdown-menu fixed_menu_ext">
-                                                            <li class=" ">
-                                                                <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                    Двухместный Номер Эконом Класса																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                    Трёхместный Однокомнатный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../rooms/quarter" title="Четырехместный Номер">
-                                                                    Четырехместный Номер																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                    Четырёхместный Коттедж																			</a>
-                                                            </li>
-                                                            <li class=" ">
-                                                                <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                    3-комнатный коттедж с сауной «Vip»																			</a>
-                                                            </li>
-                                                        </ul>
+<!--                                                        <ul class="dropdown-menu fixed_menu_ext">-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                    Двухместный Номер Эконом Класса																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                    Трёхместный Однокомнатный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                    Четырехместный Номер																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                    Четырёхместный Коттедж																			</a>-->
+<!--                                                            </li>-->
+<!--                                                            <li class=" ">-->
+<!--                                                                <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                    3-комнатный коттедж с сауной «Vip»																			</a>-->
+<!--                                                            </li>-->
+<!--                                                        </ul>-->
                                                     </li>
                                                     <li class="dropdown ">
                                                         <a class="dropdown-toggle" href="../services" title="<?= $json->menu->services->name?>">
@@ -146,27 +147,27 @@ include_once '../header.php';
                                                                 <a class="dropdown-toggle link_first" href="../rooms" title="Размещение">
                                                                     Размещение																	&nbsp;<i class="fa fa-angle-down"></i>
                                                                 </a>
-                                                                <span class="tail"></span>
-                                                                <ul class="dropdown-menu">
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>
-                                                                    </li>
-                                                                    <li class=" ">
-                                                                        <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>
-                                                                    </li>
-                                                                </ul>
+<!--                                                                <span class="tail"></span>-->
+<!--                                                                <ul class="dropdown-menu">-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>-->
+<!--                                                                    </li>-->
+<!--                                                                    <li class=" ">-->
+<!--                                                                        <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>-->
+<!--                                                                    </li>-->
+<!--                                                                </ul>-->
                                                             </div>
                                                         </td>
                                                         <td class="dropdown ">
@@ -249,34 +250,35 @@ include_once '../header.php';
                                                 </li>
                                                 <li class="dropdown ">
                                                     <a class="dropdown-toggle" href="../rooms" title="Размещение">
-                                                        Размещение											<i class="fa fa-angle-down"></i>
+                                                        Размещение
+<!--                                                        <i class="fa fa-angle-down"></i>-->
                                                     </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li class=" ">
-                                                            <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">
-                                                                Двухместный Номер Эконом Класса																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">
-                                                                Трёхместный Однокомнатный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../rooms/quarter" title="Четырехместный Номер">
-                                                                Четырехместный Номер																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">
-                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">
-                                                                Четырёхместный Коттедж																	</a>
-                                                        </li>
-                                                        <li class=" ">
-                                                            <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">
-                                                                3-комнатный коттедж с сауной «Vip»																	</a>
-                                                        </li>
-                                                    </ul>
+<!--                                                    <ul class="dropdown-menu">-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+<!--                                                                Двухместный Номер Эконом Класса																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+<!--                                                                Трёхместный Однокомнатный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/quarter" title="Четырехместный Номер">-->
+<!--                                                                Четырехместный Номер																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+<!--                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+<!--                                                                Четырёхместный Коттедж																	</a>-->
+<!--                                                        </li>-->
+<!--                                                        <li class=" ">-->
+<!--                                                            <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+<!--                                                                3-комнатный коттедж с сауной «Vip»																	</a>-->
+<!--                                                        </li>-->
+<!--                                                    </ul>-->
                                                 </li>
                                                 <li class="dropdown ">
                                                     <a class="dropdown-toggle" href="../services" title="<?= $json->menu->services->name?>">
