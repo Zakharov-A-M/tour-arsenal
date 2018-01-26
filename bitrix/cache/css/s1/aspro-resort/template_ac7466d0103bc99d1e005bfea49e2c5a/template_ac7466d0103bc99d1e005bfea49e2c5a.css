@@ -6706,7 +6706,8 @@ header.fixed{position:fixed;margin:0;width:100%;top:0;z-index:1001;right:0;left:
 header.fixed > *:not(.logo_and_menu-row), header.fixed .logo_and_menu-row > *:not(.logo-row){display:none;}
 header.fixed .logo_and_menu-row{border-top-color:transparent;height:60px;box-shadow:0 1px 5px rgba(0, 0, 0, 0.136) !important;}
 header.fixed .logo-row .logo{height:60px;line-height:57px;display:inline-block;text-align:left;}
-header.fixed .logo-row .logo img{max-height:39px;max-width:100%;}
+header.fixed .logo-row .logo img{max-height:36px;max-width:100%; margin-right: 26px; margin-top: -20px;}
+header.fixed .logo-row .logo .text-icon{margin-top: -40px;}
 header.fixed .logo-row .top-callback{padding-top:10px;width:100%;}
 header.fixed .logo-row .top-callback .phone .phone-desc, header.fixed .logo-row .top-description, header.fixed .mega-menu table{display:none !important;}
 header .menu.fixed .mega-menu table{display:none;}

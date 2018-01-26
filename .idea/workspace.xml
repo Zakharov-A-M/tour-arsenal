@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,17 +29,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="168" column="65" lean-forward="false" selection-start-line="148" selection-start-column="60" selection-end-line="168" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="284">
+              <caret line="402" column="68" lean-forward="true" selection-start-line="402" selection-start-column="68" selection-end-line="402" selection-end-column="68" />
+              <folding>
+                <element signature="e#12250#12256#0#HTML" expanded="true" />
+                <element signature="e#32533#32649#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="9">
               <caret line="160" column="75" lean-forward="true" selection-start-line="160" selection-start-column="75" selection-end-line="160" selection-end-column="75" />
               <folding>
                 <element signature="e#17011#17300#0#PHP" expanded="true" />
@@ -52,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_ac7466d0103bc99d1e005bfea49e2c5a.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template_ac7466d0103bc99d1e005bfea49e2c5a.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="6676" column="16" lean-forward="false" selection-start-line="6676" selection-start-column="10" selection-end-line="6676" selection-end-column="16" />
+            <state relative-caret-position="276">
+              <caret line="6708" column="103" lean-forward="false" selection-start-line="6708" selection-start-column="103" selection-end-line="6708" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -149,9 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contact</find>
-      <find>Республика Карелия, г.Сортавала,</find>
-      <find>Кафе</find>
       <find>services-&gt;cafe</find>
       <find>/kafe</find>
       <find>/ostrov-robinzonada</find>
@@ -179,6 +177,9 @@
       <find>Двухместный Номер Эконом Класса</find>
       <find>вухместный Номер Эконом Класса</find>
       <find>.logo-row .logo img</find>
+      <find>max-height: 39px;</find>
+      <find>header.fixed .logo-row .logo img</find>
+      <find>Уютные мангальные зоны</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/admin</dir>
@@ -239,7 +240,6 @@
         <option value="$PROJECT_DIR$/services/index.php" />
         <option value="$PROJECT_DIR$/promo/index.php" />
         <option value="$PROJECT_DIR$/services/rybalka/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" />
         <option value="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" />
         <option value="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
@@ -249,8 +249,9 @@
         <option value="$PROJECT_DIR$/company/reviews/index.php" />
         <option value="$PROJECT_DIR$/contacts/index.php" />
         <option value="$PROJECT_DIR$/galereya/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" />
       </list>
     </option>
   </component>
@@ -290,6 +291,17 @@
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="start-page-index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -313,11 +325,11 @@
       <recent name="$PROJECT_DIR$/admin/api/setting/name-site" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload/start-page-index" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/upload/rooms" />
       <recent name="$PROJECT_DIR$/upload/services/banya" />
       <recent name="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody" />
-      <recent name="$PROJECT_DIR$/upload/services/fishing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,7 +399,7 @@
       <workItem from="1516779019318" duration="656000" />
       <workItem from="1516801063605" duration="16462000" />
       <workItem from="1516897040724" duration="13740000" />
-      <workItem from="1516948488862" duration="14646000" />
+      <workItem from="1516948488862" duration="16575000" />
     </task>
     <task id="LOCAL-00001" summary="add file connect bd admin">
       <created>1513348397929</created>
@@ -449,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396253000" />
+    <option name="totallyTimeSpent" value="398182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="7" />
@@ -872,36 +884,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="65" lean-forward="false" selection-start-line="148" selection-start-column="60" selection-end-line="168" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="6676" column="16" lean-forward="false" selection-start-line="6676" selection-start-column="10" selection-end-line="6676" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="9">
           <caret line="160" column="75" lean-forward="true" selection-start-line="160" selection-start-column="75" selection-end-line="160" selection-end-column="75" />
           <folding>
             <element signature="e#17011#17300#0#PHP" expanded="true" />
             <marker date="1516965239698" expanded="true" signature="5148:5155" ph="«" />
             <marker date="1516965239698" expanded="true" signature="5209:5216" ph="»" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="402" column="68" lean-forward="true" selection-start-line="402" selection-start-column="68" selection-end-line="402" selection-end-column="68" />
+          <folding>
+            <element signature="e#12250#12256#0#HTML" expanded="true" />
+            <element signature="e#32533#32649#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="6708" column="103" lean-forward="false" selection-start-line="6708" selection-start-column="103" selection-end-line="6708" selection-end-column="103" />
+          <folding />
         </state>
       </provider>
     </entry>
