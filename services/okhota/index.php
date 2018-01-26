@@ -440,65 +440,62 @@ include_once '../../api/services/hunt.php';
 																																</div>
 									</div>
 									<div class="col-md-9 col-sm-9 content-md">
-																				<div class="detail services">
-		
-						
-		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="fancybox" title="<?= $json->huntPage->mainText ?>"><img src="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="img-responsive" title="<?= $json->huntPage->mainText ?>" alt="<?= $json->huntPage->mainText ?>" /></a></div>
-	
-	<div class="ask_a_question">
-		<div class="inner">
-			<span class="btn btn-default" id="askQuestion" services="<?= $json->huntPage->mainText ?>">
-                <span><?= $json->serviceFishing->questionBlock->buttonText ?></span>
-            </span>
-			<div class="margin-bottom-20">
-                <?= $json->serviceFishing->questionBlock->text ?>
-            </div>
-		</div>
-	</div>
-
-
-	<div class="content">
-		<?php
-            foreach ($json->huntPage->textPageHunt as $key => $item) {
-                if ($cost[$key]['cost_to'] != null) {
-                    $str = 'от '.$cost[$key]['cost_from'].' руб. (до '.$cost[$key]['cost_to'].' руб.).';
-                } else {
-                    $str = $cost[$key]['cost_from'].' руб.';
-                }
-
-                    echo '<p>'.$item.' '.$str.'</p>';
-            }
-
-        ?>
-
-
-	</div>
-
-<hr/>
-
-	
-
-
-	<div class="order-block">
-		<div class="row">
-			<div class="col-md-4 col-sm-4 col-xs-5 valign">
-				<span class="btn btn-default btn-lg" id="orderServices" services="<?= $json->huntPage->mainText ?>"><span><?= $json->orderService->buttonText ?></span></span>
-			</div>
-			<div class="col-md-8 col-sm-8 col-xs-7 valign">
-				<div class="text">
-                    <?= $json->orderService->orderText ?>
-                </div>
-			</div>
-		</div>
-	</div>
-	<hr />
-
-
-<!--'start_frame_cache_video'--><!--'end_frame_cache_video'-->		
-						
-						
-						
-						
+                                        <div class="detail services">
+<!--		-->
+<!--		-->
+<!--						-->
+<!--		<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="fancybox" title="--><?php // $json->huntPage->mainText ?><!--"><img src="../../upload/iblock/02d/02d4ec4ca4cac1cb41c177b54b4edf99.jpg" class="img-responsive" title="--><?php //= $json->huntPage->mainText ?><!--" alt="--><?php //= $json->huntPage->mainText ?><!--" /></a></div>-->
+<!--	-->
+<!--	<div class="ask_a_question">-->
+<!--		<div class="inner">-->
+<!--			<span class="btn btn-default" id="askQuestion" services="--><?php //$json->huntPage->mainText ?><!--">-->
+<!--                <span>--><?php //$json->serviceFishing->questionBlock->buttonText ?><!--</span>-->
+<!--            </span>-->
+<!--			<div class="margin-bottom-20">-->
+<!--                --><?php //$json->serviceFishing->questionBlock->text ?>
+<!--            </div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!---->
+<!---->
+<!--	<div class="content">-->
+<!--		--><?php
+//            foreach ($json->huntPage->textPageHunt as $key => $item) {
+//                if ($cost[$key]['cost_to'] != null) {
+//                    $str = 'от '.$cost[$key]['cost_from'].' руб. (до '.$cost[$key]['cost_to'].' руб.).';
+//                } else {
+//                    $str = $cost[$key]['cost_from'].' руб.';
+//                }
+//
+//                    echo '<p>'.$item.' '.$str.'</p>';
+//            }
+//
+//        ?>
+<!---->
+<!---->
+<!--	</div>-->
+<!---->
+<!--<hr/>-->
+<!---->
+<!--	-->
+<!---->
+<!---->
+<!--	<div class="order-block">-->
+<!--		<div class="row">-->
+<!--			<div class="col-md-4 col-sm-4 col-xs-5 valign">-->
+<!--				<span class="btn btn-default btn-lg" id="orderServices" services="--><?php //$json->huntPage->mainText ?><!--"><span>--><?php //$json->orderService->buttonText ?><!--</span></span>-->
+<!--			</div>-->
+<!--			<div class="col-md-8 col-sm-8 col-xs-7 valign">-->
+<!--				<div class="text">-->
+<!--                    --><?php //$json->orderService->orderText ?>
+<!--                </div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<hr />-->
+<!--                                            -->
+<!--						-->
+<!--                                            -->
 					</div>
 	<div style="clear:both"></div>
 <div class="row">

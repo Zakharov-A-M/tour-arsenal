@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts/index.php" afterPath="$PROJECT_DIR$/contacts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/okhota/index.php" afterPath="$PROJECT_DIR$/services/okhota/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
@@ -64,12 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_ac7466d0103bc99d1e005bfea49e2c5a.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/okhota/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="6674" column="70" lean-forward="false" selection-start-line="6674" selection-start-column="70" selection-end-line="6674" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="379">
+              <caret line="446" column="380" lean-forward="false" selection-start-line="446" selection-start-column="380" selection-end-line="446" selection-end-column="380" />
+              <folding>
+                <element signature="e#36974#37046#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,8 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header.fixed .logo-row .top-callback .phone .phone-number</find>
-      <find>О Курорте</find>
       <find>tab-pane</find>
       <find>tab-content contacts_tab_content</find>
       <find>contacts_schema</find>
@@ -185,6 +183,8 @@
       <find>Дача для семейного отдыха</find>
       <find>scheme</find>
       <find>.logo-row .top-description</find>
+      <find>&lt;?= $js</find>
+      <find>huntPage-&gt;mainText ?&gt;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/admin</dir>
@@ -233,7 +233,6 @@
         <option value="$PROJECT_DIR$/translations/fi.json" />
         <option value="$PROJECT_DIR$/api/country/getCookies.php" />
         <option value="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
-        <option value="$PROJECT_DIR$/services/okhota/index.php" />
         <option value="$PROJECT_DIR$/company/area/index.php" />
         <option value="$PROJECT_DIR$/galereya/index.php" />
         <option value="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" />
@@ -257,6 +256,7 @@
         <option value="$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/contacts/index.php" />
+        <option value="$PROJECT_DIR$/services/okhota/index.php" />
       </list>
     </option>
   </component>
@@ -267,7 +267,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="296" />
     <option name="width" value="948" />
     <option name="height" value="1074" />
@@ -299,12 +299,13 @@
             <path>
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="contacts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="okhota" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -402,7 +403,7 @@
       <workItem from="1516779019318" duration="656000" />
       <workItem from="1516801063605" duration="16462000" />
       <workItem from="1516897040724" duration="13740000" />
-      <workItem from="1516948488862" duration="646000" />
+      <workItem from="1516948488862" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="add file connect bd admin">
       <created>1513348397929</created>
@@ -464,10 +465,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382253000" />
+    <option name="totallyTimeSpent" value="383054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="296" y="0" width="1920" height="1044" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -696,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/okhota/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="550" column="36" lean-forward="false" selection-start-line="550" selection-start-column="36" selection-end-line="550" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/area/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -862,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="6674" column="70" lean-forward="false" selection-start-line="6674" selection-start-column="70" selection-end-line="6674" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -890,12 +876,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/aspro-resort/template_ac7466d0103bc99d1e005bfea49e2c5a/template_ac7466d0103bc99d1e005bfea49e2c5a.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="6674" column="70" lean-forward="false" selection-start-line="6674" selection-start-column="70" selection-end-line="6674" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contacts/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="423" column="43" lean-forward="false" selection-start-line="423" selection-start-column="43" selection-end-line="423" selection-end-column="43" />
           <folding>
             <element signature="e#34687#34856#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/okhota/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="446" column="380" lean-forward="false" selection-start-line="446" selection-start-column="380" selection-end-line="446" selection-end-column="380" />
+          <folding>
+            <element signature="e#36974#37046#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
