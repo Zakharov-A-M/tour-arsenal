@@ -158,7 +158,11 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
                                 <a href="<?= $siteURL ?>contacts/"><?= $json->header->scheme ?></a>
                             </div>
                             <div class="logo">
-                                <a href="<?= $siteURL ?>"><img src="<?= $siteURL ?>/logo.png" alt='Дача на Ладоге' title='Дача на Ладоге' /></a>
+                                <a href="<?= $siteURL ?>"><img src="<?= $siteURL ?>/logo.png" alt='Дача на Ладоге' title='Дача на Ладоге' />
+                                <div class="text-icon">
+                                    ДАЧА НА ЛАДОГЕ
+                                </div>
+                                </a>
                             </div>
                             <div class="fixed_menu">
                                 <div class="title">Меню</div>
