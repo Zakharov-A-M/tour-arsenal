@@ -7119,7 +7119,7 @@ footer .info + .social{margin-top:-38px;}
 .banners-big .slides .text-block b{font-size:20px;font-weight:700;line-height:26px;}
 .banners-big .slides .shown .text .inner{opacity:1;}
 .banners-big .slides .clone .text .inner{-webkit-transition:none 0s ease 0s;-moz-transition:none 0s ease 0s;-o-transition:none 0s ease 0s;transition:none 0s ease 0s;}
-.banners-big .slides .dark .text-block, .banners-big .slides .dark .title, .banners-big .slides .dark .title a, .banners-big .slides .item:hover .dark .title, .banners-big .slides .item:hover .dark .title a{color:#222 !important;}
+.banners-big .slides .dark .text-block, .banners-big .slides .dark .title, .banners-big .slides .dark .title a, .banners-big .slides .item:hover .dark .title, .banners-big .slides .item:hover .dark .title a{color:#fff !important;}
 .banners-big .slides .dark h1, .banners-big .slides .dark .title, .banners-big .slides .dark .inner, .banners-big .slides .dark .text-block b{color:#222222;}
 .banners-big .btn{position:relative;}
 .banners-big .btn-default{padding:11px 20px 10px;font-weight:bold;}
