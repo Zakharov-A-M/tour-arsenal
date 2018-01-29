@@ -42,7 +42,7 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
     <meta property="og:type" content="article" />
     <meta property="og:url" content="/" />
     <meta property="og:description" content="Дача на Ладоге – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Устройте незабываемые приключения на Даче!" />
-
+    <meta name="yandex-verification" content="f7e79eb751f70b72" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript" src="<?= $siteURL ?>bitrix/templates/aspro-resort/js/jquery.actual.min.js"></script>
