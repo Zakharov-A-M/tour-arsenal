@@ -32,4 +32,4 @@ Allow: /bitrix/cache/
 Allow: /bitrix/js/
 Allow: /bitrix/templates/
 Allow: /bitrix/panel/
-Host: tour-arsenal.ru
+Host: xn--80aaaapbej4csp5h.xn--p1ai
