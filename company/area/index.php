@@ -429,15 +429,32 @@ include_once '../../header.php';
 
 
 <p>
-	<a href="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->one ?>" src="../../upload/medialibrary/fb9/fb981989ec44c77e63a3562fac6b9586.jpg" title="Дача на Ладоге территория" class="img-responsive"></a>
+	<a href="../../upload/company/area/DJI_0109.jpg" class="fancybox">
+        <img width="768" alt="<?= $json->aboutUs->territory->foto->one ?>"
+             src="../../upload/company/area/DJI_0109.jpg"
+             title="Дача на Ладоге территория"
+             class="img-responsive">
+    </a>
 </p>
-<p>
-	<a href="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->two ?>" src="../../upload/medialibrary/a09/a091bf2bda7f77d86aa18a1edf354757.jpg" height="576" title="Схема корпусов" class="img-responsive"></a>
-</p>
-<p>
-	<a href="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" class="fancybox"> <img width="768" alt="<?= $json->aboutUs->territory->foto->tree ?>" src="../../upload/medialibrary/ca2/ca2f42fde3ef26f4796d0f8dbe8bf0b6.jpg" height="576" title="Схема корпусов 2" class="img-responsive"></a>
-</p>
- <br>																																</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
+                                        <p>
+                                            <a href="../../upload/company/area/DJI_0110.jpg" class="fancybox">
+                                                <img width="768" alt="<?= $json->aboutUs->territory->foto->one ?>"
+                                                     src="../../upload/company/area/DJI_0110.jpg"
+                                                     title="Дача на Ладоге территория"
+                                                     class="img-responsive">
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="../../upload/company/area/DJI_0111.jpg" class="fancybox">
+                                                <img width="768" alt="<?= $json->aboutUs->territory->foto->one ?>"
+                                                     src="../../upload/company/area/DJI_0111.jpg"
+                                                     title="Дача на Ладоге территория"
+                                                     class="img-responsive">
+                                            </a>
+                                        </p>
+
+
+																															</div>																					</div>						</div>															</div>											</div>		</div>		<footer id="footer">
 			<div class="container">
 				<div class="row">
 					<div class="maxwidth-theme">

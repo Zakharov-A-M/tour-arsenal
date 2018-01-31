@@ -2,63 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/CIMG3131.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_4138.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6000.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6109.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6159.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6163.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6164.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6172.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6184.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6208.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6212.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/DSC_6236.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_0842.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7705.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7715.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7765.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7891.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7950.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7962.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7972.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_7980.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_8003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_8294.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_8318.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_8343.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dopoln-uslugi/IMG_8372.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody/DSC_1456.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody/DSC_1458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody/DSC_4766.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody/DSC_6095.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/0_2738f_62422587_orig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/0_c7822_ee70c763_XL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/1024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/491841_blog-21156.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya/snow-tubing-93024_1280.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DJI_0109.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DJI_0110.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DJI_0111.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DSC_4227.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DSC_6101.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DSC_6144.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/DSC_6160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0829.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0831.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0866.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0931.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0932.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0941.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_0945.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/start-page-index/gallery/IMG_6739.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/company/area/DJI_0109.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/company/area/DJI_0110.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/company/area/DJI_0111.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" afterPath="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" afterPath="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" afterPath="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/area/index.php" afterPath="$PROJECT_DIR$/company/area/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,18 +91,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="540" column="128" lean-forward="false" selection-start-line="540" selection-start-column="128" selection-end-line="540" selection-end-column="128" />
+            <state relative-caret-position="183">
+              <caret line="532" column="26" lean-forward="true" selection-start-line="532" selection-start-column="26" selection-end-line="532" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/company/area/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="449" column="92" lean-forward="false" selection-start-line="449" selection-start-column="92" selection-end-line="449" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -261,7 +220,6 @@
         <option value="$PROJECT_DIR$/services/rybalka/index.php" />
         <option value="$PROJECT_DIR$/company/index.php" />
         <option value="$PROJECT_DIR$/price/index.php" />
-        <option value="$PROJECT_DIR$/company/area/index.php" />
         <option value="$PROJECT_DIR$/company/reviews/index.php" />
         <option value="$PROJECT_DIR$/contacts/index.php" />
         <option value="$PROJECT_DIR$/galereya/index.php" />
@@ -273,6 +231,7 @@
         <option value="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" />
         <option value="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" />
         <option value="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
+        <option value="$PROJECT_DIR$/company/area/index.php" />
       </list>
     </option>
   </component>
@@ -283,7 +242,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="209" />
     <option name="width" value="948" />
     <option name="height" value="931" />
@@ -316,6 +275,17 @@
             <path>
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="area" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -333,7 +303,7 @@
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -357,11 +327,11 @@
       <recent name="$PROJECT_DIR$/admin/api/setting/name-site" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload/company/area" />
       <recent name="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya" />
       <recent name="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody" />
       <recent name="$PROJECT_DIR$/upload/services/dopoln-uslugi" />
       <recent name="$PROJECT_DIR$/upload/start-page-index/gallery" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,7 +407,7 @@
       <workItem from="1517201569435" duration="822000" />
       <workItem from="1517203922643" duration="1380000" />
       <workItem from="1517249041003" duration="290000" />
-      <workItem from="1517372279997" duration="3826000" />
+      <workItem from="1517372279997" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="add file connect bd admin">
       <created>1513348397929</created>
@@ -499,20 +469,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412453000" />
+    <option name="totallyTimeSpent" value="413367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="0" width="1920" height="1044" extended-state="7" />
+    <frame x="209" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19239014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8035915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5256125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5252525" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -521,7 +492,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -714,13 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3002">
           <caret line="158" column="171" lean-forward="false" selection-start-line="158" selection-start-column="140" selection-end-line="158" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/area/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="169" column="73" lean-forward="false" selection-start-line="149" selection-start-column="68" selection-end-line="169" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -922,15 +885,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="540" column="128" lean-forward="false" selection-start-line="540" selection-start-column="128" selection-end-line="540" selection-end-column="128" />
+        <state relative-caret-position="183">
+          <caret line="532" column="26" lean-forward="true" selection-start-line="532" selection-start-column="26" selection-end-line="532" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/area/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="449" column="92" lean-forward="false" selection-start-line="449" selection-start-column="92" selection-end-line="449" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
