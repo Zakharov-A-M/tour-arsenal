@@ -403,12 +403,12 @@ include_once '../header.php';
 
 				<div class="col-md-4 col-sm-6 col-xs-6">
 			<div class="item wline" id="bx_3218110189_77">
-				<a href="fotogalereya-arsenal" class="dark_block_animate"></a>
+				<a href="fotogalereya-dacha-na-ladoge" class="dark_block_animate"></a>
 				<div class="img_block scale_block_animate" style="background-image: url('../upload/resize_cache/iblock/324/400_300_1/324d9c094c676f12dfd63cccfa978dc8.jpg');"></div>
 				<div class="info">
 					<div class="title">
 						<span class="wrap_outer titles">
-							<a href="fotogalereya-arsenal" class="outer_text"><span class="inner_text"><?= $json->gallery->fotoGallery->topicFoto->fotoArsenal ?></span></a>
+							<a href="fotogalereya-dacha-na-ladoge" class="outer_text"><span class="inner_text"><?= $json->gallery->fotoGallery->topicFoto->fotoArsenal ?></span></a>
 						</span>
 					</div>
 				</div>

@@ -542,6 +542,16 @@ include_once '../../header.php';
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/snow-winter-vehicle-ice-skate.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/snow-winter-vehicle-ice-skate.jpg');">
+                        </div>
+                    </div>
+                </div>
             </div>
 		</div>	
 		<hr />	
