@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44220b1-f2df-455e-aaa6-f386709a8d82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/1 013.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/1 068.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DJI_0065.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DJI_0074.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DSC04563.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DSC_0178.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DSC_3238.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DSC_3244.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/DSC_4141.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/IMG_1873.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/IMG_7840.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/IMG_8440.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/IMG_8453.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/Фото037.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka/иии 025.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/s1200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/gallery/wallperz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/1485463862.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/538762.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/Karelia-vid_010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/langlaufen-gross.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/services/lodka-3-700x400.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/area/index.php" afterPath="$PROJECT_DIR$/company/area/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/index.php" afterPath="$PROJECT_DIR$/company/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/reviews/index.php" afterPath="$PROJECT_DIR$/company/reviews/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts/index.php" afterPath="$PROJECT_DIR$/contacts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php" afterPath="$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galereya/index.php" afterPath="$PROJECT_DIR$/galereya/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/price/index.php" afterPath="$PROJECT_DIR$/price/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promo/index.php" afterPath="$PROJECT_DIR$/promo/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rooms/index.php" afterPath="$PROJECT_DIR$/rooms/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/banya/index.php" afterPath="$PROJECT_DIR$/services/banya/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" afterPath="$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" afterPath="$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galereya/letnyaya-rybalka/index.php" afterPath="$PROJECT_DIR$/galereya/letnyaya-rybalka/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/index.php" afterPath="$PROJECT_DIR$/services/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/okhota/index.php" afterPath="$PROJECT_DIR$/services/okhota/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/rybalka/index.php" afterPath="$PROJECT_DIR$/services/rybalka/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" afterPath="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,41 +50,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/dopolnitelnye-uslugi/index.php">
+        <entry file="file://$PROJECT_DIR$/galereya/letnyaya-rybalka/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="42" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/dosug-v-lesu-griby-yagody/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="32" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/okhota/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="625">
+              <caret line="141" column="126" lean-forward="false" selection-start-line="141" selection-start-column="126" selection-end-line="141" selection-end-column="126" />
+              <folding>
+                <element signature="e#2064#2148#0#HTML" expanded="true" />
+                <element signature="e#2707#2788#0#HTML" expanded="true" />
+                <element signature="e#3345#3426#0#HTML" expanded="true" />
+                <element signature="e#3986#4070#0#HTML" expanded="true" />
+                <element signature="e#4629#4712#0#HTML" expanded="true" />
+                <element signature="e#5272#5356#0#HTML" expanded="true" />
+                <element signature="e#5916#6000#0#HTML" expanded="true" />
+                <element signature="e#6560#6644#0#HTML" expanded="true" />
+                <element signature="e#7203#7286#0#HTML" expanded="true" />
+                <element signature="e#7846#7930#0#HTML" expanded="true" />
+                <element signature="e#8490#8574#0#HTML" expanded="true" />
+                <element signature="e#9134#9218#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +75,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="300" column="165" lean-forward="false" selection-start-line="300" selection-start-column="63" selection-end-line="300" selection-end-column="165" />
+            <state relative-caret-position="4199">
+              <caret line="221" column="81" lean-forward="false" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="96" />
               <folding>
                 <element signature="e#17076#17365#0#PHP" expanded="true" />
                 <marker date="1517409447948" expanded="true" signature="5147:5154" ph="«" />
@@ -98,51 +86,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/rybalka/index.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/galereya/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
+            <state relative-caret-position="245">
+              <caret line="60" column="105" lean-forward="false" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+              <folding>
+                <element signature="e#2382#2443#0#HTML" expanded="true" />
+                <element signature="e#4801#4892#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
               <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="33" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/menu.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="117" lean-forward="false" selection-start-line="38" selection-start-column="117" selection-end-line="38" selection-end-column="117" />
+            <state relative-caret-position="399">
+              <caret line="255" column="80" lean-forward="true" selection-start-line="255" selection-start-column="80" selection-end-line="255" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/price/index.php">
+        <entry file="file://$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6270">
-              <caret line="330" column="17" lean-forward="false" selection-start-line="330" selection-start-column="17" selection-end-line="330" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/promo/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="599" column="0" lean-forward="false" selection-start-line="599" selection-start-column="0" selection-end-line="601" selection-end-column="2" />
+            <state relative-caret-position="677">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="139" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -160,8 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ba77c35d4826d9f932d1594cb7b84df8</find>
-      <find>room</find>
       <find>Двухместный Номер Эконом Класса</find>
       <find>Размещение</find>
       <find>вухместный Номер Эконом Класса</find>
@@ -185,11 +164,13 @@
       <find>class=&quot;main&quot;</find>
       <find>main</find>
       <find>footer id=&quot;footer</find>
-      <find>&lt;div class=&quot;menu-row row&quot;&gt;</find>
       <find>footer</find>
       <find>act</find>
       <find>&lt;aside class=&quot;sidebar&quot;&gt;</find>
       <find>services-&gt;menu-&gt;fishin</find>
+      <find>&lt;div class=&quot;menu-row row&quot;&gt;</find>
+      <find>col-md-4 col-sm-6 col-xs-6</find>
+      <find>&lt;a href</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/admin</dir>
@@ -211,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/logs/error.log" />
         <option value="$PROJECT_DIR$/admin/header.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/admin/api/login/login.php" />
@@ -248,10 +228,8 @@
         <option value="$PROJECT_DIR$/company/area/index.php" />
         <option value="$PROJECT_DIR$/contacts/index.php" />
         <option value="$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php" />
-        <option value="$PROJECT_DIR$/galereya/index.php" />
         <option value="$PROJECT_DIR$/price/index.php" />
         <option value="$PROJECT_DIR$/rooms/index.php" />
-        <option value="$PROJECT_DIR$/services/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/services/rybalka/index.php" />
@@ -262,6 +240,9 @@
         <option value="$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php" />
         <option value="$PROJECT_DIR$/services/menu.php" />
         <option value="$PROJECT_DIR$/promo/index.php" />
+        <option value="$PROJECT_DIR$/galereya/letnyaya-rybalka/index.php" />
+        <option value="$PROJECT_DIR$/services/index.php" />
+        <option value="$PROJECT_DIR$/galereya/index.php" />
       </list>
     </option>
   </component>
@@ -304,7 +285,18 @@
             <path>
               <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="promo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="galereya" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tour-arsenal.by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-arsenal.by" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -321,19 +313,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload/gallery" />
+      <recent name="$PROJECT_DIR$/upload/services" />
+      <recent name="$PROJECT_DIR$/upload/gallery/letnyaya-rybalka" />
+      <recent name="$PROJECT_DIR$/upload/gallery/foto-dacha-na-ladoge" />
+      <recent name="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/upload/services/dopoln-uslugi" />
       <recent name="$PROJECT_DIR$/upload/services/banya" />
       <recent name="$PROJECT_DIR$/upload/start-page-index" />
       <recent name="$PROJECT_DIR$/admin/api/bd" />
       <recent name="$PROJECT_DIR$/admin/api/call" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/upload/gallery/foto-dacha-na-ladoge" />
-      <recent name="$PROJECT_DIR$/upload/services/zimnie-razvlecheniya" />
-      <recent name="$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody" />
-      <recent name="$PROJECT_DIR$/upload/company" />
-      <recent name="$PROJECT_DIR$/upload/company/area" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,7 +402,7 @@
       <workItem from="1517203922643" duration="1380000" />
       <workItem from="1517249041003" duration="290000" />
       <workItem from="1517372279997" duration="13527000" />
-      <workItem from="1517403576271" duration="7240000" />
+      <workItem from="1517403576271" duration="13052000" />
     </task>
     <task id="LOCAL-00001" summary="add file connect bd admin">
       <created>1513348397929</created>
@@ -472,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429394000" />
+    <option name="totallyTimeSpent" value="435206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="209" y="0" width="1920" height="1044" extended-state="7" />
@@ -486,7 +478,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8035915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5244989" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52300787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -519,13 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/translations/ru.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/services/dosug-v-lesu-griby-yagody/f4b8411d20bc3cd5e61842348a0e5917.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -732,34 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/galereya/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="301" column="17" lean-forward="false" selection-start-line="301" selection-start-column="17" selection-end-line="301" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rooms/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="643" column="17" lean-forward="false" selection-start-line="643" selection-start-column="17" selection-end-line="643" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="251" column="17" lean-forward="false" selection-start-line="251" selection-start-column="17" selection-end-line="251" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -804,18 +765,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
+    <entry file="file://$PROJECT_DIR$/price/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="6270">
+          <caret line="330" column="17" lean-forward="false" selection-start-line="330" selection-start-column="17" selection-end-line="330" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="599" column="0" lean-forward="false" selection-start-line="599" selection-start-column="0" selection-end-line="601" selection-end-column="2" />
+        <state relative-caret-position="57">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -828,18 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="300" column="165" lean-forward="false" selection-start-line="300" selection-start-column="63" selection-end-line="300" selection-end-column="165" />
-          <folding>
-            <element signature="e#17076#17365#0#PHP" expanded="true" />
-            <marker date="1517409447948" expanded="true" signature="5147:5154" ph="«" />
-            <marker date="1517409447948" expanded="true" signature="5208:5215" ph="»" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -848,19 +797,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/price/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6270">
-          <caret line="330" column="17" lean-forward="false" selection-start-line="330" selection-start-column="17" selection-end-line="330" selection-end-column="17" />
+        <state relative-caret-position="693">
+          <caret line="599" column="0" lean-forward="false" selection-start-line="599" selection-start-column="0" selection-end-line="601" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/promo/index.php">
+    <entry file="file://$PROJECT_DIR$/galereya/fotogalereya-dacha-na-ladoge/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="677">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="139" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galereya/letnyaya-rybalka/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="141" column="126" lean-forward="false" selection-start-line="141" selection-start-column="126" selection-end-line="141" selection-end-column="126" />
+          <folding>
+            <element signature="e#2064#2148#0#HTML" expanded="true" />
+            <element signature="e#2707#2788#0#HTML" expanded="true" />
+            <element signature="e#3345#3426#0#HTML" expanded="true" />
+            <element signature="e#3986#4070#0#HTML" expanded="true" />
+            <element signature="e#4629#4712#0#HTML" expanded="true" />
+            <element signature="e#5272#5356#0#HTML" expanded="true" />
+            <element signature="e#5916#6000#0#HTML" expanded="true" />
+            <element signature="e#6560#6644#0#HTML" expanded="true" />
+            <element signature="e#7203#7286#0#HTML" expanded="true" />
+            <element signature="e#7846#7930#0#HTML" expanded="true" />
+            <element signature="e#8490#8574#0#HTML" expanded="true" />
+            <element signature="e#9134#9218#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/zimnie-razvlecheniya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4199">
+          <caret line="221" column="81" lean-forward="false" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="96" />
+          <folding>
+            <element signature="e#17076#17365#0#PHP" expanded="true" />
+            <marker date="1517409447948" expanded="true" signature="5147:5154" ph="«" />
+            <marker date="1517409447948" expanded="true" signature="5208:5215" ph="»" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="255" column="80" lean-forward="true" selection-start-line="255" selection-start-column="80" selection-end-line="255" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galereya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="60" column="105" lean-forward="false" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+          <folding>
+            <element signature="e#2382#2443#0#HTML" expanded="true" />
+            <element signature="e#4801#4892#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
