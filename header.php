@@ -3,7 +3,6 @@ include_once 'api/bd/connect.php';
 include_once 'api/func.php';
 include_once 'api/country/country.php';
 $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/';
-
 ?>
 
 
@@ -211,7 +210,370 @@ $siteURL='http'.(empty($_SERVER['HTTPS'])?'':'s').'://'.$_SERVER['HTTP_HOST'].'/
                     </div>
                 </div>
             </div>
-
+            <div class="menu-row row">
+                <div class="maxwidth-theme">
+                    <div class="col-md-12">
+                        <div class="nav-main-collapse collapse">
+                            <div class="menu-only">
+                                <nav class="mega-menu">
+                                    <div class="top_menu_fixed_js">
+                                        <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenuF">
+                                            <li class="dropdown <?= strripos($_SERVER["REQUEST_URI"], '/company') !== false ? 'active' : ''; ?>">
+                                                <a class="dropdown-toggle" href="<?= $siteURL ?>company" title="<?= $json->menu->aboutUs->name?>">
+                                                    <?= $json->menu->aboutUs->name?>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                                <ul class="dropdown-menu fixed_menu_ext">
+                                                    <li class="<?= ($_SERVER["REQUEST_URI"] === '/company/')  ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                            <?= $json->menu->aboutUs->aboutAs?>
+                                                        </a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/area/') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                            <?= $json->menu->aboutUs->territory?>
+                                                        </a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/reviews/') !== false ? 'active' : ''; ?> ">
+                                                        <a href="<?= $siteURL ?>company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                            <?= $json->menu->aboutUs->guestReviews?>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/rooms') !== false ? 'active' : ''; ?>">
+                                                <a class="dropdown-toggle" href="<?= $siteURL ?>rooms" title="Размещение">
+                                                    Размещение
+                                                    <!--                                                            <i class="fa fa-angle-right"></i>-->
+                                                </a>
+                                                <!--                                                        <ul class="dropdown-menu fixed_menu_ext">-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+                                                <!--                                                                    Двухместный Номер Эконом Класса																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+                                                <!--                                                                    Трёхместный Однокомнатный Номер																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/quarter" title="Четырехместный Номер">-->
+                                                <!--                                                                    Четырехместный Номер																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+                                                <!--                                                                    ЛЮКС Четырёхместный С Камином И Сауной																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+                                                <!--                                                                    Четырёхместный Коттедж																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                            <li class=" ">-->
+                                                <!--                                                                <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+                                                <!--                                                                    3-комнатный коттедж с сауной «Vip»																			</a>-->
+                                                <!--                                                            </li>-->
+                                                <!--                                                        </ul>-->
+                                            </li>
+                                            <li class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/services') !== false ? 'active' : ''; ?>">
+                                                <a class="dropdown-toggle" href="<?= $siteURL ?>services" title="<?= $json->menu->services->name?>">
+                                                    <?= $json->menu->services->name?>											<i class="fa fa-angle-right"></i>
+                                                </a>
+                                                <ul class="dropdown-menu fixed_menu_ext">
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/rybalka') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                            <?= $json->menu->services->fishing?>																		</a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/okhota') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                            <?= $json->menu->services->hunt?>																			</a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/banya') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                            <?= $json->menu->services->bathhouse?>																			</a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/dosug-v-lesu-griby-yagody') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                            <?= $json->menu->services->forest?>																		</a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/dopolnitelnye-uslugi') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                            <?= $json->menu->services->addServices?>																		</a>
+                                                    </li>
+                                                    <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/zimnie-razvlecheniya') !== false ? 'active' : ''; ?>">
+                                                        <a href="<?= $siteURL ?>services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                            <?= $json->menu->services->winterRelax?>																		</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="<?= strripos($_SERVER["REQUEST_URI"] === '/price/') !== false ? 'active' : ''; ?>">
+                                                <a class="" href="<?= $siteURL ?>price" title="<?= $json->menu->cost->name?>">
+                                                    <?= $json->menu->cost->name?>
+                                                </a>
+                                            </li>
+                                            <li class="<?= strripos($_SERVER["REQUEST_URI"] === '/promo/') !== false ? 'active' : ''; ?>">
+                                                <a class="" href="<?= $siteURL ?>promo" title="<?= $json->menu->promo->name?>">
+                                                    <?= $json->menu->promo->name?>
+                                                </a>
+                                            </li>
+                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/galereya/') !== false ? 'active' : ''; ?>">
+                                                <a class="" href="<?= $siteURL ?>galereya" title="<?= $json->menu->gallery->name?>">
+                                                    <?= $json->menu->gallery->name?>
+                                                </a>
+                                            </li>
+                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/contacts/') !== false ? 'active' : ''; ?>">
+                                                <a class="" href="<?= $siteURL ?>contacts" title="<?= $json->menu->contacts->name?>">
+                                                    <?= $json->menu->contacts->name?>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="table-menu hidden-xs">
+                                        <table>
+                                            <tr>
+                                                <td class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/company') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class="dropdown-toggle link_first" href="<?= $siteURL ?>company" title="<?= $json->menu->aboutUs->name?>">
+                                                            <?= $json->menu->aboutUs->name?>
+                                                            &nbsp;<i class="fa fa-angle-down"></i>
+                                                        </a>
+                                                        <span class="tail"></span>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="<?= ($_SERVER["REQUEST_URI"] === '/company/')  ? 'active' : ''; ?> ">
+                                                                <a href="<?= $siteURL ?>company" title="<?= $json->menu->aboutUs->aboutAs?>"><?= $json->menu->aboutUs->aboutAs?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/area/') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>company/area" title="<?= $json->menu->aboutUs->territory?>"><?= $json->menu->aboutUs->territory?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/reviews/') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>"><?= $json->menu->aboutUs->guestReviews?></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/rooms') !== false ? 'active' : ''; ?> ">
+                                                    <div class="wrap">
+                                                        <a class="dropdown-toggle link_first" href="<?= $siteURL ?>rooms" title="Размещение">
+                                                            Размещение
+                                                            <!--                                                                    &nbsp;<i class="fa fa-angle-down"></i>-->
+                                                        </a>
+                                                        <!--                                                                <span class="tail"></span>-->
+                                                        <!--                                                                <ul class="dropdown-menu">-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">Двухместный Номер Эконом Класса</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">Трёхместный Однокомнатный Номер</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/quarter" title="Четырехместный Номер">Четырехместный Номер</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">ЛЮКС Четырёхместный С Камином И Сауной</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">Четырёхместный Коттедж</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                    <li class=" ">-->
+                                                        <!--                                                                        <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">3-комнатный коттедж с сауной «Vip»</a>-->
+                                                        <!--                                                                    </li>-->
+                                                        <!--                                                                </ul>-->
+                                                    </div>
+                                                </td>
+                                                <td class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/services/') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class="dropdown-toggle link_first" href="<?= $siteURL ?>services/" title="<?= $json->menu->services->name?>">
+                                                            <?= $json->menu->services->name?>																&nbsp;<i class="fa fa-angle-down"></i>
+                                                        </a>
+                                                        <span class="tail"></span>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/rybalka') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>services/rybalka" title="<?= $json->menu->services->fishing?>"><?= $json->menu->services->fishing?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/okhota') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>services/okhota" title="<?= $json->menu->services->hunt?>"><?= $json->menu->services->hunt?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/banya') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>services/banya" title="<?= $json->menu->services->bathhouse?>"><?= $json->menu->services->bathhouse?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/dosug-v-lesu-griby-yagody') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>"><?= $json->menu->services->forest?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/dopolnitelnye-uslugi') !== false ? 'active' : ''; ?> ">
+                                                                <a href="<?= $siteURL ?>services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>"><?= $json->menu->services->addServices?></a>
+                                                            </li>
+                                                            <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/zimnie-razvlecheniya') !== false ? 'active' : ''; ?>">
+                                                                <a href="<?= $siteURL ?>services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>"><?= $json->menu->services->winterRelax?></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="<?= strripos($_SERVER["REQUEST_URI"] === '/price/') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class=" link_first" href="<?= $siteURL ?>price" title="<?= $json->menu->cost->name?>">
+                                                            <?= $json->menu->cost->name?>															</a>
+                                                    </div>
+                                                </td>
+                                                <td class="<?= strripos($_SERVER["REQUEST_URI"] === '/promo/') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class=" link_first" href="<?= $siteURL ?>promo" title="<?= $json->menu->promo->name?>">
+                                                            <?= $json->menu->promo->name?>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td class="<?=  strripos($_SERVER["REQUEST_URI"], '/galereya/') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class=" link_first" href="<?= $siteURL ?>galereya" title="<?= $json->menu->gallery->name?>">
+                                                            <?= $json->menu->gallery->name?>															</a>
+                                                    </div>
+                                                </td>
+                                                <td class="<?=  strripos($_SERVER["REQUEST_URI"], '/contacts/') !== false ? 'active' : ''; ?>">
+                                                    <div class="wrap">
+                                                        <a class=" link_first" href="<?= $siteURL ?>contacts" title="<?= $json->menu->contacts->name?>">
+                                                            <?= $json->menu->contacts->name?>															</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
+                                        <li class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/company') !== false ? 'active' : ''; ?>">
+                                            <a class="dropdown-toggle" href="../company" title="<?= $json->menu->aboutUs->name?>">
+                                                <?= $json->menu->aboutUs->name?>									<i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="<?= ($_SERVER["REQUEST_URI"] === '/company/')  ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>company" title="<?= $json->menu->aboutUs->aboutAs?>">
+                                                        <?= $json->menu->aboutUs->aboutAs?>																	</a>
+                                                </li>
+                                                <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/area/') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>company/area" title="<?= $json->menu->aboutUs->territory?>">
+                                                        <?= $json->menu->aboutUs->territory?>																	</a>
+                                                </li>
+                                                <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/company/reviews/') !== false ? 'active' : ''; ?> ">
+                                                    <a href="<?= $siteURL ?>company/reviews" title="<?= $json->menu->aboutUs->guestReviews?>">
+                                                        <?= $json->menu->aboutUs->guestReviews?>																	</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/rooms') !== false ? 'active' : ''; ?> ">
+                                            <a class="dropdown-toggle" href="<?= $siteURL ?>rooms" title="Размещение">
+                                                Размещение
+                                                <!--                                                        <i class="fa fa-angle-down"></i>-->
+                                            </a>
+                                            <!--                                                    <ul class="dropdown-menu">-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/twin" title="Двухместный Номер Эконом Класса">-->
+                                            <!--                                                                Двухместный Номер Эконом Класса																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/triple" title="Трёхместный Однокомнатный Номер">-->
+                                            <!--                                                                Трёхместный Однокомнатный Номер																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/quarter" title="Четырехместный Номер">-->
+                                            <!--                                                                Четырехместный Номер																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/quarter_cottage_sauna_fireplace" title="ЛЮКС Четырёхместный С Камином И Сауной">-->
+                                            <!--                                                                ЛЮКС Четырёхместный С Камином И Сауной																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/quarter_cottage" title="Четырёхместный Коттедж">-->
+                                            <!--                                                                Четырёхместный Коттедж																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li class=" ">-->
+                                            <!--                                                            <a href="../rooms/3-komnatnyy-kottedzh-s-saunoy-vip" title="3-комнатный коттедж с сауной «Vip»">-->
+                                            <!--                                                                3-комнатный коттедж с сауной «Vip»																	</a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                    </ul>-->
+                                        </li>
+                                        <li class="dropdown <?=  strripos($_SERVER["REQUEST_URI"], '/services') !== false ? 'active' : ''; ?> ">
+                                            <a class="dropdown-toggle" href="<?= $siteURL ?>services" title="<?= $json->menu->services->name?>">
+                                                <?= $json->menu->services->name?>										<i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/rybalka') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/rybalka" title="<?= $json->menu->services->fishing?>">
+                                                        <?= $json->menu->services->fishing?>													</a>
+                                                </li>
+                                                <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/okhota') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/okhota" title="<?= $json->menu->services->hunt?>">
+                                                        <?= $json->menu->services->hunt?>														</a>
+                                                </li>
+                                                <li class=" <?=  strripos($_SERVER["REQUEST_URI"], '/services/banya') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/banya" title="<?= $json->menu->services->bathhouse?>">
+                                                        <?= $json->menu->services->bathhouse?>													</a>
+                                                </li>
+                                                <li class=" <?=  strripos($_SERVER["REQUEST_URI"], '/services/dosug-v-lesu-griby-yagody') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/dosug-v-lesu-griby-yagody" title="<?= $json->menu->services->forest?>">
+                                                        <?= $json->menu->services->forest?>														</a>
+                                                </li>
+                                                <li class=" <?=  strripos($_SERVER["REQUEST_URI"], '/services/dopolnitelnye-uslugi') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/dopolnitelnye-uslugi" title="<?= $json->menu->services->addServices?>">
+                                                        <?= $json->menu->services->addServices?>									     		</a>
+                                                </li>
+                                                <li class="<?=  strripos($_SERVER["REQUEST_URI"], '/services/zimnie-razvlecheniya') !== false ? 'active' : ''; ?>">
+                                                    <a href="<?= $siteURL ?>services/zimnie-razvlecheniya" title="<?= $json->menu->services->winterRelax?>">
+                                                        <?= $json->menu->services->winterRelax?>												</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="<?= strripos($_SERVER["REQUEST_URI"], '/price/') !== false ? 'active' : ''; ?>">
+                                            <a class="" href="<?= $siteURL ?>price" title="<?= $json->menu->cost->name?>">
+                                                <?= $json->menu->cost->name?>									</a>
+                                        </li>
+                                        <li class="<?= strripos($_SERVER["REQUEST_URI"], '/promo/') !== false ? 'active' : ''; ?>">
+                                            <a class="" href="<?= $siteURL ?>promo" title="<?= $json->menu->promo->name?>">
+                                                <?= $json->menu->promo->name?>									</a>
+                                        </li>
+                                        <li class="<?= strripos($_SERVER["REQUEST_URI"], '/galereya/') !== false ? 'active' : ''; ?> ">
+                                            <a class="" href="<?= $siteURL ?>galereya" title="<?= $json->menu->gallery->name?>">
+                                                <?= $json->menu->gallery->name?>									</a>
+                                        </li>
+                                        <li class="<?= strripos($_SERVER["REQUEST_URI"], '/contacts/') !== false ? 'active' : ''; ?> ">
+                                            <a class="" href="<?= $siteURL ?>contacts" title="<?= $json->menu->contacts->name?>">
+                                                <?= $json->menu->contacts->name?>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>						</div>
+                <div class="header_search hide">
+                    <div class="maxwidth-theme">
+                        <div class="col-md-12">
+                            <style type="text/css">
+                                .bx_searche .bx_image{width: 25px;	height: 25px;}
+                                .bx_searche .bx_img_element{width: 45px;	height: 36px;}
+                                .bx_searche .bx_item_block{min-height: 35px;line-height: 35px;
+                            </style>
+                            <div class="search" id="title-search">
+                                <div class="maxwidth-theme">
+                                    <div class="col-md-12">
+                                        <form action="http://tour-arsenal.ru/search/">
+                                            <div class="search-input-div">
+                                                <input class="search-input" id="title-search-input" type="text" name="q" value="" placeholder="Найти" size="40" maxlength="50" autocomplete="off" />
+                                            </div>
+                                            <div class="search-button-div">
+                                                <button class="btn btn-search btn-default" type="submit" name="s" value="Найти">Найти</button>
+                                                <span class="fa fa-close"></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                var jsControl = new JCTitleSearch({
+                                    //'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+                                    'AJAX_PAGE' : '/contacts/',
+                                    'CONTAINER_ID': 'title-search',
+                                    'INPUT_ID': 'title-search-input',
+                                    'MIN_QUERY_LEN': 2
+                                });
+                            </script>								</div>
+                    </div>
+                </div>
+            </div>				</div>
 
 
 

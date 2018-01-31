@@ -17,51 +17,51 @@
                                 <div class="bottom-menu">
                                     <div class="items row">
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?= strripos($_SERVER["REQUEST_URI"], '/company') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="company/">О нас</a>
+                                                    <a href="<?= $siteURL ?>company">О нас</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?=  strripos($_SERVER["REQUEST_URI"], '/rooms') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="../rooms/">Размещение</a>
+                                                    <a href="<?= $siteURL ?>rooms">Размещение</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?=  strripos($_SERVER["REQUEST_URI"], '/services') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="services/">Услуги</a>
+                                                    <a href="<?= $siteURL ?>services">Услуги</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?= strripos($_SERVER["REQUEST_URI"] === '/price/') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="price/">Цены</a>
+                                                    <a href="<?= $siteURL ?>price">Цены</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?= strripos($_SERVER["REQUEST_URI"] === '/promo/') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="promo/">Акции</a>
+                                                    <a href="<?= $siteURL ?>promo">Акции</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?=  strripos($_SERVER["REQUEST_URI"], '/galereya/') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="galereya/">Галерея</a>
+                                                    <a href="<?= $siteURL ?>galereya">Галерея</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <div class="item">
+                                            <div class="item <?=  strripos($_SERVER["REQUEST_URI"], '/contacts/') !== false ? 'active' : ''; ?>">
                                                 <div class="title">
-                                                    <a href="contacts/">Контакты</a>
+                                                    <a href="<?= $siteURL ?>contacts">Контакты</a>
                                                 </div>
                                             </div>
                                         </div>
