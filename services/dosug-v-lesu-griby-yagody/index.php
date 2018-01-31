@@ -499,56 +499,54 @@ include_once '../../header.php';
 		<h4 class="title_block"><?= $json->relaxForest->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-				    <div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg');"></div>
-						</div>
-					</div>
-                    <div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg');"></div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg');"></div>
-						</div>
-					</div>
-
-
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/88bf74e8c6d8b85b5db413f4f7ece61f.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/e3dc735f2cfb821295a00e85ec98096e.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/17710c7cc0134adee8d0a5d00f4de0ce.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/2c71a4d08d48d0965038a541337a615e.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/bc4bc690b951cd24409a7cf7cb25c2f6.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/65d2ac06e80884beafaf818d69db4a77.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/3378b58016a2b73005a58171d3efcd32.jpg');"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/45f11d1ff2c43242ab646d2bed7f02c9.jpeg');"></div>
+                    </div>
+                </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <div class="item wline">
                         <a href="../../upload/services/dosug-v-lesu-griby-yagody/5445fbc3f55ddae06ef1e00cbc2867ad.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
@@ -573,7 +571,38 @@ include_once '../../header.php';
                         <div class="img_block scale_block_animate" style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/3f23ec60b0a401141f7d97b37a652601.jpg');"></div>
                     </div>
                 </div>
-
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/DSC_1456.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/DSC_1456.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/DSC_1458.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/DSC_1458.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/DSC_4766.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/DSC_4766.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dosug-v-lesu-griby-yagody/DSC_6095.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->relaxForest->gallety->textFoto ?>"></a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dosug-v-lesu-griby-yagody/DSC_6095.jpg');">
+                        </div>
+                    </div>
+                </div>
 		</div>	
 		<hr />	
 	</div>

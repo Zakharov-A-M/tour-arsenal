@@ -482,55 +482,67 @@ include_once '../../header.php';
 		<h4 class="title_block">Галерея</h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f4b/f4be4625ea273d782d68104ac7dde165.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/f4b/f4be4625ea273d782d68104ac7dde165.jpg');"></div>						
-						</div>
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="item wline">
+						<a href="../../upload/services/zimnie-razvlecheniya/0_2738f_62422587_orig.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/0_2738f_62422587_orig.jpg');">
+                        </div>
 					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/555/5552caca55c7cc37eae396762a7c7b67.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/555/5552caca55c7cc37eae396762a7c7b67.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/e3d/e3d9e1ff51cd0ee3ba134a273046ed12.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/e3d/e3d9e1ff51cd0ee3ba134a273046ed12.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/609/60999b8aab5d06088387ed6f560234b2.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/609/60999b8aab5d06088387ed6f560234b2.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/4af/4af7579d83ef730543f085d87cd6a07a.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/4af/4af7579d83ef730543f085d87cd6a07a.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/628/628238773f638da81f9dbbc551a5d72d.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Рускеала"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/iblock/628/628238773f638da81f9dbbc551a5d72d.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/085/08544cc15bddf777e1d00f004bda0bfd.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Хаски"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/085/800_500_2/08544cc15bddf777e1d00f004bda0bfd.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/466/466eeda84a9690d8988005047afbeeb3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="Верховая езда"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/466/800_500_2/466eeda84a9690d8988005047afbeeb3.jpg');"></div>						
-						</div>
-					</div>
-							</div>
+				</div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/0_c7822_ee70c763_XL.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/0_c7822_ee70c763_XL.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/5.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/5.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/1024.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/1024.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/491841_blog-21156.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/491841_blog-21156.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/zimnie-razvlecheniya/snow-tubing-93024_1280.jpg"
+                           class="dark_block_animate fancybox_ext" rel="big_gallery" title="Зимние развлечения">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/zimnie-razvlecheniya/snow-tubing-93024_1280.jpg');">
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>	
 		<hr />	
 	</div>

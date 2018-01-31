@@ -767,13 +767,15 @@ include_once 'header.php';
                             </div>
                             <div class="front_gallery front">
                                 <div class="wrap clearfix">
+
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Лес, ягоды, грибы ..."
-                                                                                          rel="gallery" class="fancybox"
-                                                                                          href="upload/start-page-index/324d9c094c676f12dfd63cccfa978dc8.jpg"><img
-                                                            src="upload/resize_cache/iblock/324/276_207_2/324d9c094c676f12dfd63cccfa978dc8.jpg"
-                                                            alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/></a>
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0829.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0829.jpg"
+                                                            alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
                                             </div>
                                             <div class="text">Лес, ягоды, грибы ...</div>
                                             <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
@@ -781,82 +783,184 @@ include_once 'header.php';
                                     </div>
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Наш пирс" rel="gallery"
-                                                                                          class="fancybox"
-                                                                                          href="upload/iblock/823/823178de2548b7dec568a2d41bbcbaa3.jpg"><img
-                                                            src="upload/resize_cache/iblock/823/276_207_2/823178de2548b7dec568a2d41bbcbaa3.jpg"
-                                                            alt="Наш пирс" title="Наш пирс"/></a></div>
-                                            <div class="text">Наш пирс</div>
-                                            <span title="Наш пирс" class="dark_block_animate"></span>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a
-                                                        title="Фотогалерея Дача на Ладоге" rel="gallery"
-                                                        class="fancybox"
-                                                        href="upload/iblock/76b/76b78f43a459c6172583519aa4dfdda7.jpg"><img
-                                                            src="upload/resize_cache/iblock/76b/276_207_2/76b78f43a459c6172583519aa4dfdda7.jpg"
-                                                            alt="Фотогалерея Дача на Ладоге"
-                                                            title="Фотогалерея Дача на Ладоге"/></a></div>
-                                            <div class="text">Фотогалерея Дача на Ладоге</div>
-                                            <span title="Фотогалерея Дача на Ладоге" class="dark_block_animate"></span>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Летняя пыбалка"
-                                                                                          rel="gallery" class="fancybox"
-                                                                                          href="upload/iblock/e41/e415e5ce787fc38dc031d614651f4004.jpg"><img
-                                                            src="upload/resize_cache/iblock/e41/276_207_2/e415e5ce787fc38dc031d614651f4004.jpg"
-                                                            alt="Летняя пыбалка" title="Летняя пыбалка"/></a></div>
-                                            <div class="text">Летняя пыбалка</div>
-                                            <span title="Летняя пыбалка" class="dark_block_animate"></span>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Зимние развлечения"
-                                                                                          rel="gallery" class="fancybox"
-                                                                                          href="upload/iblock/339/339fdbbaba256b075dee6e609970a95b.jpg"><img
-                                                            src="upload/resize_cache/iblock/339/276_207_2/339fdbbaba256b075dee6e609970a95b.jpg"
-                                                            alt="Зимние развлечения" title="Зимние развлечения"/></a>
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0866.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0866.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
                                             </div>
-                                            <div class="text">Зимние развлечения</div>
-                                            <span title="Зимние развлечения" class="dark_block_animate"></span>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Территория"
-                                                                                          rel="gallery" class="fancybox"
-                                                                                          href="upload/iblock/97f/97f832e0c5749b9b9c5163e809107869.jpg"><img
-                                                            src="upload/resize_cache/iblock/97f/276_207_2/97f832e0c5749b9b9c5163e809107869.jpg"
-                                                            alt="Территория" title="Территория"/></a></div>
-                                            <div class="text">Территория</div>
-                                            <span title="Территория" class="dark_block_animate"></span>
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0931.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0931.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Зимняя рыбалка"
-                                                                                          rel="gallery" class="fancybox"
-                                                                                          href="upload/iblock/243/243e57e8da0caccebb06b04435d70791.jpg"><img
-                                                            src="upload/resize_cache/iblock/243/276_207_2/243e57e8da0caccebb06b04435d70791.jpg"
-                                                            alt="Зимняя рыбалка" title="Зимняя рыбалка"/></a></div>
-                                            <div class="text">Зимняя рыбалка</div>
-                                            <span title="Зимняя рыбалка" class="dark_block_animate"></span>
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0932.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0932.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="wrap">
-                                            <div class="img_block scale_block_animate"><a title="Карелия" rel="gallery"
-                                                                                          class="fancybox"
-                                                                                          href="upload/iblock/fd2/fd27ac277bc988a7495b36a443d6b361.jpg"><img
-                                                            src="upload/resize_cache/iblock/fd2/276_207_2/fd27ac277bc988a7495b36a443d6b361.jpg"
-                                                            alt="Карелия" title="Карелия"/></a></div>
-                                            <div class="text">Карелия</div>
-                                            <span title="Карелия" class="dark_block_animate"></span>
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0941.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0941.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0945.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0945.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_6739.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_6739.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DJI_0109.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DJI_0109.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DJI_0110.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DJI_0110.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DJI_0111.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DJI_0111.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DSC_4227.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DSC_4227.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DSC_6101.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DSC_6101.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DSC_6144.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DSC_6144.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/DSC_6160.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/DSC_6160.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <div class="img_block scale_block_animate">
+                                                <a title="Лес, ягоды, грибы ..." rel="gallery" class="fancybox"
+                                                   href="upload/start-page-index/gallery/IMG_0831.jpg">
+                                                    <img src="upload/start-page-index/gallery/min-foto/IMG_0831.jpg"
+                                                         alt="Лес, ягоды, грибы ..." title="Лес, ягоды, грибы ..."/>
+                                                </a>
+                                            </div>
+                                            <div class="text">Лес, ягоды, грибы ...</div>
+                                            <span title="Лес, ягоды, грибы ..." class="dark_block_animate"></span>
                                         </div>
                                     </div>
                                 </div>

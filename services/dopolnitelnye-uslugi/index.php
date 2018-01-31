@@ -500,151 +500,304 @@ include_once '../../header.php';
 		<h4 class="title_block"><?= $json->AddServices->gallety->textmain ?></h4>
 		<div class="item-views portfolio front">	
 			<div class="row" itemscope itemtype="http://schema.org/ItemList">
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/6ed/6ed7aaf9a58c987f631a8b1404300519.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/6ed/800_500_2/6ed7aaf9a58c987f631a8b1404300519.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/64e/64ef7bca57eebe1b70ae3829b16253e5.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/64e/800_500_2/64ef7bca57eebe1b70ae3829b16253e5.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/cbd/cbd6d4ce6a4733bd1bfea4c1c36af4bb.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/cbd/800_500_2/cbd6d4ce6a4733bd1bfea4c1c36af4bb.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/398/3985d2ffaf094a189d877ff1bc2af6db.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/398/800_500_2/3985d2ffaf094a189d877ff1bc2af6db.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/568/568536aeddd7c071cc4437173ce4c8ff.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/568/800_500_2/568536aeddd7c071cc4437173ce4c8ff.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/ee7/ee74d54f42ffed0c80acee165405e059.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/ee7/800_500_2/ee74d54f42ffed0c80acee165405e059.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/992/992fc37ee75a77c080037edb38b4466f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/992/800_500_2/992fc37ee75a77c080037edb38b4466f.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/2de/2de690e677bc27effe5637bd7d97761b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[1] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/2de/800_500_2/2de690e677bc27effe5637bd7d97761b.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/05f/05f423b8bd9875d830f80ba822c3bf46.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[2] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/05f/800_500_2/05f423b8bd9875d830f80ba822c3bf46.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/a6f/a6f85aeb3e167a2a767aa02b0a8f1e90.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[3] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/a6f/800_500_2/a6f85aeb3e167a2a767aa02b0a8f1e90.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/567/5673456b6004cb8cdd1980ed3d8b1260.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/567/800_500_2/5673456b6004cb8cdd1980ed3d8b1260.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/0da/0dab1f05fe033ade5a33e88cc263d281.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/0da/800_500_2/0dab1f05fe033ade5a33e88cc263d281.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/1d5/1d5c2ac9236fecdf4c54b60d9993dbf8.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/1d5/800_500_2/1d5c2ac9236fecdf4c54b60d9993dbf8.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f5d/f5d3dec30b1c052a94774d109791f75a.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/f5d/800_500_2/f5d3dec30b1c052a94774d109791f75a.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/bab/baba40a000efd3e4a6d620488f9bd1eb.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/bab/800_500_2/baba40a000efd3e4a6d620488f9bd1eb.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/f85/f852422e18cf621a36d0630d1ca6e6d7.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/f85/800_500_2/f852422e18cf621a36d0630d1ca6e6d7.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/34d/34d873353c3f0d6e23d2b0960b4dae26.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/34d/800_500_2/34d873353c3f0d6e23d2b0960b4dae26.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/9ec/9ecb8ed3e33aaedb722fa174fc7ed05f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/9ec/800_500_2/9ecb8ed3e33aaedb722fa174fc7ed05f.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/5e5/5e503001dcdc7c551b48c0d7ebd00c81.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/5e5/800_500_2/5e503001dcdc7c551b48c0d7ebd00c81.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/210/210c5926fbf85485e4453ff8badc61b3.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[4] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/210/800_500_2/210c5926fbf85485e4453ff8badc61b3.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/fc1/fc192175f58c6c549322d5a18fc6956c.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[5] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/fc1/800_500_2/fc192175f58c6c549322d5a18fc6956c.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/847/84745183cdb5085d5a043f80232ef15f.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[6] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/847/800_500_2/84745183cdb5085d5a043f80232ef15f.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/d6a/d6af7c0de426e1a284ac280b3d649766.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[7] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/d6a/800_500_2/d6af7c0de426e1a284ac280b3d649766.jpg');"></div>						
-						</div>
-					</div>
-									<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="item wline">
-							<a href="../../upload/iblock/d6b/d6bf5153cc6ccb4eea8af81bad1ec06b.jpg" class="dark_block_animate fancybox_ext" rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[8] ?>"></a>
-							<div class="img_block scale_block_animate" style="background-image: url('../../upload/resize_cache/iblock/d6b/800_500_2/d6bf5153cc6ccb4eea8af81bad1ec06b.jpg');"></div>						
-						</div>
-					</div>
-							</div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6208.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6208.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6212.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6212.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6236.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6236.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_0842.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_0842.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7705.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7705.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7765.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7765.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7891.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7891.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7715.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7715.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7950.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7950.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/CIMG3131.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/CIMG3131.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_4138.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_4138.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6000.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6000.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6102.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6102.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6109.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6109.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6159.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6159.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6163.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6163.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6164.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6164.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6172.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6172.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/DSC_6184.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/DSC_6184.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7962.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7962.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7972.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7972.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_7980.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_7980.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_8003.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_8003.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_8294.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_8294.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_8318.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_8318.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_8343.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_8343.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="item wline">
+                        <a href="../../upload/services/dopoln-uslugi/IMG_8372.jpg"
+                           class="dark_block_animate fancybox_ext"
+                           rel="big_gallery" title="<?= $json->AddServices->gallety->textFoto[0] ?>">
+                        </a>
+                        <div class="img_block scale_block_animate"
+                             style="background-image: url('../../upload/services/dopoln-uslugi/IMG_8372.jpg');">
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>	
 		<hr />	
 	</div>
